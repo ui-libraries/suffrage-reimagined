@@ -1,5 +1,6 @@
 <template>
 <div class="scrapbook-body-container">
+    <router-view />
 </div>
 </template>
 
@@ -11,7 +12,7 @@ export default {
 
 <style scoped>
 .scrapbook-body-container {
-        /* height: 45rem; */
+        height: 45rem;
 
     overflow: hidden;
     background-color: ghostwhite;

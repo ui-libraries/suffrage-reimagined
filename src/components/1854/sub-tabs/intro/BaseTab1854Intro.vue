@@ -1,28 +1,23 @@
 <template>
     <div class="base-intro-container">
-        <b-tabs pills card vertical end>
-            <b-tab title="Tab 1" active>
-                <b-card-text>
-                    <base-tab-1854-intro />
-                </b-card-text>
-            </b-tab>
-            <b-tab title="Tab 2">
-                <b-card-text>Tab contents 2</b-card-text>
-            </b-tab>
-            <b-tab title="Tab 3">
-                <b-card-text>Tab contents 3</b-card-text>
-            </b-tab>
-        </b-tabs>
+        <router-view />
+        <pagination-navigation />
     </div>
 </template>
 
 <script>
+import PaginationNavigation from '../../../helpers/PaginationNavigation'
 export default {
     
     components: {
+        PaginationNavigation
     }
 }
 </script>
 
 <style scoped>
+.base-intro-container {
+    height: 100%;
+    width: 100%;
+}
 </style>

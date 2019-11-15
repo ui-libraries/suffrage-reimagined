@@ -1,18 +1,6 @@
 <template>
     <div class="base-tab-1854-container">
-        <b-tabs pills card vertical>
-            <b-tab title="Tab 1" active>
-                <b-card-text>
-                    <base-tab-1854-intro />
-                </b-card-text>
-            </b-tab>
-            <b-tab title="Tab 2">
-                <b-card-text>Tab contents 2</b-card-text>
-            </b-tab>
-            <b-tab title="Tab 3">
-                <b-card-text>Tab contents 3</b-card-text>
-            </b-tab>
-        </b-tabs>
+        <router-view />
     </div>
 </template>
 
