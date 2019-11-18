@@ -13,9 +13,13 @@
                 <b-dropdown-divider></b-dropdown-divider>
                 <b-dropdown-item to="/tab-1854/social-movements">Social Movements</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item>
-                test 3
-            </b-nav-item>
+            <b-nav-item-dropdown id="my-nav-dropdown" text="1870" toggle-class="nav-link-custom" right :lazy="true">
+                <b-dropdown-item to="/tab-1870/intro">Introduction</b-dropdown-item>
+                <b-dropdown-item to="/tab-1870/legislative-battle">Legislative Battle</b-dropdown-item>
+                <b-dropdown-divider></b-dropdown-divider>
+                <b-dropdown-item to="/tab-1870/scandal-and-controversy">Scandal &amp; Controversy</b-dropdown-item>
+                <b-dropdown-item to="/tab-1870/temperance">Temperance</b-dropdown-item>
+            </b-nav-item-dropdown>
             <b-nav-item>
                 Test 4
             </b-nav-item>

@@ -13,7 +13,9 @@ import BaseTab1854SocialMovements from '../1854/sub-tabs/social-movements/BaseTa
             BaseTab1854Intro,
             BaseTab1854AmeliaBloomer,
             BaseTab1854SocialMovements
-        }
+        },
+
+        
     }
 </script>
 

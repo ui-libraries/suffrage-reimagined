@@ -39,7 +39,7 @@
     }
     .navbar-brand {
         letter-spacing: 5px;
-        font-size: 25px;
+        font-size: 1.0rem;
         font-family: 'Lobster'
     }
     em {

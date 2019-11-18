@@ -1,5 +1,5 @@
 <template>
-    <div class="component-container">
+    <div class="base-container">
         <router-view />
         <pagination-navigation :num-pages="2"/>
     </div>
@@ -10,10 +10,14 @@ import PaginationNavigation from '../../../helpers/PaginationNavigation'
 export default {
     
     components: {
-        PaginationNavigation,
-    }
+        PaginationNavigation
+    },
 }
 </script>
 
 <style scoped>
+.base-container {
+    height: 100%;
+    width: 100%;
+}
 </style>
