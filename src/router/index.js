@@ -23,11 +23,11 @@ const routes = [{
         path: 'intro',
         component: BaseTab1854Intro,
         children: [{
-          path: '',
-          component: Tab1854IntroPage1
+          path: 'pages/1',
+          component: Tab1854IntroPage1,
         }, {
-          path: '?page=2',
-          component: Tab1854IntroPage2, props: (route) => ({ page: route.page.page})
+          path: 'pages/2',
+          component: Tab1854IntroPage2, query: { page: '2' }
         }]
       }]
     }],
