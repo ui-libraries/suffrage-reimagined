@@ -12,10 +12,8 @@ export default {
 
 <style scoped>
 .scrapbook-body-container {
-        height: 45rem;
-
-    overflow: hidden;
+    min-height: 45rem;
     background-color: ghostwhite;
-
+    position: relative;
 }
 </style>

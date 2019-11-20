@@ -45,4 +45,8 @@ export default {
 .test-container {
   text-align: center;
 }
+
+ul {
+  margin-bottom: 0 !important;
+}
 </style>

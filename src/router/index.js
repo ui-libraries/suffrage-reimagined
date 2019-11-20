@@ -5,6 +5,7 @@ Vue.use(VueRouter)
 
 import BaseScrapbook from '../components/ScrapbookPieces/BaseScrapbook'
 import ScrapbookBody from '../components/ScrapbookPieces/ScrapbookBody'
+
 import BaseTab1854 from '../components/1854/BaseTab1854'
 import BaseTab1854Intro from '../components/1854/sub-tabs/intro/BaseTab1854Intro'
 import Tab1854IntroPage1 from '../components/1854/sub-tabs/intro/Tab1854IntroPage1'
@@ -14,9 +15,6 @@ import Tab1854SocialMovementsPage1 from '../components/1854/sub-tabs/social-move
 import Tab1854SocialMovementsPage2 from '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage2'
 import BaseTab1854AmeliaBloomer from '../components/1854/sub-tabs/amelia-bloomer/BaseTab1854AmeliaBloomer'
 import Tab1854AmeliaBloomerPage1 from '../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage1'
-import Tab1854AmeliaBloomerPage2 from '../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage2'
-
-
 
 import BaseTab1870 from '../components/1870/BaseTab1870'
 import BaseTab1870Intro from '../components/1870/sub-tabs/intro/BaseTab1870Intro'
@@ -27,9 +25,6 @@ import BaseTab1870ScandalAndControversy from '../components/1870/sub-tabs/scanda
 import Tab1870ScandalAndControversyPage1 from '../components/1870/sub-tabs/scandal-and-controversy/Tab1870ScandalAndControversyPage1'
 import BaseTab1870Temperance from '../components/1870/sub-tabs/temperance/BaseTab1870Temperance'
 import Tab1870TemperancePage1 from '../components/1870/sub-tabs/temperance/Tab1870TemperancePage1'
-
-
-
 
 const routes = [{
   path: '/',
@@ -73,10 +68,6 @@ const routes = [{
               path: 'pages/1',
               component: Tab1854AmeliaBloomerPage1,
             },
-            {
-              path: 'pages/2',
-              component: Tab1854AmeliaBloomerPage2
-            }
           ]
         }
       ]
@@ -104,16 +95,21 @@ const routes = [{
           ]
         },
         {
-          path: 'amelia-bloomer',
-          component: BaseTab1854AmeliaBloomer,
+          path: 'scandal-and-controversy',
+          component: BaseTab1870ScandalAndControversy,
           children: [{
               path: 'pages/1',
-              component: Tab1854AmeliaBloomerPage1,
+              component: Tab1870ScandalAndControversyPage1,
             },
-            {
-              path: 'pages/2',
-              component: Tab1854AmeliaBloomerPage2
-            }
+          ]
+        },
+        {
+          path: 'temperance',
+          component: BaseTab1870Temperance,
+          children: [{
+              path: 'pages/1',
+              component: Tab1870TemperancePage1,
+            },
           ]
         }
       ]

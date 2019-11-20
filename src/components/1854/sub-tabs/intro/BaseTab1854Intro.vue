@@ -1,7 +1,7 @@
 <template>
     <div class="base-intro-container">
         <router-view />
-        <pagination-navigation :num-pages="2"/>
+        <pagination-navigation class="test" :num-pages="2"/>
     </div>
 </template>
 
@@ -20,4 +20,5 @@ export default {
     height: 100%;
     width: 100%;
 }
+
 </style>
