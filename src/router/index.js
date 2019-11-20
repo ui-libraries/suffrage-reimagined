@@ -6,6 +6,9 @@ Vue.use(VueRouter)
 import BaseScrapbook from '../components/ScrapbookPieces/BaseScrapbook'
 import ScrapbookBody from '../components/ScrapbookPieces/ScrapbookBody'
 
+import BaseTabAbout from '../components/about/BaseTabAbout'
+import TabAboutPage1 from '../components/about/TabAboutPage1'
+
 import BaseTab1854 from '../components/1854/BaseTab1854'
 import BaseTab1854Intro from '../components/1854/sub-tabs/intro/BaseTab1854Intro'
 import Tab1854IntroPage1 from '../components/1854/sub-tabs/intro/Tab1854IntroPage1'
@@ -26,6 +29,24 @@ import Tab1870ScandalAndControversyPage1 from '../components/1870/sub-tabs/scand
 import BaseTab1870Temperance from '../components/1870/sub-tabs/temperance/BaseTab1870Temperance'
 import Tab1870TemperancePage1 from '../components/1870/sub-tabs/temperance/Tab1870TemperancePage1'
 
+import BaseTab1890 from '../components/1890/BaseTab1890'
+import BaseTab1890Intro from '../components/1890/sub-tabs/intro/BaseTab1890Intro'
+import Tab1890IntroPage1 from '../components/1890/sub-tabs/intro/Tab1890IntroPage1'
+import Tab1890IntroPage2 from '../components/1890/sub-tabs/intro/Tab1890IntroPage2'
+import BaseTab1890GoalUnrealized from '../components/1890/sub-tabs/goal-unrealized/BaseTab1890GoalUnrealized'
+import Tab1890GoalUnrealizedPage1 from '../components/1890/sub-tabs/goal-unrealized/Tab1890GoalUnrealizedPage1'
+import BaseTab1890OrganizingForTheVote from '../components/1890/sub-tabs/organizing-for-the-vote/BaseTab1890OrganizingForTheVote'
+import Tab1890OrganizingForTheVotePage1 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage1'
+import Tab1890OrganizingForTheVotePage2 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage2'
+import Tab1890OrganizingForTheVotePage3 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage3'
+import Tab1890OrganizingForTheVotePage4 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage4'
+import Tab1890OrganizingForTheVotePage5 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage5'
+import BaseTab1890AfricanAmericanWomen from '../components/1890/sub-tabs/african-american-women/BaseTab1890AfricanAmericanWomen'
+import Tab1890AfricanAmericanWomenPage1 from '../components/1890/sub-tabs/african-american-women/Tab1890AfricanAmericanWomenPage1'
+import BaseTab1890BooneParade from '../components/1890/sub-tabs/boone-parade/BaseTab1890BooneParade'
+import Tab1890BooneParadePage1 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1'
+import Tab1890BooneParadePage2 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2'
+
 const routes = [{
   path: '/',
   component: BaseScrapbook,
@@ -33,6 +54,14 @@ const routes = [{
     path: '',
     component: ScrapbookBody,
     children: [{
+    path: '/tab-about',
+    component: BaseTabAbout,
+    children: [{
+      path: 'pages/1',
+      component: TabAboutPage1
+    }]
+    },
+    {
       //1854
       path: 'tab-1854',
       component: BaseTab1854,
@@ -109,6 +138,81 @@ const routes = [{
           children: [{
               path: 'pages/1',
               component: Tab1870TemperancePage1,
+            },
+          ]
+        }
+      ]
+    },
+    {
+      //1890
+      path: 'tab-1890',
+      component: BaseTab1890,
+      children: [{
+          path: 'intro',
+          component: BaseTab1890Intro,
+
+          children: [{
+            path: 'pages/1',
+            component: Tab1890IntroPage1,
+          },
+          {
+            path: 'pages/2',
+            component: Tab1890IntroPage2,
+          }, ],
+        },
+        {
+          path: 'goal-unrealized',
+          component: BaseTab1890GoalUnrealized,
+          children: [{
+              path: 'pages/1',
+              component: Tab1890GoalUnrealizedPage1,
+            },
+          ]
+        },
+        {
+          path: 'organizing-for-the-vote',
+          component: BaseTab1890OrganizingForTheVote,
+          children: [{
+              path: 'pages/1',
+              component: Tab1890OrganizingForTheVotePage1,
+            },
+            {
+              path: 'pages/2',
+              component: Tab1890OrganizingForTheVotePage2,
+            },
+            {
+              path: 'pages/3',
+              component: Tab1890OrganizingForTheVotePage3,
+            },
+            {
+              path: 'pages/4',
+              component: Tab1890OrganizingForTheVotePage4,
+            },
+            {
+              path: 'pages/5',
+              component: Tab1890OrganizingForTheVotePage5,
+            },
+          ]
+        },
+        {
+          path: 'african-american-women',
+          component: BaseTab1890AfricanAmericanWomen,
+          children: [{
+              path: 'pages/1',
+              component: Tab1890AfricanAmericanWomenPage1,
+            },
+          ]
+        },
+        {
+          path: 'boone-parade',
+          component: BaseTab1890BooneParade,
+          children: [{
+              path: 'pages/1',
+              component: Tab1890BooneParadePage1,
+            },
+            {
+              path: 'pages/2',
+              component: Tab1890BooneParadePage2,
             },
           ]
         }

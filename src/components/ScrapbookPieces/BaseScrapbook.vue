@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .base-scrapbook-container {
-    margin: 1rem 16rem;
+    margin: 1rem 0;
     padding: 1rem;
 }
 

@@ -3,8 +3,8 @@
     <NavBar />
     
     <b-container fluid class="test-container">
-        <b-row>
-            <b-col>
+        <b-row align-h="center">
+            <b-col cols="12" md="8">
                 <router-view />
             </b-col>
         </b-row>
@@ -49,4 +49,5 @@ export default {
 ul {
   margin-bottom: 0 !important;
 }
+
 </style>
