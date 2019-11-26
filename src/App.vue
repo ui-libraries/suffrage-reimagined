@@ -1,45 +1,34 @@
 <template>
   <div id="app">
     <NavBar />
-    
     <b-container fluid class="test-container">
         <b-row align-h="center">
-            <b-col cols="12" md="8">
+            <b-col lg="6" md="12" sm="12" cols="12">
                 <router-view />
             </b-col>
         </b-row>
     </b-container>
+    <Footer />
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 export default {
   components: {
     NavBar,
+    Footer,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 
 .test-container {
@@ -50,4 +39,25 @@ ul {
   margin-bottom: 0 !important;
 }
 
+/* Link css below */
+.nav-link-custom {
+  text-decoration: none;
+  color: white !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link {
+  background-color: black !important;
+  
+}
+
+.nav-link-custom:hover {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.footer-link {
+  
+}
 </style>

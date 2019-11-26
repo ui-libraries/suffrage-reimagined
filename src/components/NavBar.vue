@@ -1,6 +1,6 @@
 <template>
-         <div class="nav-header">
-        <router-link to="/" class="router-link">
+         <div class="nav-header position-relative">
+        <router-link to="/" class="router-link stretched-link">
             Women's Suffrage in Iowa Scrapbook
         </router-link>
     </div>
@@ -19,8 +19,6 @@
 }
 
 a {
-    display: block;
-    width: 100%;
     text-decoration: none !important;
     color: black;
 }

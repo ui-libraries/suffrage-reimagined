@@ -47,6 +47,10 @@ import BaseTab1890BooneParade from '../components/1890/sub-tabs/boone-parade/Bas
 import Tab1890BooneParadePage1 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1'
 import Tab1890BooneParadePage2 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2'
 
+import ImageIndex from '../components/external-resources/ImageIndex'
+import Resources from '../components/external-resources/Resources'
+import ArchivalCollectionsGuide from '../components/external-resources/ArchivalCollectionsGuide'
+
 const routes = [{
   path: '/',
   component: BaseScrapbook,
@@ -219,7 +223,11 @@ const routes = [{
       ]
     }],
   }],
-}]
+},
+{path: '/image-index', component: ImageIndex},
+{path: '/resources', component: Resources},
+{path: '/archival-collections-guide', component: ArchivalCollectionsGuide}
+]
 
 const router = new VueRouter({
   routes,
