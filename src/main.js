@@ -6,10 +6,10 @@ import store from './store'
 
 
 import BootstrapVue from 'bootstrap-vue'
-import VueExpandableImage from 'vue-expandable-image'
+// import ElementUI from 'element-ui'
 
 Vue.use(BootstrapVue)
-Vue.use(VueExpandableImage)
+// Vue.use(ElementUI)
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'

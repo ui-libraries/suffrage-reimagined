@@ -39,6 +39,10 @@ ul {
   margin-bottom: 0 !important;
 }
 
+.carousel-indicators {
+margin-bottom: 3% !important;
+}
+
 /* Link css below */
 .nav-link-custom {
   text-decoration: none;
