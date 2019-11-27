@@ -52,8 +52,7 @@ margin-bottom: 3% !important;
 }
 
 .nav-tabs .nav-item.show .nav-link {
-  background-color: black !important;
-  
+  background-color: #FFCD00 !important;
 }
 
 .nav-link-custom:hover {
@@ -61,7 +60,7 @@ margin-bottom: 3% !important;
   border-top-right-radius: 0 !important;
 }
 
-.footer-link {
-  
+.dropdown-menu {
+    background-color: #FFCD00 !important;
 }
 </style>
