@@ -13,7 +13,8 @@
         background-color: #FFCD00;
     text-align:center;
     font-weight: bolder;
-    font-family: 'WORDMARK';
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 2em;
 }

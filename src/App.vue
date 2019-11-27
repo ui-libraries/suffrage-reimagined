@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
+
 #app {
   font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,10 +48,21 @@ margin-bottom: 3% !important;
 /* Link css below */
 .nav-link-custom {
   text-decoration: none;
-  color: white !important;
+  color: white;
+  background-color: black;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
 }
+
+.nav-link-custom:hover {
+  background-color: #FFCD00;
+  color: black;
+}
+
+.active {
+         background-color: #FFCD00 !important;
+         color: black !important;
+    }
 
 .nav-tabs .nav-item.show .nav-link {
   background-color: #FFCD00 !important;

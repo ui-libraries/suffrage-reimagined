@@ -29,7 +29,7 @@
     .footer-container {
         width: 100%;
         background-color: black;
-        padding: 50px 0;
+        padding: 2.5em 0;
     }
 
     .footer-container {
@@ -39,7 +39,11 @@
     .external-resources {
         height: 50%;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.5em;
+    }
+
+    .image-wrapper {
+        height: 50%;
     }
 
     .footer-link {
