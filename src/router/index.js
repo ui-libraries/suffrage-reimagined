@@ -61,7 +61,7 @@ const routes = [{
     path: '/tab-about',
     component: BaseTabAbout,
     children: [{
-      path: 'pages/1',
+      path: 'page=1',
       component: TabAboutPage1
     }]
     },
@@ -74,10 +74,10 @@ const routes = [{
           component: BaseTab1854Intro,
 
           children: [{
-            path: 'pages/1',
+            path: 'page=1',
             component: Tab1854IntroPage1,
           }, {
-            path: 'pages/2',
+            path: 'page=2',
             component: Tab1854IntroPage2,
           }],
         },
@@ -85,11 +85,11 @@ const routes = [{
           path: 'social-movements',
           component: BaseTab1854SocialMovements,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1854SocialMovementsPage1,
             },
             {
-              path: 'pages/2',
+              path: 'page=2',
               component: Tab1854SocialMovementsPage2
             }
           ]
@@ -98,7 +98,7 @@ const routes = [{
           path: 'amelia-bloomer',
           component: BaseTab1854AmeliaBloomer,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1854AmeliaBloomerPage1,
             },
           ]
@@ -114,7 +114,7 @@ const routes = [{
           component: BaseTab1870Intro,
 
           children: [{
-            path: 'pages/1',
+            path: 'page=1',
             component: Tab1870IntroPage1,
           }, ],
         },
@@ -122,7 +122,7 @@ const routes = [{
           path: 'legislative-battle',
           component: BaseTab1870LegislativeBattle,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1870LegislativeBattlePage1,
             },
           ]
@@ -131,7 +131,7 @@ const routes = [{
           path: 'scandal-and-controversy',
           component: BaseTab1870ScandalAndControversy,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1870ScandalAndControversyPage1,
             },
           ]
@@ -140,7 +140,7 @@ const routes = [{
           path: 'temperance',
           component: BaseTab1870Temperance,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1870TemperancePage1,
             },
           ]
@@ -156,11 +156,11 @@ const routes = [{
           component: BaseTab1890Intro,
 
           children: [{
-            path: 'pages/1',
+            path: 'page=1',
             component: Tab1890IntroPage1,
           },
           {
-            path: 'pages/2',
+            path: 'page=2',
             component: Tab1890IntroPage2,
           }, ],
         },
@@ -168,7 +168,7 @@ const routes = [{
           path: 'goal-unrealized',
           component: BaseTab1890GoalUnrealized,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1890GoalUnrealizedPage1,
             },
           ]
@@ -177,23 +177,23 @@ const routes = [{
           path: 'organizing-for-the-vote',
           component: BaseTab1890OrganizingForTheVote,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1890OrganizingForTheVotePage1,
             },
             {
-              path: 'pages/2',
+              path: 'page=2',
               component: Tab1890OrganizingForTheVotePage2,
             },
             {
-              path: 'pages/3',
+              path: 'page=3',
               component: Tab1890OrganizingForTheVotePage3,
             },
             {
-              path: 'pages/4',
+              path: 'page=4',
               component: Tab1890OrganizingForTheVotePage4,
             },
             {
-              path: 'pages/5',
+              path: 'page=5',
               component: Tab1890OrganizingForTheVotePage5,
             },
           ]
@@ -202,7 +202,7 @@ const routes = [{
           path: 'african-american-women',
           component: BaseTab1890AfricanAmericanWomen,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1890AfricanAmericanWomenPage1,
             },
           ]
@@ -211,11 +211,11 @@ const routes = [{
           path: 'boone-parade',
           component: BaseTab1890BooneParade,
           children: [{
-              path: 'pages/1',
+              path: 'page=1',
               component: Tab1890BooneParadePage1,
             },
             {
-              path: 'pages/2',
+              path: 'page=2',
               component: Tab1890BooneParadePage2,
             },
           ]

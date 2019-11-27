@@ -25,12 +25,26 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
+  @font-face {
+    font-family: 'Gotham Bold';
+    src: url('./assets/fonts/gotham-bold.otf') format('opentype');
+  }
+
+   @font-face {
+    font-family: 'Gotham Book';
+    src: url('./assets/fonts/gotham-book.TTF') format('truetype');
+  }
+ 
 
   #app {
     font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gotham Bold'
   }
 
   .test-container {
@@ -46,11 +60,15 @@
   }
 
   /* Link css below */
-  .nav-link-custom {
-    text-decoration: none;
-    color: white;
-    background-color: black;
+    .text-anchor {
+    color: black !important;
+    text-decoration: underline !important;
+  }
 
+  .nav-link-custom {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: black;
   }
 
   .nav-link-custom:hover {

@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-container">
+    <footer class="footer-container">
         <b-row class="text-center external-resources m-3" align-v="center" align-h="center">
             <b-col class="image-index">
                 <router-link class="footer-link" to="/image-index">Image Index</router-link>
@@ -16,7 +16,7 @@
                 Image
             </b-col>
         </b-row>
-    </div>
+    </footer>
 </template>
 
 <script>

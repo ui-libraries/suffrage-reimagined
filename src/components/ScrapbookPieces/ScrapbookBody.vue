@@ -1,5 +1,5 @@
 <template>
-<div class="scrapbook-body-container">
+<div class="scrapbook-body-container" role="main">
     <router-view />
 </div>
 </template>
@@ -15,6 +15,7 @@ export default {
     min-height: 45rem;
     background-color: ghostwhite;
     position: relative;
-    background-image: url('https://i.imgur.com/mNBhyUX.jpg')
+    background-image: url('https://i.imgur.com/mNBhyUX.jpg');
+    padding: 1em 2em;
 }
 </style>

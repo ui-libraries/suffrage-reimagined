@@ -11,22 +11,20 @@
     data () {
       return {
         baseUrl: '',
+        paths: [
+          '/tab-about',
+          '/tab-1854',
+          '/tab-1870',
+          '/tab-1890',
+          '/tab-1916',
+          '/tab-1920'
+        ]
       }
-    },
-
-    created() {
-      this.baseUrl = this.$router.currentRoute.path
-    },
-
-    mounted() {
-      this.$router.push(`${this.baseUrl}/pages/1`)
     },
     
     methods: {
       linkGen(pageNum) {
-        return {
-          path: `${this.baseUrl}/pages/${pageNum}`,
-        }
+          return `page=${pageNum}`
       }
     }
   }
