@@ -15,5 +15,6 @@ export default {
     min-height: 45rem;
     background-color: ghostwhite;
     position: relative;
+    background-image: url('https://i.imgur.com/mNBhyUX.jpg')
 }
 </style>
