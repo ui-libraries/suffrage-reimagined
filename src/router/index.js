@@ -60,6 +60,7 @@ const routes = [{
     children: [{
     path: '/tab-about',
     component: BaseTabAbout,
+    redirect: 'tab-about/page=1',
     children: [{
       path: 'page=1',
       component: TabAboutPage1
@@ -72,6 +73,7 @@ const routes = [{
       children: [{
           path: 'intro',
           component: BaseTab1854Intro,
+          redirect: 'intro/page=1',
 
           children: [{
             path: 'page=1',
@@ -84,6 +86,7 @@ const routes = [{
         {
           path: 'social-movements',
           component: BaseTab1854SocialMovements,
+          redirect: 'social-movements/page=1',
           children: [{
               path: 'page=1',
               component: Tab1854SocialMovementsPage1,
@@ -97,6 +100,7 @@ const routes = [{
         {
           path: 'amelia-bloomer',
           component: BaseTab1854AmeliaBloomer,
+          redirect: 'amelia-bloomer/page=1',
           children: [{
               path: 'page=1',
               component: Tab1854AmeliaBloomerPage1,
@@ -112,6 +116,7 @@ const routes = [{
       children: [{
           path: 'intro',
           component: BaseTab1870Intro,
+          redirect: 'intro/page=1',
 
           children: [{
             path: 'page=1',
@@ -121,6 +126,8 @@ const routes = [{
         {
           path: 'legislative-battle',
           component: BaseTab1870LegislativeBattle,
+          redirect: 'legislative-battle',
+
           children: [{
               path: 'page=1',
               component: Tab1870LegislativeBattlePage1,
@@ -130,6 +137,8 @@ const routes = [{
         {
           path: 'scandal-and-controversy',
           component: BaseTab1870ScandalAndControversy,
+          redirect: 'scandal-and-controversy/page=1',
+
           children: [{
               path: 'page=1',
               component: Tab1870ScandalAndControversyPage1,
@@ -139,6 +148,8 @@ const routes = [{
         {
           path: 'temperance',
           component: BaseTab1870Temperance,
+          redirect: 'temperance/page=1',
+
           children: [{
               path: 'page=1',
               component: Tab1870TemperancePage1,
@@ -154,6 +165,7 @@ const routes = [{
       children: [{
           path: 'intro',
           component: BaseTab1890Intro,
+          redirect: 'intro/page=1',
 
           children: [{
             path: 'page=1',
@@ -167,6 +179,7 @@ const routes = [{
         {
           path: 'goal-unrealized',
           component: BaseTab1890GoalUnrealized,
+          redirect: 'goal-unrealized/page=1',
           children: [{
               path: 'page=1',
               component: Tab1890GoalUnrealizedPage1,
@@ -176,6 +189,7 @@ const routes = [{
         {
           path: 'organizing-for-the-vote',
           component: BaseTab1890OrganizingForTheVote,
+          redirect: 'organizing-for-the-vote/page=1',
           children: [{
               path: 'page=1',
               component: Tab1890OrganizingForTheVotePage1,
@@ -201,6 +215,8 @@ const routes = [{
         {
           path: 'african-american-women',
           component: BaseTab1890AfricanAmericanWomen,
+          redirect: 'african-american-women/page=1',
+
           children: [{
               path: 'page=1',
               component: Tab1890AfricanAmericanWomenPage1,
@@ -210,6 +226,8 @@ const routes = [{
         {
           path: 'boone-parade',
           component: BaseTab1890BooneParade,
+          redirect: 'boone-parade/page=1',
+          
           children: [{
               path: 'page=1',
               component: Tab1890BooneParadePage1,

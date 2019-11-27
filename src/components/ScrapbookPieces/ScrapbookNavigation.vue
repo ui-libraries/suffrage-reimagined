@@ -4,7 +4,7 @@
             <!-- Home/About -->
             <b-nav-item-dropdown class="ml-lg-0 mr-lg-1" text="About" title="About" split left :lazy="true"
             :toggle-class="[currentPage.includes('tab-about') ? activeClass : 'nav-link-custom']">
-                <b-dropdown-item class="about" to="/tab-about" title="About">About</b-dropdown-item>
+                <b-dropdown-item class="about" to="/tab-about/" title="About">About</b-dropdown-item>
             </b-nav-item-dropdown>
             <!-- 1854 - 1870 -->
             <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" split left :lazy="true"

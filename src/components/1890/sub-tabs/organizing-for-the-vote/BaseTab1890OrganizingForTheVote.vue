@@ -1,7 +1,7 @@
 <template>
     <div class="base-container">
         <router-view />
-        <pagination-navigation :num-pages="2"/>
+        <pagination-navigation :num-pages="5"/>
     </div>
 </template>
 
