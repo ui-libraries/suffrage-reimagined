@@ -26,8 +26,8 @@
             :toggle-class="[currentPage.includes('tab-1890') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/tab-1890/intro/" title="Introduction">Introduction</b-dropdown-item>
                 <b-dropdown-item to="/tab-1890/goal-unrealized/" title="Goal Unrealized">Goal Unrealized</b-dropdown-item>
-                <b-dropdown-divider></b-dropdown-divider>
                 <b-dropdown-item to="/tab-1890/organizing-for-the-vote/" title="Organizing for the Vote">Organizing for the Vote</b-dropdown-item>
+                <b-dropdown-item to="/tab-1890/african-american-women/" title="African American Women">African American Women</b-dropdown-item>
                 <b-dropdown-item to="/tab-1890/boone-parade/" title="Boone Parade">Boone Parade</b-dropdown-item>
             </b-nav-item-dropdown>
             <!-- 1916 - 1920 -->
@@ -35,7 +35,6 @@
             :toggle-class="[currentPage.includes('tab-1916') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/tab-1916/intro/" title="Introduction">Introduction</b-dropdown-item>
                 <b-dropdown-item to="/tab-1916/referendum/" title="Referendum">Referendum</b-dropdown-item>
-                <b-dropdown-divider></b-dropdown-divider>
                 <b-dropdown-item to="/tab-1916/war-work/" title="War Work">War Work</b-dropdown-item>
                 <b-dropdown-item to="/tab-1916/the-winning-plan/" title="The Winning Plan">The Winning Plan</b-dropdown-item>
             </b-nav-item-dropdown>
@@ -44,7 +43,6 @@
             :toggle-class="[currentPage.includes('tab-1920') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/tab-1920/intro/" title="Introduction">Introduction</b-dropdown-item>
                 <b-dropdown-item to="/tab-1920/league-of-women-voters/" title="League of Women Voters">League of Women Voters</b-dropdown-item>
-                <b-dropdown-divider></b-dropdown-divider>
                 <b-dropdown-item to="/tab-1920/suffrage-memorial/" title="Suffrage Memorial">Suffrage Memorial</b-dropdown-item>
                 <b-dropdown-item to="/tab-1920/women-in-politics-today/" title="Women in Politics Today">Women in Politics Today</b-dropdown-item>
             </b-nav-item-dropdown>

@@ -127,7 +127,7 @@ const routes = [{
         {
           path: 'legislative-battle',
           component: BaseTab1870LegislativeBattle,
-
+          redirect: 'legislative-battle/page=1',
           children: [{
               path: 'page=1',
               component: Tab1870LegislativeBattlePage1,
