@@ -1,51 +1,79 @@
 <template>
     <div class="social-movements-page-container">
-    <h2>1854 - 1869</h2>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
+        <h4 class="text-center">Social Movements</h4>
+        <div class="text-left">
+            <div>Women’s involvement in mid-nineteenth century social movements including abolition, black suffrage,
+                child welfare, prison reform and care of Civil War soldiers paved the way for later suffrage work.
+                Correspondence from the 1860s reveals that Iowa women (and men) were discussing major issues of social
+                change.</div>
+            <div>Although she was not an active suffragist, Boone County resident Ellen Mowrer (1848-1922) described an
+                encounter with a male acquaintance in an 1869 diary entry...</div>
+            <div>“He is very hard against woman voting. Because, because was the only argument he could put forth. was a
+                little tickled at him in the evening, when it was raining he said, Well Miss Mowrer..now how would you
+                like to be out in the rain at a woman’s rights convention. &amp; I said the rain is pure. it comes down from
+                heaven you know refreshes &amp; revives all things.”</div>
+            <div>
+                <br />
 
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
+                <b-container>
+                    <b-row align-h="center">
+                        <h5 class="text-uppercase">Two Divergent Paths</h5>
+                    </b-row>
+                    <b-row align-h="center" class="text-left">
+                        
+                        <b-col>
+                            <h6 class="text-center">Annie Wittenmyer (1827 - 1900)</h6>
+                            <ul>
+                                <li><b>1827: </b>Born in Ohio</li>
+                                <li><b>1850: </b>Family moved to Keokuk, Iowa</li>
+                                <li><b>1861: </b>Organized ladies' aid societies for Iowa soldiers</li>
+                                <li><b>1862: </b>Appointed state sanitary agent of Iowa</li>
+                                <li><b>1863: </b>Mired in a political battle because state politicians did not trust a woman with government money and supplies</li>
+                                <li><b>1864: </b>Opened home for Civil War orphans in Davenport</li>
+                                <li><b>1874 - 1879: </b>Served as National President of the Woman's Christian Temperance Union (WCTU)</li>
+                                
+                            </ul>
+                        </b-col>
+        
+                        <b-col>
+                            <h6 class="text-center">Mary Darwin (1821 - 1886)</h6>
+                            <ul>
+                                <li><b>1821: </b>Born in Connecticut</li>
+                                    <li><b>1840s: </b>Moved to Iowa where she lived in Des Moines and Burlington</li>
+                                    <li><b>1863: </b>Publicly defended Wittenmyer's right to risk her life for her country and work outside the home</li>
+                                    <li><b>1868: </b>Named "Iowa's Most Popular Lecturer" by <i>The Henry County Press</i></li>
+                                    <li><b>1870: </b>Appointed chairwoman of the executive committee of the Iowa Woman Suffrage Association and founded the Burlington Woman Suffrage Society</li>
+                                    <li><b>1880: </b>Joined the Iowa SCTU and advocated for suffrage until her death in <b>1886</b></li>
+                            </ul>
+                        </b-col>
+                    </b-row>
+                </b-container>
+            </div>
+            <div>Involvement in a social movement did not guarantee a woman’s support for suffrage. Although Annie
+                Turner Wittenmyer landed one of the first state positions given to a female (sanitary agent, 1862),
+                Wittenmyer disapproved of equal suffrage, believing women should exert moral influence rather than
+                political influence.</div>
+            <div>On the other hand, Mary Platt Darwin, Wittenmyer’s contemporary in the Sanitary Commission, became an
+                ardent suffrage advocate.</div>
+            <div>The Sanitary Commission was a precursor to the American Red Cross. When the Civil War began, women sent
+                aid directly to the troops, but soon regional Sanitary Commissions distributed the funds and supplies
+                and organized women who would feed, nurse, and house soldiers. Although Wittenmyer was well-respected
+                for helping soldiers, she had to fight to maintain control of aid funds. In 1863, Darwin defended
+                Wittenmyer’s right to serve her country.
+            </div>
 
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
-
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
-
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
-
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
-                <div class="content"><p> The period from <strong>1854</strong> to <strong>1869</strong> marked the beginning of the suffrage movement in Iowa. Suffrage activity before the Civil War was sporadic. Iowa had gained statehood in <strong>1846</strong> and was still very much a pioneer state. </p>
-                <p>Many future suffragists settled in Iowa during the <strong>1850s</strong>. In <strong>1854</strong>, Frances Dana Gage (1808-1884), a women&#8217;s rights advocate from Ohio, visited southeastern Iowa to lecture on women&#8217;s suffrage. </p></div>
-
-                <div class="content">
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs and essays published in 1892 in Des Moines. Such collections may have been sent out by a national suffrage organization and modified to appeal to audiences in particular states.
-                </div>
+        </div>
     </div>
 </template>
 
 <script>
-export default {
-    
-}
+    export default {
+
+    }
 </script>
 
 <style scoped>
-
+li {
+    list-style: none;
+}
 </style>
