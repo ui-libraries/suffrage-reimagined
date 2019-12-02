@@ -1,9 +1,7 @@
 <template>
     <div class="base-scrapbook-container">
-        <b-card>
             <scrapbook-navigation />
             <scrapbook-body />
-        </b-card>
     </div>
 </template>
 
@@ -23,5 +21,6 @@ export default {
     margin: 1rem 0;
     padding: 1rem;
 }
+
 
 </style>

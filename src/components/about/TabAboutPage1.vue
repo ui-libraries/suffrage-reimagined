@@ -4,7 +4,7 @@
         <div class="text-center">
             <h4>
                 Welcome to the Women's Suffrage in Iowa Online Exhibit and Resource Guide created by the Iowa Women's
-                Arhicves!
+                Archives!
             </h4>
         </div>
         <div class="text-left">

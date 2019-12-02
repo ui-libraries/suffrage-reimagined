@@ -34,7 +34,6 @@
     font-family: 'Gotham Book';
     src: url('./assets/fonts/gotham-book.TTF') format('truetype');
   }
- 
 
   #app {
     font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
@@ -42,6 +41,8 @@
     -moz-osx-font-smoothing: grayscale;
     /* color: #2c3e50; */
     color: black;
+    /* gets rid of mobile dev overflow */
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -97,5 +98,19 @@
     border: none;
     min-width: 12rem !important;
     border: 0 solid transparent !important;
+  }
+
+  /* media queries for mobile layout */
+  @media only screen and (max-width: 450px) {
+    /* bootstrap-vue container over whole app */
+    .container-fluid {
+      padding: 0 0 !important;
+    }
+
+    /* base-scrapbook component */
+    .base-scrapbook-container {
+      padding: 0 0 !important;
+    }
+
   }
 </style>

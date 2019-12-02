@@ -27,4 +27,16 @@ a {
 a:hover {
     color: black;
 }
+
+@media only screen and (max-width: 450px) {
+    .nav-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .nav-header {
+        font-size: 1.3rem;
+    }
+}
 </style>
