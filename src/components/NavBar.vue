@@ -4,10 +4,9 @@
             <md-button v-if="isMobile()" class="md-icon-button" @click="showNavigation = true">
                 <md-icon>menu</md-icon>
             </md-button>
-            <span class="md-title">
-                <router-link to="/" class="stretched-link">Women's Suffrage in Iowa Scrapbook</router-link>
-            </span>
-
+            <h4 class="md-title nav-title">
+                <router-link to="/" class="stretched-link header-anchor">Women's Suffrage in Iowa Scrapbook</router-link>
+            </h4>
         </md-toolbar>
 
         <md-drawer :md-active.sync="showNavigation" md-swipeable>
@@ -122,5 +121,11 @@
 
     .md-content {
         padding: 16px;
+    }
+
+    @media only screen and (max-width: 650px) {
+        .nav-title {
+            font-size: .27em !important;
+        }
     }
 </style>

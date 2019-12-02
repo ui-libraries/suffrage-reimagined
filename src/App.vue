@@ -70,6 +70,11 @@
     text-decoration: underline !important;
   }
 
+  .header-anchor {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
   .nav-link-custom {
     text-decoration: none !important;
     color: white !important;

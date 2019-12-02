@@ -107,4 +107,9 @@
     .dropdown-menu {
         background-color: #FFCD00 !important;
     }
+
+    .nav-item {
+        color: black !important;
+        text-decoration: none !important;
+    }
 </style>
