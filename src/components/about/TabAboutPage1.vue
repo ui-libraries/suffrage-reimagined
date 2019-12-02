@@ -44,7 +44,6 @@
     </div>
     <!-- <div class="image-carousel"><ImageCarousel :images="images"/></div> -->
     <!-- <expandable-image :src="require('../../assets/book-content/recitation_large.png')"/> -->
-    </div>
 </template>
 
 <script>

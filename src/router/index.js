@@ -57,6 +57,7 @@ const routes = [{
   children: [{
     path: '',
     component: ScrapbookBody,
+    redirect: '/tab-about',
     children: [{
     path: '/tab-about',
     component: BaseTabAbout,

@@ -73,7 +73,7 @@
 
   .nav-link-custom:hover {
     background-color: #FFCD00;
-    color: black;
+    color: black !important;
   }
 
   .active {
@@ -92,5 +92,9 @@
 
   .dropdown-menu {
     background-color: #FFCD00 !important;
+    margin-top: 0 !important;
+    border: none;
+    min-width: 12rem !important;
+    border: 0 solid transparent !important;
   }
 </style>
