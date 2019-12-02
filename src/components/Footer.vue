@@ -28,6 +28,7 @@
 <style scoped>
     .footer-container {
         width: 100%;
+        min-height: 2em;
         background-color: black;
         padding: 2.5em 0;
     }

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <b-container fluid class="test-container">
+    <b-container fluid class="body-container">
       <b-row align-h="center">
         <b-col xl="10" lg="12" md="12" sm="12" cols="12">
           <router-view />
@@ -49,7 +49,7 @@
     font-family: 'Gotham Bold'
   }
 
-  .test-container {
+  .body-container {
     text-align: center;
   }
 
@@ -62,6 +62,9 @@
   }
 
   /* Link css below */
+  .stretched-link::after {
+    z-index: 0 !important;
+  }
     .text-anchor {
     color: black !important;
     text-decoration: underline !important;
@@ -101,7 +104,7 @@
   }
 
   /* media queries for mobile layout */
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 1000px) {
     /* bootstrap-vue container over whole app */
     .container-fluid {
       padding: 0 0 !important;
@@ -110,7 +113,11 @@
     /* base-scrapbook component */
     .base-scrapbook-container {
       padding: 0 0 !important;
+      margin: 0 0 !important;
     }
+
+    /* Alter vue material css */
+
 
   }
 </style>

@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .scrapbook-body-container {
-    min-height: 45rem;
+    min-height: 48rem;
     background-color: ghostwhite;
     position: relative;
     background-image: url('https://i.imgur.com/mNBhyUX.jpg');

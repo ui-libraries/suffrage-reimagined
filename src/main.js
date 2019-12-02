@@ -6,14 +6,21 @@ import store from './store'
 
 
 import BootstrapVue from 'bootstrap-vue'
-// import ElementUI from 'element-ui'
+import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent } from 'vue-material/dist/components'
 
 Vue.use(BootstrapVue)
-// Vue.use(ElementUI)
+Vue.use(MdToolbar)
+Vue.use(MdIcon)
+Vue.use(MdButton)
+Vue.use(MdDrawer)
+Vue.use(MdList)
+Vue.use(MdContent)
+
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
 
 Vue.config.productionTip = false
 
@@ -22,3 +29,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+        
