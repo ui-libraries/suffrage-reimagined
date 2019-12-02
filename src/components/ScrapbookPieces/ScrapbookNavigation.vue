@@ -7,16 +7,14 @@
                 <b-dropdown-item class="about" to="/tab-about/" title="About">About</b-dropdown-item>
             </b-nav-item-dropdown>
             <!-- 1854 - 1870 -->
-            <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" split left :lazy="true"
+            <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" left :lazy="true"
             :toggle-class="[currentPage.includes('tab-1854') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/tab-1854/intro/" title="Introduction">Introduction</b-dropdown-item>
-                <b-dropdown-divider />
                 <b-dropdown-item to="/tab-1854/amelia-bloomer/" title="Amelia Bloomer">Amelia Bloomer</b-dropdown-item>
-                <b-dropdown-divider />
                 <b-dropdown-item to="/tab-1854/social-movements/" title="Social Movements">Social Movements</b-dropdown-item>
             </b-nav-item-dropdown>
             <!-- 1870 - 1890 -->
-            <b-nav-item-dropdown id="my-nav-dropdown" class="mr-lg-1" text="1870 - 1890" title="1870 to 1890" left :lazy="true"
+            <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1870 - 1890" title="1870 to 1890" left :lazy="true"
             :toggle-class="[currentPage.includes('tab-1870') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/tab-1870/intro/" title="Introduction">Introduction</b-dropdown-item>
                 <b-dropdown-item to="/tab-1870/legislative-battle/" title="Legislative Battle">Legislative Battle</b-dropdown-item>
@@ -55,12 +53,7 @@
 </template>
 
 <script>
-    import BaseTab1854 from '../1854/BaseTab1854'
     export default {
-        components: {
-            BaseTab1854,
-        },
-
         data() {
             return {
                 activeClass: 'active',
