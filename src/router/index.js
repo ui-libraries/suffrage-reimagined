@@ -58,14 +58,15 @@ const routes = [{
     path: '',
     component: ScrapbookBody,
     redirect: '/tab-about',
-    children: [{
-    path: '/tab-about',
-    component: BaseTabAbout,
-    redirect: 'tab-about/page=1',
-    children: [{
-      path: 'page=1',
-      component: TabAboutPage1
-    }]
+    children: [
+    {
+      path: '/tab-about',
+      component: BaseTabAbout,
+      redirect: 'tab-about/page=1',
+      children: [{
+        path: 'page=1',
+        component: TabAboutPage1
+      }]
     },
     {
       //1854
@@ -239,7 +240,24 @@ const routes = [{
           ]
         }
       ]
-    }],
+    },
+    // {
+    //   //1920
+    //   path: 'tab-1920',
+    //   component: BaseTab1920,
+    //   children: [{
+    //     path: 'intro',
+    //     component: BaseTab1920Intro,
+    //     redirect: 'intro/page=1',
+
+    //     children: [{
+    //       path: 'page=1',
+    //       component: Tab1920IntroPage1,
+    //     },
+    //     ],
+    //   }]
+    // }
+  ],
   }],
 },
 {path: '/image-index', component: ImageIndex},
