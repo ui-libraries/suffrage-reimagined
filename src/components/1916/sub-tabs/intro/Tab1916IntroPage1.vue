@@ -1,6 +1,27 @@
 <template>
-    <div class="page-container">
-    test
+    <div class="intro-page-container">
+        <h4 class="page-header text-center">1916-1919</h4>
+
+        <div class="text-left">
+            <div>From 1916 to 1919, Iowa was a suffrage battleground. On June 5, 1916, Iowa’s men voted on a 
+                referendum to amend the constitution and grant women the ballot. Although the referendum failed 
+                in a corrupt election, the camapign piqued national interest. With the U.S.’s entry into World War I, 
+                Iowa women were sometimes torn between suffrage and war work, and suffrage campaigns 
+                faded a bit from the public eye.</div>
+            <div>Just two years later, Congress passed the 19th Amendment, and the women of the Hawkeye state launched 
+                a ratification campaign. In a special session of the General Assembly held on July 2, 1919, Iowa became 
+                the tenth state to ratify. On August 26, 1920, Tennessee became the last state to ratify, finally ending 
+                the work Iowa women had been involved with for seven decades.</div>
+            <div>In the year leading up to the 1916 referendum, women created suffrage stamps and wrote suffrage songs, 
+                doing everything they could think of to win the vote. National leader Carrie Chapman Catt returned to 
+                Iowa to campaign. Pauline Devitt’s husband James even hired a nurse for this three-year time period so 
+                his wife could focus on the cause. Pauline Devitt became president of the 
+                Iowa Equal Suffrage Association (IESA) in 1919.</div>
+            <div>Across the country, the tide was turning in favor of suffrage. In 1916, Alice Paul founded the militant 
+                National Woman’s Party, and Jeanette Rankin of Montana was the first woman elected to the U.S. House. 
+                In April 1919, just four months before the state ratified the 19th Amendment, the Iowa General Assembly 
+                passed a bill granting women the right to vote in presidential elections.</div>
+        </div>
     </div>
 </template>
 
