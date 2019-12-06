@@ -8,7 +8,7 @@
             <div>In the fall of 1919, the suffragists met in Boone and formed the League of Women Voters of Iowa (LWV). 
                 That organization continues to educate voters today.</div>
             <div>To commemorate their struggle, veteran suffragists formed the Iowa Suffrage Memorial Commission in 1922. 
-                Fourteen years later, a bronze bas-relief was installed in the Iowa Capitol in Des Moines.<div>
+                Fourteen years later, a bronze bas-relief was installed in the Iowa Capitol in Des Moines.</div>
             <div>The right to vote did not bring about the sweeping freedoms for American women that some suffragists 
                 had expected. Women continued to fight for equality in the workplace, the political arena and the home. 
                 Much of that work continues today.</div>
@@ -29,6 +29,7 @@
                     <li><b>1930s: </b>Held several Polk County government positions during the Great Depression - 
                         often as the first woman</li>
                 </ul>
+            </div>
         </div>
     </div>
 </template>
