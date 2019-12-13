@@ -380,4 +380,7 @@ const router = new VueRouter({
   mode: 'history' //might funk things up during production
 })
 
+const routeNames = ['test1', 'test2', 'test3']
+
 export default router
+export { routeNames }

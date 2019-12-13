@@ -1,7 +1,8 @@
 <template>
     <div class="base-scrapbook-container">
-            <scrapbook-navigation />
-            <scrapbook-body />
+        <scrapbook-navigation />
+        <scrapbook-body />
+        
     </div>
 </template>
 

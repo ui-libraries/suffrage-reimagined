@@ -122,9 +122,8 @@
             <p />
             <ul>
               <li> <a
-                  href="http://www.library.uni.edu/collections/special-collections/archives/cedar-falls-historical-society-oral-history-interviews"
-                  target="_blank"><strong>Cedar Falls Historical Society Oral History Interviews. 1 linear
-                    foot.</strong></a>
+                  href="https://library.uni.edu/collections/special-collections/finding-aids/cedar-falls-historical-society-oral-history-interviews"
+                  target="_blank"><strong>Cedar Falls Historical Society Oral History Interviews. 0.417 linear feet.</strong></a>
                 <p></p>
                 <p> Stella Robinson Wynegar recalls her 90 years of residence in Cedar Falls. Tape 9b includes
                   commentary
@@ -135,8 +134,8 @@
             <p></p>
             <ul>
               <li><a
-                  href="http://www.library.uni.edu/collections/special-collections/archives/womens-studies-program-subject-files"
-                  target="_blank"><strong>Women's Studies Program Subject Files, 1969-1999. 8 linear
+                  href="https://library.uni.edu/collections/special-collections/finding-aids/womens-studies-program-subject-files"
+                  target="_blank"><strong>Women's Studies Program Subject Files, 1969-1999. 6.25 linear
                     feet.</strong></a><br>
                 <br>
                 This collection includes material on celebrations of women’s suffrage hosted by the UNI Women’s Studies
@@ -332,15 +331,15 @@
             <p></p>
             <ul>
               <li><strong>League of Women Voters of <a
-                    href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0635"
+                    href="http://www.lwvlinncounty.org/"
                     target="_blank">Cedar Rapids-Marion</a>, <a
-                    href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0243"
+                    href="https://my.lwv.org/iowa/metropolitan-des-moines"
                     target="_blank">Metropolitan Des Moines</a>, <a
-                    href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0205"
+                    href="http://www.lwvlinncounty.org/"
                     target="_blank">Mount Vernon-Lisbon</a>, <a
-                    href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0636"
+                    href="http://lwvmcss.squarespace.com/"
                     target="_blank">Muscatine</a> and <a
-                    href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0229"
+                    href="https://www.lwv.org/local-leagues/lwv-sioux-city"
                     target="_blank">Sioux City</a> records.</strong>
 
                 <p>For those interested in League of Women Voters activities after the 1920s and 1930s, these
@@ -379,7 +378,7 @@
             <ul>
               <li>Four letters from <strong>Carrie Chapman Catt</strong> to various individuals between 1900 and 1940
                 are
-                cataloged in <a href="http://infohawk.uiowa.edu/F?func=file&amp;file_name=find-b&amp;local_base=uiowa"
+                cataloged in <a href="https://search.lib.uiowa.edu/primo-explore/search?query=any,contains,carrie%20chapman%20catt&tab=default_tab&search_scope=sc_scope&sortby=rank&vid=01IOWASC&facet=library,include,SPEC&lang=en_US&offset=0"
                   target="_blank">InfoHawk</a> (the University of Iowa’s online library system) under the call number
                 MsL
                 C368. The 1900 letter concerns Catt’s thoughts on the suffrage movement in Montana. The others are
@@ -464,7 +463,7 @@
             <p></p>
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.uiowa.edu/spec-coll/archives/recordgroups/RG02.htm"
+              <li><strong><a href="http://aspace.lib.uiowa.edu/search?utf8=%E2%9C%93&op%5B%5D=&q%5B%5D=University%20of%20Iowa%20literary%20and%20debate%20societies%20and%20clubs%20(1890s-%20)%20"
                     target="_blank">University of Iowa literary and debate societies and clubs (1890s - )</a></strong>
                 <p></p>
 
@@ -625,7 +624,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=004524168"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21482627300002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,James%20Callanan%20Jr.%20Papers&sortby=rank&offset=0"
                     target="_blank">James Callanan Jr. papers. 2 linear feet. (C134).</a></strong>
                 <p></p>
                 <p>Martha Coonley Callanan, suffragist and Woman’s Christian Temperance Union activist, was married to
@@ -648,7 +647,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=004227111"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21321521740002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,Albert%20Baird%20Cummins%20papers.&sortby=rank"
                     target="_blank">Albert Baird Cummins papers. 1891-1926. 31 linear feet. (C192).</a></strong>
                 <p></p>
                 <p>Albert Baird Cummins was a progressive Republican from Des Moines who served Iowa as state
@@ -665,7 +664,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003564309"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21306899040002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,George%20W.%20Clarke%20papers.&sortby=rank&offset=0"
                     target="_blank">George W. Clarke papers. 1874-1936. 6 linear feet. (C5525)</a></strong>
                 <p></p>
                 <p>Active in Iowa politics during the early 1900s, Clarke was governor during the failed suffrage
@@ -681,7 +680,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003490477"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21441365020002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,First%20Unitarian%20Universalist%20Church%20of%20Des%20Moines%20records.&sortby=rank&offset=0"
                     target="_blank">First Unitarian Universalist Church of Des Moines records. 1869-1996. 27 linear
                     feet. (Ms
                     44/44.1).</a></strong>
@@ -702,7 +701,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=005121357"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21423342160002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,Arabella%20Babb%20Mansfield&sortby=rank&offset=0"
                     target="_blank">Arabella Babb Mansfield papers. 1846-1911. 1 folder.</a></strong>
                 <p></p>
                 <p>The collection contains a letter, newspaper clippings, and biographical sketches of Mansfield. Born
@@ -720,7 +719,7 @@
             <p></p>
             <ul>
               <li><strong><em><a
-                      href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003575452"
+                      href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21415368860002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,the%20woman%27s%20standard&sortby=rank&offset=0"
                       target="_blank">The Woman’s Standard. 1886-1911. </a></em></strong>
                 <p><em>The Woman’s Standard</em> was the women’s suffrage publication in Iowa. The <a
                     href="http://digital.lib.uiowa.edu/u?/suffrage,3489" target="_blank">1908 issues</a> have been
@@ -730,7 +729,7 @@
                     Collection</a> as a sample of the kinds of news stories suffragists reported on.</p>
 
                 <p><em>The Women’s Standard</em> is part of the Iowa Women’s Suffrage Collection in Des Moines. <a
-                    href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003468243"
+                    href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21441246500002771&context=L&vid=01IOWASHSI&lang=en_US&search_scope=shsi_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,the%20woman%27s%20standard&sortby=rank&offset=0"
                     target="_blank">Microfilm copies</a> are available in both the Des Moines and Iowa City branches of
                   the
                   State Historical Society.</p>
@@ -749,7 +748,7 @@
               through
               the National American Woman Suffrage Association (NAWSA).</p>
 
-            <p><strong><a href="http://www.women.iowa.gov/index.html" target="_blank">Iowa Commission on the Status of
+            <p><strong><a href="https://humanrights.iowa.gov/cas/icsw/commission" target="_blank">Iowa Commission on the Status of
                   Women
                   (online resource)</a></strong></p>
 
@@ -768,7 +767,7 @@
               in the state of Iowa: <a href="http://www.women.iowa.gov/about_women/docs/2006_SR_6.pdf"
                 target="_blank">http://www.women.iowa.gov/about_women/docs/2006_SR_6.pdf</a></p>
             <p>To highlight women’s heritage and recognize their contributions, the ICSW established the <a
-                href="http://www.women.iowa.gov/about_women/HOF/index.html" target="_blank">Iowa Women’s Hall of
+                href="https://humanrights.iowa.gov/cas/icsw/events-recognition/iowa-womens-hall-fame" target="_blank">Iowa Women’s Hall of
                 Fame</a> in
               1975.The list of inductees provides links to biographical information about many women involved in the
               suffrage
@@ -797,7 +796,7 @@
                 <strong>400 Willow Ave</strong> <br />
                 <strong>Council Bluffs, IA 51503</strong> <br />
                 <strong>(P) : 712-323-7553</strong> <br />
-                <a href="http://www.cbpl.lib.ia.us/" target="_blank">http://www.cbpl.lib.ia.us/</a>
+                <a href="https://www.councilbluffslibrary.org/archive/collections/browse" target="_blank">http://www.cbpl.lib.ia.us/</a>
               </b-card>
             </div>
 
@@ -838,14 +837,14 @@
                 </template>
                 <strong>Grinnell College Special Collections and Archives</strong><br>
                 <strong>1111 6th Ave * Grinnell, IA 50112-1770 * phone: 641-269-3350</strong><br>
-                <a href="http://www.grinnell.edu/library/specialcollections"
-                  target="_blank">http://www.grinnell.edu/library/specialcollections</a>
+                <a href="https://www.grinnell.edu/academics/libraries/archives"
+                  target="_blank">https://www.grinnell.edu/academics/libraries/archives</a>
               </b-card>
             </div>
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://www.lib.grinnell.edu/collections/specialcollections/Manuscripts/findingaids/Nounmss.html"
+                    href="https://atom.grinnell.edu/atom/index.php/louise-rosenfield-noun-notes-for-her-book-strong-minded-women-1961-1969"
                     target="_blank">Louise Rosenfield Noun papers. 1961-1969. 5.5 linear feet.</a></strong>
                 <p></p>
 
@@ -883,7 +882,7 @@
                 <strong>The Putnam Museum of History and Natural Science</strong> <br />
                 <strong>1717 W. 12th Street, Davenport, IA</strong> <br />
                 <strong>(P) : 563-324-1933</strong>
-                <div><a href="http://www.putnam.org/" target="_blank">http://www.putnam.org/</a></div>
+                <div><a href="http://www.putnam.org/Collections-(1)/Overview" target="_blank">http://www.putnam.org/Collections-(1)/Overview</a></div>
               </b-card>
               <br />
 
@@ -921,7 +920,7 @@
             <p></p>
             <ul>
               <li>The bulk of suffrage materials will be found in the extensive <a
-                  href="http://www.qcmemory.org/Page/Newspapers.aspx?nt=206" target="_blank">local newspaper</a>
+                  href="http://www.putnam.org/getdoc/c84a887f-de7e-4753-9535-28f26f8023da/Collections" target="_blank">local newspaper</a>
                 collections.
               </li>
             </ul>
@@ -929,7 +928,7 @@
             <p></p>
             <ul>
               <li><strong><a
-                    href="http://www.qcmemory.org/SiteContent/Documents/File/collections/Accession%202006-15%20Mona%20Martin.pdf"
+                    href="http://www.putnam.org/Collections-(1)/Overview/Image-Collection-and-Archives/Archive-Inventory/PhotoInventoryM"
                     target="_blank">The Mona Martin</a> papers (2006-15)</strong> contain a scrapbook and record carton
                 from
                 the Davenport League of Women Voters. They include photos and descriptions of the League’s activities as
@@ -974,8 +973,8 @@
                 <strong>Iowa State University</strong> <br />
                 <strong>202 Catt Hall</strong> <br />
                 <strong>Ames, IA 50011 </strong> <br />
-                <a href="http://www.las.iastate.edu/CattCenter/"
-                  target="_blank">http://www.las.iastate.edu/CattCenter/</a>
+                <a href="https://cattcenter.iastate.edu/"
+                  target="_blank">https://cattcenter.iastate.edu/</a>
               </b-card>
             </div>
             <p></p>
@@ -1012,14 +1011,14 @@
                 <strong>403 Parks Library</strong> <br />
                 <strong>Ames, IA 50011</strong> <br />
                 <strong>(P) : (515) 294-6672</strong> <br />
-                <a href="http://www.lib.iastate.edu/spcl/index.html"
-                  target="_blank">http://www.lib.iastate.edu/spcl/index.html</a>
+                <a href="https://archives.lib.iastate.edu/"
+                  target="_blank">https://archives.lib.iastate.edu/</a>
               </b-card>
             </div>
             <p></p>
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/spcl/manuscripts/MS076.html" target="_blank">Ames Business
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS076.html" target="_blank">Ames Business
                     and
                     Professional Women’s records, 1921-1988. 19 boxes.</a></strong>
                 <p></p>
@@ -1038,7 +1037,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/spcl/manuscripts/MS010.html" target="_blank">Adams Family
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS010.html" target="_blank">Adams Family
                     Papers, 1618-1976. 2.94 linear feet.</a></strong>
                 <p></p>
 
@@ -1056,7 +1055,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/arch/rgrp/21-7-3.html" target="_blank">Carrie Chapman Catt
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/arch/rgrp/21-7-3.html" target="_blank">Carrie Chapman Catt
                     papers, 1878-ongoing. 1.68 linear feet.</a></strong>
                 <p></p>
 
@@ -1096,7 +1095,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/spcl/manuscripts/MS194.html" target="_blank">Hortense
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS194.html" target="_blank">Hortense
                     Butler
                     Heywood papers, 1899-1977. 2.52 linear feet.</a></strong>
                 <p></p>
@@ -1114,7 +1113,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/spcl/manuscripts/MS341.html" target="_blank">League of
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS341.html" target="_blank">League of
                     Women
                     Voters of Ames records, 1941-ongoing. 22.11 linear feet.</a></strong>
                 <p></p>
@@ -1131,7 +1130,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/spcl/manuscripts/MS471.html" target="_blank">Woman
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS471.html" target="_blank">Woman
                     Suffrage
                     Collection, 1916-1919. 21 linear feet.</a></strong>
                 <p></p>
@@ -1147,7 +1146,7 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://www.lib.iastate.edu/arch/rgrp/22-10-0-2.html" target="_blank">YWCA of Ames-ISU
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS652.html" target="_blank">YWCA of Ames-ISU
                     records. 1873-ongoing. 12.39 linear feet.</a></strong>
                 <p></p>
 
@@ -1173,7 +1172,7 @@
             </div>
             <p></p>
             <ul>
-              <li><strong><a href="http://www.ames.lib.ia.us/farwell/Publication/Pub18986.htm" target="_blank">Farwell
+              <li><strong><a href="https://www.amespubliclibrary.org/books-movies-more/special-collections/farwell-t-brown-archive" target="_blank">Farwell
                     T.
                     Brown Photographic Archive (online resource)</a></strong>
                 <p></p>
@@ -1262,8 +1261,8 @@
               <strong>600 East Locust</strong> <br />
               <strong>Des Moines, IA 50319</strong> <br />
               <strong>(P) : 515-281-6200</strong> <br />
-              <a href="http://www.iowahistory.org/libraries/location-and-hours.html"
-                target="_blank">http://www.iowahistory.org/libraries/location-and-hours.html</a>
+              <a href="https://iowaculture.gov/about-us/visit/research-centers"
+                target="_blank">https://iowaculture.gov/about-us/visit/research-centers</a>
             </b-card>
           </div>
           <p></p>
@@ -1293,8 +1292,8 @@
           <p></p>
           <p>Special Collections has at least one newspaper title for Davenport from 1841 to the present, plus a few
             publications from Muscatine and DeWitt that may have suffrage information. For a listing of these historic
-            newspaper collections, visit their website: <a href="http://www.qcmemory.org/Page/Newspapers.aspx?nt=206"
-              target="_blank">http://www.qcmemory.org/Page/Newspapers.aspx?nt=206</a></p>
+            newspaper collections, visit their website: <a href="https://sites.google.com/view/qcarchivescrawl/institutions-and-organizations/the-richardson-sloane-special-collections-center"
+              target="_blank">https://sites.google.com/view/qcarchivescrawl/institutions-and-organizations/the-richardson-sloane-special-collections-center</a></p>
         </ul>
         <p></p>
         <br>
