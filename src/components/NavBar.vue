@@ -10,55 +10,97 @@
             </h4>
         </md-toolbar>
 
-        <md-drawer :md-active.sync="showNavigation" md-swipeable>
-            <md-toolbar class="md-transparent" md-elevation="0">
-                <span class="">Women's Suffrage</span>
+        <md-drawer class="entire-drawer" :md-active.sync="showNavigation" md-swipeable>
+            <md-toolbar class="drawer-header" md-elevation="1">
+                <span flex class="md-title text-center">Bookmark</span>
             </md-toolbar>
 
-            <md-list>
-                <md-list-item>
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-about/">
-                            About
-                        </router-link>
-                    </span>
+            <md-list class="md-double-line drawer-body">
+                <md-subheader class="sub-header">About</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text">
+                    <span>Introduction</span>
+                    </div>
                 </md-list-item>
 
-                <md-list-item>
-                    <!-- <md-icon></md-icon> -->
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-1854/">1854 - 1870</router-link>
-                    </span>
+                <md-divider class="divider"></md-divider>
+                <md-divider class="divider"></md-divider>
+                <md-subheader class="sub-header">1854 to 1870</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Introduction</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Amelia Bloomer</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Social Movements</span></div>
+                </md-list-item>
+                <md-divider class="divider"></md-divider>
+                
+                <md-subheader class="sub-header">1870 to 1890</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Introduction</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Legislative Battle</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Scandal &amp; Controversy</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Temperance</span></div>
+                </md-list-item>
+                <md-divider class="divider"></md-divider>
+
+                <md-subheader class="sub-header">1890 to 1915</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Introduction</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Goal Unrealized</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Organizing for the Vote</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>African American Women</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Boone Parade</span></div>
+                </md-list-item>
+                <md-divider class="divider"></md-divider>
+
+                <md-subheader class="sub-header">1916 to 1920</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Introduction</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Referendum</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>War Work</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>The Winning Plan</span></div>
+                </md-list-item>
+                <md-divider class="divider"></md-divider>
+
+                <md-subheader class="sub-header">1916 to 1920</md-subheader>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Introduction</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>League of Women Voters</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Suffrage Memorial</span></div>
+                </md-list-item>
+                <md-list-item to="/tab-about/">
+                    <div class="md-list-item-text"><span>Women in Politics Today</span></div>
                 </md-list-item>
 
-                <md-list-item>
-                    <!-- <md-icon></md-icon> -->
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-1870">1870 - 1890</router-link>
-                    </span>
-                </md-list-item>
-
-                <md-list-item>
-                    <!-- <md-icon></md-icon> -->
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-1890">1890 - 1915</router-link>
-                    </span>
-                </md-list-item>
-
-                <md-list-item>
-                    <!-- <md-icon></md-icon> -->
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-1916">1916 - 1920</router-link>
-                    </span>
-                </md-list-item>
-
-                <md-list-item>
-                    <!-- <md-icon></md-icon> -->
-                    <span class="md-list-item-text">
-                        <router-link to="/tab-1920">1920 &amp; Beyond</router-link>
-                    </span>
-                </md-list-item>
             </md-list>
+
         </md-drawer>
 
     </div>
@@ -115,11 +157,35 @@
     .md-drawer {
         width: 230px;
         max-width: calc(100vw - 125px);
-        background-image: url('../assets/temp-book-paper.jpg')
+        // background-image: url('../assets/temp-book-paper.jpg')
     }
 
     .md-list {
-        background-image: url('../assets/temp-book-paper.jpg')
+        // background-image: url('../assets/temp-book-paper.jpg')
+    }
+
+    .sub-header {
+        color: grey !important;
+    }
+
+    .divider {
+        background-color: rgba(187, 187, 187, 0.541) !important;
+    }
+
+    .entire-drawer {
+        background-color: black !important;
+    }
+
+    .drawer-header {
+        background-color: #FFCD00 !important;
+    }
+
+    .drawer-body {
+        background-color: rgba(0, 0, 0, 0.705) !important;
+    }
+
+    .md-list-item-text {
+        color: white;
     }
 
     .md-list a {

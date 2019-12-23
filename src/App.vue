@@ -137,7 +137,8 @@
     }
 
     /* Alter vue material css */
-
-
+      .md-list.md-double-line .md-list-item-content {
+    min-height: 35px !important;
+    }
   }
 </style>

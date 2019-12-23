@@ -6,7 +6,7 @@ import store from './store'
 
 
 import BootstrapVue from 'bootstrap-vue'
-import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent } from 'vue-material/dist/components'
+import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent, MdDivider, MdSubheader} from 'vue-material/dist/components'
 
 Vue.use(BootstrapVue)
 Vue.use(MdToolbar)
@@ -15,6 +15,8 @@ Vue.use(MdButton)
 Vue.use(MdDrawer)
 Vue.use(MdList)
 Vue.use(MdContent)
+Vue.use(MdDivider)
+Vue.use(MdSubheader)
 
 
 import 'bootstrap/dist/css/bootstrap.css'
