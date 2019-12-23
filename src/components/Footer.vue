@@ -1,21 +1,23 @@
 <template>
     <footer class="footer-container">
-        <b-row class="text-center external-resources m-3" align-v="center" align-h="center">
-            <b-col class="image-index">
-                <router-link class="footer-link" to="/image-index">Image Index</router-link>
-            </b-col>
-            <b-col class="resources">
-                <router-link class="footer-link" to="/resources">Resources</router-link>
-            </b-col>
-            <b-col class="archival-collections-guide">
-                <router-link class="footer-link" to="/archival-collections-guide">Archival Collections Guide</router-link>
-            </b-col>
-        </b-row>
-        <b-row class="text-center image-wrapper mt-3" align-v="center" align-h="center">
-            <b-col>
-                Image
-            </b-col>
-        </b-row>
+        <b-container fluid>
+            <b-row class="text-center external-resources">
+                <b-col class="image-index">
+                    <router-link class="footer-link" to="/image-index">Image Index</router-link>
+                </b-col>
+                <b-col class="resources">
+                    <router-link class="footer-link" to="/resources">Resources</router-link>
+                </b-col>
+                <b-col class="archival-collections-guide">
+                    <router-link class="footer-link" to="/archival-collections-guide">Archival Collections Guide</router-link>
+                </b-col>
+            </b-row>
+            <b-row class="text-center image-wrapper mt-3" align-v="center" align-h="center">
+                <b-col>
+                    Image
+                </b-col>
+            </b-row>
+        </b-container>
     </footer>
 </template>
 
@@ -28,7 +30,6 @@
 <style scoped>
     .footer-container {
         width: 100%;
-        min-height: 2em;
         background-color: black;
         padding: 2.5em 0;
     }
@@ -45,13 +46,18 @@
 
     .image-wrapper {
         height: 50%;
+        color: white;
+    }
+
+    .row {
+        padding: 5px 0;
     }
 
     .footer-link {
-        color: white;
+        color: white !important;
     }
     .footer-link:hover {
-        color: #FFCD00;
+        color: #FFCD00 !important;
         text-decoration: none;
     }
 </style>

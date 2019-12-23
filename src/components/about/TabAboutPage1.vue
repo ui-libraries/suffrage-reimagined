@@ -7,7 +7,7 @@
                 Archives!
             </h4>
         </div>
-        <div class="text-left">
+        <div class="text-left scrapbook-content-container">
             <p>Women gained the right to vote when the 19th Amendment to the U.S. Constitution was ratified on
                 <strong>August 26, 1920</strong>. But the struggle for the ballot began decades earlier.</p>
             <p>The story of Iowa women mirrors what happened on the national level. The Hawkeye state was often looked
@@ -28,15 +28,18 @@
                 <a href="mailto:lib-women@uiowa.edu" class="text-anchor">lib-women@uiowa.edu</a></p>
 
         </div>
-        <div class="text-left">
+        <div class="text-left scrapbook-content-container">
             <p><span class="font-weight-bold">Project Manager:</span> Christine Mastalio</p>
             <p><span class="font-weight-bold">Project Assistant:</span> Kayla Pollock</p>
-            <p><span class="font-weight-bold">IWA Curator:</span> K&auml;ren Mason</p>
+            <p><span class="font-weight-bold">IWA Curators:</span> K&auml;ren Mason and Janet Weaver</p>
+            <p><span class="font-weight-bold">Design:</span> Linda Roth </p>
+            <p><span class="font-weight-bold">Design Updates, 2019 - 2020:</span> Ethan DeGross and Alyssa Varner</p>
+
             <p>Special thanks to staff at the University of Iowa Libraries, the State Historical Society of Iowa, and
                 other Iowa cultural heritage institutions for their help in making this project happen.</p>
             <p>The digital images in this exhibit have physical counterparts preserved by various institutions.
                 Abbreviations used are as follows:<br /><br />
-                <strong>IWA</strong> - Iowa Women&#8217;s Archives<br />
+                <strong>IWA</strong> - Iowa Women&#8217;s Archives, University of Iowa Libraries<br />
                 <strong>SHSI DM</strong> - State Historical Society of Iowa, Des Moines<br />
                 <strong>SHSI IC</strong> - State Historical Society of Iowa, Iowa City<br />
                 <strong>ISU</strong> - Iowa State University Special Collections</p>

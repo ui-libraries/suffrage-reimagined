@@ -5,50 +5,55 @@
                 <md-icon>menu</md-icon>
             </md-button>
             <h4 class="md-title nav-title">
-                <router-link to="/" class="stretched-link header-anchor">Women's Suffrage in Iowa Scrapbook</router-link>
+                <router-link to="/" class="stretched-link header-anchor">Women's Suffrage in Iowa Scrapbook
+                </router-link>
             </h4>
         </md-toolbar>
 
         <md-drawer :md-active.sync="showNavigation" md-swipeable>
             <md-toolbar class="md-transparent" md-elevation="0">
-                <span class="md-title">Women's Suffrage</span>
+                <span class="">Women's Suffrage</span>
             </md-toolbar>
 
             <md-list>
                 <md-list-item>
-                    <span class="md-list-item-text">About</span>
+                    <span class="md-list-item-text">
+                        <router-link to="/tab-about/">
+                            About
+                        </router-link>
+                    </span>
                 </md-list-item>
 
                 <md-list-item>
-                    <md-icon>send</md-icon>
+                    <!-- <md-icon></md-icon> -->
                     <span class="md-list-item-text">
                         <router-link to="/tab-1854/">1854 - 1870</router-link>
                     </span>
                 </md-list-item>
 
                 <md-list-item>
-                    <md-icon>delete</md-icon>
+                    <!-- <md-icon></md-icon> -->
                     <span class="md-list-item-text">
                         <router-link to="/tab-1870">1870 - 1890</router-link>
                     </span>
                 </md-list-item>
 
                 <md-list-item>
-                    <md-icon>error</md-icon>
+                    <!-- <md-icon></md-icon> -->
                     <span class="md-list-item-text">
                         <router-link to="/tab-1890">1890 - 1915</router-link>
                     </span>
                 </md-list-item>
 
                 <md-list-item>
-                    <md-icon>error</md-icon>
+                    <!-- <md-icon></md-icon> -->
                     <span class="md-list-item-text">
                         <router-link to="/tab-1916">1916 - 1920</router-link>
                     </span>
                 </md-list-item>
 
                 <md-list-item>
-                    <md-icon>error</md-icon>
+                    <!-- <md-icon></md-icon> -->
                     <span class="md-list-item-text">
                         <router-link to="/tab-1920">1920 &amp; Beyond</router-link>
                     </span>
@@ -106,17 +111,19 @@
         line-height: 2em;
     }
 
-    .page-container {
-        min-height: 300px;
-        overflow: hidden;
-        position: relative;
-        border: 1px solid rgba(#000, .12);
-    }
-
     // Demo purposes only
     .md-drawer {
         width: 230px;
         max-width: calc(100vw - 125px);
+        background-image: url('../assets/temp-book-paper.jpg')
+    }
+
+    .md-list {
+        background-image: url('../assets/temp-book-paper.jpg')
+    }
+
+    .md-list a {
+        color: black !important;
     }
 
     .md-content {

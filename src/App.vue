@@ -43,6 +43,11 @@
     color: black;
     /* gets rid of mobile dev overflow */
     overflow-x: hidden;
+    background-color: rgba(241, 240, 240, 0.877);
+  }
+
+  .scrapbook-content-container div{
+    padding: 10px 0;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -51,6 +56,8 @@
 
   .body-container {
     text-align: center;
+    font-size: 1.1rem;
+
   }
 
   ul {
@@ -106,6 +113,14 @@
     border: none;
     min-width: 12rem !important;
     border: 0 solid transparent !important;
+  }
+
+  .dropdown-menu a {
+    color: black !important;
+  }
+
+    .dropdown-menu a:hover {
+    background-color: #FFCD00 !important;
   }
 
   /* media queries for mobile layout */

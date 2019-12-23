@@ -1,9 +1,9 @@
 <template>
     <div class="page-container">
         <h4 class="text-center">Goal Unrealized</h4>
-        <div class="text-left">
+        <div class="text-left scrapbook-content-container">
             <div>Known as “The Mother of Woman Suffrage in Iowa,” Mary Jane Whitely Coggeshall paid tribute to the
-                sacrifices of Susan B. Anthony in a 1906 Des Moines Political Equality Club memorial. Five years later,
+                sacrifices of Susan B. Anthony in a <b>1906</b> Des Moines Political Equality Club memorial. Five years later,
                 Coggeshall died without realizing her goal of equal suffrage.</div>
             <div>
 
@@ -23,12 +23,12 @@
                 </ul>
             </div>
             <div>Despite unrealized goals, suffragists seemed to be optimistic that victory was right around the corner.
-                In an 1898 suffrage report for the Iowa Woman’s Christian Temperance Union (WCTU), Martha Callanan
+                In an <b>1898</b> suffrage report for the Iowa Woman’s Christian Temperance Union (WCTU), Martha Callanan
                 wrote, “...it would seem as if public sentiment would not much longer tolerate the withholding of this
                 justice to one half the people.”</div>
             <div>
-                By 1915, the Iowa legislature had approved a ballot measure to amend the Iowa constitution and grant
-                women full suffrage. In June 1916 the referendum failed, and IESA women continued to hope for an end to
+                By <b>1915</b>, the Iowa legislature had approved a ballot measure to amend the Iowa constitution and grant
+                women full suffrage. In June <b>1916</b> the referendum failed, and IESA women continued to hope for an end to
                 the “wait full of woe.”
             </div>
         </div>
