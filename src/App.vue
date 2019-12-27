@@ -35,16 +35,24 @@
     src: url('./assets/fonts/gotham-book.TTF') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Signature';
+    src: url('./assets/fonts/signature.ttf') format('truetype')
+  }
+
   #app {
     font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* color: #2c3e50; */
     color: black;
-    /* gets rid of mobile dev overflow */
-    overflow-x: hidden;
     background-color: rgba(241, 240, 240, 0.877);
   }
+
+html,body {
+    /* gets rid of mobile dev overflow */
+    overflow-x: hidden;
+}
 
   .scrapbook-content-container div{
     padding: 10px 0;
@@ -113,7 +121,7 @@
   }
 
   .router-link-active {
-    color: black;
+    color: black !important;
   }
 
   .router-link-active:hover {
@@ -146,6 +154,16 @@
     background-color: #FFCD00 !important;
   }
 
+      /* Alter vue material css */
+.md-list.md-double-line .md-list-item-content {
+    min-height: 35px !important;
+}
+
+    /* Alter scrollbar - smooth scrollbar */
+    .scrollbar-thumb {
+        border-radius: 0px !important;
+    }
+
   /* media queries for mobile layout */
   @media only screen and (max-width: 1000px) {
     /* bootstrap-vue container over whole app */
@@ -157,11 +175,6 @@
     .base-scrapbook-container {
       padding: 0 0 !important;
       margin: 0 0 !important;
-    }
-
-    /* Alter vue material css */
-      .md-list.md-double-line .md-list-item-content {
-    min-height: 35px !important;
     }
   }
 </style>

@@ -7,6 +7,7 @@ import store from './store'
 
 import BootstrapVue from 'bootstrap-vue'
 import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent, MdDivider, MdSubheader} from 'vue-material/dist/components'
+import SmoothScrollbar from 'vue-smooth-scrollbar'
 
 Vue.use(BootstrapVue)
 Vue.use(MdToolbar)
@@ -17,7 +18,7 @@ Vue.use(MdList)
 Vue.use(MdContent)
 Vue.use(MdDivider)
 Vue.use(MdSubheader)
-
+Vue.use(SmoothScrollbar)
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
