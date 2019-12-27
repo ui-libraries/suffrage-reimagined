@@ -2,10 +2,11 @@
     <nav v-if="!isMobile()" class="scrapbook-navigation-container" role="navigation">
         <b-nav tabs justified fill>
             <!-- Home/About -->
-            <b-nav-item-dropdown class="ml-lg-0 mr-lg-1" text="About" title="About" split left :lazy="true"
-                :toggle-class="[currentPage.includes('tab-about') ? activeClass : 'nav-link-custom']">
-                <b-dropdown-item class="about" to="/tab-about/" title="About">About</b-dropdown-item>
-            </b-nav-item-dropdown>
+            <b-nav-item to="/tab-about/" class="ml-lg-0 mr-lg-1 nav-item-custom" text="About" title="About"
+                :class="currentPage.includes('tab-about') ? activeClass : 'nav-link-custom'">
+                About
+                <!-- <b-dropdown-item class="about" to="/tab-about/" title="About">About</b-dropdown-item> -->
+            </b-nav-item>
             <!-- 1854 - 1870 -->
             <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" left
                 :lazy="true" :toggle-class="[currentPage.includes('tab-1854') ? activeClass : 'nav-link-custom']">
@@ -93,6 +94,10 @@
 
             isMobile() {
                 return this.window.width < 1000 ? true : false
+            },
+
+            isAboutActive() {
+                return this.currentPage.includes('tab-about') ? activeClass : 'nav-link-custom'
             }
         }
     }
@@ -108,8 +113,13 @@
         background-color: #FFCD00 !important;
     }
 
-    .nav-item {
+    .nav-item-custom {
         color: black !important;
         text-decoration: none !important;
+        background-color: black;
+    }
+
+    .nav-item-custom:hover {
+        background-color: #FFCD00;
     }
 </style>

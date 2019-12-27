@@ -86,6 +86,9 @@
     text-decoration: none !important;
     color: white !important;
     background-color: black;
+
+    transition: .3s cubic-bezier(.25,.8,.25,1);
+    transition-property: color, background-color, opacity;
   }
 
   .nav-link-custom:hover {
@@ -93,9 +96,29 @@
     color: black !important;
   }
 
+  .nav-link-custom a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
+  .nav-link-custom a:hover {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
   .active {
     background-color: #FFCD00 !important;
     color: black !important;
+    text-decoration: none !important;
+  }
+
+  .router-link-active {
+    color: black;
+  }
+
+  .router-link-active:hover {
+    color: black !important;
+    text-decoration: none !important;
   }
 
   .nav-tabs .nav-item.show .nav-link {
