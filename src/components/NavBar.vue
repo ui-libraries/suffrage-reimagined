@@ -168,13 +168,16 @@
         font-weight: bold !important;
     }
 
-    .md-list-item-text {
-    transition: color .2s ease-in-out;
-    }
-
     .md-list-item-text:hover {
-        color: #FFCD00;
-        font-weight: bold;
+        text-shadow:
+    -.3px -.3px 0 rgba(255, 204, 0, 0.5),
+    .3px -.3px 0 rgba(255, 204, 0, 0.5),
+    -.3px .3px 0 rgba(255, 204, 0, 0.5),
+    .3px .3px 0 rgba(255, 204, 0, 0.5);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     }
 
     .sub-header {
