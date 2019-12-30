@@ -34,12 +34,34 @@
                 </ul>
             </div>
         </div>
+    <div><ImageCarousel :images="images"/></div>
     </div>
 </template>
 
 <script>
+import ImageCarousel from '../../../helpers/ImageCarousel'
+import RecitationImage from '../../../../assets/book-content/recitation_large.png'
+import MarchingTuneImage from '../../../../assets/book-content/marchingtune_large.png'
     export default {
-
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [{
+                        url: RecitationImage,
+                        caption: 'IWA. Printed Works Collection.',
+                        text: 'Text'
+                    },
+                    {
+                        url: RecitationLarge,
+                        caption: 'IWA. Printed Works Collection.',
+                        text: ''
+                    },
+                ]
+            }
+        }
     }
 </script>
 

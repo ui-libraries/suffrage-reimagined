@@ -42,12 +42,48 @@
                 to the Dubuque women.
             </div>
         </div>
+    <div><ImageCarousel :images="images"/></div>
     </div>
 </template>
 
 <script>
-    export default {
+import ImageCarousel from '../../../helpers/ImageCarousel'
+import RecitationImage from '../../../../assets/book-content/recitation_large.png'
+import MarchingTuneImage from '../../../../assets/book-content/marchingtune_large.png'
+//     import DllaImage from '../../../../assets/book-content/dlla_large.png'
+// import RobinsonImage from '../../../../assets/book-content/robinson_large.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+
+        data() {
+            return {
+                images: [
+                    {
+                        url: RecitationImage,
+                        caption: 'IWA. Printed Works Collection.',
+                        text: 'Text'
+                    },
+                    {
+                        url: MarchingTuneImage,
+                        caption: 'IWA. Printed Works Collection.',
+                        text: ''
+                    },
+                //  {
+                //         url: DllaImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                //     {
+                //         url: RobinsonImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                ]
+            }
+        }
     }
 </script>
 

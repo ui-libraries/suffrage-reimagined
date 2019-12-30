@@ -1,7 +1,6 @@
 <template>
     <div class="base-container">
         <router-view />
-        <pagination-navigation :num-pages="1"/>
     </div>
 </template>
 

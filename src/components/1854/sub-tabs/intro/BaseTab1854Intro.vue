@@ -1,8 +1,7 @@
 <template>
     <div class="base-intro-container">
         <router-view />
-        <image-carousel />
-        <pagination-navigation class="test" :num-pages="2"/>
+        <image-carousel :images="images"/>
     </div>
 </template>
 
@@ -19,7 +18,10 @@ export default {
     data() {
         return {
             images: [
-                
+                {
+                    id: 1,
+                    url: '',
+                }
             ]
         }
     }

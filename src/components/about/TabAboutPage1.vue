@@ -44,56 +44,52 @@
                 <strong>SHSI IC</strong> - State Historical Society of Iowa, Iowa City<br />
                 <strong>ISU</strong> - Iowa State University Special Collections</p>
         </div>
+    <div><ImageCarousel :images="images"/></div>
+
     </div>
-    <!-- <div class="image-carousel"><ImageCarousel :images="images"/></div> -->
-    <!-- <expandable-image :src="require('../../assets/book-content/recitation_large.png')"/> -->
 </template>
 
 <script>
     import ImageCarousel from '../helpers/ImageCarousel'
-    import ExpandableImage from '../helpers/ExpandableImage'
-    import ReasonsImage from '../../assets/book-content/marchingtune.png'
-    import RecitationLarge from '../../assets/book-content/recitation_large.png'
+//     import ReasonsImage from '../../assets/book-content/reasons.png'
+//     import CattpinImage from '../../assets/book-content/cattpin_large.png'
+
     export default {
         components: {
             ImageCarousel,
-            ExpandableImage
         },
 
         data() {
             return {
-                images: [{
-                        id: 1,
-                        url: ReasonsImage,
-                        caption: 'Cao',
-                        text: 'Text'
-                    },
-                    {
-                        id: 2,
-                        url: RecitationLarge,
-                        caption: 'dsdfssdfsdfsdfdffg',
-                        text: ''
-                    },
-                    {
-                        id: 3,
-                        url: ReasonsImage,
-                        caption: 'dafd',
-                        text: ''
-                    },
-                    {
-                        id: 4,
-                        url: ReasonsImage,
-                        caption: 'sdfsdf',
-                        text: ''
-                    },
-                ]
+                // images: [
+                // {
+                //         url: ReasonsImage,
+                //         caption: 'IWA. Iowa Suffrage Memorial Commission Records',
+                //         text: 'Text'
+                //     },
+                //     {
+                //         url: CattpinImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                //     {
+                //         url: DllaImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                //     {
+                //         url: RobinsonImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                // ]
             }
         }
     }
 </script>
 
 <style scoped>
-    .image-carousel {
+    /* .image-carousel {
         width: 200px;
-    }
+    } */
 </style>
