@@ -120,11 +120,11 @@ html,body {
     text-decoration: none !important;
   }
 
-  .router-link-active {
+  .nav-item .router-link-active {
     color: black !important;
   }
 
-  .router-link-active:hover {
+  .nav-item .router-link-active:hover {
     color: black !important;
     text-decoration: none !important;
   }
@@ -175,6 +175,25 @@ html,body {
     .base-scrapbook-container {
       padding: 0 0 !important;
       margin: 0 0 !important;
+    }
+  }
+
+  /* For external resources */
+  @media only screen and (max-width: 775px) {
+    .navigation-to-resources {
+      font-size: 18px;
+    }
+  }
+
+    @media only screen and (max-width: 526px) {
+    .navigation-to-resources {
+      font-size: 14px;
+    }
+  }
+
+      @media only screen and (max-width: 440px) {
+    .navigation-to-resources {
+      font-size: 10px;
     }
   }
 </style>

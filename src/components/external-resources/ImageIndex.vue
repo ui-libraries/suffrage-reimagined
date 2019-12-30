@@ -1,5 +1,5 @@
 <template>
-  <div class="image-index">
+  <div class="image-index responsive-resources">
     <div id="content">
       <b-container>
 
@@ -16,8 +16,8 @@
         <!-- Nav -->
         <b-row>
           <b-col>
-            <h4 style="float: left;"><router-link to="/">Back: Iowa’s Suffrage Scrapbook</router-link></h4>
-            <h4 style="text-align: right"><router-link to="/resources">Next: Resources</router-link></h4>
+            <h4 class="navigation-to-resources" style="float: left;"><router-link to="/">Back: Iowa’s Suffrage Scrapbook</router-link></h4>
+            <h4 class="navigation-to-resources" style="text-align: right"><router-link to="/resources">Next: Resources</router-link></h4>
           </b-col>
         </b-row>
 
@@ -676,8 +676,8 @@
 
         <b-row>
           <b-col>
-            <h4 style="float: left"><router-link to="/">Back: Iowa’s Suffrage Scrapbook</router-link></h4>
-            <h4 style="text-align:right"><router-link to="/resources">Next: Resources</router-link></h4>
+            <h4 class="navigation-to-resources" style="float: left"><router-link to="/">Back: Iowa’s Suffrage Scrapbook</router-link></h4>
+            <h4 class="navigation-to-resources" style="text-align:right"><router-link to="/resources">Next: Resources</router-link></h4>
           </b-col>
         </b-row>
 
@@ -695,9 +695,14 @@
 </script>
 
 <style scoped>
-  .image-index {
+  /* .image-index {
     padding: 100px 100px;
-  }
+  } */
+
+  .image-index {
+      text-align: left;
+      padding: 5% 0%;
+    }
 
   .card {
     margin: 10px 0;

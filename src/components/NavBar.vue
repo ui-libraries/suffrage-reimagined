@@ -220,11 +220,30 @@
         padding: 16px;
     }
 
-    
+    // .nav-title {
+    //     font-size: 3vw !important
+    // }
 
-    @media only screen and (max-width: 650px) {
+     @media only screen and (max-width: 650px) {
         .nav-title {
-            font-size: .27em !important;
+            font-size: 1rem !important;
         }
     }
+
+    @media only screen and (max-width: 455px) {
+        .nav-title {
+            font-size: .7rem !important;
+        }
+    }
+
+    @media only screen and (max-width: 350px) {
+        .nav-title {
+            font-size: .55rem !important;
+        }
+    }
+
+    
+
+   
+    
 </style>

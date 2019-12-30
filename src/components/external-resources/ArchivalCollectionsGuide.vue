@@ -1,5 +1,5 @@
 <template>
-  <div class="archival-collections-guide">
+  <div class="archival-collections-guide responsive-resources">
     <b-container>
       <b-row>
         <b-col>
@@ -11,12 +11,13 @@
       <hr>
       <br />
 
-      <h2 style="float: left">
+      <!-- Nav -->
+      <h4 class="navigation-to-resources" style="float: left">
         <router-link to="/resources">Back: Resources</router-link>
-      </h2>
-      <h2 style="text-align:right">
+      </h4>
+      <h4 class="navigation-to-resources" style="text-align:right">
         <router-link to="/">Home: Iowa's Suffrage Scrapbook</router-link>
-      </h2>
+      </h4>
 
       <a name="top"></a>
 
@@ -684,10 +685,10 @@
           victory in Iowa was inevitable due to the support of so many prominent men and women.</p>
       </b-card>
 
-      <h2 style="float: left">
+      <h2 class="navigation-to-resources" style="float: left">
         <router-link to="/resources">Back: Resources</router-link>
       </h2>
-      <h2 style="text-align:right">
+      <h2 class="navigation-to-resources" style="text-align:right">
         <router-link to="/">Home: Iowa's Suffrage Scrapbook</router-link>
       </h2>
     </b-container>
@@ -703,9 +704,13 @@
 </script>
 
 <style scoped>
-  .archival-collections-guide {
+  /* .archival-collections-guide {
     text-align: left;
     padding: 100px 100px;
-  }
+  } */
 
+    .archival-collections-guide {
+      text-align: left;
+      padding: 5% 0%;
+    }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="resources">
+  <div class="resources responsive-resources">
     <b-container>
       <b-row>
         <b-col>
@@ -11,12 +11,13 @@
       <hr>
       <br />
 
-      <h2 style="float: left;">
+      <!-- Nav -->
+      <h4 class="navigation-to-resources" style="float: left;">
         <router-link to="/image-index">Back: Image Index</router-link>
-      </h2>
-      <h2 style="text-align:right">
+      </h4>
+      <h4 class="navigation-to-resources" style="text-align:right">
         <router-link to="/archival-collections-guide">Next: Guide to Archival Collections</router-link>
-      </h2>
+      </h4>
       <p></p>
 
 
@@ -1824,10 +1825,10 @@
           Amelia Jenks Bloomer’s papers is housed within the Seneca Falls Historical Society. Those interested in
           further access can find contact information on the homepage.</p>
       </b-card>
-      <h2 style="float: left">
+      <h2 class="navigation-to-resources" style="float: left">
         <router-link to="/image-index">Back: Image Index</router-link>
       </h2>
-      <h2 style="text-align:right">
+      <h2 class="navigation-to-resources" style="text-align:right">
         <router-link to="/archival-collections-guide">Next: Guide to Archival Collections</router-link>
       </h2>
     </b-container>
@@ -1842,10 +1843,15 @@
 </script>
 
 <style scoped>
-  .resources {
+  /* .resources {
     text-align: left;
     padding: 100px 100px;
-  }
+  } */
+
+  .resources {
+      text-align: left;
+      padding: 5% 0%;
+    }
 
   .header {
     margin-bottom: 100px;
