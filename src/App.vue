@@ -129,6 +129,8 @@ html,body {
     text-decoration: none !important;
   }
 
+
+
   .nav-tabs .nav-item.show .nav-link {
     background-color: #FFCD00 !important;
     color: black !important;

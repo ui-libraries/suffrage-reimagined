@@ -168,16 +168,21 @@
         font-weight: bold !important;
     }
 
+    .md-list-item-text {
+        transition: color .3s ease-in-out;
+    }
+
     .md-list-item-text:hover {
-        text-shadow:
-    -.3px -.3px 0 rgba(255, 204, 0, 0.5),
-    .3px -.3px 0 rgba(255, 204, 0, 0.5),
-    -.3px .3px 0 rgba(255, 204, 0, 0.5),
-    .3px .3px 0 rgba(255, 204, 0, 0.5);
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+        color: #FFCD00;
+    //     text-shadow:
+    // -.3px -.3px 0 rgba(255, 204, 0, 0.5),
+    // .3px -.3px 0 rgba(255, 204, 0, 0.5),
+    // -.3px .3px 0 rgba(255, 204, 0, 0.5),
+    // .3px .3px 0 rgba(255, 204, 0, 0.5);
+    // -webkit-transition: all .5s ease-in-out;
+    // -moz-transition: all .5s ease-in-out;
+    // -o-transition: all .5s ease-in-out;
+    // transition: all .5s ease-in-out;
     }
 
     .sub-header {
@@ -242,8 +247,9 @@
         }
     }
 
-    
+      .md-list-item .router-link-active .md-list-item-text{
+        color: #FFCD00;
+    }
 
-   
     
 </style>
