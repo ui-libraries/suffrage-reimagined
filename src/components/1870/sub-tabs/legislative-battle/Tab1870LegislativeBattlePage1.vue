@@ -13,11 +13,41 @@
                 was considered in almost every session from <b>1870 to 1916</b>, but did not pass two consecutive sessions
                 until <b>1916</b></div>
 ``        </div>
+        <div><image-carousel :images="images" /></div>
     </div>
 </template>
 
 <script>
-    export default {
+import ImageCarousel from '../../../helpers/ImageCarousel'
+// import ProcessImage from '../../../../assets/book-content/process_large.png'
+// import ConventionImage from '../../../../assets/book-content/convention_large.png'
+
+  export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: ProcessImage,
+                    //     caption: 'Graphics Created by Christine Mastalio',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: ConventionImage,
+                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: CharitonImage,
+                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
 
     }
 </script>

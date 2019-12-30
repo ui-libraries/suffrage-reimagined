@@ -31,11 +31,42 @@
                 national suffrage organizations.
             </div>
         </div>
+        <div><image-carousel :images="images" /></div>
     </div>
 </template>
 
 <script>
+import ImageCarousel from '../../../helpers/ImageCarousel'
+// import OconnorImage from '../../../../assets/book-content/oconnor_large.png'
+// import AnthonyImage from '../../../../assets/book-content/anthony_large.png'
+// import CharitonImage from '../../../../assets/book-content/chariton_large.png'
+
     export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: OconnorImage,
+                    //     caption: 'SHSI Des Moines. Joseph Dugdale Papers.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: AnthonyImage,
+                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: CharitonImage,
+                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
 
     }
 </script>

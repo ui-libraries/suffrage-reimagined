@@ -25,6 +25,7 @@
                     </div>
                 </md-list-item>
 
+                <!-- 1854 -->
                 <md-divider class="divider"></md-divider>
                 <md-subheader class="sub-header">1854 to 1870</md-subheader>
                 <md-list-item class="bookmark-list-item" to="/tab-1854/intro">
@@ -38,6 +39,7 @@
                 </md-list-item>
                 <md-divider class="divider"></md-divider>
                 
+                <!-- 1870 -->
                 <md-subheader class="sub-header">1870 to 1890</md-subheader>
                 <md-list-item class="bookmark-list-item" to="/tab-1870/intro">
                     <div class="md-list-item-text"><span>Introduction</span></div>
@@ -53,6 +55,7 @@
                 </md-list-item>
                 <md-divider class="divider"></md-divider>
 
+                <!-- 1890 --> 
                 <md-subheader class="sub-header">1890 to 1915</md-subheader>
                 <md-list-item class="bookmark-list-item" to="/tab-1890/intro">
                     <div class="md-list-item-text"><span>Introduction</span></div>
@@ -71,6 +74,7 @@
                 </md-list-item>
                 <md-divider class="divider"></md-divider>
 
+                <!-- 1916 --> 
                 <md-subheader class="sub-header">1916 to 1920</md-subheader>
                 <md-list-item class="bookmark-list-item" to="/tab-1916/intro">
                     <div class="md-list-item-text"><span>Introduction</span></div>
@@ -86,6 +90,7 @@
                 </md-list-item>
                 <md-divider class="divider"></md-divider>
 
+                <!-- 1920 --> 
                 <md-subheader class="sub-header">1920 &amp; Beyond</md-subheader>
                 <md-list-item class="bookmark-list-item" to="/tab-1920/intro">
                     <div class="md-list-item-text"><span>Introduction</span></div>

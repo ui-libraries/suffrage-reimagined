@@ -37,12 +37,43 @@
             </div>
 
         </div>
+        <div><image-carousel :images="images" /></div>
+
     </div>
 </template>
 
 <script>
-    export default {
+import ImageCarousel from '../../../helpers/ImageCarousel'
+// import WoodhullImage from '../../../../assets/book-content/woodhull_large.png'
+// import SaveryImage from '../../../../assets/book-content/savery_large.png'
+// import NounImage from '../../../../assets/book-content/noun_image.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: WoodhullImage,
+                    //     caption: 'Wikimedia Commons',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: SaveryImage,
+                    //     caption: 'IWA. Printed Works Collection',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: NounImage,
+                    //     caption: 'IWA. Louise R. Noun Papers.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
     }
 </script>
 

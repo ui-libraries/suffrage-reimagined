@@ -32,12 +32,42 @@
                 the “wait full of woe.”
             </div>
         </div>
+        <div><image-carousel :images="images" /></div>
     </div>
 </template>
 
 <script>
-    export default {
+    import ImageCarousel from '../../../helpers/ImageCarousel'
+// import AnthonyMemorialImage from '../../../../assets/book-content/cary_large.png'
+// import CoggeshallImage from '../../../../assets/book-content/haugen_large.png'
+// import ProgramImage from '../../../../assets/book-content/cosson_large.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: AnthonyMemorialImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: CoggeshallImage,
+                    //     caption: 'IWA. Margaret Atherton Bonney Papers.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: ProgramImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
     }
 </script>
 

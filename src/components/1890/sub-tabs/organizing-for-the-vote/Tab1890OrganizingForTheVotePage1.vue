@@ -59,8 +59,81 @@
 </template>
 
 <script>
-    export default {
+import ImageCarousel from '../../../helpers/ImageCarousel'
+// import CharlesCityImage from '../../../../assets/book-content/charlescity_large.png'
+// import MapImage from '../../../../assets/book-content/map_large.png'
+// import RoadImage from '../../../../assets/book-content/road_large.png'
+// import SongImage from '../../../../assets/book-content/song_large.png'
+// import HusbandetteImage from '../../../../assets/book-content/husbandette_large.png'
+// import HistoryImage from '../../../../assets/book-content/history_large.png'
+// import DeanBicycleImage from '../../../../assets/book-content/deanbicycle_large.png'
+// import DeanDancingImage from '../../../../assets/book-content/deandancing_large.png'
+// import DeanHighschoolImage from '../../../../assets/book-content/deanhighschool_large.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: CharlesCityImage,
+                    //     caption: 'SHSI Iowa City. Charles City Political Equality Club Records.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: MapImage,
+                    //     caption: 'Plat Book of Boone County, Iowa, 1896',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: RoadImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },
+                                        // {
+                    //     url: SongImage,
+                    //     caption: 'IWA. Welch and Angrick Collection.',
+                    //     text: ''
+                    // },
+                                         // {
+                    //     url: HusbandetteImage,
+                    //     caption: 'IWA. Proteus Club Records.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: HistoryImage,
+                    //     caption: 'IWA. Iowa Federation of Women's Clubs Records.',
+                    //     text: ''
+                    // },
+                   
+                    // {
+                    //     url: DeanBicycleImage,
+                    //     caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
+                    //     text: ''
+                    // },
+                                        // {
+                    //     url: DeanDancingImage,
+                    //     caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
+                    //     text: ''
+                    // },                    // {
+                    //     url: DeanHighschool,
+                    //     caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
+                    //     text: ''
+                    // },                    // {
+                    //     url: ProgramImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },                    // {
+                    //     url: ProgramImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
     }
 </script>
 

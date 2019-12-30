@@ -2,13 +2,13 @@
     <footer class="footer-container">
         <b-container fluid>
             <b-row class="text-center external-resources">
-                <b-col cols="12" sm="12" md="4" class="image-index">
+                <b-col cols="12" sm="12" md="4" class="image-index link">
                     <router-link class="footer-link" to="/image-index">Image Index</router-link>
                 </b-col>
-                <b-col cols="12" sm="12" md="4" class="resources">
+                <b-col cols="12" sm="12" md="4" class="resources link">
                     <router-link class="footer-link" to="/resources">Resources</router-link>
                 </b-col>
-                <b-col cols="12" sm="12" md="4" class="archival-collections-guide">
+                <b-col cols="12" sm="12" md="4" class="archival-collections-guide link">
                     <router-link class="footer-link" to="/archival-collections-guide">Archival Collections Guide</router-link>
                 </b-col>
             </b-row>
@@ -51,6 +51,10 @@
 
     .row {
         padding: 5px 0;
+    }
+
+    .link {
+        padding: 5% 5%;
     }
 
     .footer-link {

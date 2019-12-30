@@ -35,12 +35,54 @@
 
             </div>
         </div>
+        <div><image-carousel :images="images" /></div>
     </div>
 </template>
 
 <script>
-    export default {
+    import ImageCarousel from '../../../helpers/ImageCarousel'
+// import CaryImage from '../../../../assets/book-content/cary_large.png'
+// import HaugenImage from '../../../../assets/book-content/haugen_large.png'
+// import CossonImage from '../../../../assets/book-content/cosson_large.png'
+// import PinImage from '../../../../assets/book-content/pin_large.png'
+// import PostcardImage from '../../../../assets/book-content/postcard_large.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: CaryImage,
+                    //     caption: 'IWA. Cary Club Records.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: HaugenImage,
+                    //     caption: 'SHSI Iowa City. Gilbert Haugen Papers.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: DenisonImage,
+                    //     caption: 'IWA. Jennifer Riggs Cosson Papers.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: PinImage,
+                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: PostcardImage,
+                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
+                    //     text: ''
+                    // },
+                ]
+            }
+        }
     }
 </script>
 

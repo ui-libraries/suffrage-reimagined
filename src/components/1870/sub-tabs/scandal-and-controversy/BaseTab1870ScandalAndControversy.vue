@@ -1,7 +1,6 @@
 <template>
     <div class="base-container">
         <router-view />
-        <pagination-navigation :num-pages="1"/>
     </div>
 </template>
 
@@ -10,7 +9,6 @@ import PaginationNavigation from '../../../helpers/PaginationNavigation'
 export default {
     
     components: {
-        PaginationNavigation
     },
 }
 </script>
