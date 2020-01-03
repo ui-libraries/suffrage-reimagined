@@ -51,7 +51,7 @@
 
 <script>
     import ImageCarousel from '../helpers/ImageCarousel'
-//     import ReasonsImage from '../../assets/book-content/reasons.png'
+    // import ReasonsImage from '../../assets/book-content/reasons.png'
 //     import CattpinImage from '../../assets/book-content/cattpin_large.png'
 
     export default {
@@ -61,28 +61,28 @@
 
         data() {
             return {
-                // images: [
+                images: [
                 // {
                 //         url: ReasonsImage,
                 //         caption: 'IWA. Iowa Suffrage Memorial Commission Records',
                 //         text: 'Text'
                 //     },
-                //     {
-                //         url: CattpinImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                //     {
-                //         url: DllaImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                //     {
-                //         url: RobinsonImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                // ]
+                    // {
+                    //     url: CattpinImage,
+                    //     caption: 'ISU. Carrie Chapman Catt Papers',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: DllaImage,
+                    //     caption: 'ISU. Carrie Chapman Catt Papers',
+                    //     text: ''
+                    // },
+                    // {
+                    //     url: RobinsonImage,
+                    //     caption: 'ISU. Carrie Chapman Catt Papers',
+                    //     text: ''
+                    // },
+                ]
             }
         }
     }

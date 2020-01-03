@@ -1,18 +1,15 @@
 <template>
     <div class="base-intro-container">
         <router-view />
-        <image-carousel :images="images"/>
     </div>
 </template>
 
 <script>
 import PaginationNavigation from '../../../helpers/PaginationNavigation'
-import ImageCarousel from '../../../helpers/ImageCarousel'
 export default {
     
     components: {
         PaginationNavigation,
-        ImageCarousel
     },
 
     data() {

@@ -50,6 +50,8 @@
 import ImageCarousel from '../../../helpers/ImageCarousel'
 import RecitationImage from '../../../../assets/book-content/recitation_large.png'
 import MarchingTuneImage from '../../../../assets/book-content/marchingtune_large.png'
+import AnthonyMemorial from '../../../../assets/book-content/anthonymemorial_large.png'
+import JournalImage from '../../../../assets/book-content/journal_large.png'
 //     import DllaImage from '../../../../assets/book-content/dlla_large.png'
 // import RobinsonImage from '../../../../assets/book-content/robinson_large.png'
 
@@ -61,16 +63,24 @@ import MarchingTuneImage from '../../../../assets/book-content/marchingtune_larg
         data() {
             return {
                 images: [
+                    // {
+                    //     url: RecitationImage,
+                    //     caption: 'IWA. Printed Works Collection.',
+                    //     text: 'Text'
+                    // },
+                    // {
+                    //     url: MarchingTuneImage,
+                    //     caption: 'IWA. Printed Works Collection.',
+                    //     text: ''
+                    // },
                     {
-                        url: RecitationImage,
-                        caption: 'IWA. Printed Works Collection.',
-                        text: 'Text'
+                        url: AnthonyMemorial,
+                        caption: 'test1',
                     },
                     {
-                        url: MarchingTuneImage,
-                        caption: 'IWA. Printed Works Collection.',
-                        text: ''
-                    },
+                        url: JournalImage,
+                        caption: 'This journal piece is the anthony memorial work of art, located in Iowa City, Iowa.'
+                    }
                 //  {
                 //         url: DllaImage,
                 //         caption: 'ISU. Carrie Chapman Catt Papers',

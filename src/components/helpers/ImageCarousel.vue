@@ -1,27 +1,18 @@
 <template>
-  <div class="image-carousel">
-    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators background="#ababab"
+  <div class="image-carousel md-elevation-20">
+    <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls indicators
       style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
 
       <span v-for="(image, index) in images" :key="index">
         <b-carousel-slide class="carousel-slide">
           <template v-slot:img
           >
-            <expandable-image class="d-block w-100 img-fluid" :src="image.url" />
+            <expandable-image class="" :src="image.url" />
           </template>
         </b-carousel-slide>
       </span>
-
-      <!-- <b-carousel-slide v-for="image in images" :key="image.id" class="carousel-slide"
-          :caption="image.caption"
-          :text="image.text"
-          :img-src="image.url"
-        ></b-carousel-slide> -->
-
-
-
     </b-carousel>
-    <div class="caption">{{currentCaption}}</div>
+    <div class="caption"><span>{{currentCaption}}</span></div>
   </div>
 </template>
 
@@ -65,18 +56,29 @@
 
 <style scoped>
   .carousel-slide {
-    background-color: black !important;
+    background-color: rgba(0, 0, 0, 0.185) !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
-
-
 
   .caption {
     background-color: rgba(0, 0, 0, 0.829);
     color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow-wrap: break-word;
+    padding: 5px 0;
   }
 
   .image-carousel {
+  border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 300px;
-    height: 600px;
+  }
+
+  .image-body {
+    
   }
 </style>

@@ -1,9 +1,10 @@
 <template>
     <div class="base-scrapbook-container">
+    <div class="testing md-elevation-15">
         <scrapbook-navigation />
         <scrapbook-body />
-        
     </div>
+</div>
 </template>
 
 <script>
