@@ -12,6 +12,7 @@
         </b-carousel-slide>
       </span>
     </b-carousel>
+    <md-divider class="divider"></md-divider>
     <div class="caption"><span>{{currentCaption}}</span></div>
   </div>
 </template>
@@ -57,8 +58,6 @@
 <style scoped>
   .carousel-slide {
     background-color: rgba(0, 0, 0, 0.185) !important;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
   }
 
   .caption {
@@ -70,12 +69,15 @@
     padding: 5px 0;
   }
 
+  .divider {
+        background-color: rgba(255, 204, 0, 0.24) !important;
+    }
+
   .image-carousel {
-  border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 300px;
+    border: .04em solid rgba(255, 204, 0, 0.24);
+    width: 250px;
   }
 
   .image-body {

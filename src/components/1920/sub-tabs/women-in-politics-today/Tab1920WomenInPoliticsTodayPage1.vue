@@ -13,13 +13,56 @@
             <div>These active women of the 1920s would be disappointed that, in 2011, only 22.6 percent 
                 of elected officials in Iowa were women even though women made up 53 percent of Iowa’s population.</div>
         </div>
+    <div><ImageCarousel :images="images"/></div>
+
     </div>
 </template>
 
 <script>
+import ImageCarousel from '../../../helpers/ImageCarousel'
+import AnthonyMemorial from '../../../../assets/book-content/anthonymemorial_large.png'
+import FiftyFiftyImage from '../../../../assets/book-content/5050_large.png'
+
 export default {
-    
-}
+        components: {
+            ImageCarousel,
+        },
+
+        data() {
+            return {
+                images: [
+                    // {
+                    //     url: RecitationImage,
+                    //     caption: 'IWA. Printed Works Collection.',
+                    //     text: 'Text'
+                    // },
+                    // {
+                    //     url: MarchingTuneImage,
+                    //     caption: 'IWA. Printed Works Collection.',
+                    //     text: ''
+                    // },
+                    {
+                        url: AnthonyMemorial,
+                        caption: 'test1',
+                    },
+                    {
+                        url: FiftyFiftyImage,
+                        caption: 'This journal piece is the anthony memorial work of art, located in Iowa City, Iowa.'
+                    }
+                //  {
+                //         url: DllaImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                //     {
+                //         url: RobinsonImage,
+                //         caption: 'ISU. Carrie Chapman Catt Papers',
+                //         text: ''
+                //     },
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped>

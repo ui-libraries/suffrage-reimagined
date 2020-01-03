@@ -40,8 +40,8 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-// import BloomerFashionImage from '../../../../assets/book-content/bloomerfashion.png'
-// import BloomerAmeliaImage from '../../../../assets/book-content/bloomeramelia_large.png'
+import BloomerFashionImage from '../../../../assets/book-content/bloomerfashion_large.png'
+import BloomerAmeliaImage from '../../../../assets/book-content/bloomeramelia_large.png'
     export default {
         components: {
             ImageCarousel,
@@ -50,16 +50,16 @@ import ImageCarousel from '../../../helpers/ImageCarousel'
         data() {
             return {
                 images: [
-                    // {
-                    //     url: BloomerFashion,
-                    //     caption: 'Library of Congress. Print & Photograph Collection.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: BloomerAmeliaImage,
-                    //     caption: 'History of Woman Suffrage, ed. Anthony, Stanton & Gage.',
-                    //     text: ''
-                    // },
+                    {
+                        url: BloomerFashionImage,
+                        caption: 'Library of Congress. Print & Photograph Collection.',
+                        text: ''
+                    },
+                    {
+                        url: BloomerAmeliaImage,
+                        caption: 'History of Woman Suffrage, ed. Anthony, Stanton & Gage.',
+                        text: ''
+                    },
                 ]
             }
         }

@@ -77,11 +77,11 @@
 <script>
 
 import ImageCarousel from '../../../helpers/ImageCarousel'
-// import DarwinLetterImage from '../../../../assets/book-content/darwinletter_large.png'
-// import MillerDiaryImage from '../../../../assets/book-content/millerdiary_large.png'
-// import MillerDiaryTwoImage from '../../../../assets/book-content/millerdiary2_large.png'
-// import WittenmyerImage from '../../../../assets/book-content/wittenmyer_large.png'
-// import DarwinImage from '../../../../assets/book-content/darwin_large.png'
+import DarwinLetterImage from '../../../../assets/book-content/darwinletter_large.png'
+import MillerDiaryImage from '../../../../assets/book-content/millerdiary_large.png'
+import MillerDiaryTwoImage from '../../../../assets/book-content/millerdiary2_large.png'
+import WittenmyerImage from '../../../../assets/book-content/wittenmyer_large.png'
+import DarwinImage from '../../../../assets/book-content/darwin_large.png'
 
 
     export default {
@@ -102,31 +102,21 @@ import ImageCarousel from '../../../helpers/ImageCarousel'
                         caption: 'IWA. Ellen Mowrer Miller Papers.',
                         text: ''
                     },
-                //  {
-                //         url: MillerDiaryTwoImage,
-                //         caption: 'IWA. Ellen Mowrer Miller Papers.',
-                //         text: ''
-                //     },
-                //     {
-                //         url: WittenmyerImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                // {
-                //         url: DarwinImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                //     {
-                //         url: RobinsonImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
-                // {
-                //         url: RobinsonImage,
-                //         caption: 'ISU. Carrie Chapman Catt Papers',
-                //         text: ''
-                //     },
+                 {
+                        url: MillerDiaryTwoImage,
+                        caption: 'IWA. Ellen Mowrer Miller Papers.',
+                        text: ''
+                    },
+                    {
+                        url: WittenmyerImage,
+                        caption: 'ISU. Carrie Chapman Catt Papers',
+                        text: ''
+                    },
+                {
+                        url: DarwinImage,
+                        caption: 'ISU. Carrie Chapman Catt Papers',
+                        text: ''
+                    },
                 ]
             }
         }

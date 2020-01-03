@@ -51,8 +51,8 @@
 
 <script>
     import ImageCarousel from '../helpers/ImageCarousel'
-    // import ReasonsImage from '../../assets/book-content/reasons.png'
-//     import CattpinImage from '../../assets/book-content/cattpin_large.png'
+    import ReasonsImage from '../../assets/book-content/reasons_large.png'
+    import CattpinImage from '../../assets/book-content/cattpin_large.png'
 
     export default {
         components: {
@@ -62,26 +62,16 @@
         data() {
             return {
                 images: [
-                // {
-                //         url: ReasonsImage,
-                //         caption: 'IWA. Iowa Suffrage Memorial Commission Records',
-                //         text: 'Text'
-                //     },
-                    // {
-                    //     url: CattpinImage,
-                    //     caption: 'ISU. Carrie Chapman Catt Papers',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: DllaImage,
-                    //     caption: 'ISU. Carrie Chapman Catt Papers',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: RobinsonImage,
-                    //     caption: 'ISU. Carrie Chapman Catt Papers',
-                    //     text: ''
-                    // },
+                {
+                        url: ReasonsImage,
+                        caption: 'IWA. Iowa Suffrage Memorial Commission Records',
+                        text: 'Text'
+                    },
+                    {
+                        url: CattpinImage,
+                        caption: 'ISU. Carrie Chapman Catt Papers',
+                        text: ''
+                    },
                 ]
             }
         }
@@ -89,7 +79,4 @@
 </script>
 
 <style scoped>
-    /* .image-carousel {
-        width: 200px;
-    } */
 </style>
