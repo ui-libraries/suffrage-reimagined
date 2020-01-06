@@ -87,7 +87,8 @@ const routes = [{
       redirect: 'tab-about/page=1',
       children: [{
         path: 'page=1',
-        component: TabAboutPage1
+        component: TabAboutPage1,
+        name: 'TabAboutPage1'
       }]
     },
     {
@@ -102,9 +103,11 @@ const routes = [{
           children: [{
             path: 'page=1',
             component: Tab1854IntroPage1,
+            name: 'Tab1854IntroPage1'
           }, {
             path: 'page=2',
             component: Tab1854IntroPage2,
+            name: 'Tab1854IntroPage2'
           }],
         },
         {
@@ -114,10 +117,12 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1854SocialMovementsPage1,
+              name: 'Tab1854SocialMovementsPage1'
             },
             {
               path: 'page=2',
-              component: Tab1854SocialMovementsPage2
+              component: Tab1854SocialMovementsPage2,
+              name: 'Tab1854SocialMovementsPage2'
             }
           ]
         },
@@ -128,6 +133,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1854AmeliaBloomerPage1,
+              name: 'Tab1854AmeliaBloomerPage1'
             },
           ]
         }
@@ -145,6 +151,7 @@ const routes = [{
           children: [{
             path: 'page=1',
             component: Tab1870IntroPage1,
+            name: 'Tab1870IntroPage1'
           }, ],
         },
         {
@@ -154,6 +161,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1870LegislativeBattlePage1,
+              name: 'Tab1870LegislativeBattlePage1'
             },
           ]
         },
@@ -165,6 +173,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1870ScandalAndControversyPage1,
+              name: 'Tab1870ScandalAndControversyPage1'
             },
           ]
         },
@@ -176,6 +185,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1870TemperancePage1,
+              name: 'Tab1870TemperancePage1'
             },
           ]
         }
@@ -193,10 +203,12 @@ const routes = [{
           children: [{
             path: 'page=1',
             component: Tab1890IntroPage1,
+            name: 'Tab1890IntroPage1'
           },
           {
             path: 'page=2',
             component: Tab1890IntroPage2,
+            name: 'Tab1890IntroPage2'
           }, ],
         },
         {
@@ -206,6 +218,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1890GoalUnrealizedPage1,
+              name: 'Tab1890GoalUnrealizedPage1'
             },
           ]
         },
@@ -216,22 +229,27 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1890OrganizingForTheVotePage1,
+              name: 'Tab1890OrganizingForTheVotePage1'
             },
             {
               path: 'page=2',
               component: Tab1890OrganizingForTheVotePage2,
+              name: 'Tab1890OrganizingForTheVotePage2'
             },
             {
               path: 'page=3',
               component: Tab1890OrganizingForTheVotePage3,
+              name: 'Tab1890OrganizingForTheVotePage3'
             },
             {
               path: 'page=4',
               component: Tab1890OrganizingForTheVotePage4,
+              name: 'Tab1890OrganizingForTheVotePage4'
             },
             {
               path: 'page=5',
               component: Tab1890OrganizingForTheVotePage5,
+              name: 'Tab1890OrganizingForTheVotePage5'
             },
           ]
         },
@@ -243,6 +261,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1890AfricanAmericanWomenPage1,
+              name: 'Tab1890AfricanAmericanWomenPage1'
             },
           ]
         },
@@ -254,10 +273,12 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1890BooneParadePage1,
+              name: 'Tab1890BooneParadePage1'
             },
             {
               path: 'page=2',
               component: Tab1890BooneParadePage2,
+              name: 'Tab1890BooneParadePage2'
             },
           ]
         }
@@ -275,6 +296,7 @@ const routes = [{
           children: [{
             path: 'page=1',
             component: Tab1916IntroPage1,
+            name: 'Tab1916IntroPage1'
           },
           ],
         },
@@ -285,10 +307,12 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1916ReferendumPage1,
+              name: 'Tab1916ReferendumPage1'
             },
             {
               path: 'page=2',
               component: Tab1916ReferendumPage2,
+              name: 'Tab1916ReferendumPage2'
             }
           ]
         },
@@ -299,6 +323,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1916WarWorkPage1,
+              name: 'Tab1916WarWorkPage1'
             },
           ]
         },
@@ -310,6 +335,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1916TheWinningPlanPage1,
+              name: 'Tab1916TheWinningPlanPage1'
             },
           ]
         },
@@ -327,6 +353,7 @@ const routes = [{
           children: [{
             path: 'page=1',
             component: Tab1920IntroPage1,
+            name: 'Tab1920IntroPage1'
           },
           ],
         },
@@ -337,6 +364,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1920LeagueOfWomenVotersPage1,
+              name: 'Tab1920LeagueOfWomenVotersPage1'
             },
           ]
         },
@@ -347,6 +375,7 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1920SufffrageMemorialPage1,
+              name: 'Tab1920SufffrageMemorialPage1'
             },
           ]
         },
@@ -358,10 +387,12 @@ const routes = [{
           children: [{
               path: 'page=1',
               component: Tab1920WomenInPoliticsTodayPage1,
+              name: 'Tab1920WomenInPoliticsTodayPage1'
             },
             {
               path: 'page=2',
-              component: Tab1920WomenInPoliticsTodayPage2
+              component: Tab1920WomenInPoliticsTodayPage2,
+              name: 'Tab1920WomenInPoliticsTodayPage2'
             }
           ]
         },
@@ -380,7 +411,11 @@ const router = new VueRouter({
   mode: 'history' //might funk things up during production
 })
 
-const routeNames = ['test1', 'test2', 'test3']
+const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', 'Tab1854IntroPage2', 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', 'Tab1854SocialMovementsPage2',
+                    'Tab1870IntroPage1', 'Tab1870LegislativeBattlePage1', 'Tab1870ScandalAndControversyPage1', 'Tab1870TemperancePage1',
+                    'Tab1890IntroPage1', 'Tab1890IntroPage2', 'Tab1890GoalUnrealizedPage1', 'Tab1890OrganizingForTheVotePage1', 'Tab1890OrganizingForTheVotePage2', 'Tab1890OrganizingForTheVotePage3', 'Tab1890OrganizingForTheVotePage4', 'Tab1890OrganizingForTheVotePage5', 'Tab1890AfricanAmericanWomenPage1', 'Tab1890BooneParadePage1', 'Tab1890BooneParadePage2',
+                    'Tab1916IntroPage1', 'Tab1916ReferendumPage1', 'Tab1916ReferendumPage2', 'Tab1916WarWorkPage1', 'Tab1916TheWinningPlanPage1',
+                    'Tab1920IntroPage1', 'Tab1920LeagueOfWomenVotersPage1', 'Tab1920SufffrageMemorialPage1', 'Tab1920WomenInPoliticsTodayPage1', 'Tab1920WomenInPoliticsTodayPage2']
 
 export default router
 export { routeNames }
