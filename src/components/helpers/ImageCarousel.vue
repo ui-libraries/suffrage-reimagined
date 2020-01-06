@@ -1,20 +1,30 @@
 <template>
-  <div class="image-carousel md-elevation-20">
-    <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls indicators
-      style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-
-      <span v-for="(image, index) in images" :key="index">
-        <b-carousel-slide class="carousel-slide">
-          <template v-slot:img
-          >
-            <expandable-image class="" :src="image.url" />
-          </template>
-        </b-carousel-slide>
-      </span>
-    </b-carousel>
-    <md-divider class="divider"></md-divider>
-    <div class="caption"><span>{{currentCaption}}</span></div>
-  </div>
+  <b-container fluid>
+    <b-row>
+      <b-col><slot name="text-left"></slot></b-col>
+      <b-col>
+        <div class="carousel-wrapper">
+          <div class="image-carousel md-elevation-20">
+            <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls indicators
+              style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+        
+              <span v-for="(image, index) in images" :key="index">
+                <b-carousel-slide class="carousel-slide">
+                  <template v-slot:img
+                  >
+                    <expandable-image class="" :src="image.url" />
+                  </template>
+                </b-carousel-slide>
+              </span>
+            </b-carousel>
+            <md-divider class="divider"></md-divider>
+            <div class="caption"><span>{{currentCaption}}</span></div>
+          </div>
+        </div>
+      </b-col>
+      <b-col><slot name="text-right"></slot></b-col>
+    </b-row>
+  </b-container>
 </template>
 
 
@@ -66,7 +76,7 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow-wrap: break-word;
-    padding: 5px 0;
+    padding: 5px 3px;
   }
 
   .divider {
@@ -76,11 +86,11 @@
   .image-carousel {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: .04em solid rgba(255, 204, 0, 0.24);
     width: 250px;
+    margin: 0 auto;
+    border: .06em solid rgba(255, 204, 0, 0.24);
   }
 
-  .image-body {
-    
-  }
+  #carousel-slide {}
+
 </style>

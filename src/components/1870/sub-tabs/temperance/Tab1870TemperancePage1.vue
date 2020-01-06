@@ -41,9 +41,9 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-// import ProceedingsImage from '../../../../assets/book-content/proceedings_large.png'
-// import CarhartImage from '../../../../assets/book-content/carhart_large.png'
-// import DenisonImage from '../../../../assets/book-content/denison_large.png'
+import ProceedingsImage from '../../../../assets/book-content/proceedings_large.png'
+import CarhartImage from '../../../../assets/book-content/carhart_large.png'
+import DenisonImage from '../../../../assets/book-content/denison_large.png'
 
     export default {
         components: {
@@ -53,21 +53,21 @@ import ImageCarousel from '../../../helpers/ImageCarousel'
         data() {
             return {
                 images: [
-                    // {
-                    //     url: ProceedingsImage,
-                    //     caption: 'IWA. Woman's Christian Temperance Union Records.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: CarhartImage,
-                    //     caption: 'IWA. Woman's Christian Temperance Union Records',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: DenisonImage,
-                    //     caption: 'IWA. Woman's Christian Temperance Union Records.',
-                    //     text: ''
-                    // },
+                    {
+                        url: ProceedingsImage,
+                        caption: "IWA. Woman's Christian Temperance Union Records.",
+                        text: ''
+                    },
+                    {
+                        url: CarhartImage,
+                        caption: "IWA. Woman's Christian Temperance Union Records",
+                        text: ''
+                    },
+                    {
+                        url: DenisonImage,
+                        caption: "IWA. Woman's Christian Temperance Union Records.",
+                        text: ''
+                    },
                 ]
             }
         }

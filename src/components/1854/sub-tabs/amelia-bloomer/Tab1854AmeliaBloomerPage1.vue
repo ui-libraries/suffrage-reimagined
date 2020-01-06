@@ -34,7 +34,14 @@
                 </ul>
             </div>
         </div>
-    <div><ImageCarousel :images="images"/></div>
+    <ImageCarousel :images="images">
+        <template v-slot:text-left>
+            <span>TESTING</span>
+        </template>
+        <template v-slot:text-right>
+            <span>TESTING</span>
+        </template>
+    </ImageCarousel>
     </div>
 </template>
 

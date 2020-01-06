@@ -19,8 +19,8 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-// import ProcessImage from '../../../../assets/book-content/process_large.png'
-// import ConventionImage from '../../../../assets/book-content/convention_large.png'
+import ProcessImage from '../../../../assets/book-content/process_large.png'
+import ConventionImage from '../../../../assets/book-content/convention_large.png'
 
   export default {
         components: {
@@ -30,21 +30,16 @@ import ImageCarousel from '../../../helpers/ImageCarousel'
         data() {
             return {
                 images: [
-                    // {
-                    //     url: ProcessImage,
-                    //     caption: 'Graphics Created by Christine Mastalio',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: ConventionImage,
-                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: CharitonImage,
-                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
-                    //     text: ''
-                    // },
+                    {
+                        url: ProcessImage,
+                        caption: 'Graphics Created by Christine Mastalio',
+                        text: ''
+                    },
+                    {
+                        url: ConventionImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
+                        text: ''
+                    },
                 ]
             }
         }
