@@ -47,13 +47,18 @@
                 the women to go back home and take care of the babies.</div>
             <div>Although rural males made up 70 percent of Iowa’s voting population, it was not until the <b>1910s</b> that
                 the Iowa Equal Suffrage Association began focusing on educating rural voters.</div>
-            <h5>NEEDS PAGES 4 AND 5</h5>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div>
-
-            </div>
+            <div>Beginning in the early 1900s, African American Iowans worked for suffrage mainly through women’s clubs. Founded in 1902, 
+                the Iowa Association of Colored Women’s Clubs (IACWC - later known as the Iowa Federation of Colored Women’s Clubs) 
+                provided an umbrella organization for the activism of clubwomen.</div>
+            <div>By the 1910s, suffrage clubs in IACWC included the Suffragette Club of Des Moines and various Mary Church Terrell clubs. 
+                The IACWC established a standing suffrage committee in 1914 headed by Teresa Adams of Davenport. 
+                In 1916, African American women in Buxton, Iowa marched for suffrage in a family parade.</div>
+            <div>Organizations such as IACWC focused on many inequalities facing African American women in areas such as education, 
+                working wages and property rights.</div>
+            <div>Officers of the Des Moines Suffrage Club, an African American women’s club, wrote this sympathy note (above) 
+                to Fannie Wilson on the death of her husband. African American obituaries saved by Wilson's daughter, 
+                Gwendolyn Wilson Fowler, show that African American women in the 1900s were involved in suffrage clubs 
+                and, later, the League of Women Voters.</div>
         </div>
     </div>
 </template>
