@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col><slot name="text-left"></slot></b-col>
+      <b-col v-if="hasTextLeft"><slot name="textLeft"></slot></b-col>
       <b-col>
         <div class="carousel-wrapper">
           <div class="image-carousel md-elevation-20">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </b-col>
-      <b-col><slot name="text-right"></slot></b-col>
+      <b-col v-if="hasTextRight"><slot name="textRight"></slot></b-col>
     </b-row>
   </b-container>
 </template>
@@ -51,6 +51,14 @@
     computed: {
       currentCaption: function () {
         return this.images[this.slide].caption;
+      },
+
+      hasTextLeft() {
+        return !!this.$slots.textLeft;
+      },
+
+      hasTextRight() {
+        return !!this.$slots.textRight
       }
     },
 
@@ -66,6 +74,15 @@
 </script>
 
 <style scoped>
+.container-fluid {
+  margin-bottom: 5em;
+}
+
+.carousel-wrapper {
+  max-height: 1000px;
+
+}
+
   .carousel-slide {
     background-color: rgba(0, 0, 0, 0.185) !important;
   }
