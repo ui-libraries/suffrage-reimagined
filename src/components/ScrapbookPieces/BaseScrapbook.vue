@@ -3,7 +3,6 @@
     <div class="testing md-elevation-15">
         <scrapbook-navigation />
         <router-view />
-        
     </div>
 </div>
 </template>

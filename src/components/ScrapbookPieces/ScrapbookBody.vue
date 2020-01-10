@@ -53,6 +53,12 @@ export default {
     }
   }
 
+  .nav-arrows {
+      display: block;
+      width: 100%;
+      height: 100px;
+  }
+
   .go-back-arrow {
     position: absolute;
     left: 35px;

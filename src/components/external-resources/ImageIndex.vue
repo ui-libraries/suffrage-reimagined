@@ -1,5 +1,6 @@
 <template>
   <div class="image-index responsive-resources">
+    <back-to-top :bg-color="backToTopBgColor" :has-outline="false"/>
     <div id="content">
       <b-container>
 
@@ -688,8 +689,17 @@
 </template>
 
 <script>
+import BackToTop from '@inotom/vue-go-top'
   export default {
+    components: {
+      BackToTop
+    },
 
+    data() {
+      return {
+        backToTopBgColor: '#ffcd00'
+      }
+    }
   }
 
 </script>

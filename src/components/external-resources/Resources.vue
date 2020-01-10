@@ -1,5 +1,7 @@
 <template>
   <div class="resources responsive-resources">
+    <back-to-top :bg-color="backToTopBgColor" :has-outline="false"/>
+
     <b-container>
       <b-row>
         <b-col>
@@ -21,9 +23,10 @@
       <p></p>
 
 
-      <b-card border-variant="dark">
-        <h2>Introduction &amp; Index</h2>
-        <hr>
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <h2 class="mb-0">Introduction &amp; Index</h2>
+        </template>
         <p>From archives and books to online resources and historic sites, this page is a compilation of sources that
           provide insight or background to the history of women’s suffrage in Iowa. It is not an exhaustive list, but a
           place for researchers to get started. If you would like to have your collection or work listed on this page,
@@ -32,12 +35,6 @@
 
         <a name="top"></a>
 
-
-        <hr>
-        <h2>
-          <router-link to="/archival-collections-guide">* PROCEED TO THE GUIDE TO ARCHIVAL COLLECTIONS *</router-link>
-        </h2>
-        <hr>
         <b-row>
           <b-col>
             <b-card bg-variant="light">
@@ -74,8 +71,8 @@
                 </li>
               </ul>
 
-                <div>Special collections, archives, and online resources related to Iowa are listed by the Iowa county
-                  in which they are located. Other resources listed alphabetically.</div>
+                <p><div>Special collections, archives, and online resources related to Iowa are listed by the Iowa county
+                  in which they are located. Other resources listed alphabetically.</div></p>
               
               <ul><li><a href="#special">SPECIAL COLLECTIONS &amp; ARCHIVES (Including Iowa-based Online Resources)</a></li>
                 <li>
@@ -100,12 +97,10 @@
       <!-- Blackhawk -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="black">
-              <h2>BLACKHAWK COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a name="black" class="title-tag"><h2 class="mb-0">Blackhawk County</h2></a>
+        </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -151,12 +146,10 @@
       <!-- Boone -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="boone">
-              <h2>BOONE COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="boone" class="title-tag"><h2 class="mb-0">Boone County</h2></a>
+        </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -212,12 +205,10 @@
       <!-- Dubuque -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="dub">
-              <h2>DUBUQUE COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="dub" class="title-tag"><h2 class="mb-0">Dubuque County</h2></a>
+        </template>
             <strong><a
                 href="http://www.encyclopediadubuque.org/index.php?title=NORTHERN_IOWA_WOMAN_SUFFRAGE_ASSOCIATION"
                 target="_blank">Encyclopedia Dubuque: Northern Iowa Woman Suffrage Association (online
@@ -237,12 +228,10 @@
       <!-- Floyd -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="floyd">
-              <h2>FLOYD COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="floyd" class="title-tag"><h2 class="mb-0">Floyd County</h2></a>
+        </template>
 
             <div class="contact-information">
               <b-card>
@@ -284,12 +273,10 @@
       <!-- Johnson -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="john">
-              <h2>JOHNSON COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="johnson" class="title-tag"><h2 class="mb-0">Johnson County</h2></a>
+        </template>
 
             <strong><a href="http://www.50-50in2020.org/" target="_blank">50-50 in 2020: Achieving Political Equality in
                 Iowa
@@ -302,7 +289,7 @@
               to
               educate and support female candidates for office between 2010 and 2020.</p>
             <hr>
-            <h4>THE UNIVERSITY OF IOWA</h4><a href="#top">Back to Top</a>
+            <h4>THE UNIVERSITY OF IOWA</h4>
             <hr>
 
             <div class="contact-information">
@@ -597,12 +584,10 @@
       <!-- Polk -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="polk">
-              <h2>POLK COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="polk" class="title-tag"><h2 class="mb-0">Polk County</h2></a>
+        </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -781,12 +766,10 @@
       <!-- Pottawattamie -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="pott">
-              <h2>POTTAWATTAMIE COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="pott" class="title-tag"><h2 class="mb-0">Pottawattamie County</h2></a>
+        </template>
 
             <div class="contact-information">
               <b-card>
@@ -824,12 +807,10 @@
       <!-- Poweshiek -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="pow">
-              <h2>POWESHIEK COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="pow" class="title-tag"><h2 class="mb-0">Poweshiek County</h2></a>
+        </template>
 
             <div class="contact-information">
               <b-card>
@@ -868,12 +849,10 @@
       <!-- Scott -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="scott">
-              <h2>SCOTT COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="scott" class="title-tag"><h2 class="mb-0">Scott County</h2></a>
+        </template>
 
             <div class="contact-information">
               <b-card>
@@ -956,12 +935,10 @@
       <!-- Story -->
       <b-row>
         <b-col>
-          <b-card border-variant="dark">
-            <a name="story">
-              <h2>STORY COUNTY</h2>
-            </a><a href="#top">Back to Top</a>
-
-            <hr>
+          <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <a  name="story" class="title-tag"><h2 class="mb-0">Story County</h2></a>
+        </template>
             <h2>Iowa State University</h2>
             <hr>
 
@@ -1193,11 +1170,10 @@
       <hr>
 
       <!-- Local Newspapers -->
-      <b-card border-variant="dark">
-        <a name="newspaper">
-          <h2>LOCAL NEWSPAPERS</h2>
-        </a><a href="#top">Back to Top</a>
-        <hr>
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <h2 class="mb-0">Local Newspapers</h2>
+        </template>
 
 
         <p>Local newspapers covered the suffrage movement from its inception until women won the right to vote. In the
@@ -1381,11 +1357,10 @@
       <hr>
 
       <!-- Bound works -->
-      <b-card border-variant="dark">
-        <a name="books">
-          <h2>BOOKS &amp; BOUND WORKS</h2>
-        </a><a href="#top">Back to Top</a>
-        <hr>
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <h2 class="mb-0">Books &amp; Bound Works</h2>
+        </template>
 
         <p><strong>Beran, Janice A. <em>The League of Women Voters of Iowa: A Voice for Citizens, a Force for
               Change.</em> Des Moines, Iowa: League of Women Voters of Iowa, 1996.</strong></p>
@@ -1635,11 +1610,10 @@
       <hr>
 
       <!-- Online Resources -->
-      <b-card border-variant="dark">
-        <a name="online">
-          <h2>ONLINE RESOURCES</h2>
-        </a><a href="#top">Back to Top</a>
-        <hr>
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <h2 class="mb-0">Online Resources</h2>
+        </template>
 
         <p><strong>Library of Congress. By Popular Demand: “Votes for Women Suffrage” Pictures, 1850-1920.
             <a href="http://lcweb2.loc.gov/ammem/vfwhtml/vfwhome.html"
@@ -1825,19 +1799,29 @@
           Amelia Jenks Bloomer’s papers is housed within the Seneca Falls Historical Society. Those interested in
           further access can find contact information on the homepage.</p>
       </b-card>
-      <h2 class="navigation-to-resources" style="float: left">
+      <h4 class="navigation-to-resources" style="float: left">
         <router-link to="/image-index">Back: Image Index</router-link>
-      </h2>
-      <h2 class="navigation-to-resources" style="text-align:right">
+      </h4>
+      <h4 class="navigation-to-resources" style="text-align:right">
         <router-link to="/archival-collections-guide">Next: Guide to Archival Collections</router-link>
-      </h2>
+      </h4>
     </b-container>
   </div>
 </template>
 
 <script>
-  export default {
+import BackToTop from '@inotom/vue-go-top'
 
+  export default {
+components: {
+      BackToTop
+    },
+
+    data() {
+      return {
+        backToTopBgColor: '#ffcd00'
+      }
+    }
   }
 
 </script>
@@ -1860,6 +1844,12 @@
 
   .contact-information {
     display: inline-block;
+  }
+
+  .title-tag {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: text !important;
   }
 
 </style>

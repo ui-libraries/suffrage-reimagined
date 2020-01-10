@@ -1,5 +1,6 @@
 <template>
   <div class="archival-collections-guide responsive-resources">
+    <back-to-top :bg-color="backToTopBgColor" :has-outline="false"/>
     <b-container>
       <b-row>
         <b-col>
@@ -22,7 +23,7 @@
       <a name="top"></a>
 
       <!-- Intro Card -->
-      <b-card border-variant="dark">
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Introduction</h2>
         </template>
@@ -65,7 +66,7 @@
       <hr>
 
       <!-- Iowa Women's Archive Card -->
-      <b-card border-variant="dark">
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Iowa Women's Archives (IWA)</h2>
         </template>
@@ -463,7 +464,7 @@
       <hr>
 
       <!-- Special Collections Card -->
-      <b-card border-variant="dark">
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Special Collections Department</h2>
         </template>
@@ -493,7 +494,7 @@
       <hr>
 
       <!-- State Historical Society Card -->
-      <b-card border-variant="dark">
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">State Historical Society of Iowa</h2>
         </template>
@@ -685,20 +686,30 @@
           victory in Iowa was inevitable due to the support of so many prominent men and women.</p>
       </b-card>
 
-      <h2 class="navigation-to-resources" style="float: left">
+      <h4 class="navigation-to-resources" style="float: left">
         <router-link to="/resources">Back: Resources</router-link>
-      </h2>
-      <h2 class="navigation-to-resources" style="text-align:right">
+      </h4>
+      <h4 class="navigation-to-resources" style="text-align:right">
         <router-link to="/">Home: Iowa's Suffrage Scrapbook</router-link>
-      </h2>
+      </h4>
     </b-container>
   </div>
 
 </template>
 
 <script>
-  export default {
+import BackToTop from '@inotom/vue-go-top'
 
+  export default {
+      components: {
+        BackToTop,
+      },
+
+      data() {
+        return {
+          backToTopBgColor: '#ffcd00'
+        }
+      }
   }
 
 </script>
