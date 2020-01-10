@@ -35,7 +35,7 @@
             <p><span class="font-weight-bold">Project Assistant:</span> Kayla Pollock</p>
             <p><span class="font-weight-bold">IWA Curators:</span> K&auml;ren Mason and Janet Weaver</p>
             <p><span class="font-weight-bold">Design:</span> Linda Roth </p>
-            <p><span class="font-weight-bold">Design Updates, 2019 - 2020:</span> Ethan DeGross and Alyssa Varner</p>
+            <p><span class="font-weight-bold">Design Updates, 2019 - 2020:</span> Marc Shepherd and Alyssa Varner</p>
 
             <p>Special thanks to staff at the University of Iowa Libraries, the State Historical Society of Iowa, and
                 other Iowa cultural heritage institutions for their help in making this project happen.</p>

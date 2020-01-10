@@ -2,8 +2,8 @@
 <div class="scrapbook-body-container" role="main">
     <router-view />
     <div class="nav-arrows">
-        <img class="go-back-arrow" src="../../assets/page-arrow-left.png" @click="prevTab()">
-        <img class="go-forward-arrow" src="../../assets/page-arrow-right.png" @click="nextTab()">
+        <img class="go-back-arrow" src="../../assets/arrow-left.png" @click="prevTab()">
+        <img class="go-forward-arrow" src="../../assets/arrow-right.png" @click="nextTab()">
     </div>
 </div>
 </template>
@@ -68,8 +68,14 @@ export default {
     left: 94%;
   }
   .go-back-arrow, .go-forward-arrow {
-    height: 4vh;
+    height: 6vh;
     top: 92%;
+    border-radius: 100%;
     cursor: pointer;
+    transition: background-color .2s ease-in-out;
+  }
+
+  .go-back-arrow:hover, .go-forward-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.164);
   }
 </style>

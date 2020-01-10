@@ -72,7 +72,7 @@
         </template>
         <p><a name="IWA"><strong></strong></a><strong><a href="http://www.lib.uiowa.edu/iwa/"
               target="_blank">To Archive</a></strong></p>
-        <p><a href="#top">Back to Top</a></p>
+        
         <p><a href="http://www.lib.uiowa.edu/findingaids/IWATitleDetail.aspx?CollectionIdentifier=IWA0313"
             target="_blank">Margaret Atherton Bonney papers</a>. <em>1810-1992. 1.25 linear feet.</em></p>
         <p>Margaret Atherton Bonney was a historian and editor at the State Historical Society of Iowa in Iowa City. One
@@ -470,7 +470,7 @@
         </template>
         <p><a name="SPC"></a><a href="http://www.lib.uiowa.edu/spec-coll/" target="_blank"><strong>UNIVERSITY OF IOWA
               SPECIAL COLLECTIONS DEPARTMENT</strong></a></p>
-        <p><a href="#top">Back to Top</a></p>
+        
         <p><a href="http://www.lib.uiowa.edu/spec-coll/resources/iaauthors.html" target="_blank">Iowa Authors
             Collection</a>
         </p>
@@ -482,7 +482,7 @@
         <hr>
         <p><a name="ISU"></a><a href="http://www.lib.iastate.edu/spcl/index.html" target="_blank"><strong>IOWA STATE
               UNIVERSITY SPECIAL COLLECTIONS DEPARTMENT</strong></a></p>
-        <p><a href="#top">Back to Top</a></p>
+        
         <p><a href="http://www.lib.iastate.edu/arch/rgrp/21-7-3.html" target="_blank">Carrie Chapman Catt papers.</a>
           <em>1878-ongoing. 1.68 linear feet.</em></p>
         <p>Several <a href="http://digital.lib.uiowa.edu/u?/suffrage,1896" target="_blank">buttons and pins</a> from
@@ -500,7 +500,7 @@
         </template>
         <p><a name="SHSDM"></a><a href="http://www.iowahistory.org/libraries/index.html" target="_blank"><strong>STATE
               HISTORICAL SOCIETY OF IOWA, DES MOINES</strong></a></p>
-        <p><a href="#top">Back to Top</a></p>
+        
         <p><a href="http://infohawk.uiowa.edu/F?func=direct&amp;doc_number=004335876&amp;local_base=iow06"
             target="_blank">
             Joseph A. Dugdale correspondence. 1 folder. (D879).</a></p>
@@ -575,7 +575,7 @@
         <br>
         <p><a name="SHSIC"></a><a href="http://www.iowahistory.org/libraries/index.html" target="_blank"><strong>STATE
               HISTORICAL SOCIETY OF IOWA, IOWA CITY</strong></a></p>
-        <p><a href="#top">Back to Top</a></p>
+        
         <p><a
             href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=005816544"
             target="_blank">Charles City Political Equality Club.</a> <em>1891-1938. 2 volumes ; 21-22 cm. + 1 b &amp; w

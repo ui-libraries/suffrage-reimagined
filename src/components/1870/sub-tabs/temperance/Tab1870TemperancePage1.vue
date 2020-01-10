@@ -60,7 +60,7 @@ import DenisonImage from '../../../../assets/book-content/denison_large.png'
                     },
                     {
                         url: CarhartImage,
-                        caption: "IWA. Woman's Christian Temperance Union Records",
+                        caption: "IWA. Woman's Christian Temperance Union Records.",
                         text: ''
                     },
                     {

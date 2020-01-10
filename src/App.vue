@@ -198,4 +198,13 @@ html,body {
       font-size: 10px;
     }
   }
+
+  .carousel-control-prev-icon {
+    background-image: url('./assets/arrow-left.png') !important;
+  }
+
+    .carousel-control-next-icon {
+    background-image: url('./assets/arrow-right.png') !important;
+  }
+  
 </style>

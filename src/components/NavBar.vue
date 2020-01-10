@@ -204,6 +204,7 @@
         border-right: 1px solid rgba(187, 187, 187, 0.541);
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        z-index: 10000;
     }
 
     .drawer-header {

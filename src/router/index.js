@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import BaseScrapbook from '../components/ScrapbookPieces/BaseScrapbook'
-import ScrapbookBody from '../components/ScrapbookPieces/ScrapbookBody'
+const BaseScrapbook = () => import('../components/ScrapbookPieces/BaseScrapbook')
+const ScrapbookBody = () => import('../components/ScrapbookPieces/ScrapbookBody')
 
 import BaseTabAbout from '../components/about/BaseTabAbout'
 import TabAboutPage1 from '../components/about/TabAboutPage1'
