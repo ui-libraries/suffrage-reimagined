@@ -13,7 +13,8 @@
             <div>Cosson was eloquent in her defense of the rights of women to be involved in society and in politics,
                 but was not always comfortable with militant methods such as parades or picketing. She also was not sure
                 that women had enough education to handle the responsibilities that came with voting.</div>
-            <div>In <b>1909</b>, her husband, Iowa Senator George Cosson, supported a bill to give women the vote. The bill was
+            <div>In <b>1909</b>, her husband, Iowa Senator George Cosson, supported a bill to give women the vote. The
+                bill was
                 quickly killed.</div>
             <div>
                 <ul>
@@ -25,61 +26,65 @@
                     <li><b>1914: </b>Congress reconsidered a federal amendment to grant equal suffrage.</li>
                 </ul>
             </div>
-            <div>By <b>1900</b>, Iowa was one of four states with antisuffrage committees organized by women. These women may
+            <div>By <b>1900</b>, Iowa was one of four states with antisuffrage committees organized by women. These
+                women may
                 have feared the changes that suffrage would bring, believing they already had influence without official
                 titles or legal rights.</div>
-            <div>Of course, Iowa also had organized antisuffragist campaigns led by men. In <b>1916</b>, the Iowa Association
+            <div>Of course, Iowa also had organized antisuffragist campaigns led by men. In <b>1916</b>, the Iowa
+                Association
                 of Men Opposed to Woman Suffrage formed. Its members included a former Iowa governor, a real estate
                 tycoon and railroad president, oil company lawyers, and a Ford Auto executive.</div>
             <div>
 
             </div>
         </div>
-        <div><image-carousel :images="images" /></div>
+        <div>
+            <image-carousel :images="images" />
+        </div>
     </div>
 </template>
 
 <script>
     import ImageCarousel from '../../../helpers/ImageCarousel'
-// import CaryImage from '../../../../assets/book-content/cary_large.png'
-// import HaugenImage from '../../../../assets/book-content/haugen_large.png'
-// import CossonImage from '../../../../assets/book-content/cosson_large.png'
-// import PinImage from '../../../../assets/book-content/pin_large.png'
-// import PostcardImage from '../../../../assets/book-content/postcard_large.png'
+    import CaryImage from '../../../../assets/book-content/cary_large.png'
+    import HaugenImage from '../../../../assets/book-content/haugen_large.png'
+    import CossonImage from '../../../../assets/book-content/cosson_large.png'
+    import PinImage from '../../../../assets/book-content/pin_large.png'
+    import PostcardImage from '../../../../assets/book-content/postcard_large.png'
 
     export default {
         components: {
             ImageCarousel,
         },
-        
+
         data() {
             return {
                 images: [
-                    // {
-                    //     url: CaryImage,
-                    //     caption: 'IWA. Cary Club Records.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: HaugenImage,
-                    //     caption: 'SHSI Iowa City. Gilbert Haugen Papers.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: DenisonImage,
-                    //     caption: 'IWA. Jennifer Riggs Cosson Papers.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: PinImage,
-                    //     caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                    //     text: ''
-                    // },
-                    // {
-                    //     url: PostcardImage,
-                    //     caption: 'SHSI Des Moines. Iowa Women's Suffrage Collection.',
-                    //     text: ''
-                    // },
+                    {
+                        url: CaryImage,
+                        caption: 'IWA. Cary Club Records.',
+                        text: ''
+                    },
+                    {
+                        url: HaugenImage,
+                        caption: 'SHSI Iowa City. Gilbert Haugen Papers.',
+                        text: ''
+                    },
+                    {
+                        url: CossonImage,
+                        caption: 'IWA. Jennifer Riggs Cosson Papers.',
+                        text: ''
+                    },
+                    {
+                        url: PinImage,
+                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                        text: ''
+                    },
+                    {
+                        url: PostcardImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
+                        text: ''
+                    },
                 ]
             }
         }

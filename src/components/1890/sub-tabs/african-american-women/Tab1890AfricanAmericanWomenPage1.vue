@@ -33,12 +33,43 @@
                 American women in the <b>1900s</b> were involved in suffrage clubs and, later, the League of Women Voters.
             </div>
         </div>
+        <div><image-carousel :images="images" /></div>
+
     </div>
 </template>
 
 <script>
-    export default {
+    import ImageCarousel from '../../../helpers/ImageCarousel'
+import iacwcImage from '../../../../assets/book-content/iacwc_large.png'
+import WilsonImage from '../../../../assets/book-content/wilson_large.png'
+import WilsonobitImage from '../../../../assets/book-content/wilsonobit_large.png'
 
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    {
+                        url: iacwcImage,
+                        caption: "SHSI Des Moines. Iowa Association of Colored Women's Clubs Records",
+                        text: ''
+                    },
+                    {
+                        url: WilsonImage,
+                        caption: 'IWA. Gwendolyn Wilson Fowler Papers.',
+                        text: ''
+                    },
+                    {
+                        url: WilsonobitImage,
+                        caption: 'IWA. Gwendolyn Wilson Fowler Papers.',
+                        text: ''
+                    },
+                ]
+            }
+        }
     }
 </script>
 

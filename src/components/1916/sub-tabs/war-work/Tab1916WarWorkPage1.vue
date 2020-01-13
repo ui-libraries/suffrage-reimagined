@@ -22,13 +22,56 @@
                 and also accused Lawther of not filing the necessary paperwork. The federal amendment passed 
                 before Iowa lawmakers could discuss the matter again.</div>
         </div>
+        <div><image-carousel :images="images" /></div>
+
     </div>
 </template>
 
 <script>
-export default {
-    
-}
+import ImageCarousel from '../../../helpers/ImageCarousel'
+import MarchingImage from '../../../../assets/book-content/marching_large.png'
+import ShawImage from '../../../../assets/book-content/shaw_large.png'
+import AliensImage from '../../../../assets/book-content/aliens_large.png'
+import AutoImage from '../../../../assets/book-content/auto_large.png'
+import ReenactmentImage from '../../../../assets/book-content/reenactment_large.png'
+
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    {
+                        url: MarchingImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
+                        text: ''
+                    },
+                    {
+                        url: ShawImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
+                        text: ''
+                    },
+                    {
+                        url: AliensImage,
+                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        text: ''
+                    },
+                    {
+                        url: AutoImage,
+                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        text: ''
+                    },
+                    {
+                        url: ReenactmentImage,
+                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        text: ''
+                    },
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped>

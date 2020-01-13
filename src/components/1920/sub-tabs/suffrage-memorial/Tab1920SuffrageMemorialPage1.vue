@@ -15,13 +15,44 @@
                 played a pivotal part in the spread of the denomination and the spread of suffrage work in Iowa. 
                 When Safford died in <b>1927</b>, she donated $5,000 for the creation of an Iowa suffrage memorial.</div>
         </div>
+        <div><image-carousel :images="images" /></div>
+
     </div>
 </template>
 
 <script>
-export default {
-    
-}
+import ImageCarousel from '../../../helpers/ImageCarousel'
+import AnthonyMemorialImage from '../../../../assets/book-content/anthonymemorial_large.png'
+import CoggeshallImage from '../../../../assets/book-content/coggeshall_large.png'
+import ProgramImage from '../../../../assets/book-content/program_large.png'
+
+    export default {
+        components: {
+            ImageCarousel,
+        },
+        
+        data() {
+            return {
+                images: [
+                    {
+                        url: AnthonyMemorialImage,
+                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                        text: ''
+                    },
+                    {
+                        url: CoggeshallImage,
+                        caption: 'IWA. Margaret Atherton Bonney Papers.',
+                        text: ''
+                    },
+                    {
+                        url: ProgramImage,
+                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                        text: ''
+                    },
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped>

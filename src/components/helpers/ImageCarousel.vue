@@ -18,7 +18,7 @@
               </span>
             </b-carousel>
             <md-divider class="divider"></md-divider>
-            <div class="caption"><span>{{currentCaption}}</span></div>
+            <smooth-scrollbar><div class="caption"><span class="vertical-center">{{currentCaption}}</span></div></smooth-scrollbar>
           </div>
         </div>
       </b-col>
@@ -38,7 +38,7 @@
     },
 
     components: {
-      ExpandableImage
+      ExpandableImage,
     },
 
     data() {
@@ -88,12 +88,17 @@
   }
 
   .caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.829);
     color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow-wrap: break-word;
+    overflow: auto;
     padding: 5px 3px;
+    height: 80px;
   }
 
   .divider {
@@ -107,9 +112,5 @@
     margin: 0 auto;
     border: .06em solid rgba(255, 204, 0, 0.24);
   }
-
-  #carousel-slide {}
-
-  
 
 </style>
