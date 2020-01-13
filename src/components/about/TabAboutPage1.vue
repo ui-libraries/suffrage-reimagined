@@ -1,6 +1,6 @@
 <template>
     <div class="page-container">
-        <div class="image-pins-container"></div>
+        <div class="image-pins-container"><img src="../../assets/suffrage-pins.png" width="700px"></div>
         <div class="text-center">
             <h4>
                 Welcome to the Women's Suffrage in Iowa Online Exhibit and Resource Guide created by the Iowa Women's
@@ -81,4 +81,7 @@
 </script>
 
 <style scoped>
+.image-pins-container {
+    padding-bottom: 20px;
+}
 </style>
