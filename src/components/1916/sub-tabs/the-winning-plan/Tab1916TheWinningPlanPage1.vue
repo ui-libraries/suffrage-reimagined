@@ -32,11 +32,8 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-import MarchingImage from '../../../../assets/book-content/marching_large.png'
-import ShawImage from '../../../../assets/book-content/shaw_large.png'
-import AliensImage from '../../../../assets/book-content/aliens_large.png'
-import AutoImage from '../../../../assets/book-content/auto_large.png'
-import ReenactmentImage from '../../../../assets/book-content/reenactment_large.png'
+import CattImage from '../../../../assets/book-content/catt_large.png'
+import Cattpin2Image from '../../../../assets/book-content/cattpin2_large.png'
 
     export default {
         components: {
@@ -47,28 +44,13 @@ import ReenactmentImage from '../../../../assets/book-content/reenactment_large.
             return {
                 images: [
                     {
-                        url: MarchingImage,
+                        url: CattImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
                         text: ''
                     },
                     {
-                        url: ShawImage,
-                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
-                    },
-                    {
-                        url: AliensImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
-                    },
-                    {
-                        url: AutoImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
-                    },
-                    {
-                        url: ReenactmentImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        url: Cattpin2Image,
+                        caption: "ISU. Carrie Chapman Catt Papers.",
                         text: ''
                     },
                 ]

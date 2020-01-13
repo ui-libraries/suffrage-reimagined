@@ -25,9 +25,10 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-import AnthonyMemorialImage from '../../../../assets/book-content/anthonymemorial_large.png'
-import CoggeshallImage from '../../../../assets/book-content/coggeshall_large.png'
-import ProgramImage from '../../../../assets/book-content/program_large.png'
+import BulletinImage from '../../../../assets/book-content/bulletin_large.png'
+import OsageImage from '../../../../assets/book-content/osage_large.png'
+// import AdImage from '../../../../assets/book-content/ad_large.png'
+
 
     export default {
         components: {
@@ -38,20 +39,20 @@ import ProgramImage from '../../../../assets/book-content/program_large.png'
             return {
                 images: [
                     {
-                        url: AnthonyMemorialImage,
-                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                        url: BulletinImage,
+                        caption: 'IWA. League of Women Voters of Johnson County Records.',
                         text: ''
                     },
                     {
-                        url: CoggeshallImage,
-                        caption: 'IWA. Margaret Atherton Bonney Papers.',
+                        url: OsageImage,
+                        caption: 'IWA. League of Women Voters of Iowa Records.',
                         text: ''
                     },
-                    {
-                        url: ProgramImage,
-                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
-                    },
+                    // {
+                    //     url: AdImage,
+                    //     caption: 'IWA. League of Women Voters of Iowa Records.',
+                    //     text: ''
+                    // },
                 ]
             }
         }

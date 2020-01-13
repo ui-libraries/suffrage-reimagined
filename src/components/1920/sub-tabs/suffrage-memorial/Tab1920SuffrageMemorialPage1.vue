@@ -22,9 +22,8 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-import AnthonyMemorialImage from '../../../../assets/book-content/anthonymemorial_large.png'
-import CoggeshallImage from '../../../../assets/book-content/coggeshall_large.png'
-import ProgramImage from '../../../../assets/book-content/program_large.png'
+import MemorialImage from '../../../../assets/book-content/memorial_large.png'
+import HunterImage from '../../../../assets/book-content/hunter_large.png'
 
     export default {
         components: {
@@ -35,18 +34,13 @@ import ProgramImage from '../../../../assets/book-content/program_large.png'
             return {
                 images: [
                     {
-                        url: AnthonyMemorialImage,
+                        url: MemorialImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
                         text: ''
                     },
                     {
-                        url: CoggeshallImage,
-                        caption: 'IWA. Margaret Atherton Bonney Papers.',
-                        text: ''
-                    },
-                    {
-                        url: ProgramImage,
-                        caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
+                        url: HunterImage,
+                        caption: 'IWA. League of Women Voters of Iowa Records.',
                         text: ''
                     },
                 ]

@@ -41,11 +41,11 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-import MarchingImage from '../../../../assets/book-content/marching_large.png'
-import ShawImage from '../../../../assets/book-content/shaw_large.png'
-import AliensImage from '../../../../assets/book-content/aliens_large.png'
-import AutoImage from '../../../../assets/book-content/auto_large.png'
-import ReenactmentImage from '../../../../assets/book-content/reenactment_large.png'
+import SampleBallotImage from '../../../../assets/book-content/sampleballot_large.png'
+import BillboardImage from '../../../../assets/book-content/billboard_large.png'
+import PlainFactsImage from '../../../../assets/book-content/plainfacts_large.png'
+import HorackImage from '../../../../assets/book-content/horack_large.png'
+import FraudMapImage from '../../../../assets/book-content/fraudmap_large.png'
 
     export default {
         components: {
@@ -56,28 +56,28 @@ import ReenactmentImage from '../../../../assets/book-content/reenactment_large.
             return {
                 images: [
                     {
-                        url: MarchingImage,
-                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
-                        text: ''
-                    },
-                    {
-                        url: ShawImage,
+                        url: SampleBallotImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
                         text: ''
                     },
                     {
-                        url: AliensImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        url: BillboardImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
                         text: ''
                     },
                     {
-                        url: AutoImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        url: PlainFactsImage,
+                        caption: 'IWA. Iowa Suffrage Memorial Commission records.',
                         text: ''
                     },
                     {
-                        url: ReenactmentImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        url: HorackImage,
+                        caption: 'SHSI Iowa City.',
+                        text: ''
+                    },
+                    {
+                        url: FraudMapImage,
+                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
                         text: ''
                     },
                 ]

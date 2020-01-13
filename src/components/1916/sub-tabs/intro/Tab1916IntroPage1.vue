@@ -29,11 +29,9 @@
 
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
-import MarchingImage from '../../../../assets/book-content/marching_large.png'
-import ShawImage from '../../../../assets/book-content/shaw_large.png'
-import AliensImage from '../../../../assets/book-content/aliens_large.png'
-import AutoImage from '../../../../assets/book-content/auto_large.png'
-import ReenactmentImage from '../../../../assets/book-content/reenactment_large.png'
+import JournalImage from '../../../../assets/book-content/journal_large.png'
+import SongBookletImage from '../../../../assets/book-content/songbooklet_large.png'
+import PosterImage from '../../../../assets/book-content/poster_large.png'
 
     export default {
         components: {
@@ -44,28 +42,18 @@ import ReenactmentImage from '../../../../assets/book-content/reenactment_large.
             return {
                 images: [
                     {
-                        url: MarchingImage,
-                        caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
+                        url: JournalImage,
+                        caption: "SHSI Iowa City. The Woman's Journal",
                         text: ''
                     },
                     {
-                        url: ShawImage,
+                        url: SongBookletImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
                         text: ''
                     },
                     {
-                        url: AliensImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
-                    },
-                    {
-                        url: AutoImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
-                    },
-                    {
-                        url: ReenactmentImage,
-                        caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
+                        url: PosterImage,
+                        caption: 'SHSI Iowa City.',
                         text: ''
                     },
                 ]
