@@ -14,7 +14,7 @@
             </b-row>
             <b-row class="text-center image-wrapper mt-5" align-v="center" align-h="center">
                 <b-col>
-                    Image
+                    <img src='../assets/scrapbook-extras/ui-libraries-wordmark.png' width="350px"/>
                 </b-col>
             </b-row>
         </b-container>
@@ -23,7 +23,7 @@
 
 <script>
     export default {
-
+        
     }
 </script>
 
@@ -54,7 +54,7 @@
     }
 
     .link {
-        padding: 5% 5%;
+        padding: 5px 0;
     }
 
     .footer-link {

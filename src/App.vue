@@ -200,11 +200,14 @@ html,body {
   }
 
   .carousel-control-prev-icon {
-    background-image: url('./assets/arrow-left.png') !important;
+    background-image: url('./assets/scrapbook-extras/arrow-left.png') !important;
   }
 
     .carousel-control-next-icon {
-    background-image: url('./assets/arrow-right.png') !important;
+    background-image: url('./assets/scrapbook-extras/arrow-right.png') !important;
   }
   
+  .md-button .md-ripple {
+    padding: 0 0 !important;
+}
 </style>
