@@ -148,7 +148,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
     .nav-header {
         width: 100%;
         font-size: 3rem;
@@ -160,13 +160,11 @@
         text-transform: uppercase;
         line-height: 2em;
     }
-
-    // Demo purposes only
     .md-drawer {
         font-family: 'cursive';
         width: 230px;
         max-width: calc(100vw - 125px);
-        // background-image: url('../assets/temp-book-paper.jpg')
+        /* background-image: url('../assets/temp-book-paper.jpg') */
     }
 
     .bookmark-title {
@@ -180,15 +178,6 @@
 
     .md-list-item-text:hover {
         color: #FFCD00;
-    //     text-shadow:
-    // -.3px -.3px 0 rgba(255, 204, 0, 0.5),
-    // .3px -.3px 0 rgba(255, 204, 0, 0.5),
-    // -.3px .3px 0 rgba(255, 204, 0, 0.5),
-    // .3px .3px 0 rgba(255, 204, 0, 0.5);
-    // -webkit-transition: all .5s ease-in-out;
-    // -moz-transition: all .5s ease-in-out;
-    // -o-transition: all .5s ease-in-out;
-    // transition: all .5s ease-in-out;
     }
 
     .sub-header {
@@ -212,8 +201,6 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border: 1px solid rgba(187, 187, 187, 0.541);
-
-        // box-shadow: 10px 10px 11px 3px rgb(255, 0, 0) !important;
     }
 
     .drawer-body {
@@ -231,10 +218,6 @@
     .md-content {
         padding: 16px;
     }
-
-    // .nav-title {
-    //     font-size: 3vw !important
-    // }
 
      @media only screen and (max-width: 650px) {
         .nav-title {

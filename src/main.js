@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
 
 import { BContainer, BRow, BCol, BCard, BNav, BNavItem, BNavItemDropdown, BDropdownItem, BCarousel, BCarouselSlide, BImgLazy } from 'bootstrap-vue'
 import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent, MdDivider, MdSubheader} from 'vue-material/dist/components'
@@ -40,7 +39,6 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount('#app')
         
