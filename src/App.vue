@@ -1,4 +1,6 @@
 <template>
+    <transition name="fade" appear>
+
   <div id="app">
     <NavBar />
     <b-container fluid class="body-container">
@@ -9,7 +11,10 @@
       </b-row>
     </b-container>
     <Footer />
+
   </div>
+    </transition>
+
 </template>
 
 <script>
@@ -209,5 +214,17 @@ html,body {
   
   .md-button .md-ripple {
     padding: 0 0 !important;
+}
+
+        .fade-enter-active, .fade-leave-active {
+        transition: opacity 1s ease-in-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to, .fade-leave {
+  opacity: 1;
 }
 </style>
