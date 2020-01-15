@@ -1,4 +1,5 @@
 <template>
+<transition name="fade" appear>
   <b-container fluid>
     <b-row>
       <b-col v-if="hasTextLeft"><slot name="textLeft"></slot></b-col>
@@ -25,6 +26,7 @@
       <b-col v-if="hasTextRight"><slot name="textRight"></slot></b-col>
     </b-row>
   </b-container>
+  </transition>
 </template>
 
 
@@ -112,5 +114,20 @@
     margin: 0 auto;
     border: .06em solid rgba(255, 204, 0, 0.24);
   }
+
+      .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .3s ease-in-out;
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0;
+    }
+
+    .fade-enter-to,
+    .fade-leave {
+        opacity: 1;
+    }
 
 </style>

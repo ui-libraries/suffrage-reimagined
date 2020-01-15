@@ -205,11 +205,11 @@ html,body {
   }
 
   .carousel-control-prev-icon {
-    background-image: url('./assets/scrapbook-extras/arrow-left.png') !important;
+    background-image: url('./assets/scrapbook-extras/arrow-left-white.svg') !important;
   }
 
     .carousel-control-next-icon {
-    background-image: url('./assets/scrapbook-extras/arrow-right.png') !important;
+    background-image: url('./assets/scrapbook-extras/arrow-right-white.svg') !important;
   }
   
   .md-button .md-ripple {

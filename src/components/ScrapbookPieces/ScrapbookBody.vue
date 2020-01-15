@@ -1,38 +1,17 @@
 <template>
 <div class="scrapbook-body-container" role="main">
     <router-view />
-    <!-- <div class="nav-arrows">
-        <img class="go-back-arrow" src="../../assets/arrow-left.png" @click="prevTab()">
-        <img class="go-forward-arrow" src="../../assets/arrow-right.png" @click="nextTab()">
-    </div> -->
 </div>
 </template>
 
 <script>
-import { routeNames } from '../../router/index'
-
-export default {
+export default { 
     data () {
         return {
-            routes: routeNames,
         }
     },
 
     methods: {
-      // prevTab: goToPrevRoute,
-      // nextTab: goToNextRoute,
-      prevTab() {
-        let index = this.routes.indexOf(this.$route.name);
-        if (this.routes[index-1]) {
-            this.$router.push({name: this.routes[index-1]});
-        }
-      },
-      nextTab() {
-        let index = this.routes.indexOf(this.$route.name);
-        if (this.routes[index+1]) {
-            this.$router.push({name: this.routes[index+1]});
-        }
-      }
     }
 }
 </script>
@@ -43,7 +22,9 @@ export default {
     min-height: 75vh;
     background-color: ghostwhite;
     position: relative;
-    background-image: url('https://i.imgur.com/mNBhyUX.jpg');
+    /* background-image: url('https://i.imgur.com/mNBhyUX.jpg'); */
+    background-image: url("../../assets/scrapbook-extras/temp-book-paper.jpg");
+    background-size: cover;
     padding: 2em 4em;
 }
 

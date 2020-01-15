@@ -2,7 +2,7 @@
     <div class="nav-arrows">
 
         <md-button @click="prevTab()" @mouseover="arrowLeft = arrowLeftBlack" @mouseleave="arrowLeft = arrowLeftWhite"
-            class="go-back-arrow md-icon-button">
+            class="go-back-arrow md-icon-button" name="page-arrow-go-back">
             <transition name="fade" mode="out-in">
                 <!-- <img :src="arrowLeft" :key="arrowLeft"/> -->
                 <md-icon :md-src="arrowLeft" class="icon" :key="arrowLeft" />
@@ -11,7 +11,7 @@
 
 
         <md-button @click="nextTab()" @mouseover="arrowRight = arrowRightBlack"
-            @mouseleave="arrowRight = arrowRightWhite" class="go-forward-arrow md-icon-button">
+            @mouseleave="arrowRight = arrowRightWhite" class="go-forward-arrow md-icon-button" name="page-arrow-go-forward">
             <transition name="fade" mode="out-in">
 
                 <!-- <img class=""  src="../../assets/scrapbook-extras/arrow-right-white.png"> -->
@@ -76,14 +76,14 @@
     .go-back-arrow {
         position: absolute;
         top: 35rem;
-        left: -7rem;
+        left: -6rem;
 
     }
 
     .go-forward-arrow {
         position: absolute;
         top: 35rem;
-        right: -7rem;
+        right: -6rem;
     }
 
     .go-back-arrow,

@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import PaginationNavigation from '../../../helpers/PaginationNavigation'
 export default {
     
     components: {

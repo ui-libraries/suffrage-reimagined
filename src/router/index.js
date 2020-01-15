@@ -6,72 +6,72 @@ Vue.use(VueRouter)
 const BaseScrapbook = () => import('../components/ScrapbookPieces/BaseScrapbook')
 const ScrapbookBody = () => import('../components/ScrapbookPieces/ScrapbookBody')
 
-import BaseTabAbout from '../components/about/BaseTabAbout'
-import TabAboutPage1 from '../components/about/TabAboutPage1'
+const BaseTabAbout = () => import('../components/about/BaseTabAbout') 
+const TabAboutPage1 = () => import('../components/about/TabAboutPage1') 
 
-import BaseTab1854 from '../components/1854/BaseTab1854'
-import BaseTab1854Intro from '../components/1854/sub-tabs/intro/BaseTab1854Intro'
-import Tab1854IntroPage1 from '../components/1854/sub-tabs/intro/Tab1854IntroPage1'
-import Tab1854IntroPage2 from '../components/1854/sub-tabs/intro/Tab1854IntroPage2'
-import BaseTab1854SocialMovements from '../components/1854/sub-tabs/social-movements/BaseTab1854SocialMovements'
-import Tab1854SocialMovementsPage1 from '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage1'
-import Tab1854SocialMovementsPage2 from '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage2'
-import BaseTab1854AmeliaBloomer from '../components/1854/sub-tabs/amelia-bloomer/BaseTab1854AmeliaBloomer'
-import Tab1854AmeliaBloomerPage1 from '../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage1'
+const BaseTab1854 = () => import('../components/1854/BaseTab1854') 
+const BaseTab1854Intro = () => import('../components/1854/sub-tabs/intro/BaseTab1854Intro') 
+const Tab1854IntroPage1 = () => import('../components/1854/sub-tabs/intro/Tab1854IntroPage1') 
+const Tab1854IntroPage2 = () => import('../components/1854/sub-tabs/intro/Tab1854IntroPage2') 
+const BaseTab1854SocialMovements = () => import('../components/1854/sub-tabs/social-movements/BaseTab1854SocialMovements') 
+const Tab1854SocialMovementsPage1 = () => import('../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage1') 
+const Tab1854SocialMovementsPage2 = () => import('../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage2') 
+const BaseTab1854AmeliaBloomer = () => import('../components/1854/sub-tabs/amelia-bloomer/BaseTab1854AmeliaBloomer') 
+const Tab1854AmeliaBloomerPage1 = () => import('../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage1') 
 
-import BaseTab1870 from '../components/1870/BaseTab1870'
-import BaseTab1870Intro from '../components/1870/sub-tabs/intro/BaseTab1870Intro'
-import Tab1870IntroPage1 from '../components/1870/sub-tabs/intro/Tab1870IntroPage1'
-import BaseTab1870LegislativeBattle from '../components/1870/sub-tabs/legislative-battle/BaseTab1870LegislativeBattle'
-import Tab1870LegislativeBattlePage1 from '../components/1870/sub-tabs/legislative-battle/Tab1870LegislativeBattlePage1'
-import BaseTab1870ScandalAndControversy from '../components/1870/sub-tabs/scandal-and-controversy/BaseTab1870ScandalAndControversy'
-import Tab1870ScandalAndControversyPage1 from '../components/1870/sub-tabs/scandal-and-controversy/Tab1870ScandalAndControversyPage1'
-import BaseTab1870Temperance from '../components/1870/sub-tabs/temperance/BaseTab1870Temperance'
-import Tab1870TemperancePage1 from '../components/1870/sub-tabs/temperance/Tab1870TemperancePage1'
+const BaseTab1870 = () => import('../components/1870/BaseTab1870') 
+const BaseTab1870Intro = () => import('../components/1870/sub-tabs/intro/BaseTab1870Intro') 
+const Tab1870IntroPage1 = () => import('../components/1870/sub-tabs/intro/Tab1870IntroPage1') 
+const BaseTab1870LegislativeBattle = () => import('../components/1870/sub-tabs/legislative-battle/BaseTab1870LegislativeBattle') 
+const Tab1870LegislativeBattlePage1 = () => import('../components/1870/sub-tabs/legislative-battle/Tab1870LegislativeBattlePage1') 
+const BaseTab1870ScandalAndControversy = () => import('../components/1870/sub-tabs/scandal-and-controversy/BaseTab1870ScandalAndControversy') 
+const Tab1870ScandalAndControversyPage1 = () => import('../components/1870/sub-tabs/scandal-and-controversy/Tab1870ScandalAndControversyPage1') 
+const BaseTab1870Temperance = () => import('../components/1870/sub-tabs/temperance/BaseTab1870Temperance') 
+const Tab1870TemperancePage1 = () => import('../components/1870/sub-tabs/temperance/Tab1870TemperancePage1') 
 
-import BaseTab1890 from '../components/1890/BaseTab1890'
-import BaseTab1890Intro from '../components/1890/sub-tabs/intro/BaseTab1890Intro'
-import Tab1890IntroPage1 from '../components/1890/sub-tabs/intro/Tab1890IntroPage1'
-import Tab1890IntroPage2 from '../components/1890/sub-tabs/intro/Tab1890IntroPage2'
-import BaseTab1890GoalUnrealized from '../components/1890/sub-tabs/goal-unrealized/BaseTab1890GoalUnrealized'
-import Tab1890GoalUnrealizedPage1 from '../components/1890/sub-tabs/goal-unrealized/Tab1890GoalUnrealizedPage1'
-import BaseTab1890OrganizingForTheVote from '../components/1890/sub-tabs/organizing-for-the-vote/BaseTab1890OrganizingForTheVote'
-import Tab1890OrganizingForTheVotePage1 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage1'
-import Tab1890OrganizingForTheVotePage2 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage2'
-import Tab1890OrganizingForTheVotePage3 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage3'
-import Tab1890OrganizingForTheVotePage4 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage4'
-import Tab1890OrganizingForTheVotePage5 from '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage5'
-import BaseTab1890AfricanAmericanWomen from '../components/1890/sub-tabs/african-american-women/BaseTab1890AfricanAmericanWomen'
-import Tab1890AfricanAmericanWomenPage1 from '../components/1890/sub-tabs/african-american-women/Tab1890AfricanAmericanWomenPage1'
-import BaseTab1890BooneParade from '../components/1890/sub-tabs/boone-parade/BaseTab1890BooneParade'
-import Tab1890BooneParadePage1 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1'
-import Tab1890BooneParadePage2 from '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2'
+const BaseTab1890 = () => import('../components/1890/BaseTab1890') 
+const BaseTab1890Intro = () => import('../components/1890/sub-tabs/intro/BaseTab1890Intro') 
+const Tab1890IntroPage1 = () => import('../components/1890/sub-tabs/intro/Tab1890IntroPage1') 
+const Tab1890IntroPage2 = () => import('../components/1890/sub-tabs/intro/Tab1890IntroPage2') 
+const BaseTab1890GoalUnrealized = () => import('../components/1890/sub-tabs/goal-unrealized/BaseTab1890GoalUnrealized') 
+const Tab1890GoalUnrealizedPage1 = () => import('../components/1890/sub-tabs/goal-unrealized/Tab1890GoalUnrealizedPage1') 
+const BaseTab1890OrganizingForTheVote = () => import('../components/1890/sub-tabs/organizing-for-the-vote/BaseTab1890OrganizingForTheVote') 
+const Tab1890OrganizingForTheVotePage1 = () => import('../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage1') 
+const Tab1890OrganizingForTheVotePage2 = () => import('../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage2') 
+const Tab1890OrganizingForTheVotePage3 = () => import('../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage3') 
+const Tab1890OrganizingForTheVotePage4 = () => import('../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage4') 
+const Tab1890OrganizingForTheVotePage5 = () => import('../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage5') 
+const BaseTab1890AfricanAmericanWomen = () => import('../components/1890/sub-tabs/african-american-women/BaseTab1890AfricanAmericanWomen') 
+const Tab1890AfricanAmericanWomenPage1 = () => import('../components/1890/sub-tabs/african-american-women/Tab1890AfricanAmericanWomenPage1') 
+const BaseTab1890BooneParade = () => import('../components/1890/sub-tabs/boone-parade/BaseTab1890BooneParade') 
+const Tab1890BooneParadePage1 = () => import('../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1') 
+const Tab1890BooneParadePage2 = () => import('../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2') 
 
-import BaseTab1916 from '../components/1916/BaseTab1916'
-import BaseTab1916Intro from '../components/1916/sub-tabs/intro/BaseTab1916Intro'
-import Tab1916IntroPage1 from '../components/1916/sub-tabs/intro/Tab1916IntroPage1'
-import BaseTab1916Referendum from '../components/1916/sub-tabs/referendum/BaseTab1916Referendum'
-import Tab1916ReferendumPage1 from '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage1'
-import Tab1916ReferendumPage2 from '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage2'
-import BaseTab1916WarWork from '../components/1916/sub-tabs/war-work/BaseTab1916WarWork'
-import Tab1916WarWorkPage1 from '../components/1916/sub-tabs/war-work/Tab1916WarWorkPage1'
-import BaseTab1916TheWinningPlan  from '../components/1916/sub-tabs/the-winning-plan/BaseTab1916TheWinningPlan'
-import Tab1916TheWinningPlanPage1 from '../components/1916/sub-tabs/the-winning-plan/Tab1916TheWinningPlanPage1'
+const BaseTab1916 = () => import('../components/1916/BaseTab1916') 
+const BaseTab1916Intro = () => import('../components/1916/sub-tabs/intro/BaseTab1916Intro') 
+const Tab1916IntroPage1 = () => import('../components/1916/sub-tabs/intro/Tab1916IntroPage1') 
+const BaseTab1916Referendum = () => import('../components/1916/sub-tabs/referendum/BaseTab1916Referendum') 
+const Tab1916ReferendumPage1 = () => import('../components/1916/sub-tabs/referendum/Tab1916ReferendumPage1') 
+const Tab1916ReferendumPage2 = () => import('../components/1916/sub-tabs/referendum/Tab1916ReferendumPage2') 
+const BaseTab1916WarWork = () => import('../components/1916/sub-tabs/war-work/BaseTab1916WarWork') 
+const Tab1916WarWorkPage1 = () => import('../components/1916/sub-tabs/war-work/Tab1916WarWorkPage1') 
+const BaseTab1916TheWinningPlan  = () => import('../components/1916/sub-tabs/the-winning-plan/BaseTab1916TheWinningPlan') 
+const Tab1916TheWinningPlanPage1 = () => import('../components/1916/sub-tabs/the-winning-plan/Tab1916TheWinningPlanPage1') 
 
-import BaseTab1920 from '../components/1920/BaseTab1920'
-import BaseTab1920Intro from '../components/1920/sub-tabs/intro/BaseTab1920Intro'
-import Tab1920IntroPage1 from '../components/1920/sub-tabs/intro/Tab1920IntroPage1'
-import BaseTab1920LeagueOfWomenVoters from '../components/1920/sub-tabs/league-of-women-voters/BaseTab1920LeagueOfWomenVoters'
-import Tab1920LeagueOfWomenVotersPage1 from '../components/1920/sub-tabs/league-of-women-voters/Tab1920LeagueOfWomenVotersPage1'
-import BaseTab1920SuffrageMemorial from '../components/1920/sub-tabs/suffrage-memorial/BaseTab1920SuffrageMemorial'
-import Tab1920SufffrageMemorialPage1 from '../components/1920/sub-tabs/suffrage-memorial/Tab1920SuffrageMemorialPage1'
-import BaseTab1920WomenInPoliticsToday from '../components/1920/sub-tabs/women-in-politics-today/BaseTab1920WomenInPoliticsToday'
-import Tab1920WomenInPoliticsTodayPage1 from '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage1'
-import Tab1920WomenInPoliticsTodayPage2 from '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage2'
+const BaseTab1920 = () => import('../components/1920/BaseTab1920') 
+const BaseTab1920Intro = () => import('../components/1920/sub-tabs/intro/BaseTab1920Intro') 
+const Tab1920IntroPage1 = () => import('../components/1920/sub-tabs/intro/Tab1920IntroPage1') 
+const BaseTab1920LeagueOfWomenVoters = () => import('../components/1920/sub-tabs/league-of-women-voters/BaseTab1920LeagueOfWomenVoters') 
+const Tab1920LeagueOfWomenVotersPage1 = () => import('../components/1920/sub-tabs/league-of-women-voters/Tab1920LeagueOfWomenVotersPage1') 
+const BaseTab1920SuffrageMemorial = () => import('../components/1920/sub-tabs/suffrage-memorial/BaseTab1920SuffrageMemorial') 
+const Tab1920SufffrageMemorialPage1 = () => import('../components/1920/sub-tabs/suffrage-memorial/Tab1920SuffrageMemorialPage1') 
+const BaseTab1920WomenInPoliticsToday = () => import('../components/1920/sub-tabs/women-in-politics-today/BaseTab1920WomenInPoliticsToday') 
+const Tab1920WomenInPoliticsTodayPage1 = () => import('../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage1') 
+const Tab1920WomenInPoliticsTodayPage2 = () => import('../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage2') 
 
-import ImageIndex from '../components/external-resources/ImageIndex'
-import Resources from '../components/external-resources/Resources'
-import ArchivalCollectionsGuide from '../components/external-resources/ArchivalCollectionsGuide'
+const ImageIndex = () => import('../components/external-resources/ImageIndex') 
+const Resources = () => import('../components/external-resources/Resources') 
+const ArchivalCollectionsGuide = () => import('../components/external-resources/ArchivalCollectionsGuide') 
 
 const routes = [{
   path: '/',

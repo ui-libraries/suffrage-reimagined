@@ -14,12 +14,7 @@
     import ScrapbookNavigation from './ScrapbookNavigation'
     import ScrapbookBody from './ScrapbookBody'
 
-
-
-
     export default {
-
-
         components: {
             NavigationArrows,
             ScrapbookNavigation,
