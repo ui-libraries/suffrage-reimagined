@@ -93,6 +93,10 @@ html,body {
     text-decoration: underline !important;
   }
 
+    .text-anchor:hover {
+      background-color: rgba(0, 0, 0, 0.336);
+    }
+
   .header-anchor {
     color: black !important;
     text-decoration: none !important;

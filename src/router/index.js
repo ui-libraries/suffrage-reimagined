@@ -417,11 +417,11 @@ const router = new VueRouter({
   mode: 'history' //might funk things up during production
 })
 
-const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', 'Tab1854IntroPage2', 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', 'Tab1854SocialMovementsPage2',
+const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', /*'Tab1854IntroPage2',*/ 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', /*'Tab1854SocialMovementsPage2',*/
                     'Tab1870IntroPage1', 'Tab1870LegislativeBattlePage1', 'Tab1870ScandalAndControversyPage1', 'Tab1870TemperancePage1',
-                    'Tab1890IntroPage1', 'Tab1890IntroPage2', 'Tab1890GoalUnrealizedPage1', 'Tab1890OrganizingForTheVotePage1', 'Tab1890OrganizingForTheVotePage2', 'Tab1890OrganizingForTheVotePage3', 'Tab1890OrganizingForTheVotePage4', 'Tab1890OrganizingForTheVotePage5', 'Tab1890AfricanAmericanWomenPage1', 'Tab1890BooneParadePage1', 'Tab1890BooneParadePage2',
-                    'Tab1916IntroPage1', 'Tab1916ReferendumPage1', 'Tab1916ReferendumPage2', 'Tab1916WarWorkPage1', 'Tab1916TheWinningPlanPage1',
-                    'Tab1920IntroPage1', 'Tab1920LeagueOfWomenVotersPage1', 'Tab1920SufffrageMemorialPage1', 'Tab1920WomenInPoliticsTodayPage1', 'Tab1920WomenInPoliticsTodayPage2']
+                    'Tab1890IntroPage1', /*'Tab1890IntroPage2',*/ 'Tab1890GoalUnrealizedPage1', 'Tab1890OrganizingForTheVotePage1', /*'Tab1890OrganizingForTheVotePage2',*/ /*'Tab1890OrganizingForTheVotePage3',*/ /*'Tab1890OrganizingForTheVotePage4',*/ /*'Tab1890OrganizingForTheVotePage5',*/ 'Tab1890AfricanAmericanWomenPage1', 'Tab1890BooneParadePage1', /*'Tab1890BooneParadePage2',*/
+                    'Tab1916IntroPage1', 'Tab1916ReferendumPage1', /*'Tab1916ReferendumPage2',*/ 'Tab1916WarWorkPage1', 'Tab1916TheWinningPlanPage1',
+                    'Tab1920IntroPage1', 'Tab1920LeagueOfWomenVotersPage1', 'Tab1920SufffrageMemorialPage1', 'Tab1920WomenInPoliticsTodayPage1', /*'Tab1920WomenInPoliticsTodayPage2'*/]
 
 export default router
 export { routeNames }
