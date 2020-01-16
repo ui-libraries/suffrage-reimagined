@@ -9,47 +9,50 @@
                 pioneer
                 state.</div>
 
-
-
             <div>Many future suffragists settled in Iowa during the <b>1850s</b>. In <b>1854</b>, Frances Dana Gage
                 <b>(1808-1884)</b>, a
                 women’s rights advocate from Ohio, visited southeastern Iowa to lecture on women’s suffrage.</div>
 
-
-
-            <div>
-                This book of Readings and Recitations contained a collection of state and national suffrage poems, songs
-                and essays published in <b>1892</b> in Des Moines. Such collections may have been sent out by a national
-                suffrage organization and modified to appeal to audiences in particular states.
-            </div>
-
-            <div>
-                In an era when women had few leadership or career opportunities outside the home, Iowa’s property and
-                marriage laws were considered more favorable than those of other states. In <b>1868</b>, African
-                Americans won
-                the right to vote in Iowa and early suffragists thought women would be next.
-            </div>
-
-
-
-            <div>
-                In <b>1869</b>, members of a women’s study club in Dubuque attended a suffrage convention in Galena,
-                Illinois.
-                Soon after, they founded the Northern Iowa Woman Suffrage Association, which was the first organization
-                dedicated solely to equal suffrage in the state.
-            </div>
-
-
-
-            <div>
-                In the early <b>1880s</b>, Julia Ward Howe (nationally known social activist and author of the lyrics to
-                The
-                Battle Hymn of the Republic) visited Dubuque and gave a report on a Washington, D.C. suffrage convention
-                to the Dubuque women.
-            </div>
         </div>
+        <image-carousel :images="images">
+            <template v-slot:textLeft>
+                <div class="scrapbook-content-container text-left">
+                    <div>
+                        This book of Readings and Recitations contained a collection of state and national suffrage
+                        poems, songs
+                        and essays published in <b>1892</b> in Des Moines. Such collections may have been sent out by a
+                        national
+                        suffrage organization and modified to appeal to audiences in particular states.
+                    </div>
+                    <div>
+                        In an era when women had few leadership or career opportunities outside the home, Iowa’s
+                        property and
+                        marriage laws were considered more favorable than those of other states. In <b>1868</b>, African
+                        Americans won
+                        the right to vote in Iowa and early suffragists thought women would be next.
+                    </div>
+
+                    <div>
+                        In <b>1869</b>, members of a women’s study club in Dubuque attended a suffrage convention in
+                        Galena,
+                        Illinois.
+                        Soon after, they founded the Northern Iowa Woman Suffrage Association, which was the first
+                        organization
+                        dedicated solely to equal suffrage in the state.
+                    </div>
+
+                    <div>
+                        In the early <b>1880s</b>, Julia Ward Howe (nationally known social activist and author of the
+                        lyrics to
+                        The
+                        Battle Hymn of the Republic) visited Dubuque and gave a report on a Washington, D.C. suffrage
+                        convention
+                        to the Dubuque women.
+                    </div>
+                </div>
+            </template>
+        </image-carousel>
         <div>
-            <ImageCarousel :images="images" />
         </div>
     </div>
 </template>

@@ -33,16 +33,19 @@
   @font-face {
     font-family: 'Gotham Bold';
     src: url('./assets/fonts/gotham-bold.otf') format('opentype');
+    font-display: swap;
   }
 
    @font-face {
     font-family: 'Gotham Book';
     src: url('./assets/fonts/gotham-book.TTF') format('truetype');
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Signature';
-    src: url('./assets/fonts/signature.ttf') format('truetype')
+    src: url('./assets/fonts/signature.ttf') format('truetype');
+    font-display: swap;
   }
 
   #app {
@@ -60,7 +63,7 @@ html,body {
 }
 
   .scrapbook-content-container div{
-    padding: 10px 0;
+    margin: 10px 0;
   }
 
   h1, h2, h3, h4, h5, h6 {

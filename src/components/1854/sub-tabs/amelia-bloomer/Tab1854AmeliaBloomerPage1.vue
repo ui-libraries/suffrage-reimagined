@@ -1,16 +1,21 @@
 <template>
     <div class="amelia-bloomer-page-container">
         <h4 class="page-header text-center">Amelia Bloomer</h4>
+            <image-carousel :images="images">
+                <template v-slot:textLeft>
+                    <div class="scrapbook-content-container text-left">
+                        <div>In the <b>1850s</b>, the term “bloomers” referred to a knee-length tunic worn loose or belted over Turkish
+                            pants, which could hang straight or be gathered at the ankle. This was a marked contrast to many layers
+                            of petticoats and tight corsets that restricted movement and caused serious health problems.</div>
+                        <div>Iowa newspapers in Dubuque, Muscatine, Ottumwa, and Farmington printed stories about the first
+                            appearances of the new apparel in their communities.</div>
+                        <div>Iowan Amelia Bloomer did not invent bloomers, but the costume was associated with her name because she
+                            wrote about it frequently in her publication, The Lily, and because she wore the reform dress longer
+                            than most suffragists.</div>
+                    </div>
+                </template>
+            </image-carousel>
         <div class="text-left scrapbook-content-container">
-            <div>In the <b>1850s</b>, the term “bloomers” referred to a knee-length tunic worn loose or belted over Turkish
-                pants, which could hang straight or be gathered at the ankle. This was a marked contrast to many layers
-                of petticoats and tight corsets that restricted movement and caused serious health problems.</div>
-            <div>Iowa newspapers in Dubuque, Muscatine, Ottumwa, and Farmington printed stories about the first
-                appearances of the new apparel in their communities.</div>
-            <div>Iowan Amelia Bloomer did not invent bloomers, but the costume was associated with her name because she
-                wrote about it frequently in her publication, The Lily, and because she wore the reform dress longer
-                than most suffragists.</div>
-            <div>
                 
                 <h6 class="text-center">Amelia Jenks Bloomer (1818 - 1894)</h6>
                 <ul>
@@ -34,14 +39,7 @@
                 </ul>
             </div>
         </div>
-    <ImageCarousel :images="images">
-        <template v-slot:text-left>
-            <span>TESTING</span>
-        </template>
-        <template v-slot:text-right>
-            <span>TESTING</span>
-        </template>
-    </ImageCarousel>
+
     </div>
 </template>
 

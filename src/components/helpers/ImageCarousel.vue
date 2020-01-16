@@ -3,10 +3,10 @@
   <b-container fluid>
     <b-row>
       <b-col v-if="hasTextLeft"><slot name="textLeft"></slot></b-col>
-      <b-col>
+      <b-col lg="4" md="12" align-v="center" class="carousel-col">
         <div class="carousel-wrapper">
           <div class="image-carousel md-elevation-20">
-            <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls indicators
+            <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls
               style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
         
               <span v-for="(image, index) in images" :key="index">
@@ -82,7 +82,13 @@
 
 .carousel-wrapper {
   max-height: 1000px;
+  margin: 10px 0;
+}
 
+.carousel-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
   .carousel-slide {

@@ -4,11 +4,6 @@
     </div>
 </template>
 
-<script>
-{        
-    }
-</script>
-
 <style scoped>
     .base-tab-container {
         width: 100%;

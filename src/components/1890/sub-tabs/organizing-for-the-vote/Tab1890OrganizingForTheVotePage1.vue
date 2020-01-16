@@ -28,39 +28,47 @@
                 her husband, Charles Bliven. Lilla Bliven wrote verses and songs for almost every occasion, according to
                 her son Bruce Bliven’s reminiscences in the August <b>1968</b> edition of The <h1>NEEDS LINK</h1>Palimpsest.
             </div>
-            <div>In <b>1913</b>, the Proteus Club of Des Moines put on a fundraising event. Their play, “The Militant
-                Husbandette,” spoofed Molière's work by parodying activities of militant British suffragettes.</div>
-            <div>The Iowa Federation of Women’s Clubs (IFWC) organized in <b>1893</b> and provided organizational support and
-                ideas for hundreds of clubs by the <b>1920s</b>. During this time period, middle-class women had both increased
-                leisure time and increased education resulting in a proliferation of women’s clubs focused on just about
-                everything including education, conservation, philanthropy, civic duties, social causes and intellectual
-                improvement.</div>
-            <div>In <b>1911</b>, the IFWC became one of the first state federations to endorse suffrage.</div>
-            <div>Carrie Dean graduated from Tipton, Iowa high school in <b>1895</b> and moved to Ida Grove, Iowa after her
-                marriage in the early <b>1900s</b>. Once there, she joined the Ida Grove Civic Club, which she remembered in
-                her <b>1936</b> reminiscences as a suffrage club that disguised its name to appeal to conservative
-                sensibilities.</div>
-            <div>In addition to suffrage activities, the club also worked to get a new library, high school, golf course
-                and swimming pool in Ida Grove.</div>
-            <div>Sixteen years after Iowa women began voting, Carrie Pruyn recalled touring the rural areas around Ida
-                Grove in her Buick, which she had decorated with suffrage slogans, and arguing with farmers who wanted
-                the women to go back home and take care of the babies.</div>
-            <div>Although rural males made up 70 percent of Iowa’s voting population, it was not until the <b>1910s</b> that
-                the Iowa Equal Suffrage Association began focusing on educating rural voters.</div>
-            <div>Beginning in the early 1900s, African American Iowans worked for suffrage mainly through women’s clubs. Founded in 1902, 
-                the Iowa Association of Colored Women’s Clubs (IACWC - later known as the Iowa Federation of Colored Women’s Clubs) 
-                provided an umbrella organization for the activism of clubwomen.</div>
-            <div>By the 1910s, suffrage clubs in IACWC included the Suffragette Club of Des Moines and various Mary Church Terrell clubs. 
-                The IACWC established a standing suffrage committee in 1914 headed by Teresa Adams of Davenport. 
-                In 1916, African American women in Buxton, Iowa marched for suffrage in a family parade.</div>
-            <div>Organizations such as IACWC focused on many inequalities facing African American women in areas such as education, 
-                working wages and property rights.</div>
-            <div>Officers of the Des Moines Suffrage Club, an African American women’s club, wrote this sympathy note (above) 
-                to Fannie Wilson on the death of her husband. African American obituaries saved by Wilson's daughter, 
-                Gwendolyn Wilson Fowler, show that African American women in the 1900s were involved in suffrage clubs 
-                and, later, the League of Women Voters.</div>
+            
         </div>
-        <div><image-carousel :images="images" /></div>
+        <image-carousel :images="images">
+            <template v-slot:textLeft>
+                <div class="scrapbook-content-container text-left">
+                    <div>In <b>1913</b>, the Proteus Club of Des Moines put on a fundraising event. Their play, “The Militant
+                            Husbandette,” spoofed Molière's work by parodying activities of militant British suffragettes.</div>
+                        <div>The Iowa Federation of Women’s Clubs (IFWC) organized in <b>1893</b> and provided organizational support and
+                            ideas for hundreds of clubs by the <b>1920s</b>. During this time period, middle-class women had both increased
+                            leisure time and increased education resulting in a proliferation of women’s clubs focused on just about
+                            everything including education, conservation, philanthropy, civic duties, social causes and intellectual
+                            improvement.</div>
+                        <div>In <b>1911</b>, the IFWC became one of the first state federations to endorse suffrage.</div>
+                        <div>Carrie Dean graduated from Tipton, Iowa high school in <b>1895</b> and moved to Ida Grove, Iowa after her
+                            marriage in the early <b>1900s</b>. Once there, she joined the Ida Grove Civic Club, which she remembered in
+                            her <b>1936</b> reminiscences as a suffrage club that disguised its name to appeal to conservative
+                            sensibilities.</div>
+                        <div>In addition to suffrage activities, the club also worked to get a new library, high school, golf course
+                            and swimming pool in Ida Grove.</div>
+                        <div>Sixteen years after Iowa women began voting, Carrie Pruyn recalled touring the rural areas around Ida
+                            Grove in her Buick, which she had decorated with suffrage slogans, and arguing with farmers who wanted
+                            the women to go back home and take care of the babies.</div>
+                </div>
+            </template>
+        </image-carousel>
+                        <div class="scrapbook-content-container text-left">
+                            <div>Although rural males made up 70 percent of Iowa’s voting population, it was not until the <b>1910s</b> that
+                                the Iowa Equal Suffrage Association began focusing on educating rural voters.</div>
+                            <div>Beginning in the early 1900s, African American Iowans worked for suffrage mainly through women’s clubs. Founded in 1902, 
+                                the Iowa Association of Colored Women’s Clubs (IACWC - later known as the Iowa Federation of Colored Women’s Clubs) 
+                                provided an umbrella organization for the activism of clubwomen.</div>
+                            <div>By the 1910s, suffrage clubs in IACWC included the Suffragette Club of Des Moines and various Mary Church Terrell clubs. 
+                                The IACWC established a standing suffrage committee in 1914 headed by Teresa Adams of Davenport. 
+                                In 1916, African American women in Buxton, Iowa marched for suffrage in a family parade.</div>
+                            <div>Organizations such as IACWC focused on many inequalities facing African American women in areas such as education, 
+                                working wages and property rights.</div>
+                            <div>Officers of the Des Moines Suffrage Club, an African American women’s club, wrote this sympathy note (above) 
+                                to Fannie Wilson on the death of her husband. African American obituaries saved by Wilson's daughter, 
+                                Gwendolyn Wilson Fowler, show that African American women in the 1900s were involved in suffrage clubs 
+                                and, later, the League of Women Voters.</div>
+                        </div>
     </div>
 </template>
 

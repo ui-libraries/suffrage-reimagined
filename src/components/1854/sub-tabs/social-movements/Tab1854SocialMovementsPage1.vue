@@ -4,9 +4,11 @@
         <div class="text-left scrapbook-content-container">
             <div>Women’s involvement in mid-nineteenth century social movements including abolition, black suffrage,
                 child welfare, prison reform and care of Civil War soldiers paved the way for later suffrage work.
-                Correspondence from the <b>1860s</b> reveals that Iowa women (and men) were discussing major issues of social
+                Correspondence from the <b>1860s</b> reveals that Iowa women (and men) were discussing major issues of
+                social
                 change.</div>
-            <div>Although she was not an active suffragist, Boone County resident Ellen Mowrer <b>(1848-1922)</b> described an
+            <div>Although she was not an active suffragist, Boone County resident Ellen Mowrer <b>(1848-1922)</b>
+                described an
                 encounter with a male acquaintance in an <b>1869</b> diary entry...</div>
             <div>“He is very hard against woman voting. Because, because was the only argument he could put forth. was a
                 little tickled at him in the evening, when it was raining he said, Well Miss Mowrer..now how would you
@@ -14,9 +16,9 @@
                 from
                 heaven you know refreshes &amp; revives all things.”</div>
             <div>
-                
 
-                <b-container>
+
+                <b-container fluid>
                     <b-row align-h="center">
                         <h5 class="text-uppercase">Two Divergent Paths</h5>
                     </b-row>
@@ -56,32 +58,44 @@
                     </b-row>
                 </b-container>
             </div>
-            <div>Involvement in a social movement did not guarantee a woman’s support for suffrage. Although Annie
-                Turner Wittenmyer landed one of the first state positions given to a female (sanitary agent, <b>1862</b>),
-                Wittenmyer disapproved of equal suffrage, believing women should exert moral influence rather than
-                political influence.</div>
-            <div>On the other hand, Mary Platt Darwin, Wittenmyer’s contemporary in the Sanitary Commission, became an
-                ardent suffrage advocate.</div>
-            <div>The Sanitary Commission was a precursor to the American Red Cross. When the Civil War began, women sent
-                aid directly to the troops, but soon regional Sanitary Commissions distributed the funds and supplies
-                and organized women who would feed, nurse, and house soldiers. Although Wittenmyer was well-respected
-                for helping soldiers, she had to fight to maintain control of aid funds. In <b>1863</b>, Darwin defended
-                Wittenmyer’s right to serve her country.
-            </div>
 
         </div>
-    <div><ImageCarousel :images="images"/></div>
+        <image-carousel :images="images">
+            <template v-slot:textLeft>
+                <div class="scrapbook-content-container text-left">
+                    <div>Involvement in a social movement did not guarantee a woman’s support for suffrage. Although
+                        Annie
+                        Turner Wittenmyer landed one of the first state positions given to a female (sanitary agent,
+                        <b>1862</b>),
+                        Wittenmyer disapproved of equal suffrage, believing women should exert moral influence rather
+                        than
+                        political influence.</div>
+                    <div>On the other hand, Mary Platt Darwin, Wittenmyer’s contemporary in the Sanitary Commission,
+                        became an
+                        ardent suffrage advocate.</div>
+                    <div>The Sanitary Commission was a precursor to the American Red Cross. When the Civil War began,
+                        women sent
+                        aid directly to the troops, but soon regional Sanitary Commissions distributed the funds and
+                        supplies
+                        and organized women who would feed, nurse, and house soldiers. Although Wittenmyer was
+                        well-respected
+                        for helping soldiers, she had to fight to maintain control of aid funds. In <b>1863</b>, Darwin
+                        defended
+                        Wittenmyer’s right to serve her country.
+                    </div>
+                </div>
+            </template>
+        </image-carousel>
     </div>
 </template>
 
 <script>
-
-import ImageCarousel from '../../../helpers/ImageCarousel'
-import DarwinLetterImage from '../../../../assets/book-content/darwinletter_large.png'
-import MillerDiaryImage from '../../../../assets/book-content/millerdiary_large.png'
-import MillerDiaryTwoImage from '../../../../assets/book-content/millerdiary2_large.png'
-import WittenmyerImage from '../../../../assets/book-content/wittenmyer_large.png'
-import DarwinImage from '../../../../assets/book-content/darwin_large.png'
+    import ImageCarousel from '../../../helpers/ImageCarousel'
+    import DarwinLetterImage from '../../../../assets/book-content/darwinletter_large.png'
+    import MillerDiaryImage from '../../../../assets/book-content/millerdiary_large.png'
+    import MillerDiaryTwoImage from '../../../../assets/book-content/millerdiary2_large.png'
+    import WittenmyerImage from '../../../../assets/book-content/wittenmyer_large.png'
+    import DarwinImage from '../../../../assets/book-content/darwin_large.png'
 
 
     export default {
@@ -91,8 +105,7 @@ import DarwinImage from '../../../../assets/book-content/darwin_large.png'
 
         data() {
             return {
-                images: [
-                    {
+                images: [{
                         url: DarwinLetterImage,
                         caption: 'IWA. Elvira Gaston Platt Papers.',
                         text: ''
@@ -102,7 +115,7 @@ import DarwinImage from '../../../../assets/book-content/darwin_large.png'
                         caption: 'IWA. Ellen Mowrer Miller Papers.',
                         text: ''
                     },
-                 {
+                    {
                         url: MillerDiaryTwoImage,
                         caption: 'IWA. Ellen Mowrer Miller Papers.',
                         text: ''
@@ -112,7 +125,7 @@ import DarwinImage from '../../../../assets/book-content/darwin_large.png'
                         caption: 'ISU. Carrie Chapman Catt Papers',
                         text: ''
                     },
-                {
+                    {
                         url: DarwinImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
                         text: ''

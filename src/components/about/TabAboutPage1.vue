@@ -30,7 +30,8 @@
         </div>
         
     <ImageCarousel :images="images">
-        <template v-slot:textLeft><div class="text-left scrapbook-content-container">
+        <template v-slot:textLeft>
+            <div class="text-left scrapbook-content-container">
             <p><span class="font-weight-bold">Project Manager:</span> Christine Mastalio</p>
             <p><span class="font-weight-bold">Project Assistant:</span> Kayla Pollock</p>
             <p><span class="font-weight-bold">IWA Curators:</span> K&auml;ren Mason and Janet Weaver</p>
@@ -45,7 +46,8 @@
                 <strong>SHSI DM</strong> - State Historical Society of Iowa, Des Moines<br />
                 <strong>SHSI IC</strong> - State Historical Society of Iowa, Iowa City<br />
                 <strong>ISU</strong> - Iowa State University Special Collections</p>
-        </div></template>
+        </div>
+        </template>
     </ImageCarousel>
 
     </div>
