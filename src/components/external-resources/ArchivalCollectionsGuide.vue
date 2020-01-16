@@ -715,6 +715,9 @@ import BackToTop from '@inotom/vue-go-top'
 </script>
 
 <style scoped>
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.842) !important;
+}
   /* .archival-collections-guide {
     text-align: left;
     padding: 100px 100px;

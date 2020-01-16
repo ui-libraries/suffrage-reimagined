@@ -32,19 +32,19 @@
   @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
   @font-face {
     font-family: 'Gotham Bold';
-    src: url('./assets/fonts/gotham-bold.otf') format('opentype');
+    src: url('../public/fonts/gotham-bold.otf') format('opentype');
     font-display: swap;
   }
 
    @font-face {
     font-family: 'Gotham Book';
-    src: url('./assets/fonts/gotham-book.TTF') format('truetype');
+    src: url('../public/fonts/gotham-book.TTF') format('truetype');
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Signature';
-    src: url('./assets/fonts/signature.ttf') format('truetype');
+    src: url('../public/fonts/signature.ttf') format('truetype');
     font-display: swap;
   }
 
@@ -55,6 +55,10 @@
     /* color: #2c3e50; */
     color: black;
     background-color: rgba(241, 240, 240, 0.877);
+  }
+
+  .card-dark {
+    color: black;
   }
 
 html,body {
@@ -94,7 +98,7 @@ html,body {
   }
 
     .text-anchor:hover {
-      background-color: rgba(0, 0, 0, 0.336);
+      background-color: rgba(0, 0, 0, 0.459);
     }
 
   .header-anchor {

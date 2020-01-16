@@ -705,6 +705,9 @@ import BackToTop from '@inotom/vue-go-top'
 </script>
 
 <style scoped>
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.842) !important;
+}
   /* .image-index {
     padding: 100px 100px;
   } */

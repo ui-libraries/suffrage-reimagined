@@ -1827,6 +1827,9 @@ components: {
 </script>
 
 <style scoped>
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.842) !important;
+}
   /* .resources {
     text-align: left;
     padding: 100px 100px;
