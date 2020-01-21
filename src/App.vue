@@ -1,19 +1,21 @@
 <template>
-    <transition name="fade" appear>
-
-  <div id="app">
-    <NavBar />
-    <b-container fluid class="body-container">
-      <b-row align-h="center">
-        <b-col xl="10" lg="12" md="12" sm="12" cols="12">
-          <router-view />
-        </b-col>
-      </b-row>
-    </b-container>
-    <Footer />
-
-  </div>
-    </transition>
+      <transition name="fade" appear>
+  
+    <div id="app">
+  <div v-if="navLoaded && scrapbookLoaded && footerLoaded"></div><div v-else class="load-overlay"></div>
+      <NavBar />
+      <b-container fluid class="body-container">
+        <b-row align-h="center">
+          <b-col xl="10" lg="12" md="12" sm="12" cols="12">
+            <router-view />
+          </b-col>
+        </b-row>
+      </b-container>
+      <Footer />
+  
+    </div>
+  <!-- <div v-else>Ooops</div> -->
+      </transition>
 
 </template>
 
@@ -24,11 +26,41 @@
     components: {
       NavBar,
       Footer,
+    },
+
+    data() {
+      return {
+      }
+    },
+
+    computed: {
+      navLoaded() {
+        return this.$store.state.isNavLoaded;
+      },
+
+      scrapbookLoaded() {
+        return this.$store.state.isScrapbookLoaded;
+      },
+
+      footerLoaded() {
+        return this.$store.state.isFooterLoaded;
+      }
     }
   }
 </script>
 
 <style>
+.load-overlay {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+}
+
+
+
+
   @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
   @font-face {
     font-family: 'Gotham Bold';

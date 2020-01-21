@@ -21,14 +21,8 @@
             ScrapbookBody
         },
 
-        data() {
-            return {
-
-            }
-        },
-
-        methods: {
-            
+        mounted() {
+            this.$store.commit('setScrapbookLoaded')
         }
 
 

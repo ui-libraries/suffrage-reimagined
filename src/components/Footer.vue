@@ -23,7 +23,9 @@
 
 <script>
     export default {
-        
+        mounted() {
+            this.$store.commit('setFooterLoaded')
+        }
     }
 </script>
 
@@ -31,11 +33,7 @@
     .footer-container {
         width: 100%;
         background-color: black;
-        padding: 2.5em 0;
-    }
-
-    .footer-container {
-        width: 100%;
+        padding: 2.5em 1rem;
     }
 
     .external-resources {

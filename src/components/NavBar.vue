@@ -1,5 +1,6 @@
 <template>
     <div>
+        <headroom>
         <md-toolbar class="nav-header">
             <md-button v-if="isMobile()" class="md-icon-button" @click="showNavigation = true">
                 <md-icon>menu</md-icon>
@@ -9,6 +10,7 @@
                 </router-link>
             </h4>
         </md-toolbar>
+        </headroom>
 
         <md-drawer class="entire-drawer" :md-active.sync="showNavigation" md-swipeable>
         <smooth-scrollbar>
@@ -104,19 +106,21 @@
                 <md-list-item class="bookmark-list-item" to="/tab-1920/women-in-politics-today">
                     <div class="md-list-item-text"><span>Women in Politics Today</span></div>
                 </md-list-item>
-                
-
             </md-list>
         </smooth-scrollbar>
-
         </md-drawer>
-
     </div>
 </template>
 
 <script>
+    import { headroom } from 'vue-headroom'
+
     export default {
         name: 'Temporary',
+        components: {
+            headroom
+        },
+
         data() {
             return {
                 showNavigation: false,
@@ -126,6 +130,10 @@
                     height: 0,
                 }
             }
+        },
+
+        mounted() {
+            this.$store.commit('setNavLoaded')
         },
 
         created() {
@@ -227,11 +235,11 @@
 
     @media only screen and (max-width: 455px) {
         .nav-title {
-            font-size: .7rem !important;
+            font-size: .75rem !important;
         }
     }
 
-    @media only screen and (max-width: 350px) {
+    @media only screen and (max-width: 365px) {
         .nav-title {
             font-size: .55rem !important;
         }
