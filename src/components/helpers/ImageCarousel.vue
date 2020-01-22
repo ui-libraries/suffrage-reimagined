@@ -1,5 +1,4 @@
 <template>
-<transition name="fade" appear>
   <b-container fluid>
     <b-row>
       <b-col v-if="hasTextLeft"><slot name="textLeft"></slot></b-col>
@@ -26,7 +25,6 @@
       <b-col v-if="hasTextRight"><slot name="textRight"></slot></b-col>
     </b-row>
   </b-container>
-  </transition>
 </template>
 
 

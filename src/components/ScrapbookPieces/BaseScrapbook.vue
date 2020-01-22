@@ -22,7 +22,7 @@
         },
 
         mounted() {
-            this.$store.commit('setScrapbookLoaded')
+            // this.$store.commit('setScrapbookLoaded')
         }
 
 
@@ -31,6 +31,7 @@
 
 <style scoped>
     .base-scrapbook-container {
+    z-index: 0;
         margin: 1rem 0;
         padding: 1rem;
     }

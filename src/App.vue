@@ -1,8 +1,9 @@
 <template>
-      <transition name="fade" appear>
-  
+  <transition name="fade" appear>
+
     <div id="app">
-  <div v-if="navLoaded && scrapbookLoaded && footerLoaded"></div><div v-else class="load-overlay"></div>
+        <loading-screen :is-loading="isLoading"></loading-screen>
+        <!-- <div v-if="!isLoading"> -->
       <NavBar />
       <b-container fluid class="body-container">
         <b-row align-h="center">
@@ -12,28 +13,45 @@
         </b-row>
       </b-container>
       <Footer />
-  
+      <!-- </div> -->
     </div>
-  <!-- <div v-else>Ooops</div> -->
-      </transition>
+    <!-- <div v-if="!$data"><div v-cloak class="loader-wrapper"><div class="loader"></div></div></div> -->
+
+    <!-- <div v-else>Ooops</div> -->
+  </transition>
 
 </template>
 
 <script>
   import NavBar from './components/NavBar'
   import Footer from './components/Footer'
+  import LoadingScreen from './components/helpers/LoadingScreen'
   export default {
     components: {
       NavBar,
       Footer,
+      LoadingScreen
     },
 
     data() {
       return {
+        isLoading: true,
       }
     },
 
+    mounted () {
+    setTimeout(() => {
+      this.isLoading = false
+    }, 5000)
+  },
+
     computed: {
+      loading: function () {
+        return {
+          loading: !(this.navLoaded && this.scrapbookLoaded && this.footerLoaded)
+        }
+      },
+
       navLoaded() {
         return this.$store.state.isNavLoaded;
       },
@@ -49,34 +67,58 @@
   }
 </script>
 
-<style>
-.load-overlay {
-  background-color: black;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 10000;
-}
+<style lang="scss">
+  [v-cloak] > * { display:none; }
+  // [v-cloak]::before {
+  //   content: " ";
+  //   display: block;
+  //   position: absolute;
+  //   width: 80px;
+  //   height: 80px;
+  //   background-image: url('./assets/scrapbook-extras/loader.svg');
+  //   background-size: cover;
+  //   left: 50%;
+  //   top: 50%;
+  // }
 
+  .loader-wrapper {
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10001;
+  }
 
+  .loader {
+    background-image: url('./assets/scrapbook-extras/loader.svg');
+    background-size: cover;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+  }
 
+  .loading {
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000000;
+  }
 
   @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
+
   @font-face {
     font-family: 'Gotham Bold';
     src: url('../public/fonts/gotham-bold.otf') format('opentype');
     font-display: swap;
   }
 
-   @font-face {
-    font-family: 'Gotham Book';
-    src: url('../public/fonts/gotham-book.TTF') format('truetype');
-    font-display: swap;
-  }
-
   @font-face {
-    font-family: 'Signature';
-    src: url('../public/fonts/signature.ttf') format('truetype');
+    font-family: 'Gotham Book';
+    src: url('../public/fonts/gotham-book.woff') format('woff');
     font-display: swap;
   }
 
@@ -93,16 +135,22 @@
     color: black;
   }
 
-html,body {
+  html,
+  body {
     /* gets rid of mobile dev overflow */
     overflow-x: hidden;
-}
+  }
 
-  .scrapbook-content-container div{
+  .scrapbook-content-container div {
     margin: 10px 0;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Gotham Bold'
   }
 
@@ -124,14 +172,15 @@ html,body {
   .stretched-link::after {
     z-index: 0 !important;
   }
-    .text-anchor {
+
+  .text-anchor {
     color: black !important;
     text-decoration: underline !important;
   }
 
-    .text-anchor:hover {
-      background-color: rgba(0, 0, 0, 0.459);
-    }
+  .text-anchor:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+  }
 
   .header-anchor {
     color: black !important;
@@ -143,7 +192,7 @@ html,body {
     color: white !important;
     background-color: black;
 
-    transition: .3s cubic-bezier(.25,.8,.25,1);
+    transition: .3s cubic-bezier(.25, .8, .25, 1);
     transition-property: color, background-color, opacity;
   }
 
@@ -200,22 +249,23 @@ html,body {
     color: black !important;
   }
 
-    .dropdown-menu a:hover {
+  .dropdown-menu a:hover {
     background-color: #FFCD00 !important;
   }
 
-      /* Alter vue material css */
-.md-list.md-double-line .md-list-item-content {
+  /* Alter vue material css */
+  .md-list.md-double-line .md-list-item-content {
     min-height: 35px !important;
-}
+  }
 
-    /* Alter scrollbar - smooth scrollbar */
-    .scrollbar-thumb {
-        border-radius: 0px !important;
-    }
+  /* Alter scrollbar - smooth scrollbar */
+  .scrollbar-thumb {
+    border-radius: 0px !important;
+  }
 
   /* media queries for mobile layout */
   @media only screen and (max-width: 1000px) {
+
     /* bootstrap-vue container over whole app */
     .container-fluid {
       padding: 0 0 !important;
@@ -235,13 +285,13 @@ html,body {
     }
   }
 
-    @media only screen and (max-width: 526px) {
+  @media only screen and (max-width: 526px) {
     .navigation-to-resources {
       font-size: 14px;
     }
   }
 
-      @media only screen and (max-width: 440px) {
+  @media only screen and (max-width: 440px) {
     .navigation-to-resources {
       font-size: 10px;
     }
@@ -251,23 +301,26 @@ html,body {
     background-image: url('./assets/scrapbook-extras/arrow-left-white.svg') !important;
   }
 
-    .carousel-control-next-icon {
+  .carousel-control-next-icon {
     background-image: url('./assets/scrapbook-extras/arrow-right-white.svg') !important;
   }
-  
+
   .md-button .md-ripple {
     padding: 0 0 !important;
-}
+  }
 
-        .fade-enter-active, .fade-leave-active {
-        transition: opacity 1s ease-in-out;
-}
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 1s ease-in-out;
+  }
 
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
 
-.fade-enter-to, .fade-leave {
-  opacity: 1;
-}
+  .fade-enter-to,
+  .fade-leave {
+    opacity: 1;
+  }
 </style>

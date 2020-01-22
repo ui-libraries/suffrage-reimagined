@@ -133,7 +133,7 @@
         },
 
         mounted() {
-            this.$store.commit('setNavLoaded')
+            // this.$store.commit('setNavLoaded')
         },
 
         created() {

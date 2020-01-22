@@ -24,7 +24,7 @@
 <script>
     export default {
         mounted() {
-            this.$store.commit('setFooterLoaded')
+            // this.$store.commit('setFooterLoaded')
         }
     }
 </script>

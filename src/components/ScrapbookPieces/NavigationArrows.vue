@@ -1,6 +1,14 @@
 <template>
     <div class="nav-arrows">
-
+        <div v-if="isMobile()">
+            <md-button @click="prevTab()"  class="go-back-arrow-mobile md-icon-button md-elevation-24" name="page-arrow-go-back">
+                <md-icon :md-src="arrowLeftWhite" class="icon"/>
+            </md-button>
+            <md-button @click="nextTab()"  class="go-forward-arrow-mobile md-icon-button md-elevation-24" name="page-arrow-go-forward">
+                <md-icon :md-src="arrowRightWhite" class="icon"/>
+            </md-button>
+        </div>
+        <div v-else>
         <md-button @click="prevTab()" @mouseover="arrowLeft = arrowLeftBlack" @mouseleave="arrowLeft = arrowLeftWhite"
             class="go-back-arrow md-icon-button" name="page-arrow-go-back">
             <transition name="fade" mode="out-in">
@@ -18,6 +26,7 @@
                 <md-icon :md-src="arrowRight" class="icon" :key="arrowRight" />
             </transition>
         </md-button>
+        </div>
     </div>
 </template>
 
@@ -42,11 +51,35 @@
 
                 arrowRightWhite: ArrowRightWhite,
                 arrowRightBlack: ArrowRightBlack,
-                arrowRight: ArrowRightWhite
+                arrowRight: ArrowRightWhite,
+
+                window: {
+                    width: 0,
+                    height: 0,
+                }
             }
         },
 
+        created() {
+            window.addEventListener('resize', this.handleResize)
+            this.handleResize();
+        },
+
+        destroyed() {
+            window.removeEventListener('resize', this.handleResize)
+        },
+
+
         methods: {
+            handleResize() {
+                this.window.width = window.innerWidth;
+                this.window.height = window.innerHeight;
+            },
+
+            isMobile() {
+                return this.window.width < 1200 ? true : false
+            },
+
             prevTab() {
                 let index = this.routes.indexOf(this.$route.name);
                 if (this.routes[index - 1]) {
@@ -74,25 +107,48 @@
     }
 
     .go-back-arrow {
-        position: absolute;
         top: 35rem;
         left: -6rem;
-
     }
 
     .go-forward-arrow {
-        position: absolute;
         top: 35rem;
         right: -6rem;
     }
 
     .go-back-arrow,
     .go-forward-arrow {
+        position: absolute;
         width: 80px;
         height: auto;
         padding: 0 0;
-
     }
+
+    .go-back-arrow-mobile {
+        top: 50%;
+        left: .5rem;
+    }
+
+    .go-forward-arrow-mobile {
+        top: 50%;
+        right: .5rem;
+    }
+
+    .go-back-arrow-mobile, .go-forward-arrow-mobile {
+        position: fixed;
+    }
+
+    .go-back-arrow-mobile:hover{
+        filter: invert(1);
+        opacity: 1;
+    }
+
+    .go-forward-arrow-mobile:hover{
+        opacity: 1;
+    }
+
+
+    
 
     .fade-enter-active,
     .fade-leave-active {
