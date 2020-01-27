@@ -107,21 +107,25 @@
     }
 
     .go-back-arrow {
-        top: 35rem;
-        left: -6rem;
+        /* top: 35rem;
+        left: -6rem; */
+        top: 50vh;
+        left: 4rem;
     }
 
     .go-forward-arrow {
-        top: 35rem;
-        right: -6rem;
+        top: 50vh;
+        right: 4rem;
+        /* top: 35rem;
+        right: -6rem; */
     }
 
     .go-back-arrow,
     .go-forward-arrow {
-        position: absolute;
-        width: 80px;
+        position: fixed;
+        /* width: 80px;
         height: auto;
-        padding: 0 0;
+        padding: 0 0; */
     }
 
     .go-back-arrow-mobile {
@@ -136,10 +140,10 @@
 
     .go-back-arrow-mobile, .go-forward-arrow-mobile {
         position: fixed;
+        opacity: 0.2;
     }
 
     .go-back-arrow-mobile:hover{
-        filter: invert(1);
         opacity: 1;
     }
 

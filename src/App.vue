@@ -258,6 +258,10 @@
     min-height: 35px !important;
   }
 
+      .md-overlay {
+        z-index: 10000 !important;
+    }
+
   /* Alter scrollbar - smooth scrollbar */
   .scrollbar-thumb {
     border-radius: 0px !important;

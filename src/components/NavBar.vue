@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <headroom>
+    <div class="nav-container">
+        <headroom class="headroom-container">
         <md-toolbar class="nav-header">
             <md-button v-if="isMobile()" class="md-icon-button" @click="showNavigation = true">
                 <md-icon>menu</md-icon>
@@ -157,6 +157,9 @@
 </script>
 
 <style scoped>
+.headroom, .headroom--top, .headroom--bottom {
+    z-index: 0 !important;
+}
     .nav-header {
         width: 100%;
         font-size: 3rem;
@@ -201,7 +204,7 @@
         border-right: 1px solid rgba(187, 187, 187, 0.541);
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-        z-index: 10000;
+        z-index: 10001;
     }
 
     .drawer-header {

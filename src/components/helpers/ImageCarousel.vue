@@ -5,7 +5,7 @@
       <b-col lg="4" md="12" align-v="center" class="carousel-col">
         <div class="carousel-wrapper">
           <div class="image-carousel md-elevation-20">
-            <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls
+            <b-carousel id="carousel-1" class="image-body" v-model="slide" :interval="4000" controls indicators
               style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
         
               <span v-for="(image, index) in images" :key="index">
