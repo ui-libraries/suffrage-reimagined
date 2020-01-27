@@ -26,7 +26,7 @@
             </div>
             <div>Composer Lilla Cordelia Ormsby Bliven moved to Palo Alto County, Iowa from Michigan in the <b>1880s</b> with
                 her husband, Charles Bliven. Lilla Bliven wrote verses and songs for almost every occasion, according to
-                her son Bruce Bliven’s reminiscences in the August <b>1968</b> edition of The <h1>NEEDS LINK</h1>Palimpsest.
+                her son Bruce Bliven’s reminiscences in the August <b>1968</b> edition of The <a class="text-anchor" href="http://ormsby.org/genie/Bruce_Bliven/Palimpsest_one.html">Palimpsest.</a>
             </div>
             
         </div>

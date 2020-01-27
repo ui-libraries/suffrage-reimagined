@@ -1,31 +1,34 @@
 <template>
     <div class="nav-arrows">
         <div v-if="isMobile()">
-            <md-button @click="prevTab()"  class="go-back-arrow-mobile md-icon-button md-elevation-24" name="page-arrow-go-back">
-                <md-icon :md-src="arrowLeftWhite" class="icon"/>
+            <md-button v-show="hasPreviousPage" @click="prevTab()" class="go-back-arrow-mobile md-icon-button md-elevation-24"
+                name="page-arrow-go-back">
+                <md-icon :md-src="arrowLeftWhite" class="icon" />
             </md-button>
-            <md-button @click="nextTab()"  class="go-forward-arrow-mobile md-icon-button md-elevation-24" name="page-arrow-go-forward">
-                <md-icon :md-src="arrowRightWhite" class="icon"/>
+            <md-button v-show="hasNextPage" @click="nextTab()" class="go-forward-arrow-mobile md-icon-button md-elevation-24"
+                name="page-arrow-go-forward">
+                <md-icon :md-src="arrowRightWhite" class="icon" />
             </md-button>
         </div>
         <div v-else>
-        <md-button @click="prevTab()" @mouseover="arrowLeft = arrowLeftBlack" @mouseleave="arrowLeft = arrowLeftWhite"
-            class="go-back-arrow md-icon-button" name="page-arrow-go-back">
-            <transition name="fade" mode="out-in">
-                <!-- <img :src="arrowLeft" :key="arrowLeft"/> -->
-                <md-icon :md-src="arrowLeft" class="icon" :key="arrowLeft" />
-            </transition>
-        </md-button>
+            <md-button v-show="hasPreviousPage" @click="prevTab()" @mouseover="arrowLeft = arrowLeftBlack"
+                @mouseleave="arrowLeft = arrowLeftWhite" class="go-back-arrow md-icon-button" name="page-arrow-go-back">
+                <transition name="fade" mode="out-in">
+                    <!-- <img :src="arrowLeft" :key="arrowLeft"/> -->
+                    <md-icon :md-src="arrowLeft" class="icon" :key="arrowLeft" />
+                </transition>
+            </md-button>
 
 
-        <md-button @click="nextTab()" @mouseover="arrowRight = arrowRightBlack"
-            @mouseleave="arrowRight = arrowRightWhite" class="go-forward-arrow md-icon-button" name="page-arrow-go-forward">
-            <transition name="fade" mode="out-in">
+            <md-button v-show="hasNextPage" @click="nextTab()" @mouseover="arrowRight = arrowRightBlack"
+                @mouseleave="arrowRight = arrowRightWhite" class="go-forward-arrow md-icon-button"
+                name="page-arrow-go-forward">
+                <transition name="fade" mode="out-in">
 
-                <!-- <img class=""  src="../../assets/scrapbook-extras/arrow-right-white.png"> -->
-                <md-icon :md-src="arrowRight" class="icon" :key="arrowRight" />
-            </transition>
-        </md-button>
+                    <!-- <img class=""  src="../../assets/scrapbook-extras/arrow-right-white.png"> -->
+                    <md-icon :md-src="arrowRight" class="icon" :key="arrowRight" />
+                </transition>
+            </md-button>
         </div>
     </div>
 </template>
@@ -67,6 +70,18 @@
 
         destroyed() {
             window.removeEventListener('resize', this.handleResize)
+        },
+
+        computed: {
+            hasPreviousPage: function () {
+                let index = this.routes.indexOf(this.$route.name)
+                return this.routes[index - 1]
+            },
+
+            hasNextPage: function () {
+                let index = this.routes.indexOf(this.$route.name)
+                return this.routes[index + 1]
+            }
         },
 
 
@@ -123,9 +138,19 @@
     .go-back-arrow,
     .go-forward-arrow {
         position: fixed;
+        opacity: 0.2;
+        transform: scale(1.3);
         /* width: 80px;
         height: auto;
         padding: 0 0; */
+    }
+
+    .go-back-arrow:hover {
+        opacity: 1
+    }
+
+    .go-forward-arrow:hover {
+        opacity: 1
     }
 
     .go-back-arrow-mobile {
@@ -138,21 +163,22 @@
         right: .5rem;
     }
 
-    .go-back-arrow-mobile, .go-forward-arrow-mobile {
+    .go-back-arrow-mobile,
+    .go-forward-arrow-mobile {
         position: fixed;
         opacity: 0.2;
     }
 
-    .go-back-arrow-mobile:hover{
+    .go-back-arrow-mobile:hover {
         opacity: 1;
     }
 
-    .go-forward-arrow-mobile:hover{
+    .go-forward-arrow-mobile:hover {
         opacity: 1;
     }
 
 
-    
+
 
     .fade-enter-active,
     .fade-leave-active {

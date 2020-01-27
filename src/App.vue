@@ -1,9 +1,8 @@
 <template>
   <transition name="fade" appear>
-
     <div id="app">
-        <loading-screen :is-loading="isLoading"></loading-screen>
-        <!-- <div v-if="!isLoading"> -->
+      <loading-screen :is-loading="isLoading"></loading-screen>
+      <!-- <div v-if="!isLoading"> -->
       <NavBar />
       <b-container fluid class="body-container">
         <b-row align-h="center">
@@ -19,7 +18,6 @@
 
     <!-- <div v-else>Ooops</div> -->
   </transition>
-
 </template>
 
 <script>
@@ -39,11 +37,11 @@
       }
     },
 
-    mounted () {
-    setTimeout(() => {
-      this.isLoading = false
-    }, 5000)
-  },
+    mounted() {
+      setTimeout(() => {
+        this.isLoading = false
+      }, 4000)
+    },
 
     computed: {
       loading: function () {
@@ -68,18 +66,15 @@
 </script>
 
 <style lang="scss">
-  [v-cloak] > * { display:none; }
-  // [v-cloak]::before {
-  //   content: " ";
-  //   display: block;
-  //   position: absolute;
-  //   width: 80px;
-  //   height: 80px;
-  //   background-image: url('./assets/scrapbook-extras/loader.svg');
-  //   background-size: cover;
-  //   left: 50%;
-  //   top: 50%;
-  // }
+  ::selection {
+    background: rgba(0, 0, 0, 0.116) !important;
+    color: inherit !important;
+  }
+
+  ::-moz-selection {
+    background: rgba(0, 0, 0, 0.116) !important;
+    color: inherit !important;
+  }
 
   .loader-wrapper {
     position: fixed;
@@ -258,9 +253,9 @@
     min-height: 35px !important;
   }
 
-      .md-overlay {
-        z-index: 10000 !important;
-    }
+  .md-overlay {
+    z-index: 10000 !important;
+  }
 
   /* Alter scrollbar - smooth scrollbar */
   .scrollbar-thumb {
@@ -325,6 +320,27 @@
 
   .fade-enter-to,
   .fade-leave {
+    opacity: 1;
+  }
+
+  .fadeScrapbook-enter-active {
+    transition: opacity 1s ease-in-out;
+  }
+
+  // .fadeScrapbook-leave-active {
+  //   transition: opacity .2s ease-in-out;
+  // }
+
+  .fadeScrapbook-enter {
+    opacity: 0;
+  }
+
+  // .fadeScrapbook-leave-to {
+  //   opacity: 0;
+  // }
+
+  .fadeScrapbook-enter-to,
+  .fadeScrapbook-leave {
     opacity: 1;
   }
 </style>

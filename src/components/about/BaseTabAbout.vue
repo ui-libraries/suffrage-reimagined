@@ -1,6 +1,8 @@
 <template>
     <div class="base-container">
+    <transition name="fadeScrapbook" appear mode="out-in">
         <router-view />
+        </transition>
     </div>
 </template>
 

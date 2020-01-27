@@ -14,7 +14,7 @@
             </b-row>
             <b-row class="text-center image-wrapper mt-5" align-v="center" align-h="center">
                 <b-col>
-                    <img src='../assets/scrapbook-extras/ui-libraries-wordmark.png' width="350px"/>
+                    <img src='../assets/scrapbook-extras/wordmark-black-background.jpg' width="350px"/>
                 </b-col>
             </b-row>
         </b-container>
