@@ -124,6 +124,8 @@
     /* color: #2c3e50; */
     color: black;
     background-color: rgba(241, 240, 240, 0.877);
+    margin: 0 0;
+    padding: 0 0;
   }
 
   .card-dark {

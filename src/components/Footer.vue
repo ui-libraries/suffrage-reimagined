@@ -33,7 +33,7 @@
     .container-fluid {
         width: 100%;
         background-color: black;
-        padding: 2.5em 1rem;
+        padding: 2.5em 1rem !important;
     }
 
     .external-resources {
