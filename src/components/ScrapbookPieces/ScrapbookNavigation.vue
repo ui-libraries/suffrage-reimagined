@@ -2,10 +2,10 @@
     <nav v-if="!isMobile()" class="scrapbook-navigation-container" role="navigation">
         <b-nav tabs justified fill>
             <!-- Home/About -->
-            <b-nav-item to="/tab-about/" class="ml-lg-0 mr-lg-1 nav-item-custom" text="About" title="About"
-                :class="currentPage.includes('tab-about') ? activeClass : 'nav-link-custom'">
+            <b-nav-item to="/about/" class="ml-lg-0 mr-lg-1 nav-item-custom" text="About" title="About"
+                :class="currentPage.includes('about') ? activeClass : 'nav-link-custom'">
                 About
-                <!-- <b-dropdown-item class="about" to="/tab-about/" title="About">About</b-dropdown-item> -->
+                <!-- <b-dropdown-item class="about" to="/about/" title="About">About</b-dropdown-item> -->
             </b-nav-item>
             <!-- 1854 - 1870 -->
             <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" left
@@ -97,7 +97,7 @@
             },
 
             isAboutActive() {
-                return this.currentPage.includes('tab-about') ? activeClass : 'nav-link-custom'
+                return this.currentPage.includes('about') ? activeClass : 'nav-link-custom'
             }
         }
     }

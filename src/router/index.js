@@ -85,12 +85,12 @@ const routes = [{
   children: [{
     path: '',
     component: ScrapbookBody,
-    redirect: '/tab-about',
+    redirect: '/about',
     children: [
     {
-      path: '/tab-about',
+      path: '/about',
       component: BaseTabAbout,
-      redirect: 'tab-about/page=1',
+      redirect: 'about/page=1',
       children: [{
         path: 'page=1',
         component: TabAboutPage1,
@@ -414,7 +414,8 @@ const routes = [{
 
 const router = new VueRouter({
   routes,
-  mode: 'history' //might funk things up during production
+  mode: 'hash', //might funk things up during production
+  base: "/suffrage/"
 })
 
 const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', /*'Tab1854IntroPage2',*/ 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', /*'Tab1854SocialMovementsPage2',*/

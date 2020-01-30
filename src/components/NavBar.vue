@@ -21,7 +21,7 @@
 
             <md-list class="md-double-line drawer-body">
                 <md-subheader class="sub-header">About</md-subheader>
-                <md-list-item class="bookmark-list-item" to="/tab-about">
+                <md-list-item class="bookmark-list-item" to="/about">
                     <div class="md-list-item-text">
                     <span>About the Suffrage</span>
                     </div>

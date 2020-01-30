@@ -1,7 +1,7 @@
 <template>
   <transition name="fade" appear>
     <div id="app">
-      <loading-screen :is-loading="isLoading"></loading-screen>
+      <!-- <loading-screen :is-loading="isLoading"></loading-screen> -->
       <!-- <div v-if="!isLoading"> -->
       <NavBar />
       <b-container fluid class="body-container">
