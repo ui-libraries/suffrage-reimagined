@@ -1,5 +1,5 @@
 <template>
-    <div class="base-tab-1920-container">
+    <div class="base-1920-container">
     <transition name="fadeScrapbook" appear mode="out-in">
         <router-view />
         </transition>
@@ -22,7 +22,7 @@ import BaseTab1920WomenInPoliticsToday from '../1920/sub-tabs/women-in-politics-
 </script>
 
 <style scoped>
-    .base-tab-1920-container {
+    .base-1920-container {
         width: 100%;
         height: 100%;
     }

@@ -1,7 +1,7 @@
 <template>
   <transition name="fade" appear>
     <div id="app">
-      <!-- <loading-screen :is-loading="isLoading"></loading-screen> -->
+      <loading-screen :is-loading="isLoading"></loading-screen>
       <!-- <div v-if="!isLoading"> -->
       <NavBar />
       <b-container fluid class="body-container">
@@ -37,10 +37,23 @@
       }
     },
 
+    beforeMount() {
+      // this.delay(4000);
+    },
+
     mounted() {
       setTimeout(() => {
         this.isLoading = false
       }, 4000)
+    },
+
+    methods: {
+      delay(ms) {
+      const startPoint = new Date().getTime();
+      while (new Date().getTime() - startPoint <= ms) {
+        /* wait */
+      }
+    }
     },
 
     computed: {

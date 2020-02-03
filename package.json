@@ -13,6 +13,7 @@
     "core-js": "^3.3.2",
     "please-wait": "0.0.5",
     "vue": "^2.6.10",
+    "vue-gtag": "^1.2.1",
     "vue-headroom": "^0.10.1",
     "vue-material": "^1.0.0-beta-11",
     "vue-router": "^3.1.3",
