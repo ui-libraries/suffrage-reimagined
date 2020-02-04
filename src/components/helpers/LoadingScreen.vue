@@ -118,6 +118,6 @@
       -webkit-animation: loader 2s linear infinite;
       -moz-animation: loader 2s linear infinite;
       -o-animation: loader 2s linear infinite;
-      animation: loader 3s linear infinite;
+      animation: loader 2.5s linear infinite;
     }
 </style>
