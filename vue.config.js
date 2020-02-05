@@ -1,5 +1,5 @@
-// module.exports = {
-//     chainWebpack: (config) => {
-//         config.plugins.delete('prefetch')
-//       }
-// }
+module.exports = {
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/production-sub-path/'
+      : '/'
+  }

@@ -160,6 +160,12 @@
 .headroom, .headroom--top, .headroom--bottom {
     z-index: 0 !important;
 }
+
+/* Forces into correct size . . gets rid of unwanted white space below nav */
+.headroom-container {
+    height: 48px !important;
+}
+
     .nav-header {
         width: 100%;
         font-size: 3rem;
@@ -175,7 +181,6 @@
         font-family: 'Gotham Book';
         width: 230px;
         max-width: calc(100vw - 125px);
-        /* background-image: url('../assets/temp-book-paper.jpg') */
     }
 
     .bookmark-title {
