@@ -2,7 +2,7 @@
   <transition name="fade" appear>
     <div id="app">
       <loading-screen :is-loading="isLoading"></loading-screen>
-      <!-- <div v-if="!isLoading"> -->
+      <div v-if="!isLoading">
       <NavBar />
       <b-container fluid class="body-container">
         <b-row align-h="center">
@@ -12,11 +12,8 @@
         </b-row>
       </b-container>
       <Footer />
-      <!-- </div> -->
+      </div>
     </div>
-    <!-- <div v-if="!$data"><div v-cloak class="loader-wrapper"><div class="loader"></div></div></div> -->
-
-    <!-- <div v-else>Ooops</div> -->
   </transition>
 </template>
 

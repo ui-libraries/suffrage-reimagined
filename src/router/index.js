@@ -415,8 +415,8 @@ const routes = [{
 
 const router = new VueRouter({
   routes,
-  mode: 'history', //might funk things up during production
-  base: "/suffrage/"
+  mode: 'hash', //might funk things up during production
+  base: process.env.BASE_URL
 })
 
 const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', /*'Tab1854IntroPage2',*/ 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', /*'Tab1854SocialMovementsPage2',*/

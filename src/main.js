@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store/store'
 import VueGtag from 'vue-gtag'
 
 import { BContainer, BRow, BCol, BCard, BCardText, BNav, BNavItem, BNavItemDropdown, BDropdownItem, BCarousel, BCarouselSlide, BImgLazy } from 'bootstrap-vue'
@@ -46,7 +45,6 @@ Vue.use(VueGtag, {
 
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount('#app')
         
