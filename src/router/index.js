@@ -415,7 +415,7 @@ const routes = [{
 
 const router = new VueRouter({
   routes,
-  mode: 'history', //might funk things up during production
+  mode: 'hash', //might funk things up during production
   base: '/suffrage/'
 })
 
