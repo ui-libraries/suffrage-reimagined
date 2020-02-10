@@ -85,12 +85,12 @@ const routes = [{
   children: [{
     path: '',
     component: ScrapbookBody,
-    redirect: '/about',
+    redirect: '/',
     children: [
     {
-      path: '/about',
+      path: '/',
       component: BaseTabAbout,
-      redirect: 'about',
+      redirect: '',
       children: [{
         path: '',
         component: TabAboutPage1,
