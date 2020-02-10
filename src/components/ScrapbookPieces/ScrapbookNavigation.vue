@@ -2,11 +2,10 @@
     <nav v-if="!isMobile()" class="scrapbook-navigation-container" role="navigation">
         <b-nav tabs justified fill>
             <!-- Home/About -->
-            <b-nav-item to="/about/" class="ml-lg-0 mr-lg-1 nav-item-custom" text="About" title="About"
-                :class="currentPage.includes('about') ? activeClass : 'nav-link-custom'">
+            <!-- <b-nav-item to="/" exact class="ml-lg-0 mr-lg-1" text="About" title="About"
+                :toggle-class="[currentPage == '/' ? activeClass : 'nav-item-custom']">
                 About
-                <!-- <b-dropdown-item class="about" to="/about/" title="About">About</b-dropdown-item> -->
-            </b-nav-item>
+            </b-nav-item> -->
             <!-- 1854 - 1870 -->
             <b-nav-item-dropdown class="mr-lg-1" id="my-nav-dropdown" text="1854 - 1870" title="1854 to 1870" left
                 :lazy="true" :toggle-class="[currentPage.includes('1854') ? activeClass : 'nav-link-custom']">
@@ -93,7 +92,7 @@
             },
 
             isMobile() {
-                return this.window.width < 1000 ? true : false
+                return this.window.width <= 1000 ? true : false
             },
 
             isAboutActive() {
@@ -113,13 +112,15 @@
         background-color: #FFCD00 !important;
     }
 
-    .nav-item-custom {
+
+    .nav-item-custom:hover a {
         color: black !important;
-        text-decoration: none !important;
-        background-color: black;
     }
 
-    .nav-item-custom:hover {
-        background-color: #FFCD00;
+    .nav-item-custom a {
+
     }
+    
+
+    
 </style>

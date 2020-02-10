@@ -82,7 +82,7 @@
     }
 
     .load-wrapper {
-      margin-top: 120px;
+      margin-top: 100px;
       position: absolute;
       top: 60%;
       left: 50%;

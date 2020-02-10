@@ -2,12 +2,14 @@
   <transition name="fade" appear>
     <div id="app">
       <loading-screen :is-loading="isLoading"></loading-screen>
-      <div v-if="!isLoading">
+      <div>
       <NavBar />
       <b-container fluid class="body-container">
         <b-row align-h="center">
           <b-col xl="10" lg="12" md="12" sm="12" cols="12">
+            <keep-alive>
             <router-view />
+            </keep-alive>
           </b-col>
         </b-row>
       </b-container>
@@ -231,6 +233,11 @@
   .nav-item .router-link-active:hover {
     color: black !important;
     text-decoration: none !important;
+  }
+
+  .nav-item .router-link-exact-active {
+    background-color: #FFCD00 !important;
+    color: black !important;
   }
 
   .nav-tabs .nav-item.show .nav-link {

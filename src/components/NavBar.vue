@@ -1,6 +1,6 @@
 <template>
     <div class="nav-container">
-        <headroom class="headroom-container">
+        <headroom :class="[isMobile() ? 'headroom-container-mobile' : 'headroom-container']">
         <md-toolbar class="nav-header">
             <md-button v-if="isMobile()" class="md-icon-button" @click="showNavigation = true">
                 <md-icon>menu</md-icon>
@@ -21,7 +21,7 @@
 
             <md-list class="md-double-line drawer-body">
                 <md-subheader class="sub-header">About</md-subheader>
-                <md-list-item class="bookmark-list-item" to="/about">
+                <md-list-item class="bookmark-list-item" to="/" exact>
                     <div class="md-list-item-text">
                     <span>About the Suffrage</span>
                     </div>
@@ -150,7 +150,7 @@
             },
 
             isMobile() {
-                return this.window.width < 1000 ? true : false
+                return this.window.width <= 1000 ? true : false
             }
         }
     }
@@ -163,6 +163,10 @@
 
 /* Forces into correct size . . gets rid of unwanted white space below nav */
 .headroom-container {
+    height: 64px !important;
+}
+
+.headroom-container-mobile {
     height: 48px !important;
 }
 
