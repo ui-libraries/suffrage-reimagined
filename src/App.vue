@@ -224,15 +224,24 @@
     background-color: #FFCD00 !important;
     color: black !important;
     text-decoration: none !important;
+
   }
 
-  .nav-item .router-link-active {
-    color: black !important;
+  /* Active sub-item in scrapbook dropdown tab */
+  .nav-item li .router-link-active {
   }
 
-  .nav-item .router-link-active:hover {
+  .nav-item li .router-link-active .active-icon {
+    background-image: url('./assets/scrapbook-extras/bookmark-icon.png')
+  }
+
+  .dropdown-item {
+    position: relative !important;
+  }
+
+  .nav-item > .router-link-active:hover {
     color: black !important;
-    text-decoration: none !important;
+    text-decoration: underline !important;
   }
 
   .nav-item .router-link-exact-active {
