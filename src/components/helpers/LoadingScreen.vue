@@ -4,7 +4,7 @@
 
 <script>
   import spinner from './../../assets/scrapbook-extras/loader.svg'
-  import wordmark from './../../assets/scrapbook-extras/wordmark-black-background.jpg'
+  import wordmark from './../../assets/scrapbook-extras/wordmark-footer.png'
   import {
     pleaseWait
   } from 'please-wait'
