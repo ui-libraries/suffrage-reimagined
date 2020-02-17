@@ -1,4 +1,8 @@
-# suffrage-reimagined-new
+# The Women's Suffrage Scrapbook: Reimagined
+
+In honor of the 90th anniversary of women’s suffrage (2010), the Iowa Women’s Archives (IWA) received a grant from the State Historical Society, Inc. to digitize documents, photographs, and artifacts highlighting Iowa’s unique heritage.
+
+The Iowa Women's Archives created an online scrapbook exhibit to provide a brief introduction to Iowa’s suffrage history and point to local and state suffrage resources. Through late 2019 and into early 2020, the scrapbook was majorly redesigned in functionality and aesthetics to bolster its image for the 100th anniversary of women's suffrage. This is that project.
 
 ## Project setup
 ```
