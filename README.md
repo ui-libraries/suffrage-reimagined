@@ -47,4 +47,4 @@ Next, we will add navigation ability for the application...
 
 ---------------------------------------------
 
-If you would like to create a whole new year-range, you can do that to; it will just be more time-consuming. Simply follow the same pattern as everything else, and you should have no problem!
+If you would like to create a whole new year-range, you can do that to; it will just be more time-consuming. Simply follow the same pattern as everything else, and you should have no problem! Additionally, you will have to go into ScrapbookNavigation.vue and NavBar.vue to add new tabs (desktop and mobile).
