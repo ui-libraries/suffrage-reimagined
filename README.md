@@ -30,12 +30,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---------------------------------------------
 
-## Design Mockup
-
-[](https://github.com/MMShep97/suffrage-reimagined/blob/master/documents/SuffrageScrapbook_SiteDesignMockup_1.0.pdf)
-
----------------------------------------------
-
 ## Adding new pages for future developers / customers
 
 #### Main Steps:
