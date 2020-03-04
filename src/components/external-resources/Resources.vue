@@ -1819,7 +1819,7 @@ components: {
 
     data() {
       return {
-        backToTopBgColor: '#ffcd00'
+        backToTopBgColor: 'var(--primary-color)'
       }
     }
   }

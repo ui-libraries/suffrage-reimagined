@@ -112,8 +112,8 @@
 
     .load-content {
       border: 3px solid transparent;
-      border-top-color: #FFCD00;
-      border-bottom-color: #FFCD00;
+      border-top-color: var(--primary-color);
+      border-bottom-color: var(--primary-color);
       border-radius: 50%;
       -webkit-animation: loader 2s linear infinite;
       -moz-animation: loader 2s linear infinite;

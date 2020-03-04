@@ -707,7 +707,7 @@ import BackToTop from '@inotom/vue-go-top'
 
       data() {
         return {
-          backToTopBgColor: '#ffcd00'
+          backToTopBgColor: 'var(--primary-color)'
         }
       }
   }

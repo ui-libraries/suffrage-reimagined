@@ -78,6 +78,11 @@
 </script>
 
 <style lang="scss">
+  :root {
+    --primary-color: #FFCD00;
+    --secondary-color: black;
+  }
+
   ::selection {
     background: rgba(0, 0, 0, 0.116) !important;
     color: inherit !important;
@@ -86,33 +91,6 @@
   ::-moz-selection {
     background: rgba(0, 0, 0, 0.116) !important;
     color: inherit !important;
-  }
-
-  .loader-wrapper {
-    position: fixed;
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10001;
-  }
-
-  .loader {
-    background-image: url('./assets/scrapbook-extras/loader.svg');
-    background-size: cover;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 50%;
-    top: 50%;
-    z-index: 1000;
-  }
-
-  .loading {
-    background: black;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1000000000;
   }
 
   @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
@@ -134,14 +112,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* color: #2c3e50; */
-    color: black;
+    color: var(--secondary-color);
     background-color: rgba(241, 240, 240, 0.877);
     margin: 0 0;
     padding: 0 0;
   }
 
   .card-dark {
-    color: black;
+    color: var(--secondary-color);
   }
 
   html,
@@ -183,7 +161,7 @@
   }
 
   .text-anchor {
-    color: black !important;
+    color: var(--secondary-color) !important;
     text-decoration: underline !important;
   }
 
@@ -192,22 +170,22 @@
   }
 
   .header-anchor {
-    color: black !important;
+    color: var(--secondary-color) !important;
     text-decoration: none !important;
   }
 
   .nav-link-custom {
     text-decoration: none !important;
     color: white !important;
-    background-color: black;
+    background-color: var(--secondary-color);
 
     transition: .3s cubic-bezier(.25, .8, .25, 1);
     transition-property: color, background-color, opacity;
   }
 
   .nav-link-custom:hover {
-    background-color: #FFCD00;
-    color: black !important;
+    background-color: var(--primary-color);
+    color: var(--secondary-color) !important;
   }
 
   .nav-link-custom a {
@@ -216,13 +194,13 @@
   }
 
   .nav-link-custom a:hover {
-    color: black !important;
+    color: var(--secondary-color) !important;
     text-decoration: none !important;
   }
 
   .active {
-    background-color: #FFCD00 !important;
-    color: black !important;
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
     text-decoration: none !important;
 
   }
@@ -240,18 +218,18 @@
   }
 
   .nav-item > .router-link-active:hover {
-    color: black !important;
+    color: var(--secondary-color) !important;
     text-decoration: underline !important;
   }
 
   .nav-item .router-link-exact-active {
-    background-color: #FFCD00 !important;
-    color: black !important;
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
   }
 
   .nav-tabs .nav-item.show .nav-link {
-    background-color: #FFCD00 !important;
-    color: black !important;
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
   }
 
   .nav-tabs .nav-link {
@@ -259,7 +237,7 @@
   }
 
   .dropdown-menu {
-    background-color: #FFCD00 !important;
+    background-color: var(--primary-color) !important;
     margin-top: 0 !important;
     border: none;
     min-width: 12rem !important;
@@ -267,11 +245,11 @@
   }
 
   .dropdown-menu a {
-    color: black !important;
+    color: var(--secondary-color) !important;
   }
 
   .dropdown-menu a:hover {
-    background-color: #FFCD00 !important;
+    background-color: var(--primary-color) !important;
   }
 
   /* Alter vue material css */
