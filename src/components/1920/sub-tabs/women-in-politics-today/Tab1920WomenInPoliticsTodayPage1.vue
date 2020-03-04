@@ -18,7 +18,7 @@
             <template v-slot:textLeft>
                 <div class="scrapbook-content-container text-left">
 
-                    <div>A Note on Sources</div>
+                    <div><h5>A Note on Sources</h5></div>
                     <div>In addition to the primary sources selected for the <a
                             href="https://digital.lib.uiowa.edu/suffrage" target="_blank" class="text-anchor">
                             Women's Suffrage in
@@ -27,24 +27,26 @@
                         secondary sources to create the text for this exhibit. Some of the most
                         helpful were Louise Noun's Strong-Minded Women and Sara Egge's dissertation
                         (for Iowa information) and books by Sara Evans and Eleanor Flexner (for national context).</div>
-                    <br />
+                    <hr>
                     <div>
-                        <router-link to="/image-index" class="text-anchor">Exhibit Image Index</router-link>
+                        <router-link to="/image-index" class="text-anchor"><b>Exhibit Image Index</b></router-link>
                     </div>
                     <div>The Image Index includes a citation for each image included in the exhibit.
                         Each citation links directly to its corresponding digital object.</div>
-                    <br />
+                    <hr>
                     <div>
-                        <router-link to="/resources" class="text-anchor">Further Resources on Suffrage in Iowa
+                        <router-link to="/resources" class="text-anchor"><b>Further Resources on Suffrage in Iowa</b>
                         </router-link>
                     </div>
                     <div>The resources page provides a bibliography of dozens of primary and secondary sources
                         relating to women’s suffrage in Iowa including archival collections, books,
                         journal articles, and websites.</div>
-                    <br />
+                    <hr>
                     <div>
-                        <router-link to="/archival-collections-guide" class="text-anchor">Guide to the Physical
-                            Collections</router-link>
+                        <router-link to="/archival-collections-guide" class="text-anchor"><b>
+                            Guide to the Physical
+                                Collections
+                        </b></router-link>
                     </div>
                     <div>Items selected for the <a href="https://digital.lib.uiowa.edu/suffrage" class="text-anchor"
                             target="_blank">Women’s Suffrage in Iowa Digital
@@ -52,12 +54,12 @@
                         small portion of much larger collections. This guide provides the larger context
                         for the digital objects by describing the physical collections from which they were selected.
                     </div>
-                    <br />
-                    <div>"One Century is Long Enough to Wait for Equity"</div>
+                    <hr>
+                    <div class="text-center" style="color: grey;"><b><i>"One Century is Long Enough to Wait for Equity"</i></b></div>
+                    <hr>
                     <div>One organization continuing the fight for political equality in the twenty-first century is <a
-                            href="http://50-50in2020.org/" target="_blank" class="text-anchor">
-                            50/50 in
-                            2020.
+                            href="https://www.maggietinsman.com/5050-in-2020/" target="_blank" class="text-anchor">
+                            50/50 in 2020.
                         </a></div>
                     <div>Founded by former Iowa senators Jean Lloyd Jones (D- Iowa City) and Maggie Tinsman
                         (R-Davenport),
