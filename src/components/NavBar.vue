@@ -173,7 +173,7 @@
     .nav-header {
         width: 100%;
         font-size: 3rem;
-        background-color: #FFCD00 !important;
+        background-color: var(--primary-color) !important;
         text-align: center;
         font-weight: bolder;
         font-family: 'Barlow Condensed', sans-serif;
@@ -198,7 +198,7 @@
     }
 
     .md-list-item-text:hover {
-        color: #FFCD00;
+        color: var(--primary-color);
     }
 
     .sub-header {
@@ -217,7 +217,7 @@
     }
 
     .drawer-header {
-        background-color: #FFCD00 !important;
+        background-color: var(--primary-color) !important;
         border-top-right-radius: 15px;
         border: 1px solid rgba(187, 187, 187, 0.541);
     }
@@ -231,7 +231,7 @@
     }
 
     .md-list a {
-        color: black !important;
+        color: var(--secondary-color) !important;
     }
 
     .md-content {
@@ -257,7 +257,7 @@
     }
 
       .md-list-item .router-link-active .md-list-item-text{
-        color: #FFCD00;
+        color: var(--primary-color);
     }
 
     

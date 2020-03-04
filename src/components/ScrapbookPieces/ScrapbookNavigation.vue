@@ -111,12 +111,12 @@ import icon from '../../assets/scrapbook-extras/bookmark-icon.png'
     }
 
     .dropdown-menu {
-        background-color: #FFCD00 !important;
+        background-color: var(--primary-color) !important;
     }
 
 
     .nav-item-custom:hover a {
-        color: black !important;
+        color: var(--secondary-color) !important;
     }
 
     .nav-item-custom a {

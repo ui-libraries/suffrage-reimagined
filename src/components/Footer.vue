@@ -32,7 +32,7 @@
 <style scoped>
     .container-fluid {
         width: 100%;
-        background-color: black;
+        background-color: var(--secondary-color);
         padding: 2.5em 2em !important;
     }
 
@@ -59,7 +59,7 @@
         color: white !important;
     }
     .footer-link:hover {
-        color: #FFCD00 !important;
+        color: var(--primary-color) !important;
         text-decoration: none;
     }
 </style>
