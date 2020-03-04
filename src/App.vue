@@ -81,6 +81,7 @@
   :root {
     --primary-color: #FFCD00;
     --secondary-color: black;
+    --background-color: rgba(241, 240, 240, 0.877);
   }
 
   ::selection {
@@ -113,7 +114,7 @@
     -moz-osx-font-smoothing: grayscale;
     /* color: #2c3e50; */
     color: var(--secondary-color);
-    background-color: rgba(241, 240, 240, 0.877);
+    background-color: var(--background-color);
     margin: 0 0;
     padding: 0 0;
   }
@@ -126,6 +127,7 @@
   body {
     /* gets rid of mobile dev overflow */
     overflow-x: hidden;
+    background-color: var(--background-color);
   }
 
   .scrapbook-content-container div {

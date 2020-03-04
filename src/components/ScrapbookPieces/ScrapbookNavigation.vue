@@ -46,8 +46,8 @@
                 </b-dropdown-item>
             </b-nav-item-dropdown>
             <!-- 1920 & beyond -->
-            <b-nav-item-dropdown id="my-nav-dropdown" class="mr-lg-0" text="1920 &amp; Beyond" title="1920 &amp; Beyond"
-                left :lazy="true" :toggle-class="[currentPage.includes('1920') ? activeClass : 'nav-link-custom']">
+            <b-nav-item-dropdown id="my-nav-dropdown" class="mr-lg-0" text="1920 &amp; Beyond" title="1920 &amp; Beyond" right
+             :lazy="true" :toggle-class="[currentPage.includes('1920') ? activeClass : 'nav-link-custom']">
                 <b-dropdown-item to="/1920/intro/" title="Introduction"><span class="active-icon"></span>Introduction</b-dropdown-item>
                 <b-dropdown-item to="/1920/league-of-women-voters/" title="League of Women Voters"><span class="active-icon"></span>League of Women
                     Voters</b-dropdown-item>
