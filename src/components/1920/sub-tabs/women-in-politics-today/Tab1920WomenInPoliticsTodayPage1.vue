@@ -55,7 +55,7 @@
                         for the digital objects by describing the physical collections from which they were selected.
                     </div>
                     <hr>
-                    <div class="text-center" style="color: grey;"><b><i>"One Century is Long Enough to Wait for Equity"</i></b></div>
+                    <div class="text-center quote"><b><i>"One Century is Long Enough to Wait for Equity"</i></b></div>
                     <hr>
                     <div>One organization continuing the fight for political equality in the twenty-first century is <a
                             href="https://www.maggietinsman.com/5050-in-2020/" target="_blank" class="text-anchor">
@@ -118,5 +118,9 @@
 </script>
 
 <style scoped>
+
+.quote {
+    color: rgb(41, 41, 41);
+}
 
 </style>

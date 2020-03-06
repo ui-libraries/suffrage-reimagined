@@ -14,8 +14,7 @@
                         <div>The right to vote did not bring about the sweeping freedoms for American women that some suffragists 
                             had expected. Women continued to fight for equality in the workplace, the political arena and the home. 
                             Much of that work continues today.</div>
-                        <br />
-            
+                        <hr>
                         <div>
                             <div>Flora Dunlap <b>(1872-1952)</b> served as the first president of the Iowa LWV, but she had been 
                                 breaking ground in women’s rights long before that.</div>

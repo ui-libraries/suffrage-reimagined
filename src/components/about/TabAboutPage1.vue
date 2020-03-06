@@ -31,6 +31,7 @@
         
     <ImageCarousel :images="images">
         <template v-slot:textLeft>
+            <hr>
             <div class="text-left scrapbook-content-container">
             <p><span class="font-weight-bold">Project Manager:</span> Christine Mastalio</p>
             <p><span class="font-weight-bold">Project Assistant:</span> Kayla Pollock</p>

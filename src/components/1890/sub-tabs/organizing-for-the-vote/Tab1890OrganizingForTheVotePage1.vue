@@ -32,6 +32,7 @@
         </div>
         <image-carousel :images="images">
             <template v-slot:textLeft>
+                <hr>
                 <div class="scrapbook-content-container text-left">
                     <div>In <b>1913</b>, the Proteus Club of Des Moines put on a fundraising event. Their play, “The Militant
                             Husbandette,” spoofed Molière's work by parodying activities of militant British suffragettes.</div>
@@ -51,6 +52,7 @@
                             Grove in her Buick, which she had decorated with suffrage slogans, and arguing with farmers who wanted
                             the women to go back home and take care of the babies.</div>
                 </div>
+                <hr>
             </template>
         </image-carousel>
                         <div class="scrapbook-content-container text-left">
@@ -145,5 +147,4 @@ import DeanHighschoolImage from '../../../../assets/book-content/deanhighschool_
 </script>
 
 <style scoped>
-
 </style>

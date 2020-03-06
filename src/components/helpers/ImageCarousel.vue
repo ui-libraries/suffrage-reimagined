@@ -75,7 +75,7 @@
 
 <style scoped>
 .container-fluid {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 .carousel-wrapper {

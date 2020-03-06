@@ -17,6 +17,7 @@
         <image-carousel :images="images">
             <template v-slot:textLeft>
                 <div class="scrapbook-content-container text-left">
+                    <hr>
                     <div>
                         This book of Readings and Recitations contained a collection of state and national suffrage
                         poems, songs
