@@ -45,35 +45,6 @@
         this.isLoading = false
       }, 4000)
     },
-
-    methods: {
-      delay(ms) {
-      const startPoint = new Date().getTime();
-      while (new Date().getTime() - startPoint <= ms) {
-        /* wait */
-      }
-    }
-    },
-
-    computed: {
-      loading: function () {
-        return {
-          loading: !(this.navLoaded && this.scrapbookLoaded && this.footerLoaded)
-        }
-      },
-
-      navLoaded() {
-        return this.$store.state.isNavLoaded;
-      },
-
-      scrapbookLoaded() {
-        return this.$store.state.isScrapbookLoaded;
-      },
-
-      footerLoaded() {
-        return this.$store.state.isFooterLoaded;
-      }
-    }
   }
 </script>
 
@@ -269,7 +240,7 @@
   }
 
   /* media queries for mobile layout */
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
 
     /* bootstrap-vue container over whole app */
     .container-fluid {

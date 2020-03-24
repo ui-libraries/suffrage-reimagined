@@ -94,7 +94,7 @@ import icon from '../../assets/scrapbook-extras/bookmark-icon.png'
             },
 
             isMobile() {
-                return this.window.width <= 1000 ? true : false
+                return this.window.width <= 1200 ? true : false
             },
 
             isAboutActive() {
