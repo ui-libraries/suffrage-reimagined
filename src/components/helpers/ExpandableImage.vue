@@ -23,6 +23,7 @@
       </svg>
     </i>
     <b-img-lazy v-bind="$attrs" blank-width="500" blank-height="700" alt="Carousel Image"/>
+    <div v-if="expanded" class="description">{{description}}</div>
   </div>
 </template>
 
@@ -32,6 +33,11 @@ export default {
     closeOnBackgroundClick: {
       type: Boolean,
       default: false
+    },
+
+    description: {
+      type: String,
+      default: '',
     }
   },
   data () {
@@ -115,6 +121,13 @@ export default {
 </script>
 
 <style>
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+
 .expandable-image {
   position: relative;
   transition: 0.25s opacity;

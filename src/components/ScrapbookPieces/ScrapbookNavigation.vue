@@ -123,6 +123,12 @@ import icon from '../../assets/scrapbook-extras/bookmark-icon.png'
 
     }
 
+    #my-nav-dropdown {
+        -webkit-box-shadow: 0px -4px 25px -3px rgba(54, 54, 54, 0.48);
+-moz-box-shadow: 0px -4px 25px -3px rgba(54, 54, 54, 0.48);
+box-shadow: 0px -4px 25px -3px rgba(54, 54, 54, 0.48);
+    }
+
 
 
     .active-icon {

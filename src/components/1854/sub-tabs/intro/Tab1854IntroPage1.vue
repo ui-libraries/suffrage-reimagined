@@ -75,7 +75,7 @@
                 images: [{
                         url: RecitationImage,
                         caption: 'IWA. Printed Works Collection.',
-                        text: 'Text'
+                        text: 'In this time period, lectures were a main form of entertainment, and female suffragists attracted curiosity. When she first moved to Council Bluffs in 1855, Amelia Bloomer drew large crowds, but as the novelty wore off, attendance dropped'
                     },
                     {
                         url: MarchingTuneImage,
@@ -86,12 +86,12 @@
                     {
                         url: DllaImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        text: 'This scrapbook (1850s-1890s) included dozens of newspaper clippings of interest to the Dubuque Ladies Literary Association (DLLA), the study club that founded the Northern Iowa Woman Suffrage Association'
                     },
                     {
                         url: RobinsonImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        text: 'teststst'
                     },
                 ]
             }
