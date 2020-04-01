@@ -61,12 +61,12 @@
                 images: [{
                         url: BloomerFashionImage,
                         caption: 'Library of Congress. Print & Photograph Collection.',
-                        text: ''
+                        text: 'Many considered bloomers scandalous because loose fitting clothes might have revealed a woman’s shape or her feet. Suffrage leaders, including Amelia Bloomer, gave up the costume after a few years because the hubbub surrounding their attire distracted from the substance of their message'
                     },
                     {
                         url: BloomerAmeliaImage,
                         caption: 'History of Woman Suffrage, ed. Anthony, Stanton & Gage.',
-                        text: ''
+                        text: 'Amelia Jenks Bloomer was one of Iowa’s earliest and most prominent suffragists. She lived in Council Bluffs from 1855 until her death in 1894'
                     },
                 ]
             }

@@ -50,27 +50,27 @@ import ReenactmentImage from '../../../../assets/book-content/reenactment_large.
                     {
                         url: MarchingImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
-                        text: ''
+                        text: 'Suffragists carried banners with slogans such as, “Taxation without representation is tyranny. As true now as in 1776,” and “Aliens in our own country. We want to be naturalized.”'
                     },
                     {
                         url: ShawImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'Dr. Anna Howard Shaw, NAWSA president, addressing a suffrage crowd in Boone after the parade.'
                     },
                     {
                         url: AliensImage,
                         caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
+                        text: 'Boone Suffrage Parade reenactment, 2008.'
                     },
                     {
                         url: AutoImage,
                         caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
+                        text: 'Boone Suffrage Parade reenactment, 2008'
                     },
                     {
                         url: ReenactmentImage,
                         caption: 'Courtesy Suzanne Caswell. Boone County Historical Society.',
-                        text: ''
+                        text: 'Boone Suffrage Parade reenactment, 2008'
                     },
                 ]
             }

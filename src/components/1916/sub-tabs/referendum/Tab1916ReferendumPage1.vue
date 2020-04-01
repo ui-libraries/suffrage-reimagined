@@ -62,27 +62,27 @@ import FraudMapImage from '../../../../assets/book-content/fraudmap_large.png'
                     {
                         url: SampleBallotImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'This sample ballot demonstrated how men should mark their ballots to amend Article I, Section II of Iowa’s Constitution by removing the word “male,” thus allowing women and men to vote.'
                     },
                     {
                         url: BillboardImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'This campaign sign compared Iowa to other states. Iowa suffragists hoped a successful 1916 campaign in Iowa would pave the way for victories elsewhere.'
                     },
                     {
                         url: PlainFactsImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission records.',
-                        text: ''
+                        text: 'An anonymous ad in the Iowa Homestead before the referendum vote claimed that city women would vote to drastically raise taxes and force rural voters to pay for paved roads, which were considered an unnecessary and wasteful expense at the time. This Plain Facts brochure was only one way that Iowa suffragists combatted misconceptions during the 1916 campaign.'
                     },
                     {
                         url: HorackImage,
                         caption: 'SHSI Iowa City.',
-                        text: ''
+                        text: 'This letter is from the Women’s Anti-Suffrage Association of Massachusetts to Harvard-educated Iowan Hugo Claude Horack: “[We] hope the men of Iowa, like the men of Massachusetts, will reject the proposal to thrust women into politics against their will,” 1916.'
                     },
                     {
                         url: FraudMapImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'The flags on this county map of Iowa from Carrie Chapman Catt’s scrapbook represented twelve different irregularities in the 1916 primary. The list of violations included: unaccounted for votes, more votes than names on list of voters, and no time of opening polls or wrong time given. '
                     },
                 ]
             }

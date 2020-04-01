@@ -54,17 +54,17 @@
                 images: [{
                         url: OconnorImage,
                         caption: 'SHSI Des Moines. Joseph Dugdale Papers.',
-                        text: ''
+                        text: 'In 1869, Iowa Attorney General Henry O’Connor ruled that women were allowed to hold the political office of superintendent of schools for county districts based on a case in Mitchell County. In this 1870 letter, he voiced his support for Dugdale’s suffrage convention. To the disappointment of suffragists, O’Connor’s 1872 bid for governor was unsuccessful'
                     },
                     {
                         url: AnthonyImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: '',
+                        text: 'Susan B. Anthony wrote a letter to Caroline Ingham of Algona, Iowa in 1876, urging Ingham to publish suffrage editorials in state and local newspapers and to send Anthony an embroidered flag or similar token for a National American Woman Suffrage Association display',
                     },
                     {
                         url: CharitonImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'Quaker L.M. Davis of Chariton, Iowa wrote this 1890 speech arguing for the right to vote so that women could choose good government, advocate for peace, and claim a God-given right. She said, “It is not pleasant to be classified with criminals and idiots and insane people.”'
                     },
                 ]
             }

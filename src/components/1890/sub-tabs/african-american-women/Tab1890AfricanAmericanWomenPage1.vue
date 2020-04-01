@@ -59,17 +59,17 @@ import WilsonobitImage from '../../../../assets/book-content/wilsonobit_large.pn
                     {
                         url: iacwcImage,
                         caption: "SHSI Des Moines. Iowa Association of Colored Women's Clubs Records",
-                        text: ''
+                        text: 'IACWC honorary president Gertrude D. Rush became the first African American woman to pass the Iowa bar in 1918 and spent her career working for the legal rights of her fellow women.'
                     },
                     {
                         url: WilsonImage,
                         caption: 'IWA. Gwendolyn Wilson Fowler Papers.',
-                        text: ''
+                        text: 'This note was preserved in the papers of Fannie Wilson’s daughter, Gwendolyn Wilson Fowler, who became the first African American woman in Iowa to obtain a pharmaceutical degree and be officially registered in the state in 1930. Fannie Wilson Cooper’s obituary talked about her community activities, but made no mention of her suffrage activities. The only proof we have is the suffrage note.'
                     },
                     {
                         url: WilsonobitImage,
                         caption: 'IWA. Gwendolyn Wilson Fowler Papers.',
-                        text: ''
+                        text: 'Fannie Wilson and her first husband, Dr. Cornelius Wilson, moved to Des Moines from Arkansas in 1913. She lived in Des Moines until her death at age 96.'
                     },
                 ]
             }

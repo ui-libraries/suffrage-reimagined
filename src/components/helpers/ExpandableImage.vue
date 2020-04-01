@@ -6,6 +6,8 @@
     }"
     @click="expanded = true"
   >
+        <div v-cloak v-if="expanded" class="description">{{description}}</div>
+
     <i
       v-if="expanded"
       class="close-button"
@@ -23,7 +25,6 @@
       </svg>
     </i>
     <b-img-lazy v-bind="$attrs" blank-width="500" blank-height="700" alt="Carousel Image"/>
-    <div v-if="expanded" class="description">{{description}}</div>
   </div>
 </template>
 
@@ -130,7 +131,6 @@ export default {
 
 .expandable-image {
   position: relative;
-  transition: 0.25s opacity;
   cursor: zoom-in;
 }
 body > .expandable-image.expanded {
@@ -196,5 +196,31 @@ body > .expandable-image.expanded > .close-button {
 }
 .expandable-image img {
   width: 100%;
+}
+
+/* transition */
+      .fadedescription-enter-active
+     {
+        transition: opacity .5s ease-in;
+    }
+
+    .fadedescription-enter
+     {
+        opacity: 0;
+    }
+
+    .fadedescription-enter-to {
+      opacity: 1;
+    }
+
+    .fadedescription-leave-to {
+        opacity: 0;
+    }
+
+    .faded-enter-active, .faded-leave-active {
+  transition: opacity .5s;
+}
+.faded-enter, .faded-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

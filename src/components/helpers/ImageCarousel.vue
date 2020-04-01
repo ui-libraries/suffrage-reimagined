@@ -119,19 +119,4 @@
     border: .06em solid rgba(255, 204, 0, 0.24);
   }
 
-      .fade-enter-active,
-    .fade-leave-active {
-        transition: opacity .3s ease-in-out;
-    }
-
-    .fade-enter,
-    .fade-leave-to {
-        opacity: 0;
-    }
-
-    .fade-enter-to,
-    .fade-leave {
-        opacity: 1;
-    }
-
 </style>

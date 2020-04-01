@@ -61,17 +61,17 @@ import NounImage from '../../../../assets/book-content/noun_large.png'
                     {
                         url: WoodhullImage,
                         caption: 'Wikimedia Commons',
-                        text: ''
+                        text: 'The relationship between Victoria Woodhull and the National Woman Suffrage Association was an uneasy one. The suffragists appreciated her logical arguments and her financial support, but they did not like her unorthodox social views and living habits'
                     },
                     {
                         url: SaveryImage,
                         caption: 'IWA. Printed Works Collection',
-                        text: ''
+                        text: 'Despite her leadership and financial support of the suffrage movement, after the early 1870s, Savery’s name was forgotten in Iowa history, and Elizabeth Cady Stanton edited out her significance in the Iowa chapter of History of Woman Suffrage. In 2002, the Iowa Women’s Archives published Louise Noun’s manuscript about Annie Savery, setting the record straight about her contribution to Iowa’s early suffrage movement'
                     },
                     {
                         url: NounImage,
                         caption: 'IWA. Louise R. Noun Papers.',
-                        text: ''
+                        text: 'Annie Savery expressed her opinions in frequent letters to Des Moines newspapers: “But when asked to go into a political convention to denounce individuals or cliques who do not agree with me on all subjects, I shall emphatically protest against being used for any such purpose,” Iowa State Register, Nov. 19, 1871. Louise Noun (right, 1908 - 2002) paid to restore this portrait of Savery in 1972'
                     },
                 ]
             }

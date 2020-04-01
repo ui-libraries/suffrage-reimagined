@@ -38,12 +38,12 @@ import HunterImage from '../../../../assets/book-content/hunter_large.png'
                     {
                         url: MemorialImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
+                        text: 'Carrie Chapman Catt was among the suffrage pioneers with Iowa connections who addressed the public at the 1936 Woman’s Suffrage Memorial dedication.'
                     },
                     {
                         url: HunterImage,
                         caption: 'IWA. League of Women Voters of Iowa Records.',
-                        text: ''
+                        text: 'Mary Ankeny Hunter was active in the Polk County Woman Suffrage Society (later the Des Moines Political Equality Club), the Unity Circle, the Des Moines Women’s Club, the Votes for Women League, and the League of Women Voters of Iowa.'
                     },
                 ]
             }

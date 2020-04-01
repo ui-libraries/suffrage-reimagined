@@ -96,20 +96,22 @@
                 images: [{
                         url: SaffordImage,
                         caption: "IWA. Professional Women's League Records.",
-                        text: 'Text'
+                        text: 'Rev. Mary Safford and Marie H. Jenney, undated photograph from the Professional Women’s League of Des Moines.'
                     },
                     {
                         url: TelegramImage,
                         caption: "IWA. Professional Women's League Records.",
-                        text: ''
+                        text: 'This mock telegram was written by Rev. Mary Safford and Dr. Adele Fuchs, who were active in the Professional Women’s League of Des Moines and were two early examples of Iowa women with successful careers outside the home.'
                     },
                     {
                         url: BurlesqueImage,
                         caption: "IWA. Professional Women's League Records.",
+                        text: 'Clipping from the Des Moines Register showing the costumes from the PWL burlesque in 1926.'
                     },
                     {
                         url: FiftyFiftyImage,
-                        caption: '50/50 in 2020 Organization'
+                        caption: '50/50 in 2020 Organization',
+                        text: ''
                     }
                 ]
             }

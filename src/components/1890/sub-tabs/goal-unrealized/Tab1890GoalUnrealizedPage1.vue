@@ -56,17 +56,17 @@ import ProgramImage from '../../../../assets/book-content/program_large.png'
                     {
                         url: AnthonyMemorialImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
+                        text: 'Several of the biggest names in Iowa suffrage work eulogized Susan B. Anthony at a 1906 Des Moines Political Equality Club meeting.'
                     },
                     {
                         url: CoggeshallImage,
                         caption: 'IWA. Margaret Atherton Bonney Papers.',
-                        text: ''
+                        text: 'Portrait of Mary Jane Whitely Coggeshall, who said, “We who have toiled up the steps of the Old Capitol only to see our bills defeated upon final vote...We who took our baby boys with us to those early meetings, now find those boys are voters, while their mothers are still asking for freedom,” in an 1895 speech at the 25th Anniversary of the Polk County Woman Suffrage Society.'
                     },
                     {
                         url: ProgramImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
+                        text: 'In March 1915, ten IESA women performed a play entitled, “How the Vote Was Won,” set “any year in the future.”'
                     },
                 ]
             }

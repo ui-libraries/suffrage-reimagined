@@ -46,7 +46,7 @@
                     {
                         url: ConventionImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'Attendees of the Iowa State Suffrage Association Convention. Oskaloosa, IA 1889. Photographer: N.J. Carey, Oskaloosa, IA'
                     },
                 ]
             }

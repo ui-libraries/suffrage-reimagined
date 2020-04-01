@@ -108,27 +108,27 @@
                 images: [{
                         url: DarwinLetterImage,
                         caption: 'IWA. Elvira Gaston Platt Papers.',
-                        text: ''
+                        text: 'Mary Platt Darwin (1821-1886) wrote to her sister-in-law Elvira Gaston Platt (1818-1914) in 1861 discussing abolition and temperance. Both women subscribed to national suffrage literature and were active in working for social change'
                     },
                     {
                         url: MillerDiaryImage,
                         caption: 'IWA. Ellen Mowrer Miller Papers.',
-                        text: ''
+                        text: 'Ellen Mowrer moved to Union Township, Iowa in 1856 with her parents and six siblings when she was eight years old. She kept diaries and extensive correspondence about domestic duties and church gatherings on the frontier. She made only brief mentions of social issues'
                     },
                     {
                         url: MillerDiaryTwoImage,
                         caption: 'IWA. Ellen Mowrer Miller Papers.',
-                        text: ''
+                        text: "May 30, 1869 entry in which Mowrer mentions a man who is against women's suffrage."
                     },
                     {
                         url: WittenmyerImage,
-                        caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        caption: 'SHSI Des Moines. Photographs.',
+                        text: 'Annie Turner Wittenmyer, ca. 1890. Iowa Civil War Sanitary Agent, founder of Soldiers’ Orphans Home and first president of the national WCTU'
                     },
                     {
                         url: DarwinImage,
-                        caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        caption: 'SHSI Des Moines. Photographs.',
+                        text: 'Mary Abigail Platt Darwin, ca. 1880. Sanitary Commission worker, suffragist, and public lecturer'
                     },
                 ]
             }

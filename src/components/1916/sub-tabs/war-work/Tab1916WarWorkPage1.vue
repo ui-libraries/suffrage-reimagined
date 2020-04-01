@@ -45,12 +45,12 @@ import PownallImage from '../../../../assets/book-content/pownall_large.png'
                     {
                         url: WarworkImage,
                         caption: "SHSI Iowa City.",
-                        text: ''
+                        text: 'Iowa suffragists began war work even before the U.S. officially entered the war in April 1917.'
                     },
                     {
                         url: PownallImage,
                         caption: "IWA. Dorothy Ashby Pownall Papers.",
-                        text: ''
+                        text: 'Journalist Dorothy Ashby Pownall covered life at Camp Dodge in Johnston, Iowa during World War I, but she also covered the final suffrage convention: “[The suffragists] were always nice to press folks, even though we were inclined to think it rather cute sometimes to be humorous about their eagerness for the vote. We were all for that, too, but we thought some of them occasionally did a good deal of dull talking about it,” speech, Reminiscing to the League of Women Voters in 1955.'
                     },
                 ]
             }

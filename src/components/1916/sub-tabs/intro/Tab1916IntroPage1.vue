@@ -47,17 +47,17 @@ import PosterImage from '../../../../assets/book-content/poster_large.png'
                     {
                         url: JournalImage,
                         caption: "SHSI Iowa City. The Woman's Journal",
-                        text: ''
+                        text: 'This national suffrage newspaper seemed sure of a suffrage victory for Iowa women in 1916. To help spread the referendum campaign message, The Woman’s Journal sent two months of free issues to 60 dailies and 850 weeklies across the state of Iowa.'
                     },
                     {
                         url: SongBookletImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'Lyrics from stanza 1 (to the tune of When Johnny Comes Marching Home): “When Suffrage takes the Hawkeye State, Hurrah! Hurrah! The world will call us wise and great, Hurrah! Hurrah!” by Helen Cowles LeCron, 1916.'
                     },
                     {
                         url: PosterImage,
                         caption: 'SHSI Iowa City.',
-                        text: ''
+                        text: 'The imagery of classical Greece was used to communicate the idea of progress as seen in this suffrage poster entitled “Let Her Have the Fruit of Her Hands” by Evelyn Ramsay Cary, 1917'
                     },
                 ]
             }

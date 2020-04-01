@@ -61,27 +61,27 @@
                     {
                         url: CaryImage,
                         caption: 'IWA. Cary Club Records.',
-                        text: ''
+                        text: 'In 1891, the Cary Club of Marion, Iowa listened to a presentation on Susan B. Anthony by a Mrs. Davis and engaged in a “Discussion on Women’s Suffrage” opened by a Mrs. Crowley.'
                     },
                     {
                         url: HaugenImage,
                         caption: 'SHSI Iowa City. Gilbert Haugen Papers.',
-                        text: ''
+                        text: 'In the early 1890s, Julia Hildreth became involved in the Charles City Political Equality Club organized by Carrie Chapman Catt. By 1894, she was its president. At her request, her husband wrote to state representative Gilbert N. Haugen to ask his opinion of partial suffrage for women. Haugen replied that he was undecided, but would study the issue carefully.'
                     },
                     {
                         url: CossonImage,
                         caption: 'IWA. Jennifer Riggs Cosson Papers.',
-                        text: ''
+                        text: '“There is no necessity that she should sacrifice her dignity and good nature because she cannot go to the polls with her brother - that is but a matter of time and perhaps a very short time…” The American Girl of Today by Jennifer Riggs Cosson, undated.'
                     },
                     {
                         url: PinImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
+                        text: 'This pin is from the 1912 annual convention of the Iowa Equal Suffrage Association (IESA).'
                     },
                     {
                         url: PostcardImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection.",
-                        text: ''
+                        text: 'This postcard was distributed in 1916 by the Dubuque Association Opposed to Woman Suffrage. The association pointed to the long drought of suffrage victories in the period from 1890 to 1915 as evidence of popular opposition to women’s suffrage.'
                     },
                 ]
             }

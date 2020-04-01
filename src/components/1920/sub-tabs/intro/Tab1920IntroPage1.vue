@@ -53,12 +53,12 @@ import BlackwellImage from '../../../../assets/book-content/blackwell_large.png'
                     {
                         url: DunlapImage,
                         caption: 'IWA. League of Women Voters of Iowa Records.',
-                        text: ''
+                        text: 'In 1916, Flora Dunlap was harassed by two drunk election officials as she tried to vote on a bond issue. One of those officials tried to have her vote on the suffrage question even though she was not legally allowed. The other was so drunk he fell over, muttering about women who wanted to move out of their “sphere.”'
                     },
                     {
                         url: BlackwellImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
-                        text: ''
+                        text: 'In October 1919, Alice Stone Blackwell, daughter of pioneer suffragists Lucy Stone and Henry Blackwell, wrote to a Mrs. Crowley of the Iowa Equal Suffrage Association thanking Iowans for a decades-long partnership with the suffragists of Massachusetts.'
                     },
                 ]
             }

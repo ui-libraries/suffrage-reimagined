@@ -49,17 +49,17 @@ import DenisonImage from '../../../../assets/book-content/denison_large.png'
                     {
                         url: ProceedingsImage,
                         caption: "IWA. Woman's Christian Temperance Union Records.",
-                        text: ''
+                        text: 'In 1877, the Iowa WCTU officially endorsed equal suffrage, believing that women would vote for temperance legislation. The national organization did not officially endorse suffrage until 1883. By 1886, the Iowa WCTU had a whole department devoted to securing the franchise'
                     },
                     {
                         url: CarhartImage,
                         caption: "IWA. Woman's Christian Temperance Union Records.",
-                        text: ''
+                        text: 'Lizzie D. Carhart, Iowa WCTU leader, 1916.'
                     },
                     {
                         url: DenisonImage,
                         caption: "IWA. Woman's Christian Temperance Union Records.",
-                        text: ''
+                        text: 'This minute book (1878 - 1880) is from the Denison Total Abstinence Union, which was a temperance organization also open to men. In May of 1879, the members debated whether or not the U.S. would benefit from having women vote on the “liquor question.” The club decided in the affirmative.'
                     },
                 ]
             }

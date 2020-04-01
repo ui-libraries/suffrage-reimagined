@@ -43,12 +43,12 @@ import OsageImage from '../../../../assets/book-content/osage_large.png'
                     {
                         url: BulletinImage,
                         caption: 'IWA. League of Women Voters of Johnson County Records.',
-                        text: ''
+                        text: 'Founded by Zella White Stewart in 1920, the League of Women Voters of Johnson County provided a place for women from all political parties to gather.'
                     },
                     {
                         url: OsageImage,
                         caption: 'IWA. League of Women Voters of Iowa Records.',
-                        text: ''
+                        text: 'Mrs. I.H. Tomlinson of Osage, Iowa submitted this 1924 organizer’s report to the League of Women Voters talking about roads “impassable on account of mud.” The report speaks to the difficulty of travel and communication in the early twentieth century - especially in rural Iowa.'
                     },
                     // {
                     //     url: AdImage,

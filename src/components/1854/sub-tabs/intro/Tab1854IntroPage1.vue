@@ -91,7 +91,7 @@
                     {
                         url: RobinsonImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: 'teststst'
+                        text: 'Laura Goddard Spaulding Robinson (far right, ca. 1880) became one of the early members of the Northern Iowa Woman Suffrage Association. Robinson also lived in Dubuque in the 1850s, when some women in that city began wearing bloomers as an outward symbol of the women’s rights movement'
                     },
                 ]
             }

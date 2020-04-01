@@ -77,7 +77,7 @@
 <script>
 import ImageCarousel from '../../../helpers/ImageCarousel'
 import CharlesCityImage from '../../../../assets/book-content/charlescity_large.png'
-// import MapImage from '../../../../assets/book-content/map_large.png'
+import MapImage from '../../../../assets/book-content/map_large.png'
 import RoadImage from '../../../../assets/book-content/road_large.png'
 import SongImage from '../../../../assets/book-content/song_large.png'
 import HusbandetteImage from '../../../../assets/book-content/husbandette_large.png'
@@ -97,48 +97,48 @@ import DeanHighschoolImage from '../../../../assets/book-content/deanhighschool_
                     {
                         url: CharlesCityImage,
                         caption: 'SHSI Iowa City. Charles City Political Equality Club Records.',
-                        text: ''
+                        text: 'In the early 1890s, before she married and moved to the East Coast, Carrie Lane Chapman (Catt) organized the Charles City Political Equality Club to study the question of suffrage and advocate for its passage. Charter secretary Anna Mohara kept detailed minutes for the 1891 - 1892 club season in this volume.'
                     },
-                    // {
-                    //     url: MapImage,
-                    //     caption: 'Plat Book of Boone County, Iowa, 1896',
-                    //     text: ''
-                    // },
+                    {
+                        url: MapImage,
+                        caption: 'Plat Book of Boone County, Iowa, 1896',
+                        text: 'IOWA EQUAL SUFFRAGE ASSOCIATION OFFICERS, 1907. CHARITON: Mrs. Virginia Branner, Member National Committees. DES MOINES: Mary J. Coggeshall, Honorary President, Executive Committee; Rev. Eleanor E. Gordon, Vice-President; Edith Payne Parsons, Corresponding Secretary; Miss Flora Dunlap, Executive Committee; Mrs. Lona I. Robinson, Executive Committee. HULL: Mrs. Adelaide Ballard, Member, NAWSA Committee. IDA GROVE: Mrs. Bertha A. Wilcox, President. MASON CITY: Mrs. Mary A. Emsley Adams, Auditor; Mrs. Eleanor Stockman, Member National Committee. MAQUOKETA: Mrs. Florence Maskery, Supertinendent Contests and Debates. OTTUMWA: Mrs. Emily Phillips, Library Committee. PANORA: Mrs. S. J. Brown, Treasurer. SHELDON: Mrs. M.W. Eldredge, Auditor. SHENANDOAH: Miss Alice Priest, Superintendent Press Work. SIOUX CITY: Mrs. G. P. Goldie, Recording Secretary.'
+                    },
                     {
                         url: RoadImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records.',
-                        text: ''
+                        text: 'On this IESA postcard from 1910 there is evidence of outreach to men’s organizations, churches, and Iowa State Fair visitors.'
                     },
-                                        {
+                    {
                         url: SongImage,
                         caption: 'IWA. Welch and Angrick Collection.',
-                        text: ''
+                        text: 'First stanza lyrics: “Now listen dear friends while I sing you a song/ it’s all about Justice and Law/ We will ask the advice of reason’s brave light and see if we find where’s the flaw/ For something is wrong in this country of ours/ where freedom is said to be king/ for where is the slave more in bondage today than the women of whom we shall sing.”'
                     },
                                          {
                         url: HusbandetteImage,
                         caption: 'IWA. Proteus Club Records.',
-                        text: ''
+                        text: 'The main character, Sylvia Spankhurt, poked fun at British activist Sylvia Pankhurst. The work being parodied was Molière’s “Les Femmes Savantes” - (The Learned Ladies) - 1672.'
                     },
                     {
                         url: HistoryImage,
                         caption: "IWA. Iowa Federation of Women's Clubs Records.",
-                        text: ''
+                        text: 'At the first IFWC meeting in 1893, a suffragist spoke to delegates and remarked that she “felt like a lion among lambs,” according to An Account of the Iowa Federation of Women’s Clubs, 1893-1927.'
                     },
                    
                     {
                         url: DeanBicycleImage,
                         caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
-                        text: ''
+                        text: 'The ‘Safety’ Bicycle, owned by Carrie Dean, Tipton, Iowa, 1890.'
                     },
                     {
                         url: DeanDancingImage,
                         caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
-                        text: ''
+                        text: 'Carrie at Dean Camp dancing “ta-roli bandeley” [sic] ca. 1900.'
                     },               
                      {
                         url: DeanHighschoolImage,
                         caption: 'SHSI Iowa City. Carrie Dean Pruyn Papers.',
-                        text: '',
+                        text: 'Carrie Dean’s Tipton High School graduating class, 1895.',
                     },
                 ]
             }

@@ -48,12 +48,12 @@ import Cattpin2Image from '../../../../assets/book-content/cattpin2_large.png'
                     {
                         url: CattImage,
                         caption: "SHSI Des Moines. Iowa Women's Suffrage Collection",
-                        text: ''
+                        text: 'Carrie Chapman Catt speaking with Harvey Ingham (editor, Des Moines Register) at the unveiling of the Iowa Woman’s Suffrage Memorial in Des Moines, 1936.'
                     },
                     {
                         url: Cattpin2Image,
                         caption: "ISU. Carrie Chapman Catt Papers.",
-                        text: ''
+                        text: 'International Woman Suffrage Alliance pin belonging to Carrie Chapman Catt. Catt’s campaign experience in Iowa in 1916 led her to develop “The Winning Plan.”'
                     },
                 ]
             }
