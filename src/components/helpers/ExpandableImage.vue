@@ -6,7 +6,6 @@
     }"
     @click="expanded = true"
   >
-        <div v-cloak v-if="expanded" class="description">{{description}}</div>
 
     <i
       v-if="expanded"
@@ -24,11 +23,20 @@
         <path fill="#000000" d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z" />
       </svg>
     </i>
+        <!-- <div class="info-icon-wrapper" v-if="expanded">
+          <img :src="infoIcon" class="info-icon"/>
+        </div> -->
+        <div class="description-wrapper">
+          <b-card v-cloak v-if="expanded && image.text != ''" class="md-elevation-24 description-card" title="Additional Information">
+            <div  class="description">{{image.text}}</div>
+          </b-card>
+        </div>
     <b-img-lazy v-bind="$attrs" blank-width="500" blank-height="700" alt="Carousel Image"/>
   </div>
 </template>
 
 <script>
+import infoIcon from '../../assets/scrapbook-extras/extra-info-icon.png'
 export default {
   props: {
     closeOnBackgroundClick: {
@@ -36,15 +44,18 @@ export default {
       default: false
     },
 
-    description: {
-      type: String,
-      default: '',
-    }
+    image: {
+      type: Object,
+      default: {},
+    },
+
+
   },
   data () {
     return {
       expanded: false,
-      closeButtonRef: null
+      closeButtonRef: null,
+      infoIcon: infoIcon,
     }
   },
   methods: {
@@ -122,11 +133,39 @@ export default {
 </script>
 
 <style>
-.description {
+
+.info-icon-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.description-wrapper {
+  position: absolute;
+  bottom: 20px;
   left: 0;
-  color: white;
+  width: 100%;
+}
+
+.description-card {
+  opacity: 0.1;
+  transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+   margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+.description-card:hover {
+  opacity: 1.0;
+}
+
+.description {
+  
+  color: black;
 }
 
 .expandable-image {

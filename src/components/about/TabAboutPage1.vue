@@ -70,12 +70,12 @@
                 {
                         url: ReasonsImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records',
-                        text: 'Text'
+                        text: 'In this time period, lectures were a main form of entertainment, and female suffragists attracted curiosity. When she first moved to Council Bluffs in 1855, Amelia Bloomer drew large crowds, but as the novelty wore off, attendance dropped.'
                     },
                     {
                         url: CattpinImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        text: 'This International Woman Suffrage Alliance pin belonged to Iowan Carrie Chapman Catt. Catt served as president of the National American Woman Suffrage Association from 1900-1904 and again from 1915-1920.'
                     },
                 ]
             }

@@ -12,7 +12,7 @@
                 <b-carousel-slide class="carousel-slide">
                   <template v-slot:img
                   >
-                    <expandable-image class="" :src="image.url" :close-on-background-click="true" :description="image.text"/>
+                    <expandable-image class="" :src="image.url" :close-on-background-click="false" :image="image"/>
                   </template>
                 </b-carousel-slide>
               </span>
