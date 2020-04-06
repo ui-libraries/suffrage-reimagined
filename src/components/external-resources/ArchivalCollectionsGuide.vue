@@ -480,7 +480,7 @@
         </p>
         <br>
         <hr>
-        <p><a name="ISU"></a><a href="http://www.lib.iastate.edu/spcl/index.html" target="_blank"><strong>IOWA STATE
+        <p><a name="ISU"></a><a href="https://wayback.archive-it.org/855/20090513214642/http://www.lib.iastate.edu/arch/rgrp/21-7-3.html" target="_blank"><strong>IOWA STATE
               UNIVERSITY SPECIAL COLLECTIONS DEPARTMENT</strong></a></p>
         
         <p><a href="http://www.lib.iastate.edu/arch/rgrp/21-7-3.html" target="_blank">Carrie Chapman Catt papers.</a>
@@ -498,7 +498,7 @@
         <template v-slot:header>
           <h2 class="mb-0">State Historical Society of Iowa</h2>
         </template>
-        <p><a name="SHSDM"></a><a href="http://www.iowahistory.org/libraries/index.html" target="_blank"><strong>STATE
+        <p><a name="SHSDM"></a><a href="http://www.iowaculture.gov/history" target="_blank"><strong>STATE
               HISTORICAL SOCIETY OF IOWA, DES MOINES</strong></a></p>
         
         <p><a href="http://infohawk.uiowa.edu/F?func=direct&amp;doc_number=004335876&amp;local_base=iow06"
@@ -558,7 +558,7 @@
           Collection.
         </p>
         <p><em><a
-              href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003468243"
+              href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21363152400002771&amp;context=L&amp;vid=01IOWA&amp;lang=en_US&amp;search_scope=default_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,the%20woman%27s%20standard&amp;sortby=rank"
               target="_blank">The Woman’s Standard.</a> 1886-1911. Microfilm (originals in Des Moines).</em></p>
         <p><em>The Woman’s Standard</em> was the women’s suffrage publication in Iowa. Mary Jane Coggeshall and Martha
           C.
@@ -577,7 +577,7 @@
               HISTORICAL SOCIETY OF IOWA, IOWA CITY</strong></a></p>
         
         <p><a
-            href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=005816544"
+            href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21319872460002771&amp;context=L&amp;vid=01IOWASHSI&amp;lang=en_US&amp;search_scope=shsi_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,charles%20city%20political%20equality%20club&amp;sortby=rank&amp;offset=0"
             target="_blank">Charles City Political Equality Club.</a> <em>1891-1938. 2 volumes ; 21-22 cm. + 1 b &amp; w
             photograph.</em></p>
         <p>The Charles City Political Equality Club was established in November 1891 by Carrie Lane Chapman with
@@ -596,7 +596,7 @@
           taken in 1938 of Anna Mahara (the club’s first secretary) standing with Ivadelle Lane (Carrie Chapman Catt’s
           grandniece) in front of a marker at the girlhood home of Carrie Chapman Catt.</p>
         <p><a
-            href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003474851"
+            href="http://search.lib.uiowa.edu/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;fn=search&amp;doc=01IOWA_ALMA21383399840002771&amp;indx=4&amp;recIds=01IOWA_ALMA21383399840002771&amp;recIdxs=3&amp;elementId=3&amp;renderMode=poppedOut&amp;displayMode=full&amp;frbrVersion=&amp;frbg=&amp;&amp;vl(1UI0)=contains&dscnt=0&amp;scp.scps=scope%3A%28IC%29%2Cscope%3A%28DM%29&amp;mode=Basic&amp;vid=01IOWASHSI&amp;srt=rank&amp;tab=default_tab&amp;dum=true&amp;vl(freeText0)=gilbert%20haugen&amp;dstmp=1555438347239"
             target="_blank">Gilbert Haugen.</a> <em>1882-1940. 80 linear feet.</em></p>
         <p>Gilbert Nelson Haugen (1859 - 1933) was a seventeen-term Republican U.S. Representative from Iowa’s 4th
           congressional district--then located in northeastern Iowa--as well as a banker, farmer, real estate agent, and
@@ -613,7 +613,7 @@
             documents</a> concerning women’s suffrage in Iowa, ranging from letters opposing suffrage to an Iowa Equal
           Suffrage Association registration card for war service and IESA stamps and fliers. </p>
         <p><a
-            href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003503565"
+            href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21467569120002771&amp;context=L&amp;vid=01IOWASHSI&amp;lang=en_US&amp;search_scope=shsi_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,lawther%20collection&amp;offset=0"
             target="_blank">Lawther Collection.</a> <em>1874- 1927. 3 linear feet.</em></p>
         <p>This collection is made of papers of suffrage activist Anna Bell Lawther and her father, William Lawther.
           Anna
@@ -634,7 +634,7 @@
           six
           years on the Democratic National Central Committee. </p>
         <p><a
-            href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=003504513"
+            href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21427050410002771&amp;context=L&amp;vid=01IOWASHSI&amp;lang=en_US&amp;search_scope=shsi_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,jesse%20macy&amp;sortby=rank"
             target="_blank">Jesse Macy.</a> <em>1862-1941. 6 ft. (15 boxes).</em></p>
         <p>Jesse Macy moved to Powesheik County, Iowa from Indiana in 1856. In 1859 he entered the academy of Iowa
           College
@@ -658,7 +658,7 @@
           the
           Vote.”</p>
         <p><a
-            href="http://infohawk.uiowa.edu/F/?func=find-b&amp;find_code=SYS&amp;local_base=UIOWA&amp;request=005816704"
+            href="https://search.lib.uiowa.edu/primo-explore/fulldisplay?docid=01IOWA_ALMA21319879230002771&amp;context=L&amp;vid=01IOWASHSI&amp;lang=en_US&amp;search_scope=shsi_scope&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,state%20university%20of%20iowa%20suffrage&amp;sortby=rank&amp;offset=0"
             target="_blank">SUI Suffrage Club.</a> <em>1916-1917. 1 volume.</em></p>
         <p>The State University of Iowa (S.U.I.) Equal Suffrage Association was established in 1916 on the campus of the
           State University of Iowa (now the University of Iowa) to promote the cause of equal suffrage in the months

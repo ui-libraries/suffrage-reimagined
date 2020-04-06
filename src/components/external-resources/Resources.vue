@@ -1,6 +1,6 @@
 <template>
   <div class="resources responsive-resources">
-    <back-to-top :bg-color="backToTopBgColor" :has-outline="false"/>
+    <back-to-top :bg-color="backToTopBgColor" :has-outline="false" />
 
     <b-container>
       <b-row>
@@ -39,7 +39,7 @@
           <b-col>
             <b-card bg-variant="light">
               <template v-slot:header>
-                <a name="special">
+                <a name="special" style="color: black;">
                   <h4 class="mb-0">SPECIAL COLLECTIONS &amp; ARCHIVES (Including Iowa-based Online Resources)</h4>
                 </a>
               </template>
@@ -71,23 +71,27 @@
                 </li>
               </ul>
 
-                <p><div>Special collections, archives, and online resources related to Iowa are listed by the Iowa county
-                  in which they are located. Other resources listed alphabetically.</div></p>
-              
-              <ul><li><a href="#special">SPECIAL COLLECTIONS &amp; ARCHIVES (Including Iowa-based Online Resources)</a></li>
-                <li>
-                  <a href="#newspaper">LOCAL NEWSPAPERS</a>
+              <p>
+                <div>Special collections, archives, and online resources related to Iowa are listed by the Iowa county
+                  in which they are located. Other resources listed alphabetically.</div>
+              </p>
+
+              <ul>
+                <li><a href="#special">Special Collections &amp; Archives (Including Iowa-based Online Resources)</a>
                 </li>
                 <li>
-                  <a href="#books">BOOKS &amp; BOUND WORKS</a>
+                  <a href="#newspaper">Local Newspapers</a>
                 </li>
                 <li>
-                  <a href="#articles">JOURNAL ARTICLES</a>
+                  <a href="#books">Books &amp; Bound Works</a>
                 </li>
                 <li>
-                  <a href="#online">ONLINE RESOURCES</a>
+                  <a href="#articles">Journal Articles</a>
                 </li>
-                </ul>
+                <li>
+                  <a href="#online">Online Resources</a>
+                </li>
+              </ul>
             </b-card>
           </b-col>
         </b-row>
@@ -98,9 +102,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a name="black" class="title-tag"><h2 class="mb-0">Blackhawk County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="black" class="title-tag">
+                <h2 class="mb-0">Blackhawk County</h2>
+              </a>
+            </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -119,7 +125,8 @@
             <ul>
               <li> <a
                   href="https://library.uni.edu/collections/special-collections/finding-aids/cedar-falls-historical-society-oral-history-interviews"
-                  target="_blank"><strong>Cedar Falls Historical Society Oral History Interviews. 0.417 linear feet.</strong></a>
+                  target="_blank"><strong>Cedar Falls Historical Society Oral History Interviews. 0.417 linear
+                    feet.</strong></a>
                 <p></p>
                 <p> Stella Robinson Wynegar recalls her 90 years of residence in Cedar Falls. Tape 9b includes
                   commentary
@@ -147,9 +154,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="boone" class="title-tag"><h2 class="mb-0">Boone County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="boone" class="title-tag">
+                <h2 class="mb-0">Boone County</h2>
+              </a>
+            </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -206,9 +215,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="dub" class="title-tag"><h2 class="mb-0">Dubuque County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="dub" class="title-tag">
+                <h2 class="mb-0">Dubuque County</h2>
+              </a>
+            </template>
             <strong><a
                 href="http://www.encyclopediadubuque.org/index.php?title=NORTHERN_IOWA_WOMAN_SUFFRAGE_ASSOCIATION"
                 target="_blank">Encyclopedia Dubuque: Northern Iowa Woman Suffrage Association (online
@@ -229,9 +240,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="floyd" class="title-tag"><h2 class="mb-0">Floyd County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="floyd" class="title-tag">
+                <h2 class="mb-0">Floyd County</h2>
+              </a>
+            </template>
 
             <div class="contact-information">
               <b-card>
@@ -254,7 +267,7 @@
               women’s
               suffrage.</p>
 
-            <strong><a href="http://www.catt.org/ccabout.html" target="_blank">Carrie Chapman Catt Girlhood Home (online
+            <strong><a href="http://www.catt.org/" target="_blank">Carrie Chapman Catt Girlhood Home (online
                 resource)</a></strong>
             <p>Maintained by the National Nineteenth Amendment Society, this site provides biographical information on
               Carrie
@@ -274,9 +287,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="johnson" class="title-tag"><h2 class="mb-0">Johnson County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="johnson" class="title-tag">
+                <h2 class="mb-0">Johnson County</h2>
+              </a>
+            </template>
 
             <strong><a href="http://www.50-50in2020.org/" target="_blank">50-50 in 2020: Achieving Political Equality in
                 Iowa
@@ -318,16 +333,11 @@
                 </router-link>.</em></p>
             <p></p>
             <ul>
-              <li><strong>League of Women Voters of <a
-                    href="http://www.lwvlinncounty.org/"
-                    target="_blank">Cedar Rapids-Marion</a>, <a
-                    href="https://my.lwv.org/iowa/metropolitan-des-moines"
-                    target="_blank">Metropolitan Des Moines</a>, <a
-                    href="http://www.lwvlinncounty.org/"
-                    target="_blank">Mount Vernon-Lisbon</a>, <a
-                    href="http://lwvmcss.squarespace.com/"
-                    target="_blank">Muscatine</a> and <a
-                    href="https://www.lwv.org/local-leagues/lwv-sioux-city"
+              <li><strong>League of Women Voters of <a href="http://www.lwvlinncounty.org/" target="_blank">Cedar
+                    Rapids-Marion</a>, <a href="https://my.lwv.org/iowa/metropolitan-des-moines"
+                    target="_blank">Metropolitan Des Moines</a>, <a href="http://www.lwvlinncounty.org/"
+                    target="_blank">Mount Vernon-Lisbon</a>, <a href="http://lwvmcss.squarespace.com/"
+                    target="_blank">Muscatine</a> and <a href="https://www.lwv.org/local-leagues/lwv-sioux-city"
                     target="_blank">Sioux City</a> records.</strong>
 
                 <p>For those interested in League of Women Voters activities after the 1920s and 1930s, these
@@ -366,7 +376,8 @@
             <ul>
               <li>Four letters from <strong>Carrie Chapman Catt</strong> to various individuals between 1900 and 1940
                 are
-                cataloged in <a href="https://search.lib.uiowa.edu/primo-explore/search?query=any,contains,carrie%20chapman%20catt&tab=default_tab&search_scope=sc_scope&sortby=rank&vid=01IOWASC&facet=library,include,SPEC&lang=en_US&offset=0"
+                cataloged in <a
+                  href="https://search.lib.uiowa.edu/primo-explore/search?query=any,contains,carrie%20chapman%20catt&tab=default_tab&search_scope=sc_scope&sortby=rank&vid=01IOWASC&facet=library,include,SPEC&lang=en_US&offset=0"
                   target="_blank">InfoHawk</a> (the University of Iowa’s online library system) under the call number
                 MsL
                 C368. The 1900 letter concerns Catt’s thoughts on the suffrage movement in Montana. The others are
@@ -451,7 +462,8 @@
             <p></p>
             <p></p>
             <ul>
-              <li><strong><a href="http://aspace.lib.uiowa.edu/search?utf8=%E2%9C%93&op%5B%5D=&q%5B%5D=University%20of%20Iowa%20literary%20and%20debate%20societies%20and%20clubs%20(1890s-%20)%20"
+              <li><strong><a
+                    href="http://aspace.lib.uiowa.edu/search?utf8=%E2%9C%93&op%5B%5D=&q%5B%5D=University%20of%20Iowa%20literary%20and%20debate%20societies%20and%20clubs%20(1890s-%20)%20"
                     target="_blank">University of Iowa literary and debate societies and clubs (1890s - )</a></strong>
                 <p></p>
 
@@ -585,9 +597,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="polk" class="title-tag"><h2 class="mb-0">Polk County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="polk" class="title-tag">
+                <h2 class="mb-0">Polk County</h2>
+              </a>
+            </template>
             <div class="contact-information">
               <b-card>
                 <template v-slot:header>
@@ -597,8 +611,7 @@
                 <strong>600 East Locust</strong> <br />
                 <strong>Des Moines, IA 50319</strong> <br />
                 <strong>(P) : 515-281-6200</strong><br />
-                <a href="http://www.iowahistory.org/libraries/location-and-hours.html"
-                  target="_blank">http://www.iowahistory.org/libraries/location-and-hours.html</a>
+                <a href="https://www.iowaculture.gov/history" target="_blank">https://www.iowaculture.gov/history</a>
               </b-card>
             </div>
 
@@ -734,7 +747,8 @@
               through
               the National American Woman Suffrage Association (NAWSA).</p>
 
-            <p><strong><a href="https://humanrights.iowa.gov/cas/icsw/commission" target="_blank">Iowa Commission on the Status of
+            <p><strong><a href="https://humanrights.iowa.gov/cas/icsw/commission" target="_blank">Iowa Commission on the
+                  Status of
                   Women
                   (online resource)</a></strong></p>
 
@@ -753,7 +767,8 @@
               in the state of Iowa: <a href="http://www.women.iowa.gov/about_women/docs/2006_SR_6.pdf"
                 target="_blank">http://www.women.iowa.gov/about_women/docs/2006_SR_6.pdf</a></p>
             <p>To highlight women’s heritage and recognize their contributions, the ICSW established the <a
-                href="https://humanrights.iowa.gov/cas/icsw/events-recognition/iowa-womens-hall-fame" target="_blank">Iowa Women’s Hall of
+                href="https://humanrights.iowa.gov/cas/icsw/events-recognition/iowa-womens-hall-fame"
+                target="_blank">Iowa Women’s Hall of
                 Fame</a> in
               1975.The list of inductees provides links to biographical information about many women involved in the
               suffrage
@@ -767,9 +782,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="pott" class="title-tag"><h2 class="mb-0">Pottawattamie County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="pott" class="title-tag">
+                <h2 class="mb-0">Pottawattamie County</h2>
+              </a>
+            </template>
 
             <div class="contact-information">
               <b-card>
@@ -780,7 +797,8 @@
                 <strong>400 Willow Ave</strong> <br />
                 <strong>Council Bluffs, IA 51503</strong> <br />
                 <strong>(P) : 712-323-7553</strong> <br />
-                <a href="https://www.councilbluffslibrary.org/archive/collections/browse" target="_blank">http://www.cbpl.lib.ia.us/</a>
+                <a href="https://www.councilbluffslibrary.org/archive/collections/browse"
+                  target="_blank">http://www.cbpl.lib.ia.us/</a>
               </b-card>
             </div>
 
@@ -808,9 +826,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="pow" class="title-tag"><h2 class="mb-0">Poweshiek County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="pow" class="title-tag">
+                <h2 class="mb-0">Poweshiek County</h2>
+              </a>
+            </template>
 
             <div class="contact-information">
               <b-card>
@@ -850,9 +870,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="scott" class="title-tag"><h2 class="mb-0">Scott County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="scott" class="title-tag">
+                <h2 class="mb-0">Scott County</h2>
+              </a>
+            </template>
 
             <div class="contact-information">
               <b-card>
@@ -862,7 +884,8 @@
                 <strong>The Putnam Museum of History and Natural Science</strong> <br />
                 <strong>1717 W. 12th Street, Davenport, IA</strong> <br />
                 <strong>(P) : 563-324-1933</strong>
-                <div><a href="http://www.putnam.org/Collections-(1)/Overview" target="_blank">http://www.putnam.org/Collections-(1)/Overview</a></div>
+                <div><a href="http://www.putnam.org/Collections-(1)/Overview"
+                    target="_blank">http://www.putnam.org/Collections-(1)/Overview</a></div>
               </b-card>
               <br />
 
@@ -900,7 +923,8 @@
             <p></p>
             <ul>
               <li>The bulk of suffrage materials will be found in the extensive <a
-                  href="http://www.putnam.org/getdoc/c84a887f-de7e-4753-9535-28f26f8023da/Collections" target="_blank">local newspaper</a>
+                  href="http://www.putnam.org/getdoc/c84a887f-de7e-4753-9535-28f26f8023da/Collections"
+                  target="_blank">local newspaper</a>
                 collections.
               </li>
             </ul>
@@ -936,9 +960,11 @@
       <b-row>
         <b-col>
           <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
-        <template v-slot:header>
-          <a  name="story" class="title-tag"><h2 class="mb-0">Story County</h2></a>
-        </template>
+            <template v-slot:header>
+              <a name="story" class="title-tag">
+                <h2 class="mb-0">Story County</h2>
+              </a>
+            </template>
             <h2>Iowa State University</h2>
             <hr>
 
@@ -951,8 +977,7 @@
                 <strong>Iowa State University</strong> <br />
                 <strong>202 Catt Hall</strong> <br />
                 <strong>Ames, IA 50011 </strong> <br />
-                <a href="https://cattcenter.iastate.edu/"
-                  target="_blank">https://cattcenter.iastate.edu/</a>
+                <a href="https://cattcenter.iastate.edu/" target="_blank">https://cattcenter.iastate.edu/</a>
               </b-card>
             </div>
             <p></p>
@@ -989,14 +1014,14 @@
                 <strong>403 Parks Library</strong> <br />
                 <strong>Ames, IA 50011</strong> <br />
                 <strong>(P) : (515) 294-6672</strong> <br />
-                <a href="https://archives.lib.iastate.edu/"
-                  target="_blank">https://archives.lib.iastate.edu/</a>
+                <a href="https://archives.lib.iastate.edu/" target="_blank">https://archives.lib.iastate.edu/</a>
               </b-card>
             </div>
             <p></p>
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS076.html" target="_blank">Ames Business
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS076.html" target="_blank">Ames
+                    Business
                     and
                     Professional Women’s records, 1921-1988. 19 boxes.</a></strong>
                 <p></p>
@@ -1015,7 +1040,8 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS010.html" target="_blank">Adams Family
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS010.html" target="_blank">Adams
+                    Family
                     Papers, 1618-1976. 2.94 linear feet.</a></strong>
                 <p></p>
 
@@ -1033,7 +1059,8 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/arch/rgrp/21-7-3.html" target="_blank">Carrie Chapman Catt
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/arch/rgrp/21-7-3.html" target="_blank">Carrie
+                    Chapman Catt
                     papers, 1878-ongoing. 1.68 linear feet.</a></strong>
                 <p></p>
 
@@ -1073,7 +1100,8 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS194.html" target="_blank">Hortense
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS194.html"
+                    target="_blank">Hortense
                     Butler
                     Heywood papers, 1899-1977. 2.52 linear feet.</a></strong>
                 <p></p>
@@ -1091,7 +1119,8 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS341.html" target="_blank">League of
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS341.html"
+                    target="_blank">League of
                     Women
                     Voters of Ames records, 1941-ongoing. 22.11 linear feet.</a></strong>
                 <p></p>
@@ -1124,7 +1153,8 @@
 
             <p></p>
             <ul>
-              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS652.html" target="_blank">YWCA of Ames-ISU
+              <li><strong><a href="http://findingaids.lib.iastate.edu/spcl/manuscripts/MS652.html" target="_blank">YWCA
+                    of Ames-ISU
                     records. 1873-ongoing. 12.39 linear feet.</a></strong>
                 <p></p>
 
@@ -1150,7 +1180,9 @@
             </div>
             <p></p>
             <ul>
-              <li><strong><a href="https://www.amespubliclibrary.org/books-movies-more/special-collections/farwell-t-brown-archive" target="_blank">Farwell
+              <li><strong><a
+                    href="https://www.amespubliclibrary.org/books-movies-more/special-collections/farwell-t-brown-archive"
+                    target="_blank">Farwell
                     T.
                     Brown Photographic Archive (online resource)</a></strong>
                 <p></p>
@@ -1170,6 +1202,7 @@
       <hr>
 
       <!-- Local Newspapers -->
+      <a name="newspaper"></a>
       <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Local Newspapers</h2>
@@ -1269,8 +1302,8 @@
           <p></p>
           <p>Special Collections has at least one newspaper title for Davenport from 1841 to the present, plus a few
             publications from Muscatine and DeWitt that may have suffrage information. For a listing of these historic
-            newspaper collections, visit their website: <a href="https://sites.google.com/view/qcarchivescrawl/institutions-and-organizations/the-richardson-sloane-special-collections-center"
-              target="_blank">https://sites.google.com/view/qcarchivescrawl/institutions-and-organizations/the-richardson-sloane-special-collections-center</a></p>
+            newspaper collections, visit their website: <a href="https://sites.google.com/view/qcarchivescrawl"
+              target="_blank">https://sites.google.com/view/qcarchivescrawl</a></p>
         </ul>
         <p></p>
         <br>
@@ -1357,6 +1390,7 @@
       <hr>
 
       <!-- Bound works -->
+      <a name="books"></a>
       <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Books &amp; Bound Works</h2>
@@ -1609,15 +1643,113 @@
 
       <hr>
 
+      <!-- Journal Articles -->
+      <a name="articles"></a>
+      <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
+        <template v-slot:header>
+          <h2 class="mb-0">Journal Articles</h2>
+        </template>
+
+        <b>Fuller, Steven J., and Mellecker, Alsatia. “Behind the Yellow Banner: Anna B. Lawther and the Winning of
+          Suffrage for Iowa Women.” The Palimpsest 65, no. 3 (1984).</b>
+        <p>Fuller and Mellecker profile Dubuque activist Anna Lawther and her role in the 1916 campaign and as Iowa
+          Equal Suffrage Association president during World War I and discussesCarrie Chapman Catt’s request for state
+          information to inform national campaign tactics. The State Historical Society of Iowa published The
+          Palimpsest; researchers can request a copy at:
+          <a href="https://ir.uiowa.edu/palimpsest/vol65/iss3/4/">https://ir.uiowa.edu/palimpsest/vol65/iss3/4/</a></p>
+
+        <b>Jordan, David W. “Those Formidable Feminists: Iowa's Early Women Vote-getters.” The Iowan 31 (Winter 1982):
+          46-52.</b>
+        <p>Jordan profiles the Iowa women who held political office soon after enfranchisement in 1920, discussing the
+          struggles and achievements of these early politicians.</p>
+
+        <b>McCowen, Jennie. “Women in Iowa.” The Annals of Iowa 3 (1884).</b>
+        <p>McCowen examines the legal and economic status of women in Iowa in the 1880s. McCowen applauds “the
+          progressive and liberal attitude of the State toward women,” and lists occupations that women had attained.
+          She briefly touches on the tenacity of the suffragists and their play on the state motto: “Our rights we
+          prize, and our liberties we will secure.” [The actual motto is “Our liberties we prize and our rights we will
+          maintain.”] This item is available in its entirety through the <a
+            href="http://iagenweb.org/history/annals/1884-Oct.htm">IA Gen Web Project.</a></p>
+
+        <b>Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part 1, the Lily of Seneca Falls.” The Annals of Iowa
+          47, no. 7 (1985): 575-617.</b>
+        <p>The first part of Noun’s biography of Amelia Bloomer covers her life before she moved to Council Bluffs in
+          1855. Noun provides a good explanation of bloomers as a fashion trend and how they became associated with
+          Amelia Bloomer. Bloomer did not invent the loose fitting costume but did help to popularize it. Noun explains
+          that Bloomer was reluctantly won over to the suffrage movement after her efforts to enact temperance reform
+          were blocked because of her gender. The State Historical Society of Iowa publishes The Annals of Iowa;
+          researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/annals-of-iowa/vol47/iss7/2/">https://ir.uiowa.edu/annals-of-iowa/vol47/iss7/2/</a>
+        </p>
+
+        <b>Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part II, the Suffragist of Council Bluffs.” The Annals
+          of Iowa 47, no. 8 (1985): 575-619.</b>
+        <p>The second part of Noun’s biography focuses on Bloomer’s time in Iowa, particularly her early suffrage
+          speeches and newspaper editorials. Noun gives readers a picture of what social activism and daily life were
+          like in an Iowa pioneer town. This article also provides context for the fledgling suffrage movement in Iowa.
+          The State Historical Society of Iowa publishes The Annals of Iowa; researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/annals-of-iowa/vol47/iss8/2/">https://ir.uiowa.edu/annals-of-iowa/vol47/iss8/2/</a>
+        </p>
+
+        <b>Noun, Louise Rosenfield. “Carrie Lane Chapman Catt and her Mason City Experience.” The Palimpsest, (1993):
+          130-144.</b>
+        <p>Noun examines Catt’s early political experience in Cerro Gordo County schools and the beginnings of her
+          suffrage work in Mason City. She argues that Catt and her husband left Mason City in the mid-1880s under a
+          cloud of ill-will after their campaign efforts to get Catt elected to county office. Since then, Mason City
+          history has been rewritten to portray Catt as a beloved hometown heroine. Noun also looks at Catt’s early
+          political mistakes and assumptions. (Research notes and early drafts of this article are in <a href="">Louise
+            Noun’s papers</a> at the Iowa Women’s Archives). The State Historical Society of Iowa published The
+          Palimpsest; researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/palimpsest/vol74/iss3/6/">https://ir.uiowa.edu/palimpsest/vol74/iss3/6/</a></p>
+
+        <b>Noun, Louise Rosenfield. “Queen for a Session: Iowa’s First Legislative Clerk.” The Annals of Iowa 36
+          (1962).</b>
+        <p>This look at Mrs. Mary E. Spencer’s term as Iowa’s legislative clerk in 1870 illuminates attitudes about
+          gender roles held by members of the Iowa legislature in the nineteenth century. One of Spencer’s claims to
+          fame was delivering the House resolution on women’s suffrage. The State Historical Society of Iowa publishes
+          The Annals of Iowa; researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/annals-of-iowa/vol36/iss4/6/">https://ir.uiowa.edu/annals-of-iowa/vol36/iss4/6/</a>
+        </p>
+
+        <b>Pounds, Diana. “Suffragists, Free Love and the Woman Question.” The Palimpsest 72, no. 1 (1991): 3-15.</b>
+        <p>Pounds looks at three Iowa newspapers (in Burlington, Des Moines, and Dubuque) and analyzes their treatment
+          of suffragists in 1871 and 1872 during the Victoria Woodhull free love scandal which was rocking the nation.
+          The State Historical Society of Iowa publishes The Palimpsest; researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/palimpsest/vol72/iss1/2/">https://ir.uiowa.edu/palimpsest/vol72/iss1/2/</a></p>
+
+        <b>Ryan, Thomas G. “Male Opponents and Supporters of Woman Suffrage: Iowa in 1916.” The Annals of Iowa 45, no. 7
+          (1981).</b>
+        <p>This statistical analysis of voting surveys and polls from the 1916 referendum shows strongest support for
+          equal suffrage in dry counties, British-American counties, Protestant counties, and Republican counties in
+          Iowa. Ryan also finds the size of the community or its rural location did not have a correlation in how men
+          voted for or against equal suffrage. The State Historical Society of Iowa publishes The Annals of Iowa;
+          researchers can request a copy at: <a
+            href="https://ir.uiowa.edu/annals-of-iowa/vol45/iss7/3/">https://ir.uiowa.edu/annals-of-iowa/vol45/iss7/3/</a>
+        </p>
+
+        <b>Trail Tales: The Journal of Boone County History (Boone County Historical Society) 110 (Summer/Fall
+          2008).</b>
+        <p>This issue of Trail Tales focuses on women’s suffrage and provides a detailed account and discussion of the
+          1908 Boone parade. Suzanne Caswell’s article analyzes the debate over whether or not Boone hosted the first
+          suffrage parade in the U.S. The issue also includes a first-person account of the parade written by Rev.
+          Eleanor E. Gordon and an edited transcript of the minutes from the 1908 Iowa Equal Suffrage Association
+          Conference in Boone. Other articles examine the Unity Circle at the First Unitarian Church, the Women’s
+          International League for Peace and Freedom, and why the struggle for suffrage is relevant to women today.</p>
+
+      </b-card>
+
+      <hr>
+
       <!-- Online Resources -->
+      <a name="online"></a>
       <b-card header-bg-variant="dark" header-text-variant="light" border-variant="dark" header="Dark">
         <template v-slot:header>
           <h2 class="mb-0">Online Resources</h2>
         </template>
 
         <p><strong>Library of Congress. By Popular Demand: “Votes for Women Suffrage” Pictures, 1850-1920.
-            <a href="http://lcweb2.loc.gov/ammem/vfwhtml/vfwhome.html"
-              target="_blank">http://lcweb2.loc.gov/ammem/vfwhtml/vfwhome.html</a></strong></p>
+            <a href="https://www.loc.gov/item/16012646/"
+              target="_blank">https://www.loc.gov/item/16012646/</a></strong></p>
         <p>This is a small collection of 38 photos selected according to the following guidelines: “...images that
           have been popularly requested in the past, to include images of people and events that are mentioned
           prominently in standard works on women’s suffrage, and to select images for which no copyright restrictions
@@ -1677,8 +1809,8 @@
 
         <p><strong>Library of Congress. American Memory. Women of Protest: Photographs from the Records of the
             National Woman’s Party.<br>
-            <a href="http://memory.loc.gov/ammem/collections/suffrage/nwp/"
-              target="_blank">http://memory.loc.gov/ammem/collections/suffrage/nwp/</a></strong></p>
+            <a href="https://www.loc.gov/item/mnwp000296/"
+              target="_blank">https://www.loc.gov/item/mnwp000296/</a></strong></p>
         <p>The National Woman’s Party represented the militant wing of the suffrage movement. This collection of
           photographs is a representative selection illustrating the NWP’s tactics and techniques such as picketing,
           pageantry, parades, and demonstrations, which often led to arrests, imprisonment, and hunger strikes. The
@@ -1691,8 +1823,9 @@
             target="_blank">suffrage picket line</a>. The first woman in line is from Eagle Grove, Iowa. </p>
 
         <p><strong>Radcliffe Institute for Advanced Study. Harvard University. Schlesinger Library.<br>
-            <a href="http://www.radcliffe.edu/schlesinger_library.aspx" target="_blank">
-              http://www.radcliffe.edu/schlesinger_library.aspx</a></strong></p>
+            <a href="https://www.loc.gov/item/mnwp000296/" target="_blank">
+              https://www.loc.gov/item/mnwp000296/</a></strong></p>
+            
         <p>The Schlesinger Library dates from August 26, 1943, when Radcliffe College received a collection of books,
           papers, and memorabilia on women reformers from alumna and suffragist Maud Wood Park. Her “Woman’s Rights
           Collection” became the nucleus of a research library called the Women’s Archives, which the college
@@ -1703,8 +1836,12 @@
 
         <p></p>
         <ul>
-          <li><a href="http://oasis.lib.harvard.edu/oasis/deliver/deepLink?_collection=oasis&amp;uniqueId=sch00513"
-              target="_blank">Coggeshall, Mary Jane Whitely, 1836-1911</a><br> Mary Jane Whitely Coggeshall was born
+          <li>Coggeshall, Mary Jane Whitely, 1836-1911 (Links 
+            <a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/5301">1</a>
+            &amp;
+            <a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/7882">2</a>)
+
+            <br> Mary Jane Whitely Coggeshall was born
             in 1836. Known as “the Mother of Woman Suffrage in Iowa,” Coggeshall was a founding member of the Polk
             County Iowa Woman Suffrage Society in 1870. She held numerous positions in the Iowa Equal Suffrage
             Association and served three terms as president. She was elected an auditor for the National American
@@ -1723,7 +1860,7 @@
 
         <p></p>
         <ul>
-          <li><a href="http://oasis.lib.harvard.edu/oasis/deliver/deepLink?_collection=oasis&amp;uniqueId=sch00405"
+          <li><a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/5201"
               target="_blank">Harbert, Elizabeth Boynton, b.1845</a><br> Elizabeth Morrison (Boynton) Harbert,
             suffragist, lecturer, author, and editor, was born in Crawfordsville, Indiana in 1845. She lived in
             Chicago, in Iowa, and later in California. The collection includes clippings, programs, flyers, brochures,
@@ -1736,7 +1873,7 @@
 
         <p></p>
         <ul>
-          <li><a href="http://oasis.lib.harvard.edu/oasis/deliver/deepLink?_collection=oasis&amp;uniqueId=sch00617"
+          <li><a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/5403"
               target="_blank">Harrison, Ella, 1859-1933</a><br> Ella Harrison was born in 1859 in Upper Sandusky,
             Ohio. From 1890 to 1900, she was active in the temperance and woman suffrage movements. She organized
             temperance unions throughout southwest Missouri for the Missouri Woman’s Christian Temperance Union; was
@@ -1769,7 +1906,7 @@
 
         <p></p>
         <ul>
-          <li><a href="http://oasis.lib.harvard.edu/oasis/deliver/deepLink?_collection=oasis&amp;uniqueId=sch00207"
+          <li><a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/5012"
               target="_blank">Paul, Alice, 1885-1977</a><br> Quaker, lawyer, and lifelong activist for women’s rights,
             Alice Paul was born in 1885, in Moorestown, New Jersey. In 1912, she was appointed chair of the
             Congressional Committee of the National American Woman Suffrage Association, which campaigned for the
@@ -1782,7 +1919,7 @@
 
         <p></p>
         <ul>
-          <li><a href="http://oasis.lib.harvard.edu/oasis/deliver/deepLink?_collection=oasis&amp;uniqueId=sch01004"
+          <li><a href="https://hollisarchives.lib.harvard.edu/repositories/8/resources/5777"
               target="_blank">Stewart, Ella Jane Seass, b. 1871</a><br> Chicago lecturer and suffragist Ella Jane
             (Seass) Stewart was born in 1871, in Arthur, Illinois. Stewart was a lecturer for the franchise department
             of the National Woman’s Christian Temperance Union in Chicago, 1898-1908; vice president of the Illinois
@@ -1810,10 +1947,10 @@
 </template>
 
 <script>
-import BackToTop from '@inotom/vue-go-top'
+  import BackToTop from '@inotom/vue-go-top'
 
   export default {
-components: {
+    components: {
       BackToTop
     },
 
@@ -1823,22 +1960,22 @@ components: {
       }
     }
   }
-
 </script>
 
 <style scoped>
-.bg-dark {
-  background-color: rgba(0, 0, 0, 0.842) !important;
-}
+  .bg-dark {
+    background-color: rgba(0, 0, 0, 0.842) !important;
+  }
+
   /* .resources {
     text-align: left;
     padding: 100px 100px;
   } */
 
   .resources {
-      text-align: left;
-      padding: 5% 0%;
-    }
+    text-align: left;
+    padding: 5% 0%;
+  }
 
   .header {
     margin-bottom: 100px;
@@ -1854,5 +1991,4 @@ components: {
     text-decoration: none !important;
     cursor: text !important;
   }
-
 </style>

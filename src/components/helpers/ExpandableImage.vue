@@ -157,7 +157,10 @@ export default {
    margin-right: auto;
   margin-left: auto;
   width: 80%;
+  text-shadow: 0 0 50px green;
+
 }
+
 
 .description-card:hover {
   opacity: 1.0;
