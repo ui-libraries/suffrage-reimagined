@@ -27,16 +27,20 @@
           <img :src="infoIcon" class="info-icon"/>
         </div> -->
         <div class="description-wrapper">
-          <b-card v-cloak v-if="expanded && image.text != ''" class="md-elevation-24 description-card" title="Additional Information">
-            <div  class="description">{{image.text}}</div>
-          </b-card>
+          <div v-if="expanded && image.text != ''" class="description-card">
+            <div class="description-header">
+              <div style="display: inline-block;">Additional Information</div>
+              <img style="display: inline-block; width: 30px; padding-left: 10px;" :src="gesture"/>
+            </div>
+            <div class="description">{{image.text}}</div>
+          </div>
         </div>
     <b-img-lazy v-bind="$attrs" blank-width="500" blank-height="700" alt="Carousel Image"/>
   </div>
 </template>
 
 <script>
-import infoIcon from '../../assets/scrapbook-extras/extra-info-icon.png'
+import gesture from '../../assets/scrapbook-extras/tap.gif'
 export default {
   props: {
     closeOnBackgroundClick: {
@@ -55,7 +59,8 @@ export default {
     return {
       expanded: false,
       closeButtonRef: null,
-      infoIcon: infoIcon,
+      gesture: gesture,
+      showDescription: false,
     }
   },
   methods: {
@@ -134,41 +139,65 @@ export default {
 
 <style>
 
-.info-icon-wrapper {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  width: 50px;
-  height: 50px;
-}
-
 .description-wrapper {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
-  width: 100%;
 }
 
 .description-card {
-  opacity: 0.1;
-  transition: opacity 1s ease-in-out;
-   -moz-transition: opacity 1s ease-in-out;
-   -webkit-transition: opacity 1s ease-in-out;
-   margin-right: auto;
-  margin-left: auto;
-  width: 80%;
-  text-shadow: 0 0 50px green;
+padding: 8px 8px !important;
+}
+
+.description-header {
+  border: black;
+  background-color: white;
+  display: inline-block;
+padding: 8px 20px !important;
+font-family: 'Gotham Bold';
+font-size: 16px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: border-radius .8s cubic-bezier(0,1,0,1) .2s;
 
 }
 
+.description-card .description {
+  max-height: 0;
+  transition: max-height .3s cubic-bezier(0,1,0,1), padding .2s ease-out;
 
-.description-card:hover {
-  opacity: 1.0;
+  overflow: hidden;
+  background: white;
+  max-width: 600px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0 0;
 }
+
+.description-card:hover .description {
+  max-height: 3000px;
+  transition: max-height .3s cubic-bezier(1,0,1,0), padding .5s ease .1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 6px 6px;
+
+}
+
+.description-card:hover .description-header {
+  transition: border-radius .15s cubic-bezier(1,0,1,0);
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
 
 .description {
-  
   color: black;
+  font-family: 'Gotham Book'
 }
 
 .expandable-image {
