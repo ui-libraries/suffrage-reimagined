@@ -7,9 +7,7 @@
       <b-container fluid class="body-container">
         <b-row align-h="center">
           <b-col xl="10" lg="12" md="12" sm="12" cols="12">
-            <keep-alive>
             <router-view />
-            </keep-alive>
           </b-col>
         </b-row>
       </b-container>
@@ -88,6 +86,7 @@
     background-color: var(--background-color);
     margin: 0 0;
     padding: 0 0;
+    overflow-x: hidden;
   }
 
   .card-dark {
@@ -97,7 +96,6 @@
   html,
   body {
     /* gets rid of mobile dev overflow */
-    overflow-x: hidden;
     background-color: var(--background-color);
   }
 
