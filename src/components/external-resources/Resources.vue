@@ -1650,7 +1650,7 @@
           <h2 class="mb-0">Journal Articles</h2>
         </template>
 
-        <b>Fuller, Steven J., and Mellecker, Alsatia. “Behind the Yellow Banner: Anna B. Lawther and the Winning of
+        <b class="embolden">Fuller, Steven J., and Mellecker, Alsatia. “Behind the Yellow Banner: Anna B. Lawther and the Winning of
           Suffrage for Iowa Women.” The Palimpsest 65, no. 3 (1984).</b>
         <p>Fuller and Mellecker profile Dubuque activist Anna Lawther and her role in the 1916 campaign and as Iowa
           Equal Suffrage Association president during World War I and discussesCarrie Chapman Catt’s request for state
@@ -1658,12 +1658,12 @@
           Palimpsest; researchers can request a copy at:
           <a href="https://ir.uiowa.edu/palimpsest/vol65/iss3/4/">https://ir.uiowa.edu/palimpsest/vol65/iss3/4/</a></p>
 
-        <b>Jordan, David W. “Those Formidable Feminists: Iowa's Early Women Vote-getters.” The Iowan 31 (Winter 1982):
+        <b class="embolden">Jordan, David W. “Those Formidable Feminists: Iowa's Early Women Vote-getters.” The Iowan 31 (Winter 1982):
           46-52.</b>
         <p>Jordan profiles the Iowa women who held political office soon after enfranchisement in 1920, discussing the
           struggles and achievements of these early politicians.</p>
 
-        <b>McCowen, Jennie. “Women in Iowa.” The Annals of Iowa 3 (1884).</b>
+        <b class="embolden">McCowen, Jennie. “Women in Iowa.” The Annals of Iowa 3 (1884).</b>
         <p>McCowen examines the legal and economic status of women in Iowa in the 1880s. McCowen applauds “the
           progressive and liberal attitude of the State toward women,” and lists occupations that women had attained.
           She briefly touches on the tenacity of the suffragists and their play on the state motto: “Our rights we
@@ -1671,7 +1671,7 @@
           maintain.”] This item is available in its entirety through the <a
             href="http://iagenweb.org/history/annals/1884-Oct.htm">IA Gen Web Project.</a></p>
 
-        <b>Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part 1, the Lily of Seneca Falls.” The Annals of Iowa
+        <b class="embolden">Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part 1, the Lily of Seneca Falls.” The Annals of Iowa
           47, no. 7 (1985): 575-617.</b>
         <p>The first part of Noun’s biography of Amelia Bloomer covers her life before she moved to Council Bluffs in
           1855. Noun provides a good explanation of bloomers as a fashion trend and how they became associated with
@@ -1682,7 +1682,7 @@
             href="https://ir.uiowa.edu/annals-of-iowa/vol47/iss7/2/">https://ir.uiowa.edu/annals-of-iowa/vol47/iss7/2/</a>
         </p>
 
-        <b>Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part II, the Suffragist of Council Bluffs.” The Annals
+        <b class="embolden">Noun, Louise Rosenfield. “Amelia Bloomer, A Biography: Part II, the Suffragist of Council Bluffs.” The Annals
           of Iowa 47, no. 8 (1985): 575-619.</b>
         <p>The second part of Noun’s biography focuses on Bloomer’s time in Iowa, particularly her early suffrage
           speeches and newspaper editorials. Noun gives readers a picture of what social activism and daily life were
@@ -1691,7 +1691,7 @@
             href="https://ir.uiowa.edu/annals-of-iowa/vol47/iss8/2/">https://ir.uiowa.edu/annals-of-iowa/vol47/iss8/2/</a>
         </p>
 
-        <b>Noun, Louise Rosenfield. “Carrie Lane Chapman Catt and her Mason City Experience.” The Palimpsest, (1993):
+        <b class="embolden">Noun, Louise Rosenfield. “Carrie Lane Chapman Catt and her Mason City Experience.” The Palimpsest, (1993):
           130-144.</b>
         <p>Noun examines Catt’s early political experience in Cerro Gordo County schools and the beginnings of her
           suffrage work in Mason City. She argues that Catt and her husband left Mason City in the mid-1880s under a
@@ -1702,7 +1702,7 @@
           Palimpsest; researchers can request a copy at: <a
             href="https://ir.uiowa.edu/palimpsest/vol74/iss3/6/">https://ir.uiowa.edu/palimpsest/vol74/iss3/6/</a></p>
 
-        <b>Noun, Louise Rosenfield. “Queen for a Session: Iowa’s First Legislative Clerk.” The Annals of Iowa 36
+        <b class="embolden">Noun, Louise Rosenfield. “Queen for a Session: Iowa’s First Legislative Clerk.” The Annals of Iowa 36
           (1962).</b>
         <p>This look at Mrs. Mary E. Spencer’s term as Iowa’s legislative clerk in 1870 illuminates attitudes about
           gender roles held by members of the Iowa legislature in the nineteenth century. One of Spencer’s claims to
@@ -1711,13 +1711,13 @@
             href="https://ir.uiowa.edu/annals-of-iowa/vol36/iss4/6/">https://ir.uiowa.edu/annals-of-iowa/vol36/iss4/6/</a>
         </p>
 
-        <b>Pounds, Diana. “Suffragists, Free Love and the Woman Question.” The Palimpsest 72, no. 1 (1991): 3-15.</b>
+        <b class="embolden">Pounds, Diana. “Suffragists, Free Love and the Woman Question.” The Palimpsest 72, no. 1 (1991): 3-15.</b>
         <p>Pounds looks at three Iowa newspapers (in Burlington, Des Moines, and Dubuque) and analyzes their treatment
           of suffragists in 1871 and 1872 during the Victoria Woodhull free love scandal which was rocking the nation.
           The State Historical Society of Iowa publishes The Palimpsest; researchers can request a copy at: <a
             href="https://ir.uiowa.edu/palimpsest/vol72/iss1/2/">https://ir.uiowa.edu/palimpsest/vol72/iss1/2/</a></p>
 
-        <b>Ryan, Thomas G. “Male Opponents and Supporters of Woman Suffrage: Iowa in 1916.” The Annals of Iowa 45, no. 7
+        <b class="embolden">Ryan, Thomas G. “Male Opponents and Supporters of Woman Suffrage: Iowa in 1916.” The Annals of Iowa 45, no. 7
           (1981).</b>
         <p>This statistical analysis of voting surveys and polls from the 1916 referendum shows strongest support for
           equal suffrage in dry counties, British-American counties, Protestant counties, and Republican counties in
@@ -1727,7 +1727,7 @@
             href="https://ir.uiowa.edu/annals-of-iowa/vol45/iss7/3/">https://ir.uiowa.edu/annals-of-iowa/vol45/iss7/3/</a>
         </p>
 
-        <b>Trail Tales: The Journal of Boone County History (Boone County Historical Society) 110 (Summer/Fall
+        <b class="embolden">Trail Tales: The Journal of Boone County History (Boone County Historical Society) 110 (Summer/Fall
           2008).</b>
         <p>This issue of Trail Tales focuses on women’s suffrage and provides a detailed account and discussion of the
           1908 Boone parade. Suzanne Caswell’s article analyzes the debate over whether or not Boone hosted the first

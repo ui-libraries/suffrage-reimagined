@@ -150,7 +150,6 @@ padding: 8px 8px !important;
 }
 
 .description-header {
-  border: black;
   background-color: white;
   display: inline-block;
 padding: 8px 20px !important;
@@ -161,7 +160,6 @@ font-size: 16px;
     border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   transition: border-radius .8s cubic-bezier(0,1,0,1) .2s;
-
 }
 
 .description-card .description {

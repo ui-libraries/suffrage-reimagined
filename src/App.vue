@@ -112,6 +112,12 @@
     font-family: 'Gotham Bold'
   }
 
+  .embolden {
+    color: rgb(0, 0, 0) !important;
+    opacity: 0.8;
+  }
+
+
   .body-container {
     text-align: center;
     font-size: 1.1rem;
