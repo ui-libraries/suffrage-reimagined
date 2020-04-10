@@ -24,7 +24,7 @@
             <b class="embolden">1870 to 1916</b>, but did not pass two
             consecutive sessions
             until
-            <b class="embolden">1916</b>
+            <b class="embolden">1916</b>.
           </div>
         </div>
       </template>

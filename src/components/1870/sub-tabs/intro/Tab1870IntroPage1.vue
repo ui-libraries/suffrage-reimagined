@@ -1,6 +1,7 @@
 <template>
   <div class="page-container">
-    <h4 class="text-center page-header">1870 - 1890</h4>
+    <h4 class="text-center page-header">Introduction</h4>
+    <h6 class="text-center page-subheader embolden">1870 - 1890</h6>
     <image-carousel :images="images">
       <template v-slot:textLeft>
         <div class="scrapbook-content-container text-left">

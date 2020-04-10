@@ -16,26 +16,26 @@
             <h6 class="text-center">Mary Jane Whitely Coggeshall (1836 - 1911)</h6>
             <ul>
               <li>
-                <b class="embolden">1836:</b>Born in Indiana
+                <b class="embolden">1836: </b>Born in Indiana
               </li>
               <li>
-                <b class="embolden">1886:</b>Appointed first editor of Iowa's suffrage newspaper,
+                <b class="embolden">1886: </b>Appointed first editor of Iowa's suffrage newspaper,
                 <i>The Woman's Standard</i>
               </li>
               <li>
-                <b class="embolden">1890:</b>Served first term as president of the Iowa Equal Suffrage Association (IESA)
+                <b class="embolden">1890: </b>Served first term as president of the Iowa Equal Suffrage Association (IESA)
               </li>
               <li>
-                <b class="embolden">1903:</b>Served second term as president of IESA
+                <b class="embolden">1903: </b>Served second term as president of IESA
               </li>
               <li>
-                <b class="embolden">1908:</b>Filed a successful lawsuit against the City of Des Moines when women were denied
+                <b class="embolden">1908: </b>Filed a successful lawsuit against the City of Des Moines when women were denied
                 the right to vote on a bond issue. The arguments in the case would be used to justify
                 presidential suffrage for Iowa women in
                 <b class="embolden">1919</b>
               </li>
               <li>
-                <b class="embolden">1911:</b>Died, leaving $15,000 to suffrage associations
+                <b class="embolden">1911: </b>Died, leaving $15,000 to suffrage associations
               </li>
             </ul>
           </div>

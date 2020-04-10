@@ -26,42 +26,42 @@
           <h6 class="text-center">Amelia Jenks Bloomer (1818 - 1894)</h6>
           <ul>
             <li>
-              <b class="embolden">1818:</b>Born in Cortland County, New York
+              <b class="embolden">1818: </b>Born in Cortland County, New York
             </li>
             <li>
-              <b class="embolden">1840:</b>Married political activist Dexter Bloomer - their wedding vows did not include
+              <b class="embolden">1840: </b>Married political activist Dexter Bloomer - their wedding vows did not include
               a
               promise of obedience
             </li>
             <li>
-              <b class="embolden">1848:</b>Attended the first women’s rights convention in Seneca Falls, New York, but was
+              <b class="embolden">1848: </b>Attended the first women’s rights convention in Seneca Falls, New York, but was
               not
               yet convinced of the need for suffrage
             </li>
             <li>
-              <b class="embolden">1849:</b>Started The Lily, a temperance newspaper, and began advocating for suffrage so
+              <b class="embolden">1849: </b>Started The Lily, a temperance newspaper, and began advocating for suffrage so
               women could enact temperance laws
             </li>
             <li>
-              <b class="embolden">1855:</b>Moved to Council Bluffs, Iowa and became the first state resident to publicly
+              <b class="embolden">1855: </b>Moved to Council Bluffs, Iowa and became the first state resident to publicly
               speak
               for suffrage
             </li>
             <li>
-              <b class="embolden">1860s:</b>Wrote numerous editorials and rebuttals to Council Bluffs newspapers regarding
+              <b class="embolden">1860s: </b>Wrote numerous editorials and rebuttals to Council Bluffs newspapers regarding
               suffrage
             </li>
             <li>
-              <b class="embolden">1871 - 1873:</b>Served as president of the Iowa Woman Suffrage Association
+              <b class="embolden">1871 - 1873: </b>Served as president of the Iowa Woman Suffrage Association
             </li>
             <li>
-              <b class="embolden">1880:</b>Wrote history of the Iowa suffrage movement for The History of Woman Suffrage
+              <b class="embolden">1880: </b>Wrote history of the Iowa suffrage movement for The History of Woman Suffrage
               edited by Elizabeth Cady Stanton, Susan B. Anthony and Matilda Joslyn Gage, but the chapter
               was
               edited against her wishes
             </li>
             <li>
-              <b class="embolden">1894:</b>Died in Council Bluffs, Iowa at the age of 76
+              <b class="embolden">1894: </b>Died in Council Bluffs, Iowa at the age of 76
             </li>
           </ul>
         </div>

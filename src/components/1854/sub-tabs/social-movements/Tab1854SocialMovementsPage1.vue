@@ -6,16 +6,16 @@
         Women’s involvement in mid-nineteenth century social movements including abolition, black suffrage,
         child welfare, prison reform and care of Civil War soldiers paved the way for later suffrage work.
         Correspondence from the
-        <b class="embolden">1860s</b> reveals that Iowa women (and men) were discussing major issues of
+        <b class="embolden">1860s </b> reveals that Iowa women (and men) were discussing major issues of
         social
         change.
       </div>
       <div>
         Although she was not an active suffragist, Boone County resident Ellen Mowrer
-        <b class="embolden">(1848-1922)</b>
+        <b class="embolden">(1848-1922) </b>
         described an
         encounter with a male acquaintance in an
-        <b class="embolden">1869</b> diary entry...
+        <b class="embolden">1869 </b> diary entry...
       </div>
       <div>
         “He is very hard against woman voting. Because, because was the only argument he could put forth. was a
@@ -34,26 +34,26 @@
               <h6 class="text-center">Annie Wittenmyer (1827 - 1900)</h6>
               <ul>
                 <li>
-                  <b class="embolden">1827:</b>Born in Ohio
+                  <b class="embolden">1827: </b>Born in Ohio
                 </li>
                 <li>
-                  <b class="embolden">1850:</b>Family moved to Keokuk, Iowa
+                  <b class="embolden">1850: </b>Family moved to Keokuk, Iowa
                 </li>
                 <li>
-                  <b class="embolden">1861:</b>Organized ladies' aid societies for Iowa soldiers
+                  <b class="embolden">1861: </b>Organized ladies' aid societies for Iowa soldiers
                 </li>
                 <li>
-                  <b class="embolden">1862:</b>Appointed state sanitary agent of Iowa
+                  <b class="embolden">1862: </b>Appointed state sanitary agent of Iowa
                 </li>
                 <li>
-                  <b class="embolden">1863:</b>Mired in a political battle because state politicians did not trust a
+                  <b class="embolden">1863: </b>Mired in a political battle because state politicians did not trust a
                   woman with government money and supplies
                 </li>
                 <li>
-                  <b class="embolden">1864:</b>Opened home for Civil War orphans in Davenport
+                  <b class="embolden">1864: </b>Opened home for Civil War orphans in Davenport
                 </li>
                 <li>
-                  <b class="embolden">1874 - 1879:</b>Served as National President of the Woman's Christian Temperance
+                  <b class="embolden">1874 - 1879: </b>Served as National President of the Woman's Christian Temperance
                   Union (WCTU)
                 </li>
               </ul>
@@ -63,28 +63,28 @@
               <h6 class="text-center">Mary Darwin (1821 - 1886)</h6>
               <ul>
                 <li>
-                  <b class="embolden">1821:</b>Born in Connecticut
+                  <b class="embolden">1821: </b>Born in Connecticut
                 </li>
                 <li>
-                  <b class="embolden">1840s:</b>Moved to Iowa where she lived in Des Moines and Burlington
+                  <b class="embolden">1840s: </b>Moved to Iowa where she lived in Des Moines and Burlington
                 </li>
                 <li>
-                  <b class="embolden">1863:</b>Publicly defended Wittenmyer's right to risk her life for her country
+                  <b class="embolden">1863: </b>Publicly defended Wittenmyer's right to risk her life for her country
                   and work outside the home
                 </li>
                 <li>
-                  <b class="embolden">1868:</b>Named "Iowa's Most Popular Lecturer" by
+                  <b class="embolden">1868: </b>Named "Iowa's Most Popular Lecturer" by
                   <i>The Henry County Press</i>
                 </li>
                 <li>
-                  <b class="embolden">1870:</b>Appointed chairwoman of the executive committee of the Iowa Woman
+                  <b class="embolden">1870: </b>Appointed chairwoman of the executive committee of the Iowa Woman
                   Suffrage Association and founded the Burlington Woman Suffrage Society
                 </li>
                 <li>
-                  <b class="embolden">1880:</b>Joined the Iowa SCTU and advocated for suffrage until her death in
+                  <b class="embolden">1880: </b>Joined the Iowa SCTU and advocated for suffrage until her death in
                   <b
                     class="embolden"
-                  >1886</b>
+                  >1886 </b>
                 </li>
               </ul>
             </b-col>
@@ -101,7 +101,7 @@
             Turner Wittenmyer landed one of the first state positions given to a female (sanitary agent,
             <b
               class="embolden"
-            >1862</b>),
+            >1862 </b>),
             Wittenmyer disapproved of equal suffrage, believing women should exert moral influence rather
             than
             political influence.

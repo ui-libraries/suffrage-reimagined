@@ -1,6 +1,7 @@
 <template>
   <div class="intro-page-container">
-    <h4 class="page-header text-center">1920 and Beyond</h4>
+    <h4 class="text-center page-header">Introduction</h4>
+    <h6 class="text-center page-subheader embolden">1920 and Beyond</h6>
 
     <image-carousel :images="images">
       <template v-slot:textLeft>
@@ -33,28 +34,28 @@
             </div>
             <ul>
               <li>
-                <b class="embolden">1872:</b>Born in Ohio
+                <b class="embolden">1872: </b>Born in Ohio
               </li>
               <li>
-                <b class="embolden">1904:</b>Moved to Des Moines to head the Roadside Settlement House after working
+                <b class="embolden">1904: </b>Moved to Des Moines to head the Roadside Settlement House after working
                 with Jane Addams at Hull House in Chicago.
               </li>
               <li>
-                <b class="embolden">1912:</b>First woman elected to the Des Moines School Board, but refused to run again
+                <b class="embolden">1912: </b>First woman elected to the Des Moines School Board, but refused to run again
                 in
                 <b class="embolden">1915</b> because her male colleagues had ignored her, making her an ineffective board member
               </li>
               <li>
-                <b class="embolden">1913-1916:</b>Served as president of the Iowa Equal Suffrage Association,
+                <b class="embolden">1913-1916: </b>Served as president of the Iowa Equal Suffrage Association,
                 participating in the
                 <b class="embolden">1913</b> automobile tour and spearheading the
                 <b class="embolden">1916</b> referendum campaign
               </li>
               <li>
-                <b class="embolden">1919:</b>Elected first president of the Iowa LWV for a one-year term
+                <b class="embolden">1919: </b>Elected first president of the Iowa LWV for a one-year term
               </li>
               <li>
-                <b class="embolden">1930s:</b>Held several Polk County government positions during the Great Depression -
+                <b class="embolden">1930s: </b>Held several Polk County government positions during the Great Depression -
                 often as the first woman
               </li>
             </ul>

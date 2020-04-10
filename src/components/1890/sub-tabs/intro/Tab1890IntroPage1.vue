@@ -1,6 +1,7 @@
 <template>
   <div class="page-container">
-    <h4 class="text-center">1890 - 1915</h4>
+    <h4 class="text-center page-header">Introduction</h4>
+    <h6 class="text-center page-subheader embolden">1890 - 1915</h6>
     <image-carousel :images="images">
       <template v-slot:textLeft>
         <div class="scrapbook-content-container text-left">
@@ -38,21 +39,21 @@
           <div>
             <ul>
               <li>
-                <b class="embolden">1869 - 1896:</b>Wyoming became the first state to grant suffrage in
+                <b class="embolden">1869 - 1896: </b>Wyoming became the first state to grant suffrage in
                 <b class="embolden">1869.</b> Seven
                 states followed, granting at least partial suffrage.
               </li>
               <li>
-                <b class="embolden">1897 - 1910:</b>No U.S. state suffrage referendum was successful.
+                <b class="embolden">1897 - 1910: </b>No U.S. state suffrage referendum was successful.
               </li>
               <li>
-                <b class="embolden">By 1915:</b>Eight more states or territories had at least partial suffrage.
+                <b class="embolden">By 1915: </b>Eight more states or territories had at least partial suffrage.
               </li>
               <li>
-                <b class="embolden">1887 - 1914:</b>A federal amendment granting women the right to vote remained dormant.
+                <b class="embolden">1887 - 1914: </b>A federal amendment granting women the right to vote remained dormant.
               </li>
               <li>
-                <b class="embolden">1914:</b>Congress reconsidered a federal amendment to grant equal suffrage.
+                <b class="embolden">1914: </b>Congress reconsidered a federal amendment to grant equal suffrage.
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 <template>
   <div class="intro-page-container">
-    <h4 class="page-header text-center">1854 - 1869</h4>
+        <h4 class="text-center page-header">Introduction</h4>
+    <h6 class="text-center page-subheader embolden">1854 - 1869</h6>
 
     <div class="text-left scrapbook-content-container">
       <div>
