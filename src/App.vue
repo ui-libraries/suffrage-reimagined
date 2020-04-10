@@ -3,15 +3,15 @@
     <div id="app">
       <loading-screen :is-loading="isLoading"></loading-screen>
       <div>
-      <NavBar />
-      <b-container fluid class="body-container">
-        <b-row align-h="center">
-          <b-col xl="10" lg="12" md="12" sm="12" cols="12">
-            <router-view />
-          </b-col>
-        </b-row>
-      </b-container>
-      <Footer />
+        <NavBar />
+        <b-container fluid class="body-container">
+          <b-row align-h="center">
+            <b-col xl="10" lg="12" md="12" sm="12" cols="12">
+              <router-view />
+            </b-col>
+          </b-row>
+        </b-container>
+        <Footer />
       </div>
     </div>
   </transition>
@@ -43,11 +43,11 @@
 </script>
 
 <style lang="scss">
-@import './assets/styles/bootstrap-changes.css';
-@import './assets/styles/material-changes.css';
-@import './assets/styles/utility-tags.css';
-@import './assets/styles/transitions.css';
-@import './assets/styles/fonts.css';
+  @import './assets/styles/bootstrap-changes.css';
+  @import './assets/styles/material-changes.css';
+  @import './assets/styles/utility-tags.css';
+  @import './assets/styles/transitions.css';
+  @import './assets/styles/fonts.css';
 
 
   #app {
@@ -64,7 +64,6 @@
 
   html,
   body {
-    /* gets rid of mobile dev overflow */
     background-color: var(--background-color);
   }
 
@@ -87,9 +86,4 @@
       margin: 0 0 !important;
     }
   }
-
-
-
-
-
 </style>
