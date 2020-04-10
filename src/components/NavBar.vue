@@ -13,7 +13,6 @@
         </headroom>
 
         <md-drawer class="entire-drawer" :md-active.sync="showNavigation" md-swipeable>
-        <smooth-scrollbar>
 
             <md-toolbar class="drawer-header" md-elevation="1">
                 <span flex class="md-title bookmark-title text-center">Table of Contents</span>
@@ -107,7 +106,6 @@
                     <div class="md-list-item-text"><span>Women in Politics Today</span></div>
                 </md-list-item>
             </md-list>
-        </smooth-scrollbar>
         </md-drawer>
     </div>
 </template>

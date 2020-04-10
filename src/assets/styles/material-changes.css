@@ -1,0 +1,19 @@
+.md-button .md-ripple {
+    padding: 0 0 !important;
+  }
+
+    /* Alter vue material css */
+    .md-list.md-double-line .md-list-item-content {
+        min-height: 35px !important;
+      }
+    
+      .md-overlay {
+        z-index: 10000 !important;
+      }
+
+/* headroom (navbar head) */
+.header-anchor {
+    color: var(--secondary-color) !important;
+    text-decoration: none !important;
+  }
+

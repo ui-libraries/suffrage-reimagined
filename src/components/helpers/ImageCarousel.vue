@@ -18,7 +18,7 @@
               </span>
             </b-carousel>
             <md-divider class="divider"></md-divider>
-            <smooth-scrollbar><div class="caption"><span class="vertical-center">{{currentCaption}}</span></div></smooth-scrollbar>
+            <div class="caption"><span class="vertical-center">{{currentCaption}}</span></div>
           </div>
         </div>
       </b-col>

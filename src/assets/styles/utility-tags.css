@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #FFCD00;
+    --secondary-color: black;
+    --background-color: rgba(241, 240, 240, 0.877);
+  }
+
+  ::selection {
+    background: rgba(0, 0, 0, 0.116) !important;
+    color: inherit !important;
+  }
+
+  ::-moz-selection {
+    background: rgba(0, 0, 0, 0.116) !important;
+    color: inherit !important;
+  }
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Gotham Bold'
+  }
+
+  /* applied to nav header */
+  .stretched-link::after {
+    z-index: 0 !important;
+  }
+
+  /* applied to all b tags */
+  .embolden {
+    color: rgb(0, 0, 0) !important;
+    opacity: 0.8;
+  }
+
+  /* applied to all anchor links */
+  .text-anchor {
+    color: var(--secondary-color) !important;
+    text-decoration: underline !important;
+  }
+
+  .text-anchor:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+
+  /* every div in scrapbook (separates content out a bit) */
+  .scrapbook-content-container div {
+    margin: 15px 0;
+  }
+
+  /* applied to active nav links generally */
+  .active {
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+    text-decoration: none !important;
+  }
+
+  /* applied to buttons for external resources (see footer links) */
+    /* For external resources */
+    @media only screen and (max-width: 775px) {
+        .navigation-to-resources {
+          font-size: 18px;
+        }
+      }
+    
+      @media only screen and (max-width: 526px) {
+        .navigation-to-resources {
+          font-size: 14px;
+        }
+      }
+    
+      @media only screen and (max-width: 440px) {
+        .navigation-to-resources {
+          font-size: 10px;
+        }
+      }
+
+  ul {
+    margin-bottom: 0 !important;
+  }

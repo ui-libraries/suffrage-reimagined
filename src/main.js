@@ -5,7 +5,6 @@ import VueGtag from 'vue-gtag'
 
 import { BContainer, BRow, BCol, BCard, BCardText, BNav, BNavItem, BNavItemDropdown, BDropdownItem, BCarousel, BCarouselSlide, BImgLazy } from 'bootstrap-vue'
 import { MdToolbar, MdIcon, MdButton, MdDrawer, MdList, MdContent, MdDivider, MdSubheader, MdRipple, MdSnackbar } from 'vue-material/dist/components'
-import SmoothScrollbar from 'vue-smooth-scrollbar'
 
 // Bootstrap-vue components
 Vue.component('b-container', BContainer)
@@ -32,7 +31,6 @@ Vue.use(MdDivider)
 Vue.use(MdSubheader)
 Vue.use(MdRipple)
 Vue.use(MdSnackbar)
-Vue.use(SmoothScrollbar)
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
