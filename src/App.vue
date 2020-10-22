@@ -37,7 +37,7 @@
     mounted() {
       setTimeout(() => {
         this.isLoading = false
-      }, 4000)
+      }, 3400)
     },
   }
 </script>

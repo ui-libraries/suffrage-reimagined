@@ -107,7 +107,7 @@
                 <h2 class="mb-0">Blackhawk County</h2>
               </a>
             </template>
-            <div class="contact-information">
+            <div v-bind:class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -159,7 +159,7 @@
                 <h2 class="mb-0">Boone County</h2>
               </a>
             </template>
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -246,7 +246,7 @@
               </a>
             </template>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -307,7 +307,7 @@
             <h4>THE UNIVERSITY OF IOWA</h4>
             <hr>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -356,7 +356,7 @@
             <p></p>
             <hr>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -524,7 +524,7 @@
             <hr>
 
             <p>
-              <div class="contact-information">
+              <div :class="contactInformation">
                 <b-card>
                   <template v-slot:header>
                     <h5 class="mb-0 text-center">Contact Information</h5>
@@ -602,7 +602,7 @@
                 <h2 class="mb-0">Polk County</h2>
               </a>
             </template>
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -788,7 +788,7 @@
               </a>
             </template>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -832,7 +832,7 @@
               </a>
             </template>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -876,7 +876,7 @@
               </a>
             </template>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -900,7 +900,7 @@
               1985.
             </p>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -968,7 +968,7 @@
             <h2>Iowa State University</h2>
             <hr>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1004,7 +1004,7 @@
             </ul>
             <p></p>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1167,7 +1167,7 @@
             <p></p>
             <hr>
 
-            <div class="contact-information">
+            <div :class="contactInformation">
               <b-card>
                 <template v-slot:header>
                   <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1219,7 +1219,7 @@
         <p><strong>BOONE COUNTY</strong></p>
         <p></p>
         <ul>
-          <div class="contact-information">
+          <div :class="contactInformation">
             <b-card>
               <template v-slot:header>
                 <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1239,7 +1239,7 @@
 
         <p></p>
         <ul>
-          <div class="contact-information">
+          <div :class="contactInformation">
             <b-card>
               <template v-slot:header>
                 <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1262,7 +1262,7 @@
 
         <p></p>
         <ul>
-          <div class="contact-information">
+          <div :class="contactInformation">
             <b-card>
               <template v-slot:header>
                 <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1287,7 +1287,7 @@
 
         <p></p>
         <ul>
-          <div class="contact-information">
+          <div :class="contactInformation">
             <b-card>
               <template v-slot:header>
                 <h5 class="mb-0 text-center">Contact Information</h5>
@@ -1947,48 +1947,80 @@
 </template>
 
 <script>
-  import BackToTop from '@inotom/vue-go-top'
+import BackToTop from "@inotom/vue-go-top";
 
-  export default {
-    components: {
-      BackToTop
+export default {
+  components: {
+    BackToTop,
+  },
+
+  data() {
+    return {
+      backToTopBgColor: "var(--primary-color)",
+      window: {
+        width: 0,
+        height: 0,
+      },
+    };
+  },
+
+  created() {
+    window.addEventListener("resize", this.handleResize);
+    this.handleResize();
+  },
+
+  destroyed() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
     },
+    isMobile() {
+      return this.window.width <= 1200 ? true : false;
+    },
+  },
 
-    data() {
+  computed: {
+    //Inline-block overflows on mobile (use default on mobile)
+    contactInformation: function () {
       return {
-        backToTopBgColor: 'var(--primary-color)'
+        "contact-information": !this.isMobile(),
       }
-    }
-  }
+    },
+  },
+};
 </script>
 
 <style scoped>
-  .bg-dark {
-    background-color: rgba(0, 0, 0, 0.842) !important;
-  }
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.842) !important;
+}
 
-  /* .resources {
+/* .resources {
     text-align: left;
     padding: 100px 100px;
   } */
 
-  .resources {
-    text-align: left;
-    padding: 5% 0%;
-  }
+.resources {
+  text-align: left;
+  padding: 5% 0%;
+}
 
-  .header {
-    margin-bottom: 100px;
-    text-decoration: underline;
-  }
+.header {
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
 
-  .contact-information {
-    display: inline-block;
-  }
+.contact-information {
+  display: inline-block;
+}
 
-  .title-tag {
-    color: inherit !important;
-    text-decoration: none !important;
-    cursor: text !important;
-  }
+.title-tag {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: text !important;
+}
 </style>
