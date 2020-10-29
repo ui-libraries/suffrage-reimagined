@@ -12,13 +12,13 @@
                 <b-carousel-slide class="carousel-slide">
                   <template v-slot:img
                   >
-                    <expandable-image class="" :src="image.url" :close-on-background-click="true"/>
+                    <expandable-image class="" :src="image.url" :close-on-background-click="false" :image="image"/>
                   </template>
                 </b-carousel-slide>
               </span>
             </b-carousel>
             <md-divider class="divider"></md-divider>
-            <smooth-scrollbar><div class="caption"><span class="vertical-center">{{currentCaption}}</span></div></smooth-scrollbar>
+            <div class="caption"><span class="vertical-center">{{currentCaption}}</span></div>
           </div>
         </div>
       </b-col>
@@ -75,7 +75,7 @@
 
 <style scoped>
 .container-fluid {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 .carousel-wrapper {
@@ -118,20 +118,5 @@
     margin: 0 auto;
     border: .06em solid rgba(255, 204, 0, 0.24);
   }
-
-      .fade-enter-active,
-    .fade-leave-active {
-        transition: opacity .3s ease-in-out;
-    }
-
-    .fade-enter,
-    .fade-leave-to {
-        opacity: 0;
-    }
-
-    .fade-enter-to,
-    .fade-leave {
-        opacity: 1;
-    }
 
 </style>

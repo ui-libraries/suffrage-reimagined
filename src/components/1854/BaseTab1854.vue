@@ -1,5 +1,5 @@
 <template>
-    <div class="base-tab-1854-container">
+    <div class="base-1854-container">
     <transition name="fadeScrapbook" appear mode="out-in">
         <router-view />
         </transition>
@@ -22,7 +22,7 @@ import BaseTab1854SocialMovements from '../1854/sub-tabs/social-movements/BaseTa
 </script>
 
 <style scoped>
-    .base-tab-1854-container {
+    .base-1854-container {
         width: 100%;
         height: 100%;
     }

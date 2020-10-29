@@ -1,5 +1,6 @@
 <template>
     <div class="base-scrapbook-container">
+        
         <navigation-arrows />
         <div class="testing md-elevation-15">
             <scrapbook-navigation />
@@ -21,6 +22,8 @@
             ScrapbookBody
         },
 
+
+
         mounted() {
             // this.$store.commit('setScrapbookLoaded')
         }
@@ -35,6 +38,8 @@
         margin: 1rem 0;
         padding: 1rem;
     }
+
+
 
 
 

@@ -14,7 +14,7 @@
             </b-row>
             <b-row class="text-center image-wrapper mt-5" align-v="center" align-h="center">
                 <b-col>
-                    <img src='../assets/scrapbook-extras/wordmark-black-background.jpg' width="350px"/>
+                    <a href="https://www.lib.uiowa.edu/"><img src='../assets/scrapbook-extras/wordmark-footer.png' width="400px"/></a>
                 </b-col>
             </b-row>
         </b-container>
@@ -32,8 +32,8 @@
 <style scoped>
     .container-fluid {
         width: 100%;
-        background-color: black;
-        padding: 2.5em 1rem !important;
+        background-color: var(--secondary-color);
+        padding: 2.5em 2em !important;
     }
 
     .external-resources {
@@ -59,7 +59,7 @@
         color: white !important;
     }
     .footer-link:hover {
-        color: #FFCD00 !important;
+        color: var(--primary-color) !important;
         text-decoration: none;
     }
 </style>

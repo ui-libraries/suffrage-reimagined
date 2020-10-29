@@ -15,65 +15,65 @@ import TabAboutPage1 from '../components/about/TabAboutPage1'
 // const BaseTabAbout = () => import('../components/about/BaseTabAbout') 
 // const TabAboutPage1 = () => import('../components/about/TabAboutPage1') 
 
-const BaseTab1854 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/BaseTab1854') 
-const BaseTab1854Intro = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/intro/BaseTab1854Intro') 
-const Tab1854IntroPage1 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/intro/Tab1854IntroPage1') 
-const Tab1854IntroPage2 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/intro/Tab1854IntroPage2') 
-const BaseTab1854SocialMovements = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/social-movements/BaseTab1854SocialMovements') 
-const Tab1854SocialMovementsPage1 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage1') 
-const Tab1854SocialMovementsPage2 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage2') 
-const BaseTab1854AmeliaBloomer = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/amelia-bloomer/BaseTab1854AmeliaBloomer') 
-const Tab1854AmeliaBloomerPage1 = () => import(/* webpackChunkName: "tab-1854" */ '../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage1') 
+const BaseTab1854 = () => import(/* webpackChunkName: "1854" */ '../components/1854/BaseTab1854') 
+const BaseTab1854Intro = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/intro/BaseTab1854Intro') 
+const Tab1854IntroPage1 = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/intro/Tab1854IntroPage1') 
+const Tab1854IntroPage2 = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/intro/Tab1854IntroPage2') 
+const BaseTab1854SocialMovements = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/social-movements/BaseTab1854SocialMovements') 
+const Tab1854SocialMovementsPage1 = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage1') 
+const Tab1854SocialMovementsPage2 = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/social-movements/Tab1854SocialMovementsPage2') 
+const BaseTab1854AmeliaBloomer = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/amelia-bloomer/BaseTab1854AmeliaBloomer') 
+const Tab1854AmeliaBloomerPage1 = () => import(/* webpackChunkName: "1854" */ '../components/1854/sub-tabs/amelia-bloomer/Tab1854AmeliaBloomerPage1') 
 
-const BaseTab1870 = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/BaseTab1870') 
-const BaseTab1870Intro = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/intro/BaseTab1870Intro') 
-const Tab1870IntroPage1 = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/intro/Tab1870IntroPage1') 
-const BaseTab1870LegislativeBattle = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/legislative-battle/BaseTab1870LegislativeBattle') 
-const Tab1870LegislativeBattlePage1 = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/legislative-battle/Tab1870LegislativeBattlePage1') 
-const BaseTab1870ScandalAndControversy = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/scandal-and-controversy/BaseTab1870ScandalAndControversy') 
-const Tab1870ScandalAndControversyPage1 = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/scandal-and-controversy/Tab1870ScandalAndControversyPage1') 
-const BaseTab1870Temperance = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/temperance/BaseTab1870Temperance') 
-const Tab1870TemperancePage1 = () => import(/* webpackChunkName: "tab-1870" */ '../components/1870/sub-tabs/temperance/Tab1870TemperancePage1') 
+const BaseTab1870 = () => import(/* webpackChunkName: "1870" */ '../components/1870/BaseTab1870') 
+const BaseTab1870Intro = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/intro/BaseTab1870Intro') 
+const Tab1870IntroPage1 = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/intro/Tab1870IntroPage1') 
+const BaseTab1870LegislativeBattle = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/legislative-battle/BaseTab1870LegislativeBattle') 
+const Tab1870LegislativeBattlePage1 = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/legislative-battle/Tab1870LegislativeBattlePage1') 
+const BaseTab1870ScandalAndControversy = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/scandal-and-controversy/BaseTab1870ScandalAndControversy') 
+const Tab1870ScandalAndControversyPage1 = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/scandal-and-controversy/Tab1870ScandalAndControversyPage1') 
+const BaseTab1870Temperance = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/temperance/BaseTab1870Temperance') 
+const Tab1870TemperancePage1 = () => import(/* webpackChunkName: "1870" */ '../components/1870/sub-tabs/temperance/Tab1870TemperancePage1') 
 
-const BaseTab1890 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/BaseTab1890') 
-const BaseTab1890Intro = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/intro/BaseTab1890Intro') 
-const Tab1890IntroPage1 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/intro/Tab1890IntroPage1') 
-const Tab1890IntroPage2 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/intro/Tab1890IntroPage2') 
-const BaseTab1890GoalUnrealized = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/goal-unrealized/BaseTab1890GoalUnrealized') 
-const Tab1890GoalUnrealizedPage1 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/goal-unrealized/Tab1890GoalUnrealizedPage1') 
-const BaseTab1890OrganizingForTheVote = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/BaseTab1890OrganizingForTheVote') 
-const Tab1890OrganizingForTheVotePage1 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage1') 
-const Tab1890OrganizingForTheVotePage2 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage2') 
-const Tab1890OrganizingForTheVotePage3 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage3') 
-const Tab1890OrganizingForTheVotePage4 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage4') 
-const Tab1890OrganizingForTheVotePage5 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage5') 
-const BaseTab1890AfricanAmericanWomen = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/african-american-women/BaseTab1890AfricanAmericanWomen') 
-const Tab1890AfricanAmericanWomenPage1 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/african-american-women/Tab1890AfricanAmericanWomenPage1') 
-const BaseTab1890BooneParade = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/boone-parade/BaseTab1890BooneParade') 
-const Tab1890BooneParadePage1 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1') 
-const Tab1890BooneParadePage2 = () => import(/* webpackChunkName: "tab-1890" */ '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2') 
+const BaseTab1890 = () => import(/* webpackChunkName: "1890" */ '../components/1890/BaseTab1890') 
+const BaseTab1890Intro = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/intro/BaseTab1890Intro') 
+const Tab1890IntroPage1 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/intro/Tab1890IntroPage1') 
+const Tab1890IntroPage2 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/intro/Tab1890IntroPage2') 
+const BaseTab1890GoalUnrealized = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/goal-unrealized/BaseTab1890GoalUnrealized') 
+const Tab1890GoalUnrealizedPage1 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/goal-unrealized/Tab1890GoalUnrealizedPage1') 
+const BaseTab1890OrganizingForTheVote = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/BaseTab1890OrganizingForTheVote') 
+const Tab1890OrganizingForTheVotePage1 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage1') 
+const Tab1890OrganizingForTheVotePage2 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage2') 
+const Tab1890OrganizingForTheVotePage3 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage3') 
+const Tab1890OrganizingForTheVotePage4 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage4') 
+const Tab1890OrganizingForTheVotePage5 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/organizing-for-the-vote/Tab1890OrganizingForTheVotePage5') 
+const BaseTab1890AfricanAmericanWomen = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/african-american-women/BaseTab1890AfricanAmericanWomen') 
+const Tab1890AfricanAmericanWomenPage1 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/african-american-women/Tab1890AfricanAmericanWomenPage1') 
+const BaseTab1890BooneParade = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/boone-parade/BaseTab1890BooneParade') 
+const Tab1890BooneParadePage1 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage1') 
+const Tab1890BooneParadePage2 = () => import(/* webpackChunkName: "1890" */ '../components/1890/sub-tabs/boone-parade/Tab1890BooneParadePage2') 
 
-const BaseTab1916 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/BaseTab1916') 
-const BaseTab1916Intro = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/intro/BaseTab1916Intro') 
-const Tab1916IntroPage1 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/intro/Tab1916IntroPage1') 
-const BaseTab1916Referendum = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/referendum/BaseTab1916Referendum') 
-const Tab1916ReferendumPage1 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage1') 
-const Tab1916ReferendumPage2 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage2') 
-const BaseTab1916WarWork = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/war-work/BaseTab1916WarWork') 
-const Tab1916WarWorkPage1 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/war-work/Tab1916WarWorkPage1') 
-const BaseTab1916TheWinningPlan  = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/the-winning-plan/BaseTab1916TheWinningPlan') 
-const Tab1916TheWinningPlanPage1 = () => import(/* webpackChunkName: "tab-1916" */ '../components/1916/sub-tabs/the-winning-plan/Tab1916TheWinningPlanPage1') 
+const BaseTab1916 = () => import(/* webpackChunkName: "1916" */ '../components/1916/BaseTab1916') 
+const BaseTab1916Intro = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/intro/BaseTab1916Intro') 
+const Tab1916IntroPage1 = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/intro/Tab1916IntroPage1') 
+const BaseTab1916Referendum = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/referendum/BaseTab1916Referendum') 
+const Tab1916ReferendumPage1 = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage1') 
+const Tab1916ReferendumPage2 = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/referendum/Tab1916ReferendumPage2') 
+const BaseTab1916WarWork = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/war-work/BaseTab1916WarWork') 
+const Tab1916WarWorkPage1 = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/war-work/Tab1916WarWorkPage1') 
+const BaseTab1916TheWinningPlan  = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/the-winning-plan/BaseTab1916TheWinningPlan') 
+const Tab1916TheWinningPlanPage1 = () => import(/* webpackChunkName: "1916" */ '../components/1916/sub-tabs/the-winning-plan/Tab1916TheWinningPlanPage1') 
 
-const BaseTab1920 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/BaseTab1920') 
-const BaseTab1920Intro = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/intro/BaseTab1920Intro') 
-const Tab1920IntroPage1 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/intro/Tab1920IntroPage1') 
-const BaseTab1920LeagueOfWomenVoters = () => import( /* webpackChunkName: "tab-1920" */'../components/1920/sub-tabs/league-of-women-voters/BaseTab1920LeagueOfWomenVoters') 
-const Tab1920LeagueOfWomenVotersPage1 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/league-of-women-voters/Tab1920LeagueOfWomenVotersPage1') 
-const BaseTab1920SuffrageMemorial = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/suffrage-memorial/BaseTab1920SuffrageMemorial') 
-const Tab1920SufffrageMemorialPage1 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/suffrage-memorial/Tab1920SuffrageMemorialPage1') 
-const BaseTab1920WomenInPoliticsToday = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/women-in-politics-today/BaseTab1920WomenInPoliticsToday') 
-const Tab1920WomenInPoliticsTodayPage1 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage1') 
-const Tab1920WomenInPoliticsTodayPage2 = () => import(/* webpackChunkName: "tab-1920" */ '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage2') 
+const BaseTab1920 = () => import(/* webpackChunkName: "1920" */ '../components/1920/BaseTab1920') 
+const BaseTab1920Intro = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/intro/BaseTab1920Intro') 
+const Tab1920IntroPage1 = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/intro/Tab1920IntroPage1') 
+const BaseTab1920LeagueOfWomenVoters = () => import( /* webpackChunkName: "1920" */'../components/1920/sub-tabs/league-of-women-voters/BaseTab1920LeagueOfWomenVoters') 
+const Tab1920LeagueOfWomenVotersPage1 = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/league-of-women-voters/Tab1920LeagueOfWomenVotersPage1') 
+const BaseTab1920SuffrageMemorial = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/suffrage-memorial/BaseTab1920SuffrageMemorial') 
+const Tab1920SufffrageMemorialPage1 = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/suffrage-memorial/Tab1920SuffrageMemorialPage1') 
+const BaseTab1920WomenInPoliticsToday = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/women-in-politics-today/BaseTab1920WomenInPoliticsToday') 
+const Tab1920WomenInPoliticsTodayPage1 = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage1') 
+const Tab1920WomenInPoliticsTodayPage2 = () => import(/* webpackChunkName: "1920" */ '../components/1920/sub-tabs/women-in-politics-today/Tab1920WomenInPoliticsTodayPage2') 
 
 const ImageIndex = () => import(/* webpackChunkName: "external-resources" */ '../components/external-resources/ImageIndex') 
 const Resources = () => import(/* webpackChunkName: "external-resources" */ '../components/external-resources/Resources') 
@@ -85,29 +85,29 @@ const routes = [{
   children: [{
     path: '',
     component: ScrapbookBody,
-    redirect: '/tab-about',
+    redirect: '/',
     children: [
     {
-      path: '/tab-about',
+      path: '/',
       component: BaseTabAbout,
-      redirect: 'tab-about/page=1',
+      redirect: '',
       children: [{
-        path: 'page=1',
+        path: '',
         component: TabAboutPage1,
         name: 'TabAboutPage1'
       }]
     },
     {
       //1854
-      path: 'tab-1854',
+      path: '1854',
       component: BaseTab1854,
       children: [{
           path: 'intro',
           component: BaseTab1854Intro,
-          redirect: 'intro/page=1',
+          redirect: 'intro',
 
           children: [{
-            path: 'page=1',
+            path: '',
             component: Tab1854IntroPage1,
             name: 'Tab1854IntroPage1'
           }, {
@@ -119,9 +119,9 @@ const routes = [{
         {
           path: 'social-movements',
           component: BaseTab1854SocialMovements,
-          redirect: 'social-movements/page=1',
+          redirect: 'social-movements',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1854SocialMovementsPage1,
               name: 'Tab1854SocialMovementsPage1'
             },
@@ -135,9 +135,9 @@ const routes = [{
         {
           path: 'amelia-bloomer',
           component: BaseTab1854AmeliaBloomer,
-          redirect: 'amelia-bloomer/page=1',
+          redirect: 'amelia-bloomer',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1854AmeliaBloomerPage1,
               name: 'Tab1854AmeliaBloomerPage1'
             },
@@ -147,15 +147,15 @@ const routes = [{
     },
     {
       //1870
-      path: 'tab-1870',
+      path: '1870',
       component: BaseTab1870,
       children: [{
           path: 'intro',
           component: BaseTab1870Intro,
-          redirect: 'intro/page=1',
+          redirect: 'intro',
 
           children: [{
-            path: 'page=1',
+            path: '',
             component: Tab1870IntroPage1,
             name: 'Tab1870IntroPage1'
           }, ],
@@ -163,9 +163,9 @@ const routes = [{
         {
           path: 'legislative-battle',
           component: BaseTab1870LegislativeBattle,
-          redirect: 'legislative-battle/page=1',
+          redirect: 'legislative-battle',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1870LegislativeBattlePage1,
               name: 'Tab1870LegislativeBattlePage1'
             },
@@ -174,10 +174,10 @@ const routes = [{
         {
           path: 'scandal-and-controversy',
           component: BaseTab1870ScandalAndControversy,
-          redirect: 'scandal-and-controversy/page=1',
+          redirect: 'scandal-and-controversy',
 
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1870ScandalAndControversyPage1,
               name: 'Tab1870ScandalAndControversyPage1'
             },
@@ -186,10 +186,10 @@ const routes = [{
         {
           path: 'temperance',
           component: BaseTab1870Temperance,
-          redirect: 'temperance/page=1',
+          redirect: 'temperance',
 
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1870TemperancePage1,
               name: 'Tab1870TemperancePage1'
             },
@@ -199,15 +199,15 @@ const routes = [{
     },
     {
       //1890
-      path: 'tab-1890',
+      path: '1890',
       component: BaseTab1890,
       children: [{
           path: 'intro',
           component: BaseTab1890Intro,
-          redirect: 'intro/page=1',
+          redirect: 'intro',
 
           children: [{
-            path: 'page=1',
+            path: '',
             component: Tab1890IntroPage1,
             name: 'Tab1890IntroPage1'
           },
@@ -220,9 +220,9 @@ const routes = [{
         {
           path: 'goal-unrealized',
           component: BaseTab1890GoalUnrealized,
-          redirect: 'goal-unrealized/page=1',
+          redirect: 'goal-unrealized',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1890GoalUnrealizedPage1,
               name: 'Tab1890GoalUnrealizedPage1'
             },
@@ -231,9 +231,9 @@ const routes = [{
         {
           path: 'organizing-for-the-vote',
           component: BaseTab1890OrganizingForTheVote,
-          redirect: 'organizing-for-the-vote/page=1',
+          redirect: 'organizing-for-the-vote',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1890OrganizingForTheVotePage1,
               name: 'Tab1890OrganizingForTheVotePage1'
             },
@@ -262,10 +262,10 @@ const routes = [{
         {
           path: 'african-american-women',
           component: BaseTab1890AfricanAmericanWomen,
-          redirect: 'african-american-women/page=1',
+          redirect: 'african-american-women',
 
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1890AfricanAmericanWomenPage1,
               name: 'Tab1890AfricanAmericanWomenPage1'
             },
@@ -274,10 +274,10 @@ const routes = [{
         {
           path: 'boone-parade',
           component: BaseTab1890BooneParade,
-          redirect: 'boone-parade/page=1',
+          redirect: 'boone-parade',
           
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1890BooneParadePage1,
               name: 'Tab1890BooneParadePage1'
             },
@@ -292,15 +292,15 @@ const routes = [{
     },
     {
       //1916
-      path: 'tab-1916',
+      path: '1916',
       component: BaseTab1916,
       children: [{
           path: 'intro',
           component: BaseTab1916Intro,
-          redirect: 'intro/page=1',
+          redirect: 'intro',
 
           children: [{
-            path: 'page=1',
+            path: '',
             component: Tab1916IntroPage1,
             name: 'Tab1916IntroPage1'
           },
@@ -309,9 +309,9 @@ const routes = [{
         {
           path: 'referendum',
           component: BaseTab1916Referendum,
-          redirect: 'referendum/page=1',
+          redirect: 'referendum',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1916ReferendumPage1,
               name: 'Tab1916ReferendumPage1'
             },
@@ -325,9 +325,9 @@ const routes = [{
         {
           path: 'war-work',
           component: BaseTab1916WarWork,
-          redirect: 'war-work/page=1',
+          redirect: 'war-work',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1916WarWorkPage1,
               name: 'Tab1916WarWorkPage1'
             },
@@ -336,10 +336,10 @@ const routes = [{
         {
           path: 'the-winning-plan',
           component: BaseTab1916TheWinningPlan,
-          redirect: 'the-winning-plan/page=1',
+          redirect: 'the-winning-plan',
 
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1916TheWinningPlanPage1,
               name: 'Tab1916TheWinningPlanPage1'
             },
@@ -349,15 +349,15 @@ const routes = [{
     },
     {
       //1920
-      path: 'tab-1920',
+      path: '1920',
       component: BaseTab1920,
       children: [{
           path: 'intro',
           component: BaseTab1920Intro,
-          redirect: 'intro/page=1',
+          redirect: 'intro',
 
           children: [{
-            path: 'page=1',
+            path: '',
             component: Tab1920IntroPage1,
             name: 'Tab1920IntroPage1'
           },
@@ -366,9 +366,9 @@ const routes = [{
         {
           path: 'league-of-women-voters',
           component: BaseTab1920LeagueOfWomenVoters,
-          redirect: 'league-of-women-voters/page=1',
+          redirect: 'league-of-women-voters',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1920LeagueOfWomenVotersPage1,
               name: 'Tab1920LeagueOfWomenVotersPage1'
             },
@@ -377,9 +377,9 @@ const routes = [{
         {
           path: 'suffrage-memorial',
           component: BaseTab1920SuffrageMemorial,
-          redirect: 'suffrage-memorial/page=1',
+          redirect: 'suffrage-memorial',
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1920SufffrageMemorialPage1,
               name: 'Tab1920SufffrageMemorialPage1'
             },
@@ -388,10 +388,10 @@ const routes = [{
         {
           path: 'women-in-politics-today',
           component: BaseTab1920WomenInPoliticsToday,
-          redirect: 'women-in-politics-today/page=1',
+          redirect: 'women-in-politics-today',
 
           children: [{
-              path: 'page=1',
+              path: '',
               component: Tab1920WomenInPoliticsTodayPage1,
               name: 'Tab1920WomenInPoliticsTodayPage1'
             },
@@ -409,12 +409,18 @@ const routes = [{
 },
 {path: '/image-index', component: ImageIndex},
 {path: '/resources', component: Resources},
-{path: '/archival-collections-guide', component: ArchivalCollectionsGuide}
+{path: '/archival-collections-guide', component: ArchivalCollectionsGuide},
+{path: '*', redirect: '/'}
 ]
 
 const router = new VueRouter({
   routes,
-  mode: 'history' //might funk things up during production
+  mode: 'hash', //might funk things up during production
+  base: '/suffrage/',
+
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 
 const routeNames = ['TabAboutPage1', 'Tab1854IntroPage1', /*'Tab1854IntroPage2',*/ 'Tab1854AmeliaBloomerPage1', 'Tab1854SocialMovementsPage1', /*'Tab1854SocialMovementsPage2',*/

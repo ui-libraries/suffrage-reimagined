@@ -1,0 +1,27 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+}
+
+.fadeScrapbook-enter-active {
+  transition: opacity 1s ease-in-out;
+}
+
+.fadeScrapbook-enter {
+  opacity: 0;
+}
+
+.fadeScrapbook-enter-to,
+.fadeScrapbook-leave {
+  opacity: 1;
+}

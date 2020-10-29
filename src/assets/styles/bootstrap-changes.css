@@ -1,0 +1,87 @@
+.card-dark {
+    color: var(--secondary-color);
+}
+
+/* image carousel */
+.carousel-indicators {
+    margin-bottom: 3% !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../../assets/scrapbook-extras/arrow-left-white.svg') !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../../assets/scrapbook-extras/arrow-right-white.svg') !important;
+}
+/* end of carousel */
+
+/* navigation changes */
+.nav-link-custom {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: var(--secondary-color);
+
+    transition: .3s cubic-bezier(.25, .8, .25, 1);
+    transition-property: color, background-color, opacity;
+}
+
+.nav-link-custom:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color) !important;
+}
+
+.nav-link-custom a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.nav-link-custom a:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: none !important;
+}
+
+.nav-item li .router-link-active .active-icon {
+    background-image: url('../../assets/scrapbook-extras/bookmark-icon.png')
+}
+
+.dropdown-item {
+    position: relative !important;
+}
+
+.nav-item>.router-link-active:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: underline !important;
+}
+
+.nav-item .router-link-exact-active {
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link {
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color) !important;
+    margin-top: 0 !important;
+    border: none;
+    min-width: 12rem !important;
+    border: 0 solid transparent !important;
+}
+
+.dropdown-menu a {
+    color: var(--secondary-color) !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--primary-color) !important;
+}
+
+/* end of navigation changes */

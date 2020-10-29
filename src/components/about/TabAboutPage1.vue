@@ -1,12 +1,13 @@
 <template>
     <div class="page-container">
         <div class="image-pins-container"><img src="../../assets/scrapbook-extras/suffrage-pins.png" width="700px"></div>
-        <div class="text-center">
-            <h4>
+        <div class="text-center scrapbook-content-container">
+            <h4 class="page-header">
                 Welcome to the Women's Suffrage in Iowa Online Exhibit and Resource Guide created by the Iowa Women's
                 Archives!
             </h4>
         </div>
+        <hr>
         <div class="text-left scrapbook-content-container">
             <p>Women gained the right to vote when the 19th Amendment to the U.S. Constitution was ratified on
                 <strong>August 26, 1920</strong>. But the struggle for the ballot began decades earlier.</p>
@@ -31,6 +32,7 @@
         
     <ImageCarousel :images="images">
         <template v-slot:textLeft>
+            <hr>
             <div class="text-left scrapbook-content-container">
             <p><span class="font-weight-bold">Project Manager:</span> Christine Mastalio</p>
             <p><span class="font-weight-bold">Project Assistant:</span> Kayla Pollock</p>
@@ -69,12 +71,12 @@
                 {
                         url: ReasonsImage,
                         caption: 'IWA. Iowa Suffrage Memorial Commission Records',
-                        text: 'Text'
+                        text: 'In this time period, lectures were a main form of entertainment, and female suffragists attracted curiosity. When she first moved to Council Bluffs in 1855, Amelia Bloomer drew large crowds, but as the novelty wore off, attendance dropped.'
                     },
                     {
                         url: CattpinImage,
                         caption: 'ISU. Carrie Chapman Catt Papers',
-                        text: ''
+                        text: 'This International Woman Suffrage Alliance pin belonged to Iowan Carrie Chapman Catt. Catt served as president of the National American Woman Suffrage Association from 1900-1904 and again from 1915-1920.'
                     },
                 ]
             }
@@ -86,4 +88,12 @@
 .image-pins-container {
     padding-bottom: 20px;
 }
+
+    .page-header { font-size: 22px; }
+    @media only screen and (max-width: 2000px) { .page-header { font-size: 18px; } }
+    @media only screen and (max-width: 1800px) { .page-header { font-size: 16px; } }
+    @media only screen and (max-width: 1450px) { .page-header { font-size: 14px; } }
+    @media only screen and (max-width: 1250px) { .page-header { font-size: 12px; } }
+
+
 </style>

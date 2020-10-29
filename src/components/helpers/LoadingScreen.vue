@@ -1,10 +1,10 @@
 <template>
-  <span :title="isLoading"></span>
+  <span v-once :title="isLoading"></span>
 </template>
 
 <script>
   import spinner from './../../assets/scrapbook-extras/loader.svg'
-  import wordmark from './../../assets/scrapbook-extras/wordmark-black-background.jpg'
+  import wordmark from './../../assets/scrapbook-extras/wordmark-footer.png'
   import {
     pleaseWait
   } from 'please-wait'
@@ -38,7 +38,8 @@
           this.pleaseWaitInstance = pleaseWait({
             logo: this.wordmark,
             backgroundColor: 'black',
-            loadingHtml: '<p class="loading-message">Womens Suffrage in Iowa Scrapbook</p><div class="sk-chase sk-center"><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div></div>'
+            loadingHtml: '<p class="load-message">Womens Suffrage in Iowa Scrapbook</p><div class="load-wrapper"><div class="load-text">LOADING</div><div class="load-content"></div></div>'
+            // loadingHtml: '<p class="loading-message">Womens Suffrage in Iowa Scrapbook</p><div class="sk-chase sk-center"><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div><div class="sk-chase-dot"></div></div>'
             // loadingHtml: '<div class="sk-circle"> <div class="sk-circle1 sk-child" > </div> <div class="sk-circle2 sk-child"> </div> <div class="sk-circle3 sk-child"> </div> <div class="sk-circle4 sk-child"> </div> <div class="sk-circle5 sk-child"> </div> <div class="sk-circle6 sk-child"> </div> <div class="sk-circle7 sk-child"> </div> <div class="sk-circle8 sk-child"> </div> <div class="sk-circle9 sk-child"> </div> <div class="sk-circle10 sk-child"> </div> <div class="sk-circle11 sk-child"> </div> <div class="sk-circle12 sk-child"> </div> </div>'
           })
         }
@@ -57,68 +58,66 @@
 .pg-loading-logo {
   padding: 0 20px !important;
 }
-  .loading-message {
+  .load-message {
     color: white;
     margin-top: -50px;
     margin-bottom: 50px;
-    font-size: 16px;
-    font-family: 'Gotham Bold';
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: bold;
   }
 
-.sk-center {
-  margin: auto;
-}
-.sk-chase {
-  width: 80px;
-  height: 80px;
-  animation: sk-chase 2.5s infinite linear both;
-}
+@keyframes loader {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
 
-.sk-chase-dot {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0; 
-  animation: sk-chase-dot 2.0s infinite ease-in-out both; 
-}
+      100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
 
-.sk-chase-dot:before {
-  content: '';
-  display: block;
-  width: 25%;
-  height: 25%;
-  background-color: #fff;
-  border-radius: 100%;
-  animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
-}
+    .load-wrapper {
+      margin-top: 100px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+    }
 
-.sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
-.sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
-.sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
-.sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
-.sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
-.sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
-.sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
-.sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
-.sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
-.sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
-.sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
-.sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+        .load-text {
+      display: block;
+      position: relative;
+      color: white;
+      width: 100px;
+      height: 15px;
+      margin: -7px 0 0 -45px;
+      text-align: center;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 20px;
+    }
 
-@keyframes sk-chase {
-  100% { transform: rotate(360deg); } 
-}
+    .load-content {
+      display: block;
+      position: relative;
+      width: 170px;
+      height: 170px;
+      margin: -85px 0 0 -85px;
+      border: 3px solid blue;
+      
+    }
 
-@keyframes sk-chase-dot {
-  80%, 100% { transform: rotate(360deg); } 
-}
-
-@keyframes sk-chase-dot-before {
-  50% {
-    transform: scale(0.4); 
-  } 100%, 0% {
-    transform: scale(1.0); 
-  } 
-}
+    .load-content {
+      border: 3px solid transparent;
+      border-top-color: var(--primary-color);
+      border-bottom-color: var(--primary-color);
+      border-radius: 50%;
+      -webkit-animation: loader 2s linear infinite;
+      -moz-animation: loader 2s linear infinite;
+      -o-animation: loader 2s linear infinite;
+      animation: loader 2.5s linear infinite;
+    }
 </style>

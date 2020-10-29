@@ -6,6 +6,7 @@
     }"
     @click="expanded = true"
   >
+
     <i
       v-if="expanded"
       class="close-button"
@@ -22,22 +23,44 @@
         <path fill="#000000" d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z" />
       </svg>
     </i>
+        <!-- <div class="info-icon-wrapper" v-if="expanded">
+          <img :src="infoIcon" class="info-icon"/>
+        </div> -->
+        <div class="description-wrapper">
+          <div v-if="expanded && image.text != ''" class="description-card">
+            <div class="description-header">
+              <div style="display: inline-block;">Additional Information</div>
+              <img style="display: inline-block; width: 30px; padding-left: 10px;" :src="gesture"/>
+            </div>
+            <div class="description">{{image.text}}</div>
+          </div>
+        </div>
     <b-img-lazy v-bind="$attrs" blank-width="500" blank-height="700" alt="Carousel Image"/>
   </div>
 </template>
 
 <script>
+import gesture from '../../assets/scrapbook-extras/tap.gif'
 export default {
   props: {
     closeOnBackgroundClick: {
       type: Boolean,
       default: false
-    }
+    },
+
+    image: {
+      type: Object,
+      default: {},
+    },
+
+
   },
   data () {
     return {
       expanded: false,
-      closeButtonRef: null
+      closeButtonRef: null,
+      gesture: gesture,
+      showDescription: false,
     }
   },
   methods: {
@@ -115,9 +138,68 @@ export default {
 </script>
 
 <style>
+
+.description-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.description-card {
+padding: 8px 8px !important;
+}
+
+.description-header {
+  background-color: white;
+  display: inline-block;
+padding: 8px 20px !important;
+font-family: 'Gotham Bold';
+font-size: 16px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: border-radius .8s cubic-bezier(0,1,0,1) .2s;
+}
+
+.description-card .description {
+  max-height: 0;
+  transition: max-height .3s cubic-bezier(0,1,0,1), padding .2s ease-out;
+
+  overflow: hidden;
+  background: white;
+  max-width: 600px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0 0;
+}
+
+.description-card:hover .description {
+  max-height: 3000px;
+  transition: max-height .3s cubic-bezier(1,0,1,0), padding .5s ease .1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 6px 6px;
+
+}
+
+.description-card:hover .description-header {
+  transition: border-radius .15s cubic-bezier(1,0,1,0);
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+
+.description {
+  color: black;
+  font-family: 'Gotham Book'
+}
+
 .expandable-image {
   position: relative;
-  transition: 0.25s opacity;
   cursor: zoom-in;
 }
 body > .expandable-image.expanded {
@@ -183,5 +265,31 @@ body > .expandable-image.expanded > .close-button {
 }
 .expandable-image img {
   width: 100%;
+}
+
+/* transition */
+      .fadedescription-enter-active
+     {
+        transition: opacity .5s ease-in;
+    }
+
+    .fadedescription-enter
+     {
+        opacity: 0;
+    }
+
+    .fadedescription-enter-to {
+      opacity: 1;
+    }
+
+    .fadedescription-leave-to {
+        opacity: 0;
+    }
+
+    .faded-enter-active, .faded-leave-active {
+  transition: opacity .5s;
+}
+.faded-enter, .faded-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

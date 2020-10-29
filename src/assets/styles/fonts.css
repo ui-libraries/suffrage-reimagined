@@ -1,0 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Beth+Ellen&display=swap');
+
+  @font-face {
+    font-family: 'Gotham Bold';
+    src: url('../../../public/fonts/gotham-bold.otf') format('opentype');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Gotham Book';
+    src: url('../../../public/fonts/gotham-book.woff') format('woff');
+    font-display: swap;
+  }
